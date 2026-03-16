@@ -1,26 +1,22 @@
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ink-50: #f8fafc; --color-ink-100: #f1f5f9; --color-ink-200: #e2e8f0;
+  --color-ink-300: #cbd5e1; --color-ink-400: #94a3b8; --color-ink-500: #64748b;
+  --color-ink-600: #475569; --color-ink-700: #334155; --color-ink-800: #1e293b; --color-ink-900: #0f172a;
+  --color-accent-500: #f59e0b; --color-accent-600: #d97706;
+  --color-blue-500: #3b82f6; --color-blue-600: #2563eb;
+  --color-red-500: #ef4444; --color-green-500: #22c55e;
+  --color-purple-500: #a855f7;
+  --color-gray-50: #f9fafb; --color-gray-100: #f3f4f6; --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db; --color-gray-400: #9ca3af; --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563; --color-gray-700: #374151; --color-gray-800: #1f2937; --color-gray-900: #111827;
+  --color-white: #ffffff;
+  --font-sans: var(--font-body), system-ui, sans-serif;
+  --font-heading: var(--font-heading), system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+html { scroll-behavior: smooth; }
+body { background: #ffffff; color: #0f172a; }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.animate-fade-in { animation: fadeIn 0.4s ease-out forwards; }
