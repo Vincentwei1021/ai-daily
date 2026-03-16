@@ -7,7 +7,7 @@ import "./globals.css";
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-heading", weight: ["400","500","600","700","800"] });
 const inter = Inter({ subsets: ["latin"], variable: "--font-body" });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ai-daily.vercel.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ai-daily-eight-mu.vercel.app";
 
 export const metadata: Metadata = {
   title: { default: "AI 日报 — 每日 AI 行业情报与趋势", template: "%s | AI 日报" },
