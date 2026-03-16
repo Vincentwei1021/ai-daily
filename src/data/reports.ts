@@ -1,112 +1,132 @@
+export interface Topic {
+  title: string;
+  items: { bold: string; detail: string; tags?: string[] }[];
+}
+
 export interface DailyReport {
-  date: string;        // "2026-03-16"
-  weekday: string;     // "周一"
-  discoveries: { title: string; detail: string; sources?: string[] }[];
-  signals: { author: string; content: string; likes: number; insight: string; url?: string }[];
-  summary?: string;
+  date: string;
+  weekday: string;
+  timeRange: string;
+  tweetCount: number;
+  userCount: number;
+  topics: Topic[];
 }
 
 export const reports: DailyReport[] = [
   {
-    date: "2026-03-16",
-    weekday: "周一",
-    summary: "AI agent 垃圾 PR 问题引爆舆论，OpenClaw 生态持续扩展，多个付费需求信号浮现。",
-    discoveries: [
+    date: "2026-03-16", weekday: "周一",
+    timeRange: "03-15 08:30 ~ 03-16 08:30 (UTC+8)", tweetCount: 30, userCount: 9,
+    topics: [
       {
-        title: "AI OSS PR/Issue 垃圾过滤工具",
-        detail: "OSS 维护者被 AI agent 低质量 PR 轰炸，Axios/TechCrunch/InfoWorld 密集报道。开源社区急需 AI PR 质量过滤方案，这是一个明确的工具缺口。",
-        sources: ["Axios", "TechCrunch", "InfoWorld"],
+        title: "🧩 Agent 架构与 MCP 讨论",
+        items: [
+          { bold: "MCP vs CLI vs Skills 分层论", detail: "Vincent 提出三者不是竞争关系而是分层：MCP 做 tool consumption，CLI 做 one-shot scripting，Skills 做持久 agent 行为。关键是 runtime 如何编排三者。进一步讨论了 agent 编排 agent 时层级如何复合。", tags: ["MCP", "Skills", "Agent Orchestration"] },
+          { bold: "MCP 生产环境踩坑", detail: "Vincent 分享 MCP 部署经验——部分失败、工具版本漂移、零可观测性。Demo 掩盖了这些问题，需要在协议之上构建控制层。", tags: ["MCP", "Production"] },
+          { bold: "OpenClaw 插件进化", detail: "Peter Steinberger 思考如何让 OpenClaw 插件更强大、核心更精简，计划支持 Claude Code / Codex 插件 bundles。Twitter 自动 block spam 的 cron 也运行良好。", tags: ["OpenClaw", "Plugin Architecture"] },
+        ],
       },
       {
-        title: "FlashClaw = OpenClaw + DFlash",
-        detail: "Qwen3.5 推理加速集成，4X 更快更便宜。OpenClaw 生态正在快速接入各家推理优化方案，性能成为关键竞争维度。",
+        title: "💡 Vibe Coding 与开发者工具",
+        items: [
+          { bold: "Vibe Coding 的真相", detail: "Vincent 指出 30 分钟原型推文是真的，但 100 小时的生产差距也是真的。知道自己处于哪种模式才是真正的技能。", tags: ["Vibe Coding", "Reality Check"] },
+          { bold: "多 Provider 管理痛点", detail: "6 套 API key、6 个计费面板、6 套重复工具。模型选择只占 20%，管道工程占 80%。推荐 agent-toolbox-mcp 统一工具集。", tags: ["Multi-Provider", "Developer Experience"] },
+        ],
       },
       {
-        title: "MCP 协议生态爆发",
-        detail: "Model Context Protocol 相关讨论量本周翻倍，多家工具厂商宣布支持 MCP，AI agent 互操作性成为热门话题。",
-      },
-    ],
-    signals: [
-      {
-        author: "@steipete",
-        content: "用 OpenClaw cron 清理 X 垃圾提及，效果拔群",
-        likes: 1955,
-        insight: "提及过滤是强需求，X/Twitter 用户对 AI 自动化内容管理有明确付费意愿",
-        url: "https://x.com/steipete/status/example1",
+        title: "🔬 前沿研究与投资",
+        items: [
+          { bold: "LeCun AMI Labs $10.3 亿种子轮", detail: "Yann LeCun 的 AMI Labs 获史上最大种子轮融资。12 人团队、无产品。Vincent 评论 LLM 触顶，世界模型 + 类人机器人才是物理世界的真正突破。", tags: ["AMI Labs", "World Models", "Robotics"] },
+          { bold: "AlphaFold 治愈狗的癌症", detail: "澳洲技术人员用 AlphaFold 为癌症晚期收养狗设计个性化 mRNA 疫苗并成功治愈。Demis Hassabis、Greg Brockman、Elon Musk 均转发讨论，称为数字生物学时代的开端。", tags: ["AlphaFold", "Digital Biology"] },
+          { bold: "Stanford OpenJarvis", detail: "斯坦福发布在本地设备运行的个人 AI 系统 OpenJarvis，强调隐私优先的个人 AI 方向。", tags: ["Stanford", "On-Device AI"] },
+        ],
       },
       {
-        author: "@joncphillips",
-        content: "想要 Sentry → AI 自动修 bug 管道，谁能做？",
-        likes: 67,
-        insight: "付费意愿明确——错误监控 → AI 自动修复是一个 $50+/月的 SaaS 方向",
-      },
-      {
-        author: "@alexalbert__",
-        content: "Claude Code 在 GitHub Actions 里跑 CI/CD pipeline，生产力暴增",
-        likes: 342,
-        insight: "AI agent 在 DevOps 流程中的应用正在从实验走向主流",
+        title: "🎨 产品动态",
+        items: [
+          { bold: "Grok Imagine 视频编辑", detail: "xAI 的 Grok Imagine 在 Video Editing Arena 排名第一（Elo 1290），支持多图生成视频。Elon 密集转发宣传。", tags: ["Grok Imagine", "Video"] },
+          { bold: "GPT-4 三周年", detail: "Greg Brockman 回忆 GPT-4 发布日手绘草图变网站的演示，感慨从「写 1000 行代码」的不可能目标到今天的进步。", tags: ["GPT-4", "Anniversary"] },
+          { bold: "Google AR 眼镜", detail: "MWC 上展示 Android prototype display glasses，Google 对 Android + Gemini 整合到 AR 眼镜的 vision。", tags: ["Google AR", "Gemini"] },
+        ],
       },
     ],
   },
   {
-    date: "2026-03-15",
-    weekday: "周日",
-    summary: "周末技术社区活跃讨论 AI coding agent 竞争格局，多个开源项目发布重要更新。",
-    discoveries: [
+    date: "2026-03-15", weekday: "周日",
+    timeRange: "03-14 08:30 ~ 03-15 08:30 (UTC+8)", tweetCount: 48, userCount: 11,
+    topics: [
       {
-        title: "Codex vs Claude Code 性能对比热帖",
-        detail: "Reddit r/LocalLLaMA 出现多篇 AI coding agent 对比评测，社区对 agent 可靠性和成本的讨论越来越深入。开发者开始关注「每行代码成本」这个新指标。",
-        sources: ["Reddit r/LocalLLaMA"],
+        title: "🦞 OpenClaw 生态大更新",
+        items: [
+          { bold: "Chrome 实时浏览器控制", detail: "新 beta 支持 agent 直接连接用户 Chrome tab（通过 chrome://inspect#remote-debugging），访问 cookies/登录状态，需额外确认启用。", tags: ["OpenClaw 2026.3.13", "Chrome MCP"] },
+          { bold: "NVIDIA GTC 合作", detail: "NVIDIA 派工程师帮 OpenClaw 做安全审计；GTC 将举办 Build-A-Claw 活动，可现场购买 DGX Spark 并由 NVIDIA 工程师安装 OpenClaw。", tags: ["NVIDIA GTC", "Security Audit"] },
+          { bold: "更多更新", detail: "Parallel tool calling 即将支持 · MS Teams 集成改进 · SGLang 原生支持 · qmd memory plugin 推荐。", tags: ["Parallel Tools", "MS Teams"] },
+        ],
       },
       {
-        title: "Vercel AI SDK 4.0 发布",
-        detail: "支持流式工具调用、多模态输入、OpenAI Realtime API。AI 应用开发的基础设施层正在快速成熟。",
-        sources: ["Vercel Blog"],
-      },
-    ],
-    signals: [
-      {
-        author: "@levelsio",
-        content: "我现在 90% 的代码都是 AI 写的，人类程序员的角色在转变",
-        likes: 2843,
-        insight: "头部独立开发者的背书——AI coding 从「辅助」到「主力」的转折点",
+        title: "🤖 Grok 系列密集更新",
+        items: [
+          { bold: "Grok 4.20 Beta 登顶", detail: "Artificial Analysis 排行榜第一；τ²-Bench 电信 Agentic Tool Use 96.5% 准确率（超越 Claude）。", tags: ["Grok 4.20", "Benchmark"] },
+          { bold: "Grok Imagine 大升级", detail: "Multi-image to video、风格控制改进、5 分钟完成图片 + 30 秒视频全流程。", tags: ["Grok Imagine", "Video"] },
+        ],
       },
       {
-        author: "@swyx",
-        content: "Agent 框架太多了，市场需要整合。预计 2026 Q2 会看到一波并购",
-        likes: 156,
-        insight: "行业观察者开始呼吁整合，可能意味着早期 agent 工具的窗口期在缩短",
+        title: "📚 Anthropic & Claude 生态",
+        items: [
+          { bold: "Anthropic Academy 发布", detail: "13 门免费课程（MCP、Claude Code、Agent Skills、Bedrock），含证书。", tags: ["Anthropic Academy", "Education"] },
+          { bold: "1M context window 正式 GA", detail: "Claude Opus 4.6 和 Sonnet 4.6 同时支持——Vincent 评价：「this changes what an agent can hold mid-task」。", tags: ["1M Context", "Anthropic"] },
+        ],
+      },
+      {
+        title: "🌐 Web & AI Agent 趋势",
+        items: [
+          { bold: "WebMCP vs MCP", detail: "Ephemeral browser → WebMCP，persistent server → MCP。Chrome 团队推动「agent-native web」。", tags: ["WebMCP", "Chrome"] },
+          { bold: "ACPX 协议", detail: "让任何 harness 互相通信——OpenClaw/Codex/Claude Code 可互调。", tags: ["ACPX", "Interop"] },
+          { bold: "AI 实际应用", detail: "OpenClaw 帮农民在柴油期货谈判省 $25K · 15 岁少年用 OpenClaw 赚 $30K+ 合同 · AI 辅助设计 mRNA 疫苗治犬癌。", tags: ["Real Use Cases"] },
+        ],
+      },
+      {
+        title: "🔬 开源 & 模型发布",
+        items: [
+          { bold: "WAXAL 开源", detail: "非洲语言多语种语音数据集（17 语言 TTS / 19 语言 ASR）。", tags: ["HuggingFace", "Open Source"] },
+          { bold: "LiquidAI LFM2-VL", detail: "浏览器中 WebGPU 实时视频字幕（无需服务器）。", tags: ["LiquidAI", "WebGPU"] },
+        ],
       },
     ],
   },
   {
-    date: "2026-03-14",
-    weekday: "周六",
-    summary: "AI agent 安全性讨论升温，企业采购决策越来越关注 agent 的可控性。",
-    discoveries: [
+    date: "2026-03-14", weekday: "周六",
+    timeRange: "03-13 08:30 ~ 03-14 08:30 (UTC+8)", tweetCount: 42, userCount: 18,
+    topics: [
       {
-        title: "AI Agent 安全框架白皮书",
-        detail: "Anthropic 发布新的 AI agent 安全评估框架，包含 12 项关键安全指标。企业在评估 AI agent 时有了更明确的标准，安全合规类工具需求会上升。",
-        sources: ["Anthropic Blog"],
+        title: "🧠 大模型与基础设施",
+        items: [
+          { bold: "Anthropic 1M Context Window", detail: "Opus/Sonnet 升级到 1M context window，标准定价。Vincent 评论：别过度优化当前定价，成本结构重置比基建设计快。", tags: ["Anthropic", "1M Context"] },
+          { bold: "Grok 4.20 Beta", detail: "性能接近 Opus 4.5，推理速度更快、模型更小。Grok Imagine 更新 consistent characters/objects 功能、视频尺寸/质量选择。", tags: ["xAI", "Grok 4.20"] },
+          { bold: "NVIDIA Vera Rubin NVL72", detail: "Microsoft/Azure 成为首个完成验证的云厂商，下一代 AI 基础设施里程碑。PyTorch 团队将在 NVIDIA GTC Booth #338 亮相。", tags: ["NVIDIA", "Microsoft"] },
+        ],
       },
       {
-        title: "中国 AI 出海工具站集体涨价",
-        detail: "多个面向海外的 AI 工具站宣布涨价 30-50%，市场正在从「跑量」转向「提价」阶段。竞品价格监控需求随之增加。",
-      },
-    ],
-    signals: [
-      {
-        author: "@karpathy",
-        content: "AI agents 最大的问题不是能力，是可预测性。用户需要知道 agent 会做什么、不会做什么。",
-        likes: 4210,
-        insight: "Karpathy 观点引发大量转发——agent 可解释性/可控性是下一个产品差异化方向",
+        title: "🔬 AI 研究突破",
+        items: [
+          { bold: "AlphaEvolve × Ramsey 数", detail: "DeepMind 的 AlphaEvolve 改进了 5 个经典 Ramsey 数的下界，部分为 10+ 年来首次突破。Demis Hassabis、LeCun 均转发祝贺。", tags: ["AlphaEvolve", "DeepMind"] },
+          { bold: "世界模型融资潮", detail: "AMI Labs 融 $1.03B、World Labs 融 $1B，两家都押注 world models 但路径不同。LeCun 转发讨论世界建模的潜空间研究。", tags: ["AMI Labs", "World Labs", "World Models"] },
+          { bold: "多语言语音数据集 WAXAL", detail: "开源非洲语言语音数据集，覆盖 17 语言 TTS + 19 语言 ASR。Jeff Dean 转发推荐。", tags: ["WAXAL", "HuggingFace"] },
+        ],
       },
       {
-        author: "@dhh",
-        content: "Rails 8 + AI agent integration，未来的 web app 开发形态正在改变",
-        likes: 892,
-        insight: "传统 web 框架开始拥抱 agent——不只是 JS 生态在变",
-        url: "https://x.com/dhh/status/example2",
+        title: "🛠️ 开发工具与平台",
+        items: [
+          { bold: "Google 生态更新", detail: "Gemini 接入 Google Maps（多步推理 + 3 亿照片/评论）、Gemini Embedding 2 预览版（首个原生多模态嵌入模型）。Chrome 146 单 toggle 即可通过 MCP 暴露浏览器给 CLI agent。", tags: ["Gemini", "Chrome 146", "MCP"] },
+          { bold: "OpenAI Codex App 更新", detail: "Greg Brockman 推荐：「If you haven't tried Codex yet, you're missing something BIG」。两项新更新发布。", tags: ["OpenAI", "Codex"] },
+          { bold: "Arena.ai 排行榜升级", detail: "新增价格和 context 长度维度对比。匿名「香蕉模型」成为历史上投票最多的模型。", tags: ["Arena.ai", "Benchmark"] },
+        ],
+      },
+      {
+        title: "🦞 OpenClaw 生态",
+        items: [
+          { bold: "社区动态", detail: "OpenClaw Dashboard v2 发布。Peter Steinberger 警告不要用 AI bot 给 PR 加噪音。vincent_koc 征集插件开发者反馈。OpenClaw 被部署到无人机上自主构建技能。", tags: ["Dashboard v2", "Drone Deployment"] },
+          { bold: "Vincent 发推", detail: "评论 Anthropic 1M context 的成本影响、OpenClaw 按复杂度路由模型节省成本、回应 skills.md 过时论（format 会变 concept 不会）。", tags: ["@YihaoWei1021"] },
+        ],
       },
     ],
   },
