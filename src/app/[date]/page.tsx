@@ -4,6 +4,9 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { reports, getReportByDate, getAllDates } from "@/data/reports";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { ArrowLeft, ArrowRight, ChevronLeft } from "lucide-react";
 
 interface PageProps { params: Promise<{ date: string }> }
 
@@ -47,51 +50,74 @@ export default async function ReportPage({ params }: PageProps) {
       <main className="min-h-screen">
         <article className="px-4 py-8 sm:px-6 sm:py-12">
           <div className="mx-auto max-w-4xl">
-            <Link href="/" className="text-sm text-blue-600 hover:underline mb-4 block">← 返回日报列表</Link>
+            <Link href="/" className="group/back mb-6 inline-flex items-center gap-1 text-sm text-brand transition-colors hover:text-brand/80">
+              <ChevronLeft className="size-4 transition-transform group-hover/back:-translate-x-0.5" />
+              返回日报列表
+            </Link>
 
-            <div className="mb-8">
+            {/* Title area */}
+            <div className="mb-10 animate-fade-up">
               <div className="flex flex-wrap items-center gap-3 mb-3">
-                <time className="rounded-lg bg-ink-900 px-3 py-1.5 text-sm font-bold text-white">{report.date}</time>
-                <span className="text-ink-400">{report.weekday}</span>
-                <span className="rounded-full bg-blue-50 px-3 py-0.5 text-xs font-medium text-blue-600">{report.tweetCount} 条推文</span>
-                <span className="rounded-full bg-purple-50 px-3 py-0.5 text-xs font-medium text-purple-600">{report.userCount} 位用户</span>
+                <Badge className="bg-brand text-brand-foreground hover:bg-brand/90 font-mono text-sm px-3 py-1">
+                  {report.date}
+                </Badge>
+                <span className="text-muted-foreground">{report.weekday}</span>
+                <Badge variant="secondary" className="font-normal">
+                  {report.tweetCount} 条推文
+                </Badge>
+                <Badge variant="secondary" className="font-normal">
+                  {report.userCount} 位用户
+                </Badge>
               </div>
-              <h1 className="text-3xl font-extrabold tracking-tight text-ink-900 sm:text-4xl">
+              <h1 className="font-[family-name:var(--font-heading)] text-3xl font-extrabold tracking-tight text-foreground sm:text-4xl">
                 {report.date} AI 日报
               </h1>
-              <p className="mt-2 text-sm text-ink-400">时间范围：{report.timeRange}</p>
+              <p className="mt-2 text-sm text-muted-foreground">时间范围：{report.timeRange}</p>
             </div>
 
             {/* Topics */}
             <div className="space-y-8">
               {report.topics.map((topic, ti) => (
-                <section key={ti}>
-                  <h2 className="text-xl font-bold text-ink-900 mb-4">{topic.title}</h2>
+                <section key={ti} className="animate-fade-up" style={{ animationDelay: `${0.1 + ti * 0.06}s` }}>
+                  <h2 className="font-[family-name:var(--font-heading)] text-xl font-bold text-foreground mb-4">{topic.title}</h2>
                   <div className="space-y-4">
                     {topic.items.map((item, ii) => (
-                      <div key={ii} className="rounded-xl border border-ink-200 bg-white p-5">
-                        <h3 className="text-base font-bold text-ink-900 mb-2">{item.bold}</h3>
-                        <p className="text-sm text-ink-700 leading-relaxed">{item.detail}</p>
-                        {item.tags && item.tags.length > 0 && (
-                          <div className="mt-3 flex flex-wrap gap-1.5">
-                            {item.tags.map((tag) => (
-                              <span key={tag} className="rounded-full bg-ink-100 px-2.5 py-0.5 text-xs font-medium text-ink-600">{tag}</span>
-                            ))}
-                          </div>
-                        )}
-                      </div>
+                      <Card key={ii} className="transition-shadow hover:shadow-md hover:shadow-brand/5">
+                        <CardHeader>
+                          <CardTitle className="text-base font-bold">{item.bold}</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                          <p className="text-sm text-muted-foreground leading-relaxed">{item.detail}</p>
+                          {item.tags && item.tags.length > 0 && (
+                            <div className="mt-3 flex flex-wrap gap-1.5">
+                              {item.tags.map((tag) => (
+                                <Badge key={tag} variant="secondary" className="text-xs font-normal">
+                                  {tag}
+                                </Badge>
+                              ))}
+                            </div>
+                          )}
+                        </CardContent>
+                      </Card>
                     ))}
                   </div>
                 </section>
               ))}
             </div>
 
-            <nav className="flex justify-between items-center border-t border-ink-200 pt-6 mt-10">
+            {/* Navigation */}
+            <nav className="flex justify-between items-center border-t border-border pt-6 mt-10">
               {prev ? (
-                <Link href={`/${prev.date}`} className="text-sm text-blue-600 hover:underline">← {prev.date} {prev.weekday}</Link>
+                <Link href={`/${prev.date}`} className="group/nav inline-flex items-center gap-1 text-sm text-brand transition-colors hover:text-brand/80">
+                  <ArrowLeft className="size-3.5 transition-transform group-hover/nav:-translate-x-0.5" />
+                  {prev.date} {prev.weekday}
+                </Link>
               ) : <span />}
               {next ? (
-                <Link href={`/${next.date}`} className="text-sm text-blue-600 hover:underline">{next.date} {next.weekday} →</Link>
+                <Link href={`/${next.date}`} className="group/nav inline-flex items-center gap-1 text-sm text-brand transition-colors hover:text-brand/80">
+                  {next.date} {next.weekday}
+                  <ArrowRight className="size-3.5 transition-transform group-hover/nav:translate-x-0.5" />
+                </Link>
               ) : <span />}
             </nav>
           </div>
