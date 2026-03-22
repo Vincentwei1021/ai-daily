@@ -10,8 +10,8 @@ export default function Header() {
           AI 日报
         </Link>
         <div className="flex items-center gap-1">
-          <Link href="/" className="rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground">首页</Link>
-          <Link href="/privacy" className="rounded-lg px-3 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground">隐私</Link>
+          <Link href="/" className="rounded-lg px-3 py-3 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground">首页</Link>
+          <Link href="/privacy" className="rounded-lg px-3 py-3 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground">隐私</Link>
           <Separator orientation="vertical" className="mx-1 h-5" />
           <ThemeToggle />
         </div>
