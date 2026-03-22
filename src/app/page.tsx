@@ -81,7 +81,7 @@ export default function Home() {
                 </CardContent>
 
                 <CardFooter>
-                  <Link href={`/${report.date}`} className="group/link inline-flex items-center gap-1.5 text-sm font-semibold text-brand transition-colors hover:text-brand/80">
+                  <Link href={`/${report.date}`} className="group/link inline-flex items-center gap-1.5 rounded-lg px-3 py-3 -ml-3 text-sm font-semibold text-brand transition-colors hover:text-brand/80 hover:bg-brand-muted">
                     阅读完整日报
                     <ArrowRight className="size-3.5 transition-transform group-hover/link:translate-x-0.5" />
                   </Link>
