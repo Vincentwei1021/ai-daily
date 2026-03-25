@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Plus_Jakarta_Sans, Inter } from "next/font/google";
+import { Plus_Jakarta_Sans, Inter, Playfair_Display } from "next/font/google";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { Toaster } from "@/components/ui/sonner";
 import FeedbackWidget from "@/components/FeedbackWidget";
@@ -8,6 +8,7 @@ import "./globals.css";
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-heading", weight: ["400","500","600","700","800"] });
 const inter = Inter({ subsets: ["latin"], variable: "--font-body" });
+const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-newspaper", weight: ["400","500","600","700","800","900"] });
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ai-daily-eight-mu.vercel.app";
 
@@ -32,7 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5881105388002876" crossOrigin="anonymous" strategy="afterInteractive" />
       </head>
-      <body className={`${jakarta.variable} ${inter.variable} font-sans antialiased`}>
+      <body className={`${jakarta.variable} ${inter.variable} ${playfair.variable} font-sans antialiased`}>
         <ThemeProvider>
           {children}
           <FeedbackWidget />

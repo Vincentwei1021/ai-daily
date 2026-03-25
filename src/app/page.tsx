@@ -26,7 +26,7 @@ export default function Home() {
             <div className="animate-fade-up">
               <div className="mb-4 flex items-center gap-2">
                 <Newspaper className="size-8 text-brand" />
-                <h1 className="font-[family-name:var(--font-heading)] text-4xl font-extrabold tracking-tight text-foreground sm:text-5xl">
+                <h1 className="font-[family-name:var(--font-newspaper)] text-4xl font-bold tracking-wide text-foreground sm:text-5xl">
                   AI 日报
                 </h1>
               </div>
@@ -42,6 +42,9 @@ export default function Home() {
 
         {/* Report Cards */}
         <section className="px-4 pb-16 sm:px-6">
+          <div className="mx-auto max-w-4xl">
+            <div className="border-t-4 border-double border-brand mb-8" />
+          </div>
           <div className="mx-auto max-w-4xl space-y-6">
             {reports.map((report, idx) => (
               <Card
@@ -51,10 +54,10 @@ export default function Home() {
               >
                 <CardHeader className="border-b">
                   <div className="flex flex-wrap items-center gap-3">
-                    <Badge className="bg-brand text-brand-foreground hover:bg-brand/90 font-mono text-sm px-3 py-1">
+                    <Badge className="bg-brand text-brand-foreground hover:bg-brand/90 font-[family-name:var(--font-newspaper)] text-sm px-3 py-1">
                       {report.date}
                     </Badge>
-                    <span className="text-sm text-muted-foreground">{report.weekday}</span>
+                    <span className="text-sm text-muted-foreground font-[family-name:var(--font-newspaper)]">{report.weekday}</span>
                     <span className="ml-auto text-xs text-muted-foreground">
                       {report.tweetCount} 条推文 / {report.userCount} 位用户
                     </span>

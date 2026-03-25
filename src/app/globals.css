@@ -27,6 +27,7 @@
   /* Fonts */
   --font-sans: var(--font-body), system-ui, sans-serif;
   --font-heading: var(--font-heading), system-ui, sans-serif;
+  --font-newspaper: var(--font-newspaper), Georgia, 'Times New Roman', serif;
 
   /* shadcn mapped colors */
   --color-sidebar-ring: var(--sidebar-ring);
@@ -190,4 +191,27 @@
 }
 .animate-fade-in {
   animation: fade-in 0.4s ease-out both;
+}
+
+/* ── Newspaper Styles ──────────────────────── */
+.drop-cap::first-letter {
+  float: left;
+  font-size: 3.5rem;
+  line-height: 1;
+  font-family: var(--font-newspaper);
+  font-weight: 700;
+  margin-right: 0.5rem;
+  color: var(--color-brand);
+}
+
+.newspaper-columns {
+  column-count: 2;
+  column-gap: 2rem;
+  column-rule: 1px solid var(--border);
+}
+
+@media (max-width: 640px) {
+  .newspaper-columns {
+    column-count: 1;
+  }
 }
