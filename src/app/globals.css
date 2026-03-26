@@ -2,7 +2,6 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
-@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   /* ── Fonts ── */
@@ -121,58 +120,6 @@
 /* ══════════════════════════════════════════════════
    Dark Mode — 昏灯读报
    ══════════════════════════════════════════════════ */
-.dark {
-  --paper: #1a1812;
-  --paper-2: #1e1a14;
-  --ink: #e8e0d0;
-  --np-muted: #8a8070;
-  --soft: #6a6054;
-  --rule: rgba(255,255,255,.12);
-  --np-accent: #a03030;
-  --np-panel: #242018;
-  --np-shadow: 0 14px 38px rgba(0,0,0,.4);
-  --np-border: rgba(255,255,255,.10);
-  --np-border-light: rgba(255,255,255,.08);
-  --np-border-dot: rgba(255,255,255,.12);
-  --body-bg: #0f0e0a;
-  --body-radial: rgba(255,255,255,.05);
-  --card-sub: #c0b8a8;
-  --activity-bg: rgba(255,255,255,.04);
-  --overlay-top: rgba(255,255,255,.06);
-  --overlay-bot: rgba(255,255,255,.03);
-  --dek-color: #b0a898;
-
-  --background: #1a1812;
-  --foreground: #e8e0d0;
-  --primary: #a03030;
-  --primary-foreground: #e8e0d0;
-  --card: #1a1812;
-  --card-foreground: #e8e0d0;
-  --muted: #242018;
-  --muted-foreground: #8a8070;
-  --accent: #242018;
-  --accent-foreground: #e8e0d0;
-  --secondary: #1e1a14;
-  --secondary-foreground: #c0b8a8;
-  --border: rgba(255,255,255,.10);
-  --input: rgba(255,255,255,.12);
-  --ring: rgba(160,48,48,.3);
-  --popover: #1a1812;
-  --popover-foreground: #e8e0d0;
-  --sidebar: #1a1812;
-  --sidebar-foreground: #e8e0d0;
-  --sidebar-primary: #a03030;
-  --sidebar-primary-foreground: #e8e0d0;
-  --sidebar-accent: #242018;
-  --sidebar-accent-foreground: #e8e0d0;
-  --sidebar-border: rgba(255,255,255,.10);
-  --sidebar-ring: rgba(160,48,48,.3);
-  --chart-1: #a03030;
-  --chart-2: #c04040;
-  --chart-3: #803030;
-  --chart-4: #602020;
-  --chart-5: #401010;
-}
 
 /* ══════════════════════════════════════════════════
    Base Layer
@@ -918,12 +865,6 @@
 /* ══════════════════════════════════════════════════
    Dark Mode Overrides (gradient tweaks)
    ══════════════════════════════════════════════════ */
-.dark .project-card::before {
-  background: linear-gradient(90deg, var(--np-accent), rgba(232,224,208,.3));
-}
-.dark .lead-story::before {
-  background: linear-gradient(180deg, var(--np-accent), #4a1010);
-}
 
 /* ══════════════════════════════════════════════════
    Animations (minimal)

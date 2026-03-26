@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Inter, Noto_Serif_SC } from "next/font/google";
-import { ThemeProvider } from "@/components/ThemeProvider";
 import { Toaster } from "@/components/ui/sonner";
 import FeedbackWidget from "@/components/FeedbackWidget";
 import "./globals.css";
@@ -32,16 +31,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="zh-CN" suppressHydrationWarning>
+    <html lang="zh-CN">
       <head>
         <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5881105388002876" crossOrigin="anonymous" strategy="afterInteractive" />
       </head>
       <body className={`${notoSerif.variable} ${inter.variable}`}>
-        <ThemeProvider>
-          {children}
-          <FeedbackWidget />
-          <Toaster />
-        </ThemeProvider>
+        {children}
+        <FeedbackWidget />
+        <Toaster />
       </body>
     </html>
   );
