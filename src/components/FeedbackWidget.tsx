@@ -2,8 +2,6 @@
 
 import { useState } from "react";
 import { MessageSquare, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function FeedbackWidget() {
   const [open, setOpen] = useState(false);
@@ -30,58 +28,55 @@ export default function FeedbackWidget() {
 
   return (
     <>
-      {/* Floating button */}
-      <Button
+      <button
         onClick={() => setOpen(!open)}
         aria-label="Send feedback"
-        size="icon-lg"
-        className="fixed bottom-5 right-5 z-50 size-12 rounded-full bg-brand text-brand-foreground shadow-lg transition-transform hover:scale-110 hover:bg-brand/90"
+        className="feedback-btn"
       >
         {open ? <X className="size-5" /> : <MessageSquare className="size-5" />}
-      </Button>
+      </button>
 
-      {/* Modal */}
       {open && (
-        <Card className="fixed bottom-20 right-5 z-50 w-80 animate-fade-up shadow-2xl">
+        <div className="feedback-card animate-fade-up">
           {status === "success" ? (
-            <CardContent className="py-8 text-center">
-              <p className="text-2xl mb-2">🎉</p>
-              <p className="font-semibold text-foreground">Thanks!</p>
-              <p className="text-sm text-muted-foreground">We&apos;ll review your feedback.</p>
-            </CardContent>
+            <div style={{ padding: "32px 16px", textAlign: "center" }}>
+              <p style={{ fontSize: 24, marginBottom: 8 }}>🎉</p>
+              <p style={{ fontWeight: 700, fontFamily: "var(--font-serif)" }}>Thanks!</p>
+              <p style={{ fontSize: 12, color: "var(--np-muted)", fontFamily: "var(--font-sans)" }}>We&apos;ll review your feedback.</p>
+            </div>
           ) : (
             <form onSubmit={handleSubmit}>
-              <CardHeader>
-                <CardTitle className="text-sm">Send Feedback</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3">
+              <div style={{ padding: "12px 14px 6px", fontWeight: 700, fontSize: 13, fontFamily: "var(--font-serif)" }}>
+                Send Feedback
+              </div>
+              <div style={{ padding: "0 14px 14px", display: "flex", flexDirection: "column", gap: 10 }}>
                 <textarea
                   value={message}
                   onChange={e => setMessage(e.target.value)}
                   placeholder="What's on your mind?"
                   rows={3}
                   required
-                  className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground placeholder-muted-foreground outline-none focus:border-brand focus:ring-1 focus:ring-brand resize-none"
+                  className="feedback-input"
                 />
                 <input
                   type="email"
                   value={email}
                   onChange={e => setEmail(e.target.value)}
-                  placeholder="Email (optional, for replies)"
-                  className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground placeholder-muted-foreground outline-none focus:border-brand focus:ring-1 focus:ring-brand"
+                  placeholder="Email (optional)"
+                  className="feedback-input"
                 />
-                {status === "error" && <p className="text-xs text-destructive">Something went wrong. Try again.</p>}
-                <Button
+                {status === "error" && <p style={{ fontSize: 11, color: "#dc2626", margin: 0 }}>Something went wrong. Try again.</p>}
+                <button
                   type="submit"
                   disabled={status === "loading" || !message.trim()}
-                  className="w-full bg-brand text-brand-foreground hover:bg-brand/90"
+                  className="feedback-submit"
                 >
                   {status === "loading" ? "Sending..." : "Send Feedback"}
-                </Button>
-              </CardContent>
+                </button>
+              </div>
             </form>
           )}
-        </Card>
+        </div>
       )}
     </>
   );

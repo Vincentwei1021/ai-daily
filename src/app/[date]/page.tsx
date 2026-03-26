@@ -4,8 +4,6 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { reports, getReportByDate, getAllDates } from "@/data/reports";
-import { Badge } from "@/components/ui/badge";
-import { ArrowLeft, ArrowRight, ChevronLeft } from "lucide-react";
 
 interface PageProps { params: Promise<{ date: string }> }
 
@@ -51,149 +49,93 @@ export default async function ReportPage({ params }: PageProps) {
   return (
     <>
       <Header />
-      <main className="min-h-screen">
-        <article className="px-4 py-8 sm:px-6 sm:py-12">
-          <div className="mx-auto max-w-4xl">
-            <Link href="/" className="group/back mb-6 inline-flex items-center gap-1 text-sm text-brand transition-colors hover:text-brand/80">
-              <ChevronLeft className="size-4 transition-transform group-hover/back:-translate-x-0.5" />
-              返回日报列表
-            </Link>
+      <main className="page animate-fade-in">
+        <Link href="/" className="back-link">← 返回日报列表</Link>
 
-            {/* ═══ Newspaper Masthead ═══ */}
-            <div className="animate-fade-in mt-4 mb-10 text-center">
-              <div className="border-t-4 border-double border-brand pt-6 pb-4">
-                <h1 className="font-[family-name:var(--font-newspaper)] text-4xl font-bold tracking-wide text-foreground">
-                  AI 日报 · AI DAILY
-                </h1>
-                <p className="mt-2 text-xs uppercase tracking-widest text-muted-foreground">
-                  每日精选 X/Twitter AI 行业动态 · 中文解读
-                </p>
-              </div>
-              <div className="border-t border-border pt-3 pb-3">
-                <div className="flex flex-wrap items-center justify-center gap-3">
-                  <Badge className="bg-brand text-brand-foreground hover:bg-brand/90 font-mono text-sm px-3 py-1">
-                    {report.date}
-                  </Badge>
-                  <span className="text-muted-foreground">{report.weekday}</span>
-                  <span className="text-sm text-muted-foreground">
-                    {report.tweetCount} 条推文 / {report.userCount} 位用户
-                  </span>
-                </div>
-                <p className="mt-2 text-xs text-muted-foreground">时间范围：{report.timeRange}</p>
-              </div>
-              <div className="border-t border-border" />
-            </div>
+        {/* ═══ Masthead ═══ */}
+        <div className="detail-masthead">
+          <h1>AI 日报 · {report.date} {report.weekday}</h1>
+          <div className="detail-meta">
+            <span>{report.date}</span>
+            <span>{report.tweetCount} 条推文</span>
+            <span>{report.userCount} 位用户</span>
+            <span>{report.timeRange}</span>
+          </div>
+        </div>
 
-            {/* ═══ Lead Story ═══ */}
-            {leadTopic && leadItem && (
-              <section className="mb-10 animate-fade-up">
-                <h2 className="font-[family-name:var(--font-newspaper)] text-xl font-bold text-foreground mb-1 border-b-2 border-brand pb-2">
-                  {leadTopic.title}
-                </h2>
-                <div className="mt-6">
-                  <h3 className="font-[family-name:var(--font-newspaper)] text-2xl font-bold text-foreground sm:text-3xl">
-                    {leadItem.bold}
-                  </h3>
-                  <p className="drop-cap mt-4 text-sm leading-7 text-foreground/90 sm:text-base sm:text-justify">
-                    {leadItem.detail}
-                  </p>
-                  {leadItem.tags && leadItem.tags.length > 0 && (
-                    <div className="mt-3 flex flex-wrap gap-1.5">
-                      {leadItem.tags.map((tag) => (
-                        <Badge key={tag} variant="secondary" className="text-xs font-normal">{tag}</Badge>
-                      ))}
-                    </div>
-                  )}
-                </div>
-
-                {/* Remaining items in lead topic */}
-                {remainingLeadItems.length > 0 && (
-                  <div className="mt-6 space-y-5">
-                    {remainingLeadItems.map((item, ii) => (
-                      <div key={ii} className="break-inside-avoid">
-                        <h3 className="text-base font-semibold text-foreground">{item.bold}</h3>
-                        <p className="mt-1 text-sm leading-7 text-foreground/90 sm:text-base sm:text-justify">{item.detail}</p>
-                        {item.tags && item.tags.length > 0 && (
-                          <div className="mt-2 flex flex-wrap gap-1.5">
-                            {item.tags.map((tag) => (
-                              <Badge key={tag} variant="secondary" className="text-xs font-normal">{tag}</Badge>
-                            ))}
-                          </div>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                )}
-
-                {/* Decorative separator */}
-                <div className="mt-8 flex items-center gap-4">
-                  <div className="h-px flex-1 bg-border" />
-                  <span className="text-muted-foreground/40 text-sm select-none">◆</span>
-                  <div className="h-px flex-1 bg-border" />
-                </div>
-              </section>
-            )}
-
-            {/* ═══ Multi-Column Body ═══ */}
-            {remainingTopics.length > 0 && (
-              <div className="newspaper-columns">
-                {remainingTopics.map((topic, ti) => (
-                  <section key={ti} className="mb-8 break-inside-avoid-column">
-                    <h2 className="font-[family-name:var(--font-newspaper)] text-xl font-bold text-foreground mb-4 border-b-2 border-brand pb-2">
-                      {topic.title}
-                    </h2>
-                    <div className="space-y-5">
-                      {topic.items.map((item, ii) => (
-                        <div key={ii} className="break-inside-avoid">
-                          <h3 className="text-base font-semibold text-foreground">{item.bold}</h3>
-                          <p className="mt-1 text-sm leading-7 text-foreground/90 sm:text-base sm:text-justify">{item.detail}</p>
-                          {item.tags && item.tags.length > 0 && (
-                            <div className="mt-2 flex flex-wrap gap-1.5">
-                              {item.tags.map((tag) => (
-                                <Badge key={tag} variant="secondary" className="text-xs font-normal">{tag}</Badge>
-                              ))}
-                            </div>
-                          )}
-                        </div>
-                      ))}
-                    </div>
-                    {/* Section separator */}
-                    {ti < remainingTopics.length - 1 && (
-                      <div className="mt-6 flex items-center gap-4">
-                        <div className="h-px flex-1 bg-border" />
-                        <span className="text-muted-foreground/40 text-xs select-none">§</span>
-                        <div className="h-px flex-1 bg-border" />
-                      </div>
-                    )}
-                  </section>
+        {/* ═══ Lead Story ═══ */}
+        {leadTopic && leadItem && (
+          <section className="detail-lead">
+            <h2 className="topic-title">{leadTopic.title}</h2>
+            <h3 className="item-title">{leadItem.bold}</h3>
+            <p className="item-detail drop-cap">{leadItem.detail}</p>
+            {leadItem.tags && leadItem.tags.length > 0 && (
+              <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 8 }}>
+                {leadItem.tags.map(tag => (
+                  <span key={tag} className="np-tag">{tag}</span>
                 ))}
               </div>
             )}
 
-            {/* ═══ Byline ═══ */}
-            <p className="mt-8 text-xs italic text-muted-foreground text-center">
-              数据来源：X/Twitter AI 相关推文
-            </p>
+            {remainingLeadItems.map((item, ii) => (
+              <div key={ii} className="topic-item" style={{ marginTop: ii === 0 ? 14 : 10 }}>
+                <div className="item-title">{item.bold}</div>
+                <div className="item-detail">{item.detail}</div>
+                {item.tags && item.tags.length > 0 && (
+                  <div style={{ display: "flex", flexWrap: "wrap", gap: 4, marginTop: 6 }}>
+                    {item.tags.map(tag => (
+                      <span key={tag} className="np-tag">{tag}</span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+          </section>
+        )}
 
-            {/* ═══ Navigation ═══ */}
-            <nav className="flex justify-between items-center border-t border-border pt-6 mt-8">
-              {prev ? (
-                <Link href={`/${prev.date}`} className="group/nav inline-flex items-center gap-1.5 rounded-lg px-3 py-3 text-sm text-brand transition-colors hover:text-brand/80 hover:bg-brand-muted">
-                  <ArrowLeft className="size-3.5 transition-transform group-hover/nav:-translate-x-0.5" />
-                  <span><span className="hidden sm:inline">Previous Edition · </span>{prev.date} {prev.weekday}</span>
-                </Link>
-              ) : <span />}
-              {next ? (
-                <Link href={`/${next.date}`} className="group/nav inline-flex items-center gap-1.5 rounded-lg px-3 py-3 text-sm text-brand transition-colors hover:text-brand/80 hover:bg-brand-muted">
-                  <span><span className="hidden sm:inline">Next Edition · </span>{next.date} {next.weekday}</span>
-                  <ArrowRight className="size-3.5 transition-transform group-hover/nav:translate-x-0.5" />
-                </Link>
-              ) : <span />}
-            </nav>
+        {/* ◆ Separator */}
+        <div className="np-separator"><span>◆</span></div>
+
+        {/* ═══ Multi-Column Body ═══ */}
+        {remainingTopics.length > 0 && (
+          <div className="newspaper-columns">
+            {remainingTopics.map((topic, ti) => (
+              <section key={ti} className="topic-section">
+                <h2 className="topic-title">{topic.title}</h2>
+                {topic.items.map((item, ii) => (
+                  <div key={ii} className="topic-item">
+                    <div className="item-title">{item.bold}</div>
+                    <div className="item-detail">{item.detail}</div>
+                    {item.tags && item.tags.length > 0 && (
+                      <div style={{ display: "flex", flexWrap: "wrap", gap: 4, marginTop: 6 }}>
+                        {item.tags.map(tag => (
+                          <span key={tag} className="np-tag">{tag}</span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </section>
+            ))}
           </div>
-        </article>
+        )}
+
+        {/* Byline */}
+        <p className="byline">数据来源：X/Twitter AI 相关推文</p>
+
+        {/* ═══ Prev / Next ═══ */}
+        <nav className="np-nav">
+          {prev ? (
+            <Link href={`/${prev.date}`}>← {prev.date} {prev.weekday}</Link>
+          ) : <span />}
+          {next ? (
+            <Link href={`/${next.date}`}>{next.date} {next.weekday} →</Link>
+          ) : <span />}
+        </nav>
+
+        {/* ═══ Footer ═══ */}
+        <Footer />
       </main>
-      <Footer />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
     </>
   );
