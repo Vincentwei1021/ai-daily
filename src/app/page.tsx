@@ -6,7 +6,7 @@ import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge";
 import { Newspaper, ArrowRight } from "lucide-react";
 
-const siteUrl = "https://ai-daily-eight-mu.vercel.app";
+const siteUrl = "https://daily.toolboxlite.com";
 
 const schema = {
   "@context": "https://schema.org", "@type": "WebSite",

@@ -10,7 +10,7 @@ const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-headin
 const inter = Inter({ subsets: ["latin"], variable: "--font-body" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-newspaper", weight: ["400","500","600","700","800","900"] });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://ai-daily-eight-mu.vercel.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://daily.toolboxlite.com";
 
 export const metadata: Metadata = {
   title: { default: "AI 日报 — 每日 AI 行业情报与趋势", template: "%s | AI 日报" },
