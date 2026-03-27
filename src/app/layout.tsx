@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Inter, Noto_Serif_SC } from "next/font/google";
-import { Toaster } from "@/components/ui/sonner";
 import FeedbackWidget from "@/components/FeedbackWidget";
 import "./globals.css";
 
@@ -38,7 +37,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${notoSerif.variable} ${inter.variable}`}>
         {children}
         <FeedbackWidget />
-        <Toaster />
       </body>
     </html>
   );
