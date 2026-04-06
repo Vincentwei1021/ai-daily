@@ -14,6 +14,105 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-04-06",
+    "weekday": "周一",
+    "timeRange": "04-05 08:30 ~ 04-06 08:30 (UTC+8)",
+    "tweetCount": 38,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🏭 物理AI与制造业革命",
+        "items": [
+          {
+            "bold": "HII与GrayMatter签署物理AI合作备忘录",
+            "detail": "美国最大造船企业HII与物理AI制造领军公司GrayMatter Robotics于4月6日在加州卡森总部举行备忘录签署仪式，现场展示物理AI技术在制造业的实际应用。此次合作标志着传统重工业向智能化制造转型的重要节点，物理AI技术有望大幅提升制造业生产效率。",
+            "tags": [
+              "Physical AI",
+              "Manufacturing",
+              "Robotics",
+              "Industrial"
+            ]
+          },
+          {
+            "bold": "韩国呼吁减少自主AI监管束缚",
+            "detail": "《韩国中央日报》发表观点文章称，监管不应阻碍自主AI发展。文章指出，在韩国具有传统优势的制造业领域，采用物理AI技术为显著提升生产力和效率提供了重要机遇。这一观点反映了亚洲制造强国对AI技术应用的积极态度。",
+            "tags": [
+              "South Korea",
+              "AI Regulation",
+              "Autonomous AI",
+              "Policy"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💰 AI投资与产业变革",
+        "items": [
+          {
+            "bold": "硅谷掀起AI融资狂潮创纪录",
+            "detail": "《纽约时报》报道显示，AI公司正在打破融资纪录，资本市场对人工智能技术的投资热情持续高涨。投资者将AI视为下一次工业革命的核心驱动力，各类AI初创公司和成熟企业均获得大额资金支持，推动整个硅谷技术生态的快速演进。",
+            "tags": [
+              "Investment",
+              "Silicon Valley",
+              "Funding",
+              "Industrial Revolution"
+            ]
+          },
+          {
+            "bold": "AI需求推动半导体收入激增",
+            "detail": "高盛分析报告指出，AI应用需求将推动半导体行业收入大幅增长。随着数据中心、边缘计算和各类AI应用场景的快速扩张，对高性能芯片的需求呈现爆发式增长态势，半导体产业链上下游企业有望迎来新一轮增长周期。",
+            "tags": [
+              "Semiconductors",
+              "Goldman Sachs",
+              "Revenue Growth",
+              "Demand"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🌐 基础设施与光通信热潮",
+        "items": [
+          {
+            "bold": "光通信股票因AI基础设施需求激增",
+            "detail": "韩国《朝鲜日报》报道称，随着AI基础设施建设需求不断增长，光通信相关股票出现强劲上涨态势。AI数据中心和高性能计算集群对高速、大容量数据传输的需求，直接带动了光纤通信、光模块等相关产业的快速发展，相关上市公司股价表现亮眼。",
+            "tags": [
+              "Optical Communication",
+              "AI Infrastructure",
+              "Stock Market",
+              "Data Centers"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🎓 AI教育与就业影响",
+        "items": [
+          {
+            "bold": "AI成为2026年大学录取新门槛",
+            "detail": "《经济时报》分析指出，AI技能正成为大学招生中不可忽视的新筛选标准。随着人工智能在各行各业的深度应用，高等教育机构开始将AI相关能力作为评估学生未来适应性的重要指标，这一趋势将重塑传统的教育评估体系。",
+            "tags": [
+              "Education",
+              "University Admission",
+              "AI Skills",
+              "Future Workforce"
+            ]
+          },
+          {
+            "bold": "经济学家重新审视AI就业威胁",
+            "detail": "此前对AI就业影响持谨慎态度的经济学家们开始改变立场，越来越多专家认为AI对传统工作岗位的冲击可能比预期更为深远。这一观点转变反映了AI技术发展速度超出预期，社会各界对AI时代就业结构调整的关注度持续升温。",
+            "tags": [
+              "Employment",
+              "Job Displacement",
+              "Economic Impact",
+              "Labor Market"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-04-05",
     "weekday": "周日",
     "timeRange": "04-04 08:30 ~ 04-05 08:30 (UTC+8)",
