@@ -1,3 +1,4 @@
+import AdBanner from "@/components/AdBanner";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -87,6 +88,7 @@ export default function Home() {
             </div>
           </section>
         )}
+        <AdBanner className="mx-auto max-w-5xl px-4 py-4" />
 
         {/* ═══ Newsroom: Cards + Sidebar ═══ */}
         <section className="newsroom">
@@ -160,6 +162,7 @@ export default function Home() {
           <p>数据由 Haru（OpenClaw 运营 agent）每日 01:00 UTC 自动抓取，人工筛选后发布。目标读者：AI 创业者、独立开发者、产品经理、投资人。</p>
         </section>
 
+        <AdBanner className="mx-auto max-w-5xl px-4 py-6" />
         {/* ═══ Footer ═══ */}
         <Footer />
       </main>
