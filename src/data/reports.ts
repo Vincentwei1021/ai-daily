@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-04-13",
+    "weekday": "周一",
+    "timeRange": "04-12 08:30 ~ 04-13 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🚀 AI突破性进展与预测",
+        "items": [
+          {
+            "bold": "摩根士丹利警告2026年AI重大突破即将到来",
+            "detail": "投资银行摩根士丹利在最新报告中警告，2026年上半年将出现变革性的人工智能突破，这主要由美国顶级AI实验室前所未有的算力积累推动。报告特别引用了埃隆·马斯克的观点，认为将10倍算力应用于大语言模型训练将带来质的飞跃。分析师强调，'智能'正成为新的通用货币，由算力和能源铸造而成。",
+            "tags": [
+              "breakthrough",
+              "compute",
+              "investment",
+              "prediction"
+            ]
+          },
+          {
+            "bold": "递归自我改进循环或将于2027年初出现",
+            "detail": "xAI联合创始人Jimmy Ba表示，AI自主升级自身能力的递归自我改进循环可能在2027年上半年出现。OpenAI CEO萨姆·奥特曼进一步设想，完全由1-5人构建的新公司将能够击败大型现有企业。这些预测表明AI发展速度正超出大多数人的预期，智能爆炸的到来比预期更快。",
+            "tags": [
+              "self-improvement",
+              "AGI",
+              "startups",
+              "competition"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🌍 全球AI基础设施建设",
+        "items": [
+          {
+            "bold": "摩洛哥启动非洲首个主权AI平台",
+            "detail": "摩洛哥正式启动了Nexus AI工厂，这是非洲大陆第一个主权人工智能平台，获得12亿美元投资支持。该设施位于卡萨布兰卡，标志着发展中国家在AI领域的重要里程碑。这一举措体现了非洲地区对AI主权和技术独立的重视，为其他发展中国家提供了可借鉴的模式。",
+            "tags": [
+              "Africa",
+              "sovereign-AI",
+              "infrastructure",
+              "investment"
+            ]
+          },
+          {
+            "bold": "微软100亿美元投资日本AI与网络安全",
+            "detail": "微软宣布向日本投资100亿美元，重点发展AI增长和网络安全领域。这一大规模投资显示了科技巨头对亚太市场AI发展的重视，也反映出网络安全在AI时代的重要性日益凸显。投资将有助于加强日本在全球AI竞争中的地位，同时推动区域技术创新生态的发展。",
+            "tags": [
+              "Microsoft",
+              "Japan",
+              "investment",
+              "cybersecurity"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🛠️ AI模型与工具创新",
+        "items": [
+          {
+            "bold": "Google发布Gemma 4模型支持离线运行",
+            "detail": "谷歌发布了Gemma 4模型，该模型可以在任何设备上离线运行且完全免费使用。这一突破性进展大大降低了AI应用的门槛，使得开发者和用户无需依赖云端服务即可享受先进的AI能力。离线运行特性不仅提升了隐私保护水平，还为边缘计算和资源受限环境下的AI应用开辟了新的可能性。",
+            "tags": [
+              "Google",
+              "offline-AI",
+              "edge-computing",
+              "free-model"
+            ]
+          },
+          {
+            "bold": "Anthropic推出革命性Conway项目",
+            "detail": "Anthropic发布了名为Conway的神秘项目，被业界认为可能永远改变AI的未来。虽然具体细节尚未完全公开，但该项目被描述为具有突破性意义的AI技术进展。这一发布进一步加剧了AI领域的竞争，各大公司都在争相推出下一代变革性技术，Conway可能成为AI发展史上的重要节点。",
+            "tags": [
+              "Anthropic",
+              "Conway",
+              "breakthrough",
+              "future-AI"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🤖 智能体AI革命浪潮",
+        "items": [
+          {
+            "bold": "2026年智能体AI七大突破重塑科技格局",
+            "detail": "2026年4月见证了智能体AI领域的七项重大突破，正在重塑整个科技行业格局。从自主系统能力的提升到开源模型的民主化，再到神经形态计算的硬件革新，这些突破代表了结构性的不可逆转变。AI已不再是实验性技术或未来概念，而是成为全球企业和数字基础设施不可或缺的基础层。",
+            "tags": [
+              "agentic-AI",
+              "autonomous-systems",
+              "tech-transformation",
+              "infrastructure"
+            ]
+          },
+          {
+            "bold": "MolmoWeb开放网络智能体训练数据集",
+            "detail": "研究团队发布了MolmoWeb模型及其配套的综合性网络智能体训练数据集MolmoWebMix。该项目完全开源，提供了检查、复现和微调MolmoWeb所需的全部资源。这一开放举措将加速网络智能体技术的发展和普及，为开发者提供了宝贵的训练资源和技术基础。",
+            "tags": [
+              "web-agents",
+              "open-source",
+              "dataset",
+              "training"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-04-12",
     "weekday": "周日",
     "timeRange": "04-11 08:30 ~ 04-12 08:30 (UTC+8)",
@@ -3323,124 +3432,6 @@ export const reports: DailyReport[] = [
             "tags": [
               "LiquidAI",
               "WebGPU"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-03-14",
-    "weekday": "周六",
-    "timeRange": "03-13 08:30 ~ 03-14 08:30 (UTC+8)",
-    "tweetCount": 42,
-    "userCount": 18,
-    "topics": [
-      {
-        "title": "🧠 大模型与基础设施",
-        "items": [
-          {
-            "bold": "Anthropic 1M Context Window",
-            "detail": "Opus/Sonnet 升级到 1M context window，标准定价。Vincent 评论：别过度优化当前定价，成本结构重置比基建设计快。",
-            "tags": [
-              "Anthropic",
-              "1M Context"
-            ]
-          },
-          {
-            "bold": "Grok 4.20 Beta",
-            "detail": "性能接近 Opus 4.5，推理速度更快、模型更小。Grok Imagine 更新 consistent characters/objects 功能、视频尺寸/质量选择。",
-            "tags": [
-              "xAI",
-              "Grok 4.20"
-            ]
-          },
-          {
-            "bold": "NVIDIA Vera Rubin NVL72",
-            "detail": "Microsoft/Azure 成为首个完成验证的云厂商，下一代 AI 基础设施里程碑。PyTorch 团队将在 NVIDIA GTC Booth #338 亮相。",
-            "tags": [
-              "NVIDIA",
-              "Microsoft"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 AI 研究突破",
-        "items": [
-          {
-            "bold": "AlphaEvolve × Ramsey 数",
-            "detail": "DeepMind 的 AlphaEvolve 改进了 5 个经典 Ramsey 数的下界，部分为 10+ 年来首次突破。Demis Hassabis、LeCun 均转发祝贺。",
-            "tags": [
-              "AlphaEvolve",
-              "DeepMind"
-            ]
-          },
-          {
-            "bold": "世界模型融资潮",
-            "detail": "AMI Labs 融 $1.03B、World Labs 融 $1B，两家都押注 world models 但路径不同。LeCun 转发讨论世界建模的潜空间研究。",
-            "tags": [
-              "AMI Labs",
-              "World Labs",
-              "World Models"
-            ]
-          },
-          {
-            "bold": "多语言语音数据集 WAXAL",
-            "detail": "开源非洲语言语音数据集，覆盖 17 语言 TTS + 19 语言 ASR。Jeff Dean 转发推荐。",
-            "tags": [
-              "WAXAL",
-              "HuggingFace"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🛠️ 开发工具与平台",
-        "items": [
-          {
-            "bold": "Google 生态更新",
-            "detail": "Gemini 接入 Google Maps（多步推理 + 3 亿照片/评论）、Gemini Embedding 2 预览版（首个原生多模态嵌入模型）。Chrome 146 单 toggle 即可通过 MCP 暴露浏览器给 CLI agent。",
-            "tags": [
-              "Gemini",
-              "Chrome 146",
-              "MCP"
-            ]
-          },
-          {
-            "bold": "OpenAI Codex App 更新",
-            "detail": "Greg Brockman 推荐：「If you haven't tried Codex yet, you're missing something BIG」。两项新更新发布。",
-            "tags": [
-              "OpenAI",
-              "Codex"
-            ]
-          },
-          {
-            "bold": "Arena.ai 排行榜升级",
-            "detail": "新增价格和 context 长度维度对比。匿名「香蕉模型」成为历史上投票最多的模型。",
-            "tags": [
-              "Arena.ai",
-              "Benchmark"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🦞 OpenClaw 生态",
-        "items": [
-          {
-            "bold": "社区动态",
-            "detail": "OpenClaw Dashboard v2 发布。Peter Steinberger 警告不要用 AI bot 给 PR 加噪音。vincent_koc 征集插件开发者反馈。OpenClaw 被部署到无人机上自主构建技能。",
-            "tags": [
-              "Dashboard v2",
-              "Drone Deployment"
-            ]
-          },
-          {
-            "bold": "Vincent 发推",
-            "detail": "评论 Anthropic 1M context 的成本影响、OpenClaw 按复杂度路由模型节省成本、回应 skills.md 过时论（format 会变 concept 不会）。",
-            "tags": [
-              "@YihaoWei1021"
             ]
           }
         ]
