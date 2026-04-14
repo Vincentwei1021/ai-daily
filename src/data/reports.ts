@@ -14,6 +14,105 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-04-14",
+    "weekday": "周二",
+    "timeRange": "04-13 08:30 ~ 04-14 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🏢 AI 治理与监管",
+        "items": [
+          {
+            "bold": "KPMG发布全球AI董事会治理准则",
+            "detail": "毕马威国际与欧洲工商管理学院公司治理中心合作，正式发布《董事会AI治理原则》报告。该准则旨在帮助企业董事会应对AI技术对战略、运营和董事会本身带来的深远影响，为组织层面的AI负责任治理提供指导框架。这标志着全球AI治理体系建设迈出重要一步。",
+            "tags": [
+              "governance",
+              "corporate",
+              "board",
+              "regulation"
+            ]
+          },
+          {
+            "bold": "AI监管2026全球展望发布",
+            "detail": "最新研究显示，2026年AI监管重点聚焦在透明度、自动化决策、影响评估和个人权利保护等领域。隐私团队在AI合规中扮演关键角色，因为许多AI监管义务与隐私概念高度相似。全球AI法规正从制定阶段转向实际执行阶段，合规要求日益严格。",
+            "tags": [
+              "regulation",
+              "privacy",
+              "compliance",
+              "global"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🤖 AI 应用与产品创新",
+        "items": [
+          {
+            "bold": "Meta开发扎克伯格AI分身",
+            "detail": "据《金融时报》报道，Meta正在开发CEO马克·扎克伯格的AI版本，用于与员工互动。该项目基于Meta的AI Studio技术，能够创建可实时对话的逼真3D AI角色。这一创新将AI人格化应用推向新高度，可能重新定义企业领导层与员工的沟通模式。",
+            "tags": [
+              "Meta",
+              "CEO",
+              "AI-character",
+              "workplace"
+            ]
+          },
+          {
+            "bold": "现代汽车集团押注AI机器人战略",
+            "detail": "现代汽车集团董事长郑义宣在接受采访时表示，集团愿景是通过先进AI驱动的协作机器人连接人类，实现超越移动出行的发展。机器人技术和物理AI将成为集团未来战略的核心。面对中美贸易紧张和地缘政治不确定性，现代选择在AI驱动的机器人领域重点投资。",
+            "tags": [
+              "Hyundai",
+              "robotics",
+              "physical-AI",
+              "strategy"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔒 AI 安全与风险",
+        "items": [
+          {
+            "bold": "AI网络攻击实现零人工干预",
+            "detail": "Anthropic首次报告了AI技术在几乎无需人工操作的情况下收集敏感信息的网络攻击案例。随着Anthropic和OpenAI准备发布更强大的AI系统，网络安全专家警告AI正在根本性地改变网络安全格局。今年2月，Anthropic利用其AI技术发现了超过500个零日漏洞。",
+            "tags": [
+              "cybersecurity",
+              "zero-day",
+              "Anthropic",
+              "threats"
+            ]
+          },
+          {
+            "bold": "斯坦福报告：AI威胁选举与人际关系",
+            "detail": "斯坦福大学人工智能研究院最新报告发现，AI存在不安全使用实践，公众对其影响普遍焦虑，中国在AI领域正在追赶美国。报告特别指出AI技术可能对选举公正性和人际关系造成负面影响，引发社会各界对AI伦理和安全使用的深度思考。",
+            "tags": [
+              "Stanford",
+              "elections",
+              "social-impact",
+              "ethics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💰 AI 产业与市场",
+        "items": [
+          {
+            "bold": "南亚科技看好AI带动DRAM需求",
+            "detail": "南亚科技表示，AI热潮持续推动芯片需求，DRAM价格上涨趋势预计延续，全球芯片短缺问题至少持续到明年。公司认为谷歌新推出的TruboQuant AI模型不会减少DRAM芯片使用，反而可能增加需求，因为该技术有望提高大语言模型推理效率。",
+            "tags": [
+              "DRAM",
+              "semiconductor",
+              "Google",
+              "supply-chain"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-04-13",
     "weekday": "周一",
     "timeRange": "04-12 08:30 ~ 04-13 08:30 (UTC+8)",
@@ -3303,135 +3402,6 @@ export const reports: DailyReport[] = [
             "tags": [
               "Google AR",
               "Gemini"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-03-15",
-    "weekday": "周日",
-    "timeRange": "03-14 08:30 ~ 03-15 08:30 (UTC+8)",
-    "tweetCount": 48,
-    "userCount": 11,
-    "topics": [
-      {
-        "title": "🦞 OpenClaw 生态大更新",
-        "items": [
-          {
-            "bold": "Chrome 实时浏览器控制",
-            "detail": "新 beta 支持 agent 直接连接用户 Chrome tab（通过 chrome://inspect#remote-debugging），访问 cookies/登录状态，需额外确认启用。",
-            "tags": [
-              "OpenClaw 2026.3.13",
-              "Chrome MCP"
-            ]
-          },
-          {
-            "bold": "NVIDIA GTC 合作",
-            "detail": "NVIDIA 派工程师帮 OpenClaw 做安全审计；GTC 将举办 Build-A-Claw 活动，可现场购买 DGX Spark 并由 NVIDIA 工程师安装 OpenClaw。",
-            "tags": [
-              "NVIDIA GTC",
-              "Security Audit"
-            ]
-          },
-          {
-            "bold": "更多更新",
-            "detail": "Parallel tool calling 即将支持 · MS Teams 集成改进 · SGLang 原生支持 · qmd memory plugin 推荐。",
-            "tags": [
-              "Parallel Tools",
-              "MS Teams"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🤖 Grok 系列密集更新",
-        "items": [
-          {
-            "bold": "Grok 4.20 Beta 登顶",
-            "detail": "Artificial Analysis 排行榜第一；τ²-Bench 电信 Agentic Tool Use 96.5% 准确率（超越 Claude）。",
-            "tags": [
-              "Grok 4.20",
-              "Benchmark"
-            ]
-          },
-          {
-            "bold": "Grok Imagine 大升级",
-            "detail": "Multi-image to video、风格控制改进、5 分钟完成图片 + 30 秒视频全流程。",
-            "tags": [
-              "Grok Imagine",
-              "Video"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "📚 Anthropic & Claude 生态",
-        "items": [
-          {
-            "bold": "Anthropic Academy 发布",
-            "detail": "13 门免费课程（MCP、Claude Code、Agent Skills、Bedrock），含证书。",
-            "tags": [
-              "Anthropic Academy",
-              "Education"
-            ]
-          },
-          {
-            "bold": "1M context window 正式 GA",
-            "detail": "Claude Opus 4.6 和 Sonnet 4.6 同时支持——Vincent 评价：「this changes what an agent can hold mid-task」。",
-            "tags": [
-              "1M Context",
-              "Anthropic"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🌐 Web & AI Agent 趋势",
-        "items": [
-          {
-            "bold": "WebMCP vs MCP",
-            "detail": "Ephemeral browser → WebMCP，persistent server → MCP。Chrome 团队推动「agent-native web」。",
-            "tags": [
-              "WebMCP",
-              "Chrome"
-            ]
-          },
-          {
-            "bold": "ACPX 协议",
-            "detail": "让任何 harness 互相通信——OpenClaw/Codex/Claude Code 可互调。",
-            "tags": [
-              "ACPX",
-              "Interop"
-            ]
-          },
-          {
-            "bold": "AI 实际应用",
-            "detail": "OpenClaw 帮农民在柴油期货谈判省 $25K · 15 岁少年用 OpenClaw 赚 $30K+ 合同 · AI 辅助设计 mRNA 疫苗治犬癌。",
-            "tags": [
-              "Real Use Cases"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 开源 & 模型发布",
-        "items": [
-          {
-            "bold": "WAXAL 开源",
-            "detail": "非洲语言多语种语音数据集（17 语言 TTS / 19 语言 ASR）。",
-            "tags": [
-              "HuggingFace",
-              "Open Source"
-            ]
-          },
-          {
-            "bold": "LiquidAI LFM2-VL",
-            "detail": "浏览器中 WebGPU 实时视频字幕（无需服务器）。",
-            "tags": [
-              "LiquidAI",
-              "WebGPU"
             ]
           }
         ]
