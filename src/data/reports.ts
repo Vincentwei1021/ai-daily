@@ -14,6 +14,105 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-04-15",
+    "weekday": "周三",
+    "timeRange": "04-14 08:30 ~ 04-15 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🌍 全球AI竞争格局重塑",
+        "items": [
+          {
+            "bold": "中美AI模型性能差距几乎消失",
+            "detail": "斯坦福大学发布的年度AI报告显示，中美两国顶尖AI模型的性能差距已缩小至仅2.7个百分点，几乎可以忽略不计。这一发现标志着全球AI竞争格局的重大变化，中国AI模型正在快速追赶美国的技术领先地位。报告指出，尽管美国在AI投资方面仍然领先，但中国在模型性能上的快速进步令人瞩目。",
+            "tags": [
+              "AI Competition",
+              "Stanford Report",
+              "US-China",
+              "Performance Gap"
+            ]
+          },
+          {
+            "bold": "韩国AI竞争力跃居全球第三",
+            "detail": "在斯坦福大学的全球AI竞争力评估中，韩国成功跻身全球第三位，展现出强劲的AI发展势头。这一排名反映了韩国在AI研发投入、人才培养和产业应用方面的显著进步，成为继中美之后的AI强国。韩国政府近年来大力推动AI战略，在半导体、5G通信等基础设施优势的支撑下，正逐步构建完整的AI生态系统。",
+            "tags": [
+              "Korea AI",
+              "Global Ranking",
+              "AI Strategy",
+              "Technology Leadership"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🚀 AI技术发展趋势",
+        "items": [
+          {
+            "bold": "2026年AI七大发展趋势浮现",
+            "detail": "微软发布的年度趋势报告指出，2026年AI将呈现七大关键发展趋势，包括推理模型的突破、多模态AI的普及、企业AI应用的规模化部署等。报告特别强调了从AI实验向实际生产应用的转变，以及开源推理代理的快速崛起。这些趋势将重新定义AI行业的发展方向，推动技术从概念验证走向大规模商业化应用。",
+            "tags": [
+              "AI Trends",
+              "Microsoft",
+              "Reasoning Models",
+              "Enterprise AI"
+            ]
+          },
+          {
+            "bold": "DeepSeek-R1等中国推理模型震撼全球",
+            "detail": "以DeepSeek-R1为代表的中国前沿实验室推理模型在全球范围内引起轰动，展现出与国际顶尖水平相媲美的推理能力。这些模型在复杂逻辑推理、数学问题解决等方面的表现令人印象深刻，标志着中国AI研发能力的显著提升。开源推理代理的兴起也为全球AI生态系统注入了新的活力。",
+            "tags": [
+              "DeepSeek-R1",
+              "Chinese AI",
+              "Reasoning Models",
+              "Open Source"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 产业合作与投资动向",
+        "items": [
+          {
+            "bold": "Meta与博通深化AI芯片合作至2029年",
+            "detail": "Meta宣布与博通延长AI芯片设计合作协议至2029年，这项广泛的合作将涵盖Meta定制AI加速器的设计开发。随着Meta在人工智能计算基础设施方面投资的加大，这一长期合作伙伴关系将为其AI战略提供关键的硬件支撑。此举反映了科技巨头对AI专用芯片需求的持续增长，以及对计算基础设施投资的重视。",
+            "tags": [
+              "Meta",
+              "Broadcom",
+              "AI Chips",
+              "Partnership Extension"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "📊 AI行业数据洞察",
+        "items": [
+          {
+            "bold": "AI现状图表深度解读",
+            "detail": "MIT技术评论发布的最新图表数据揭示了AI行业的当前状态和发展轨迹。数据显示，AI技术正从实验阶段快速向实际应用转变，企业级AI部署呈现爆发式增长。图表分析涵盖了AI投资规模、技术成熟度、应用领域分布等多个维度，为理解AI行业发展现状提供了全面的数据支撑。",
+            "tags": [
+              "MIT Report",
+              "AI Data",
+              "Industry Analysis",
+              "Technology Review"
+            ]
+          },
+          {
+            "bold": "AI与数据科学五大趋势预测",
+            "detail": "斯隆管理评论发布的报告预测了AI与数据科学领域的五大关键趋势，包括自动化机器学习的普及、联邦学习的广泛应用、AI治理框架的完善等。这些趋势将深刻影响企业的数字化转型策略，推动AI技术在各行各业的深度融合。报告强调了负责任AI发展的重要性，以及数据隐私保护在AI应用中的核心地位。",
+            "tags": [
+              "MIT Sloan",
+              "AI Trends",
+              "Data Science",
+              "Future Predictions"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-04-14",
     "weekday": "周二",
     "timeRange": "04-13 08:30 ~ 04-14 08:30 (UTC+8)",
@@ -3283,125 +3382,6 @@ export const reports: DailyReport[] = [
               "Climate Tech",
               "Automated Testing",
               "Quality Assurance"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-03-16",
-    "weekday": "周一",
-    "timeRange": "03-15 08:30 ~ 03-16 08:30 (UTC+8)",
-    "tweetCount": 30,
-    "userCount": 9,
-    "topics": [
-      {
-        "title": "🧩 Agent 架构与 MCP 讨论",
-        "items": [
-          {
-            "bold": "MCP vs CLI vs Skills 分层论",
-            "detail": "Vincent 提出三者不是竞争关系而是分层：MCP 做 tool consumption，CLI 做 one-shot scripting，Skills 做持久 agent 行为。关键是 runtime 如何编排三者。进一步讨论了 agent 编排 agent 时层级如何复合。",
-            "tags": [
-              "MCP",
-              "Skills",
-              "Agent Orchestration"
-            ]
-          },
-          {
-            "bold": "MCP 生产环境踩坑",
-            "detail": "Vincent 分享 MCP 部署经验——部分失败、工具版本漂移、零可观测性。Demo 掩盖了这些问题，需要在协议之上构建控制层。",
-            "tags": [
-              "MCP",
-              "Production"
-            ]
-          },
-          {
-            "bold": "OpenClaw 插件进化",
-            "detail": "Peter Steinberger 思考如何让 OpenClaw 插件更强大、核心更精简，计划支持 Claude Code / Codex 插件 bundles。Twitter 自动 block spam 的 cron 也运行良好。",
-            "tags": [
-              "OpenClaw",
-              "Plugin Architecture"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💡 Vibe Coding 与开发者工具",
-        "items": [
-          {
-            "bold": "Vibe Coding 的真相",
-            "detail": "Vincent 指出 30 分钟原型推文是真的，但 100 小时的生产差距也是真的。知道自己处于哪种模式才是真正的技能。",
-            "tags": [
-              "Vibe Coding",
-              "Reality Check"
-            ]
-          },
-          {
-            "bold": "多 Provider 管理痛点",
-            "detail": "6 套 API key、6 个计费面板、6 套重复工具。模型选择只占 20%，管道工程占 80%。推荐 agent-toolbox-mcp 统一工具集。",
-            "tags": [
-              "Multi-Provider",
-              "Developer Experience"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 前沿研究与投资",
-        "items": [
-          {
-            "bold": "LeCun AMI Labs $10.3 亿种子轮",
-            "detail": "Yann LeCun 的 AMI Labs 获史上最大种子轮融资。12 人团队、无产品。Vincent 评论 LLM 触顶，世界模型 + 类人机器人才是物理世界的真正突破。",
-            "tags": [
-              "AMI Labs",
-              "World Models",
-              "Robotics"
-            ]
-          },
-          {
-            "bold": "AlphaFold 治愈狗的癌症",
-            "detail": "澳洲技术人员用 AlphaFold 为癌症晚期收养狗设计个性化 mRNA 疫苗并成功治愈。Demis Hassabis、Greg Brockman、Elon Musk 均转发讨论，称为数字生物学时代的开端。",
-            "tags": [
-              "AlphaFold",
-              "Digital Biology"
-            ]
-          },
-          {
-            "bold": "Stanford OpenJarvis",
-            "detail": "斯坦福发布在本地设备运行的个人 AI 系统 OpenJarvis，强调隐私优先的个人 AI 方向。",
-            "tags": [
-              "Stanford",
-              "On-Device AI"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🎨 产品动态",
-        "items": [
-          {
-            "bold": "Grok Imagine 视频编辑",
-            "detail": "xAI 的 Grok Imagine 在 Video Editing Arena 排名第一（Elo 1290），支持多图生成视频。Elon 密集转发宣传。",
-            "tags": [
-              "Grok Imagine",
-              "Video"
-            ]
-          },
-          {
-            "bold": "GPT-4 三周年",
-            "detail": "Greg Brockman 回忆 GPT-4 发布日手绘草图变网站的演示，感慨从「写 1000 行代码」的不可能目标到今天的进步。",
-            "tags": [
-              "GPT-4",
-              "Anniversary"
-            ]
-          },
-          {
-            "bold": "Google AR 眼镜",
-            "detail": "MWC 上展示 Android prototype display glasses，Google 对 Android + Gemini 整合到 AR 眼镜的 vision。",
-            "tags": [
-              "Google AR",
-              "Gemini"
             ]
           }
         ]
