@@ -14,6 +14,124 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-04-18",
+    "weekday": "周六",
+    "timeRange": "04-17 08:30 ~ 04-18 08:30 (UTC+8)",
+    "tweetCount": 42,
+    "userCount": 13,
+    "topics": [
+      {
+        "title": "🤖 大模型与基础设施",
+        "items": [
+          {
+            "bold": "Anthropic Mythos模型引发政府关注",
+            "detail": "Anthropic于4月7日发布的Mythos模型因其在网络安全方面的超强能力而备受争议。该模型在发现和利用计算机漏洞方面超越了人类专家，导致白宫办公厅主任与Anthropic CEO紧急会面。公司表示该模型能力过于强大，目前仅向特定客户开放使用。",
+            "tags": [
+              "anthropic",
+              "security",
+              "government",
+              "ai-safety"
+            ]
+          },
+          {
+            "bold": "AI可靠性显著提升",
+            "detail": "《华尔街日报》报道指出，AI模型的可靠性达到历史新高，主要体现在三个方面的改进。数据处理能力增强，幻觉现象大幅减少，模型效率显著提升。这些改进使得AI技术在实际应用中更加稳定和值得信赖。",
+            "tags": [
+              "reliability",
+              "hallucination",
+              "model-improvement"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏭 AI应用与商业",
+        "items": [
+          {
+            "bold": "NVIDIA发布物理AI数据工厂蓝图",
+            "detail": "NVIDIA推出开放参考架构NVIDIA Physical AI Data Factory Blueprint，专为机器人、视觉AI代理和自动驾驶车辆等物理AI应用场景设计。该系统能够从有限的训练数据中创建多样化数据集，包括罕见案例和长尾场景，实现数据生成、增强和评估的自动化整合。",
+            "tags": [
+              "nvidia",
+              "robotics",
+              "autonomous-vehicles",
+              "data-factory"
+            ]
+          },
+          {
+            "bold": "AGIBOT宣布2026年为部署元年",
+            "detail": "在APC 2026大会上，AGIBOT宣布2026年为实体AI的部署元年，推出XYZ框架来定义具身智能产业的发展轨迹。公司凭借覆盖大脑和身体的全栈技术系统，以及业界领先的批量生产能力，正在复杂现实场景中系统性扩大部署规模。",
+            "tags": [
+              "agibot",
+              "embodied-ai",
+              "deployment",
+              "xyz-framework"
+            ]
+          },
+          {
+            "bold": "中国电力成为全球AI数字石油",
+            "detail": "《科技日报》报道显示，中国的电力供应正在成为推动全球AI发展的数字石油。随着AI计算需求的爆炸式增长，稳定可靠的电力基础设施成为AI产业竞争的关键要素，中国在这一领域的优势愈发明显。",
+            "tags": [
+              "china",
+              "power-infrastructure",
+              "digital-oil",
+              "ai-computing"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🛡️ AI安全与监管",
+        "items": [
+          {
+            "bold": "AI黑客将重塑网络安全格局",
+            "detail": "《经济学人》分析指出，AI驱动的黑客技术正在彻底改变网络安全领域。Project Glasswing项目由包括苹果、谷歌在内的12家创始成员公司参与，旨在应对AI在网络攻击方面的潜在威胁。这标志着科技行业对AI安全风险的集体关注达到新高度。",
+            "tags": [
+              "cybersecurity",
+              "project-glasswing",
+              "ai-hacking",
+              "security-threat"
+            ]
+          },
+          {
+            "bold": "美国觉醒AI危险力量",
+            "detail": "《经济学人》社论警告称，少数几位科技巨头正掌握着世界上最强大的新技术。Dario、Demis、Elon、Mark和Sam这五位行业领袖对AI模型拥有近乎神一般的控制权。特朗普政府在这些模型获得惊人能力时选择了观望，相信企业间的自由竞争能够推动技术发展。",
+            "tags": [
+              "ai-governance",
+              "tech-leaders",
+              "regulation",
+              "competition"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔬 技术研究与开源",
+        "items": [
+          {
+            "bold": "LM Arena排行榜Claude领先",
+            "detail": "在最新的LM Arena排行榜中，Claude模型表现领先。同时出现了多项技术突破，包括用于AI代理的MemPalace分层记忆系统，以及Anthropic推出的托管代理服务。Meta发布Muse Spark模型，谷歌开源Gemma 4，显示出AI生态系统的快速发展。",
+            "tags": [
+              "claude",
+              "lm-arena",
+              "mempalace",
+              "open-source"
+            ]
+          },
+          {
+            "bold": "台湾对AI硬件韧性至关重要",
+            "detail": "《台北时报》报道称，台湾在AI硬件供应链韧性方面发挥关键作用。IMF将台湾今年实际GDP增长预期从1月份的2.1%上调至5.2%，尽管存在美伊冲突引发的全球经济干扰担忧，台湾在AI硬件制造方面的重要性日益凸显。",
+            "tags": [
+              "taiwan",
+              "hardware",
+              "supply-chain",
+              "gdp-growth"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-04-17",
     "weekday": "周五",
     "timeRange": "04-16 08:30 ~ 04-17 08:30 (UTC+8)",
@@ -3233,115 +3351,6 @@ export const reports: DailyReport[] = [
               "robotics",
               "autonomous-driving",
               "prediction"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-03-19",
-    "weekday": "周四",
-    "timeRange": "03-18 08:30 ~ 03-19 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🧠 大模型与基础设施",
-        "items": [
-          {
-            "bold": "MiniMax发布M2.7模型",
-            "detail": "MiniMax正式推出M2.7模型，通过MiniMax Agent和API平台对外提供服务。该模型支持软件工程、办公生产力和研究环境中的复杂工作流程，具备自主调试和研究代理等核心能力。这一发布标志着AI模型正向参与自身进化的方向发展，为企业级AI应用提供了更强大的技术支撑。",
-            "tags": [
-              "MiniMax",
-              "LLM",
-              "API",
-              "enterprise"
-            ]
-          },
-          {
-            "bold": "三星AMD签署AI内存合作协议",
-            "detail": "三星电子与AMD签署谅解备忘录，将在AI内存技术领域展开深度合作，并探索代工合作伙伴关系。该协议旨在强化高性能内存技术能力，这类内存对AI工作负载至关重要。随着AI计算需求急剧增长，内存和半导体创新已成为AI性能提升的关键推动力，此次合作将为AI基础设施发展注入新动力。",
-            "tags": [
-              "Samsung",
-              "AMD",
-              "AI-memory",
-              "semiconductor"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔒 政策与监管动态",
-        "items": [
-          {
-            "bold": "美国情报部门将AI列为全球威胁",
-            "detail": "美国国家情报总监办公室在2026年全球威胁评估报告中将人工智能定义为\"21世纪的决定性技术\"，并指出AI已被用于实战。报告特别强调中国是美国在AI领域\"最有能力的竞争对手\"。这标志着AI威胁评估从技术层面上升到战略高度，反映了各国对AI地缘政治影响的日益关注。",
-            "tags": [
-              "US-intelligence",
-              "geopolitics",
-              "China",
-              "national-security"
-            ]
-          },
-          {
-            "bold": "议员提案禁止AI冒充专业人士",
-            "detail": "美国众议员凯文·穆林提出立法，禁止AI聊天机器人冒充医疗、法律和金融领域的持证专业人员。该法案旨在保护易受影响的用户免受AI误导，确保关键领域的专业服务标准。随着AI能力不断增强，如何平衡技术创新与用户保护成为监管重点，这项立法反映了对AI伦理边界的严格界定。",
-            "tags": [
-              "legislation",
-              "AI-ethics",
-              "professional-licensing",
-              "consumer-protection"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🚀 产品与应用创新",
-        "items": [
-          {
-            "bold": "AI代理工具集成企业协作平台",
-            "detail": "最新AI代理基础设施实现与Slack等企业工具的深度集成，支持协作任务执行。该系统采用统一的代理架构，能够协调云服务和本地机器间的任务分配。这一创新为企业级AI应用提供了更灵活的部署方案，有望显著提升团队协作效率和AI工具的实用性。",
-            "tags": [
-              "AI-agents",
-              "Slack",
-              "enterprise-integration",
-              "workflow"
-            ]
-          },
-          {
-            "bold": "Salesforce押注AI重塑CRM行业",
-            "detail": "Salesforce正加大AI投入力度，有望在2026年底前重新定义客户关系管理行业。作为软件巨头，该公司凭借在CRM领域的既有优势，积极将AI从实验阶段推向实际部署应用。随着企业对AI驱动的客户服务和销售自动化需求增长，Salesforce的AI战略可能为整个CRM生态系统带来深刻变革。",
-            "tags": [
-              "Salesforce",
-              "CRM",
-              "enterprise-AI",
-              "automation"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "📊 行业研究与洞察",
-        "items": [
-          {
-            "bold": "Anthropic调研8万人AI需求",
-            "detail": "Anthropic发布大规模用户调研报告，收集了超过8万人对AI技术的需求和期望。该调研为理解公众对AI的真实态度提供了宝贵数据，有助于指导AI产品开发方向和政策制定。调研结果将为AI公司优化用户体验、提升产品实用性提供重要参考，同时也反映了AI技术普及过程中用户需求的多样化趋势。",
-            "tags": [
-              "Anthropic",
-              "user-research",
-              "AI-adoption",
-              "market-insights"
-            ]
-          },
-          {
-            "bold": "欧盟公共部门AI应用挑战研究",
-            "detail": "欧盟委员会发布关于人工智能在公共管理部门采用和实施挑战的研究报告。研究探讨了政府机构在AI技术部署过程中面临的技术、法规和组织层面障碍，为欧盟制定更有效的公共部门AI战略提供依据。该研究对全球政府AI应用具有重要参考价值。",
-            "tags": [
-              "European-Commission",
-              "public-sector",
-              "AI-implementation",
-              "government"
             ]
           }
         ]
