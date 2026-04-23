@@ -14,6 +14,105 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-04-23",
+    "weekday": "周四",
+    "timeRange": "04-22 08:30 ~ 04-23 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🤖 AI 研究重大突破",
+        "items": [
+          {
+            "bold": "Sony AI 机器人击败职业乒乓球选手",
+            "detail": "Sony AI 今日宣布其项目 Ace 取得重大突破，成为首个能够击败精英和职业级人类乒乓球选手的自主机器人系统。相关研究《用自主机器人击败精英乒乓球选手》已登上《自然》杂志封面，标志着机器人首次在专业竞技领域达到人类专家水平。这一成就展示了 AI 在实时决策、精确控制和复杂运动技能方面的显著进步。",
+            "tags": [
+              "robotics",
+              "AI breakthrough",
+              "Sony",
+              "Nature"
+            ]
+          },
+          {
+            "bold": "AI 驱动网络攻击日趋复杂化",
+            "detail": "据韩国朝鲜日报报道，AI 驱动的黑客攻击变得更加复杂和大规模。墨西哥政府机构遭受了长达六周的网络攻击，黑客利用 Anthropic 的 Claude 和 OpenAI 的 ChatGPT 等 AI 模型来寻找系统漏洞。这表明 AI 技术在网络安全领域的双刃剑效应日益显现，同时推动了如 Mythos、GPT-5.4-Cyber 等安全防护模型的发展。",
+            "tags": [
+              "cybersecurity",
+              "AI attacks",
+              "Claude",
+              "ChatGPT"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏗️ 基础设施与芯片技术",
+        "items": [
+          {
+            "bold": "Alchip 展示 2nm AI 芯片生态",
+            "detail": "在 TSMC 2026 技术研讨会上，Alchip Technologies 展示了其在先进 AI ASIC 技术方面的最新进展。公司重点介绍了 3nm 设计的量产能力和支持下一代 AI 处理器的完整 2nm 生态系统。此外，Alchip 还展示了其成熟的 3DIC 设计平台和先进封装技术，为高性能 AI 和 HPC 应用提供完整的芯片解决方案。",
+            "tags": [
+              "semiconductor",
+              "2nm",
+              "ASIC",
+              "TSMC"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 投资与商业动态",
+        "items": [
+          {
+            "bold": "AI 技术虚拟投资者大会召开",
+            "detail": "4月23日举办的 AI 与技术虚拟投资者大会汇集了来自量子密码学、媒体代理 AI、AI 广告技术、海洋机器人、医学成像、AI 数据中心基础设施和 AI 驱动医疗保健等领域的上市公司高管。每家公司获得30分钟的现场演示时间和实时问答环节，为投资者提供了解 AI 行业多元化发展的平台。",
+            "tags": [
+              "investor conference",
+              "quantum",
+              "healthcare AI",
+              "virtual event"
+            ]
+          },
+          {
+            "bold": "白宫与 Anthropic CEO 会面讨论 AI 技术",
+            "detail": "据报道，白宫幕僚长与 Anthropic CEO 举行会议，讨论对其新 AI 技术的担忧。这次会面反映了政府对 AI 技术发展的密切关注，特别是在安全性和监管方面的考虑。随着 AI 技术的快速发展，政府与科技公司之间的对话变得越来越重要，以确保技术创新与社会安全的平衡。",
+            "tags": [
+              "government",
+              "Anthropic",
+              "AI policy",
+              "White House"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🎓 学术与会议活动",
+        "items": [
+          {
+            "bold": "ESA 举办 AI 概要活动信息会",
+            "detail": "欧洲航天局（ESA）的通用支持技术计划和 ESA 能力中心于4月23日共同举办了 AI 概要活动信息会。该活动旨在介绍人工智能在地球观测和太空工程技术方面的应用，展示了航天领域对 AI 技术日益增长的需求和应用潜力。",
+            "tags": [
+              "ESA",
+              "space technology",
+              "earth observation",
+              "AI applications"
+            ]
+          },
+          {
+            "bold": "AI 技术价值与责任会议举行",
+            "detail": "冈萨加大学信息学与应用技术研究所举办了为期全天的 AI 技术价值与责任会议。会议聚焦于 AI 技术发展中的伦理考量和社会责任问题，为学生、教师和业界专家提供了深入讨论 AI 技术影响的平台。这反映了学术界对 AI 伦理和负责任发展的重视。",
+            "tags": [
+              "AI ethics",
+              "academic conference",
+              "responsibility",
+              "university"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-04-22",
     "weekday": "周三",
     "timeRange": "04-21 08:30 ~ 04-22 08:30 (UTC+8)",
@@ -3222,115 +3321,6 @@ export const reports: DailyReport[] = [
               "Video-AI",
               "Funding",
               "Content-Creation"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-03-24",
-    "weekday": "周二",
-    "timeRange": "03-23 08:30 ~ 03-24 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🏛️ 政策法规与治理",
-        "items": [
-          {
-            "bold": "白宫发布AI国家政策框架",
-            "detail": "美国白宫于3月20日正式发布《人工智能国家政策框架》，为国会制定联邦AI立法提供指导建议。该框架延续了特朗普总统去年12月行政令的精神，倡导统一且最小化的监管方式，旨在减少州级监管分歧。虽然该框架不具备法律约束力，但标志着美国在AI治理方面迈出重要一步。",
-            "tags": [
-              "policy",
-              "regulation",
-              "government",
-              "framework"
-            ]
-          },
-          {
-            "bold": "AI时代的开放创新重新定义",
-            "detail": "随着AI技术的深入发展，传统的开放创新模式正在发生根本性变化。研究显示，当前世界上最重要的创新不再仅仅来自单一公司，而是源于群体智慧。然而，当AI介入这一过程时，如何界定贡献者身份和价值分配成为新的挑战，这将重塑整个创新生态系统的运行机制。",
-            "tags": [
-              "innovation",
-              "collaboration",
-              "research",
-              "ecosystem"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🧠 大模型与AGI突破",
-        "items": [
-          {
-            "bold": "专家解析大语言模型运行机制",
-            "detail": "最新研究揭示了大语言模型内部工作原理的关键机制，专家强调实现AGI需要突破当前的模式识别局限。研究表明，未来AI系统必须具备超越训练数据的自适应学习能力，并能够理解事物之间的因果关系，而非仅仅进行表面的模式匹配。这一发现为AGI的实现路径指明了方向。",
-            "tags": [
-              "LLM",
-              "AGI",
-              "research",
-              "causality"
-            ]
-          },
-          {
-            "bold": "英伟达CEO提出OpenClaw战略",
-            "detail": "英伟达首席执行官强调，每家公司都需要制定自己的OpenClaw战略。这一表态反映了AI生态系统竞争格局的新变化，暗示着在OpenAI等领先企业之外，各公司需要建立独立的AI能力和战略定位，以在激烈的市场竞争中保持优势地位。",
-            "tags": [
-              "NVIDIA",
-              "strategy",
-              "competition",
-              "OpenClaw"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💼 商业应用与市场动态",
-        "items": [
-          {
-            "bold": "AI市场呈现双轨分化趋势",
-            "detail": "AI市场正在经历重要分化，训练市场在经历爆发式增长后呈现周期性特征，而推理市场则展现出更加稳定的增长潜力。这种分化为投资者和企业提供了不同的机会窗口，训练侧重于技术突破和基础设施建设，推理侧则更注重实际应用和商业化落地。",
-            "tags": [
-              "market",
-              "training",
-              "inference",
-              "investment"
-            ]
-          },
-          {
-            "bold": "多行业AI应用加速普及",
-            "detail": "AI技术在医疗、金融、零售、物流和能源等行业的应用正从实验性质转向核心业务操作。企业不再将AI视为附加工具，而是将其深度集成到日常运营中，用于任务自动化、决策加速和客户洞察。机器学习和数据分析工具使组织能够更快速地响应市场变化。",
-            "tags": [
-              "adoption",
-              "enterprise",
-              "automation",
-              "analytics"
-            ]
-          },
-          {
-            "bold": "CFO调查显示AI裁员将大幅增加",
-            "detail": "最新CFO调查数据显示，企业高管私下承认，今年因AI技术替代而导致的裁员数量将比预期高出9倍。这一趋势反映了AI技术在提升生产力的同时，也对传统就业结构造成了显著冲击。企业正在重新评估人力资源配置，寻求技术效率与社会责任之间的平衡。",
-            "tags": [
-              "employment",
-              "productivity",
-              "workforce",
-              "disruption"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "⚡ 基础设施与边缘计算",
-        "items": [
-          {
-            "bold": "边缘AI成为下一个竞争焦点",
-            "detail": "业界专家指出，未来十年的竞争优势将不再仅仅取决于模型质量，而在于能否在真实世界中实时大规模运行AI系统。云端计算虽然重要，但边缘计算将成为决定性因素。这种转变要求企业重新思考AI架构，从集中式云服务转向分布式边缘部署，以满足实时响应和本地化处理的需求。",
-            "tags": [
-              "edge-computing",
-              "infrastructure",
-              "real-time",
-              "scalability"
             ]
           }
         ]
