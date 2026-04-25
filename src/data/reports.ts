@@ -14,6 +14,105 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-04-25",
+    "weekday": "周六",
+    "timeRange": "04-24 08:30 ~ 04-25 08:30 (UTC+8)",
+    "tweetCount": 38,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "💰 投资并购与资本动态",
+        "items": [
+          {
+            "bold": "谷歌向Anthropic投资400亿美元",
+            "detail": "科技巨头谷歌宣布将向AI安全公司Anthropic投资高达400亿美元，这标志着AI领域最大规模的投资交易之一。此举显示了谷歌在AI竞赛中加大筹码的决心，同时也反映了对Anthropic在AI安全和对齐技术方面能力的高度认可。这笔投资将进一步巩固谷歌在生成式AI领域的竞争地位。",
+            "tags": [
+              "Investment",
+              "Google",
+              "Anthropic",
+              "AI Safety"
+            ]
+          },
+          {
+            "bold": "15亿美元编程初创公司获投",
+            "detail": "AI编程工具领域再现大额融资，一家专注于代码生成和开发效率提升的初创公司获得15亿美元投资。这一轮融资凸显了投资者对AI辅助编程工具商业价值的强烈信心，预示着软件开发行业正在经历由AI驱动的深度变革。",
+            "tags": [
+              "Funding",
+              "Coding",
+              "Startup",
+              "Development"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🌍 地缘政治与AI治理",
+        "items": [
+          {
+            "bold": "美国启动全球外交行动防范中国AI模型滥用",
+            "detail": "美国政府指示全球外交官员就中国企业滥用美国AI模型问题发出警告，重点关注DeepSeek等中国AI公司的知识产权争议。白宫科技政策办公室发布备忘录，旨在促进美国开发者之间的信息共享，并加强对未授权使用的检测能力。这标志着AI技术竞争正式进入地缘政治层面。",
+            "tags": [
+              "US Policy",
+              "China",
+              "IP Protection",
+              "Diplomacy"
+            ]
+          },
+          {
+            "bold": "中美AI技术差距持续存在",
+            "detail": "中国AI公司DeepSeek发布期待已久的新旗舰模型V4，虽然成本较低但未能显著缩小与美国的技术差距。分析师指出，尽管中国在AI领域投入巨大，但在核心算法和基础技术方面仍落后于美国同行，凸显了AI技术发展的复杂性和挑战性。",
+            "tags": [
+              "DeepSeek",
+              "AI Competition",
+              "Technology Gap",
+              "Innovation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🧠 AI技术突破与应用",
+        "items": [
+          {
+            "bold": "自主AI推动效率竞赛",
+            "detail": "Agentic AI技术正在引发新一轮效率革命，但同时面临内存短缺的技术挑战。SK海力士等内存制造商正加速12层HBM4内存芯片的量产，以满足AI服务器对高性能内存的巨大需求。这种技术演进反映了AI系统对硬件基础设施要求的不断提升。",
+            "tags": [
+              "Agentic AI",
+              "Memory",
+              "SK Hynix",
+              "HBM4"
+            ]
+          },
+          {
+            "bold": "2026年突破性视频生成AI模型",
+            "detail": "视频到视频AI转换技术取得重大突破，Pollo AI等平台推出创新的视频转换功能，允许用户轻松将现有视频转换为不同创意风格。这项技术的成熟为内容创作者提供了前所未有的创作工具，预示着视频内容生产将迎来AI驱动的变革浪潮。",
+            "tags": [
+              "Video AI",
+              "Pollo AI",
+              "Content Creation",
+              "Video Generation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "📚 AI教育与社会影响",
+        "items": [
+          {
+            "bold": "AI在教育中的双重角色引发争议",
+            "detail": "昆尼匹亚克大学最新调查显示，47%的受访者认为大学生更可能使用AI来避免学习，而非促进学习。这一调查结果反映了公众对AI在教育领域应用的复杂态度，既认可其辅助价值，又担心其可能带来的负面影响，凸显了AI教育应用需要更加审慎的政策指导。",
+            "tags": [
+              "Education",
+              "Survey",
+              "Learning",
+              "AI Impact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-04-24",
     "weekday": "周五",
     "timeRange": "04-23 08:30 ~ 04-24 08:30 (UTC+8)",
@@ -3152,150 +3251,6 @@ export const reports: DailyReport[] = [
               "AI-tools",
               "online-business",
               "automation"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-03-26",
-    "weekday": "周四",
-    "timeRange": "03-25 08:30 ~ 03-26 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🧠 大模型与基础设施突破",
-        "items": [
-          {
-            "bold": "Google 发布 Gemini 3.1 Flash Live",
-            "detail": "Google 宣布全球推出 Gemini 3.1 Flash Live，这是一款支持实时对话的音频 AI 系统，已深度集成到搜索引擎和开发者工具中。该系统结合了高质量图像生成和卓越处理速度，标志着 AI 对话交互进入新的实时化时代，为开发者提供了更强大的构建基础。",
-            "tags": [
-              "Google",
-              "Gemini",
-              "Audio-AI",
-              "Real-time"
-            ]
-          },
-          {
-            "bold": "多家巨头同步发布前沿模型",
-            "detail": "三月成为 AI 历史性的一个月，几乎每周都有前沿模型发布。业界见证了 Gemini 3.1 Pro、Claude Opus 4.6、Claude Sonnet 4.6、GPT 5.3 Codex、Grok 4.20 和 Qwen 3.5 等多个重磅系统的更新或发布，展现了激烈的技术竞争态势和快速迭代能力。",
-            "tags": [
-              "Frontier-Models",
-              "Claude",
-              "GPT",
-              "Competition"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "⚖️ 政策监管与合规动态",
-        "items": [
-          {
-            "bold": "白宫剥夺州级 AI 监管权力",
-            "detail": "白宫采取行动，试图剥夺加州等州对人工智能的监管权力，引发联邦与州政府在 AI 治理上的权力博弈。此举预示着 AI 监管将更多集中在联邦层面，可能重塑整个行业的合规框架和监管标准，对科技公司的发展策略产生深远影响。",
-            "tags": [
-              "Regulation",
-              "Federal-Policy",
-              "California",
-              "Governance"
-            ]
-          },
-          {
-            "bold": "Meta 和 Google 提起监管上诉",
-            "detail": "Meta 和 Google 双双宣布将就近期监管裁决提起上诉，案件有望提交至加州最高法院或美国最高法院审理。这标志着科技巨头与监管机构间的博弈进入新阶段，上诉结果将为整个行业的监管边界设定重要先例。",
-            "tags": [
-              "Meta",
-              "Google",
-              "Legal-Appeal",
-              "Supreme-Court"
-            ]
-          },
-          {
-            "bold": "国会推进 AI 数据中心暂停法案",
-            "detail": "参议员伯尼·桑德斯和众议员亚历山德里娅·奥卡西奥-科尔特兹在国会大厦举行新闻发布会，推动《人工智能数据中心暂停法案》。该法案旨在对 AI 数据中心的建设和扩张实施临时性限制，反映了立法者对 AI 基础设施快速扩张的关切。",
-            "tags": [
-              "Congress",
-              "Data-Center",
-              "Moratorium",
-              "Infrastructure"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🚀 产品发布与商业动态",
-        "items": [
-          {
-            "bold": "OpenAI 无限期搁置争议产品",
-            "detail": "据路透社援引《金融时报》报道，OpenAI 已无限期搁置其计划中的成人向聊天机器人产品。员工和投资者对性化 AI 内容的社会影响表达担忧，促使公司在当前紧张的 AI 安全政策环境下选择退步，将注意力重新聚焦到核心产品开发上。",
-            "tags": [
-              "OpenAI",
-              "Product-Halt",
-              "AI-Safety",
-              "Ethics"
-            ]
-          },
-          {
-            "bold": "Anthropic 拒绝五角大楼合作提议",
-            "detail": "Anthropic 明确拒绝了五角大楼关于在国防领域使用 AI 技术的合作提议，同时 Claude 在美国应用商店的受欢迎程度激增。这一决策体现了该公司在 AI 军事化应用上的谨慎立场，与其安全优先的发展理念保持一致。",
-            "tags": [
-              "Anthropic",
-              "Pentagon",
-              "Defense-AI",
-              "Ethics"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 研究创新与技术进展",
-        "items": [
-          {
-            "bold": "Adaption Labs 启动研究资助计划",
-            "detail": "Adaption Labs 公司推出 Adaption 研究资助计划，为学术研究人员免费提供 Adaption 平台访问权限，支持机器学习、AI 和自适应系统领域的研究工作。该计划涵盖理论、应用和跨学科研究，旨在让研究者能够专注于真正重要的科学问题探索。",
-            "tags": [
-              "Research-Grant",
-              "Academic",
-              "Machine-Learning",
-              "Platform"
-            ]
-          },
-          {
-            "bold": "AI 编程工具面临记忆挑战",
-            "detail": "业界对 AI 编程工具的可靠性表达担忧，特别是这些工具在保持会话信息方面存在持续性'健忘症'问题。这种技术缺陷可能严重阻碍开发者的生产效率，凸显了当前 AI 辅助编程工具在实际应用中仍需解决的关键技术瓶颈。",
-            "tags": [
-              "AI-Coding",
-              "Memory-Issues",
-              "Developer-Tools",
-              "Productivity"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💰 投资与市场趋势",
-        "items": [
-          {
-            "bold": "国防 AI 技术估值翻倍增长",
-            "detail": "防务技术和人工智能领域的估值在过去一年中增长了一倍以上，充分体现了投资者对国防科技领域的强劲需求。自主技术在美国和以色列对伊朗协调打击中的实际应用，进一步推动了军用 AI 技术的市场关注度和投资热情。",
-            "tags": [
-              "Defense-Tech",
-              "Valuation",
-              "Investment",
-              "Autonomous-Systems"
-            ]
-          },
-          {
-            "bold": "AI 热潮推高消费者成本",
-            "detail": "AI 技术的快速发展和广泛应用开始推高消费者的相关产品价格。随着 AI 功能越来越多地集成到各类消费产品中，从软件服务到硬件设备的成本都在上涨，这一趋势可能影响 AI 技术的普及速度和消费者接受度。",
-            "tags": [
-              "Consumer-Prices",
-              "AI-Boom",
-              "Cost-Impact",
-              "Market-Trends"
             ]
           }
         ]
