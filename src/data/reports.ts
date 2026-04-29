@@ -14,6 +14,125 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-04-29",
+    "weekday": "周三",
+    "timeRange": "04-28 08:30 ~ 04-29 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🏛️ AI政策与监管动态",
+        "items": [
+          {
+            "bold": "谷歌与五角大楼签署AI合作协议",
+            "detail": "谷歌宣布与美国国防部达成合作协议，为其机密工作提供人工智能模型支持。这标志着科技巨头与政府在AI军用领域合作的重要进展，也反映了AI技术在国防安全领域的战略重要性日益凸显。",
+            "tags": [
+              "Google",
+              "Pentagon",
+              "AI-Defense",
+              "Government"
+            ]
+          },
+          {
+            "bold": "中国政府阻止Meta收购AI初创公司",
+            "detail": "中国政府禁止Meta收购中国AI初创公司Manus，这是首例价值20亿美元的AI收购禁令。此举旨在留住本土AI人才，加深中美科技脱钩趋势。这一决定凸显了各国对AI核心技术和人才的激烈竞争。",
+            "tags": [
+              "Meta",
+              "China",
+              "AI-Acquisition",
+              "Tech-Decoupling"
+            ]
+          },
+          {
+            "bold": "CFTC考虑用AI加速加密货币审查",
+            "detail": "美国商品期货交易委员会正在探索使用人工智能技术来加速处理日益增长的加密货币相关申请。该委员会成立的创新工作组将重点关注加密资产、AI自主系统和预测市场等三大领域，旨在为创新者提供明确的监管指导。",
+            "tags": [
+              "CFTC",
+              "Crypto",
+              "AI-Regulation",
+              "Innovation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 AI商业应用突破",
+        "items": [
+          {
+            "bold": "Snapchat推出AI聊天机器人广告",
+            "detail": "Snapchat在其聊天功能中引入AI驱动的对话式广告代理，扩展其赞助快照服务。鉴于该平台5亿日活用户在第一季度发送了超过9500亿条消息，其中超过5亿条发送给My AI，这一举措有望大幅提升广告收入和用户参与度。",
+            "tags": [
+              "Snapchat",
+              "AI-Ads",
+              "Chatbot",
+              "Social-Media"
+            ]
+          },
+          {
+            "bold": "企业AI支出预计达6650亿美元",
+            "detail": "ExcelMindCyber研究所指出，2026年全球企业AI支出预计将达到6650亿美元，但AI治理方面存在重大缺口。随着AI投资激增，企业在AI部署的最佳实践和风险管理方面仍面临挑战。",
+            "tags": [
+              "Enterprise-AI",
+              "AI-Spending",
+              "AI-Governance",
+              "Market-Research"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏙️ AI城市治理创新",
+        "items": [
+          {
+            "bold": "彭博与约翰霍普金斯启动市长AI论坛",
+            "detail": "彭博慈善基金会与约翰霍普金斯大学在马德里举办的第12届年度CityLab峰会上宣布启动市长AI论坛。该论坛旨在帮助全球城市领导者在关键公共和私营系统中实施AI部署的最佳实践，推动智慧城市建设。",
+            "tags": [
+              "Bloomberg",
+              "Smart-City",
+              "AI-Governance",
+              "Urban-Innovation"
+            ]
+          },
+          {
+            "bold": "FDA探索AI优化临床试验",
+            "detail": "美国食品药品监督管理局发布信息征集，探索AI在早期临床试验优化中的应用。该试点项目旨在利用人工智能技术提高药物研发效率，加速新药上市进程，为医疗行业带来革命性变化。",
+            "tags": [
+              "FDA",
+              "Clinical-Trials",
+              "AI-Healthcare",
+              "Drug-Development"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "📈 AI投资市场波动",
+        "items": [
+          {
+            "bold": "AI电力股因美国出口激增",
+            "detail": "韩国AI电力设备股票本月表现强劲，受数据中心需求激增和大型科技公司资本支出乐观情绪推动。HD现代电气等公司的超高压变压器等产品需求旺盛，反映了AI基础设施建设的蓬勃发展。",
+            "tags": [
+              "AI-Infrastructure",
+              "Power-Equipment",
+              "Korea-Market",
+              "Data-Centers"
+            ]
+          },
+          {
+            "bold": "纳斯达克因AI增长担忧收低",
+            "detail": "在大型科技公司财报发布前夕，美国纳斯达克和标普500指数因对人工智能增长的担忧而从历史高点回落。投资者对AI投资回报率和市场泡沫风险的担忧情绪升温，科技股面临调整压力。",
+            "tags": [
+              "Nasdaq",
+              "AI-Stocks",
+              "Market-Volatility",
+              "Tech-Earnings"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-04-28",
     "weekday": "周二",
     "timeRange": "04-27 08:30 ~ 04-28 08:30 (UTC+8)",
@@ -3107,120 +3226,6 @@ export const reports: DailyReport[] = [
               "University",
               "Learning Paradigm",
               "Skills"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-03-30",
-    "weekday": "周一",
-    "timeRange": "03-29 08:30 ~ 03-30 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🧠 大模型与基础设施",
-        "items": [
-          {
-            "bold": "Google 推出 Nano Banana 2 图像生成器",
-            "detail": "Google 发布全新 AI 图像生成器 Nano Banana 2，在保持高质量图像输出的同时显著提升了生成速度。该模型已集成至 Gemini 和 Google Search 等多个平台，为用户提供更流畅的 AI 图像创作体验。这标志着 Google 在多模态 AI 领域的又一次重要突破，预计将进一步推动 AI 图像生成技术的普及应用。",
-            "tags": [
-              "Google",
-              "Image Generation",
-              "Gemini",
-              "Multimodal AI"
-            ]
-          },
-          {
-            "bold": "世界模型技术突破计算边界",
-            "detail": "最新发布的世界模型研究报告显示，研究者们正在探索如何让 AI 系统计算以往被认为不可计算的问题。这一突破性进展可能重新定义机器学习的理论基础，为构建更智能、更通用的 AI 系统铺平道路。该技术有望在机器人控制、自动驾驶和复杂系统建模等领域产生深远影响。",
-            "tags": [
-              "World Models",
-              "Theoretical AI",
-              "Machine Learning",
-              "Research"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "📈 产品动态与市场表现",
-        "items": [
-          {
-            "bold": "Claude 在美国应用商店飙升",
-            "detail": "Anthropic 的 Claude AI 助手在美国 App Store 排名大幅上升，显示出强劲的市场增长势头。与此同时，Anthropic 明确拒绝了五角大楼关于在国防领域使用 AI 技术的合作提议，展现了公司在 AI 安全和伦理方面的坚定立场。这一决定引发了行业对 AI 技术军事化应用的广泛讨论。",
-            "tags": [
-              "Claude",
-              "Anthropic",
-              "App Store",
-              "AI Ethics"
-            ]
-          },
-          {
-            "bold": "苹果50周年面临AI挑战",
-            "detail": "苹果公司在庆祝成立50周年之际，正面临着人工智能带来的重大挑战。作为曾经引领互联网时代技术革命的公司，苹果现在需要证明自己能够在AI领域再次实现文化层面的创新突破。市值超过3万亿美元的科技巨头如何在AI竞赛中保持领先地位，成为业界关注焦点。",
-            "tags": [
-              "Apple",
-              "Anniversary",
-              "AI Challenge",
-              "Innovation"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏛️ 政策法规与监管",
-        "items": [
-          {
-            "bold": "三月联邦监管截止期重塑AI格局",
-            "detail": "2026年3月成为AI监管的关键节点，多项联邦法规截止期集中到来，预计将从根本上重塑AI监管格局。跨三大洲的政策行动明显加速，各国政府纷纷出台更严格的AI治理框架。这些监管变化不仅影响AI技术的发展方向，也将深刻改变整个行业的竞争格局和商业模式。",
-            "tags": [
-              "Regulation",
-              "Federal Policy",
-              "AI Governance",
-              "Compliance"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 科研突破与学术进展",
-        "items": [
-          {
-            "bold": "Adaption Labs 推出研究资助计划",
-            "detail": "Adaption Labs 公司宣布启动 Adaption 研究资助计划，为学术研究者免费提供 Adaption 平台使用权限，支持机器学习、AI和自适应系统领域的研究工作。该计划覆盖理论研究、应用研究和跨学科研究，旨在让研究者能够专注于真正重要的科学问题，推动AI基础研究的进展。",
-            "tags": [
-              "Research Grant",
-              "Academic Research",
-              "Adaption Labs",
-              "Machine Learning"
-            ]
-          },
-          {
-            "bold": "NASA AI讲座系列探索宇宙数据",
-            "detail": "NASA在3月30日举办的AI/ML STIG讲座系列中，重点讨论如何利用开放的NASA彗星数据推动未来科学发现。哈勃望远镜重访蟹状星云，追踪其25年来的扩张变化，展示了AI技术在天体物理学研究中的重要应用价值。这标志着AI正在成为太空探索和宇宙研究的重要工具。",
-            "tags": [
-              "NASA",
-              "Space AI",
-              "Hubble Telescope",
-              "Astrophysics"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🛠️ 开发工具与平台生态",
-        "items": [
-          {
-            "bold": "OPEA企业级生成AI挑战赛启动",
-            "detail": "随着生成式AI从研究阶段向实际部署转移，企业在构建可扩展且成本效益高的解决方案方面面临越来越多的挑战。新启动的挑战赛专注于使用OPEA模块化组件开发企业级AI应用，参与者将展示RAG管道、智能代理等实用解决方案，推动生成式AI在企业场景中的落地应用。",
-            "tags": [
-              "OPEA",
-              "Enterprise AI",
-              "RAG",
-              "Generative AI"
             ]
           }
         ]
