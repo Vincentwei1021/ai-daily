@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-01",
+    "weekday": "周五",
+    "timeRange": "04-30 08:30 ~ 05-01 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "💰 科技巨头AI商业化压力",
+        "items": [
+          {
+            "bold": "大科技公司面临AI盈利时钟倒计时",
+            "detail": "华尔街日报报道指出，科技巨头们在AI领域的巨额投资正面临盈利压力，投资者开始质疑何时能看到真正的回报。尽管AI技术突飞猛进，但商业化路径仍充满挑战，各大公司需要在短期内证明其AI战略的经济价值。",
+            "tags": [
+              "big-tech",
+              "profitability",
+              "investment",
+              "AI-commercialization"
+            ]
+          },
+          {
+            "bold": "AI支出推动科技股财报转型",
+            "detail": "科技公司的AI投资正在重塑整个行业的财报表现和市场趋势。从基础设施建设到模型训练，AI相关支出成为财报中的重要组成部分，投资者密切关注这些投资如何转化为实际收益和竞争优势。",
+            "tags": [
+              "earnings",
+              "market-trends",
+              "AI-spending",
+              "tech-stocks"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏭 芯片产业AI浪潮",
+        "items": [
+          {
+            "bold": "联发科AI芯片业务预期翻倍",
+            "detail": "联发科宣布其首个为美国超大规模云服务商开发的AI ASIC项目预计在第四季度贡献20亿美元收入，较此前预期翻倍。公司大幅上调全球AI加速器市场预测，预计明年市场规模将达到700-800亿美元，远超此前估计。",
+            "tags": [
+              "MediaTek",
+              "AI-chips",
+              "ASIC",
+              "hyperscaler"
+            ]
+          },
+          {
+            "bold": "三星芯片利润因AI需求激增48倍",
+            "detail": "三星半导体业务受益于全球AI基础设施建设热潮，芯片部门利润同比增长48倍。AI训练和推理需求的爆发式增长推动了高端存储和处理器芯片的需求，为传统芯片制造商带来了前所未有的机遇。",
+            "tags": [
+              "Samsung",
+              "chip-profit",
+              "AI-demand",
+              "semiconductor"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔬 AI科研与国防合作",
+        "items": [
+          {
+            "bold": "OpenAI成立科学专门团队",
+            "detail": "MIT技术评论指出，OpenAI正跟随谷歌DeepMind的步伐，设立专门的科学研究团队，专注于AI在科学领域的应用。这标志着AI公司开始更加重视基础科学研究，AI for Science成为2026年的重要发展趋势。",
+            "tags": [
+              "OpenAI",
+              "AI-for-science",
+              "research",
+              "DeepMind"
+            ]
+          },
+          {
+            "bold": "AI军事应用引发政策争议",
+            "detail": "美国国防部长赫格塞思为五角大楼使用AI进行辩护，同时批评Anthropic CEO阿莫代为'意识形态狂热分子'。这场争论凸显了AI公司在军事应用方面的不同立场，以及AI技术在国家安全领域应用的复杂性。",
+            "tags": [
+              "Pentagon",
+              "Anthropic",
+              "military-AI",
+              "defense-policy"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🌐 AI社会影响与应用",
+        "items": [
+          {
+            "bold": "AI重塑软件开发生态",
+            "detail": "最新报告显示，AI正在深刻改变软件开发流程，从代码生成到测试自动化，开发者的工作方式正在经历根本性变革。AI辅助编程工具的普及提高了开发效率，但也带来了新的挑战和技能要求。",
+            "tags": [
+              "software-development",
+              "coding",
+              "developer-tools",
+              "automation"
+            ]
+          },
+          {
+            "bold": "AI时代的精英阶层重构",
+            "detail": "天堂主义运动在5月1日庆祝'天堂主义日'，认为AI和机器人技术正在开启一个从稀缺社会向丰裕社会转变的历史转折点。该运动声称技术进步正在让工作和金钱变得过时，人类生活将以实现自我为中心而非生存需要。",
+            "tags": [
+              "Paradism",
+              "future-society",
+              "automation",
+              "post-work"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-04-30",
     "weekday": "周四",
     "timeRange": "04-29 08:30 ~ 04-30 08:30 (UTC+8)",
@@ -3116,105 +3225,6 @@ export const reports: DailyReport[] = [
               "Deployment",
               "Production",
               "Scalability"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-01",
-    "weekday": "周三",
-    "timeRange": "03-31 08:30 ~ 04-01 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "💰 AI投资与能源挑战",
-        "items": [
-          {
-            "bold": "科技巨头6350亿美元AI支出面临能源冲击",
-            "detail": "微软、亚马逊、谷歌和Meta计划投资约6350亿美元用于数据中心、芯片和AI基础设施建设，但中东地缘政治危机给能源供应和成本带来不确定性。S&P Global分析师警告，这一史无前例的投资规模可能面临重大能源供应挑战，投资者对AI基础设施的乐观情绪正在接受现实考验。",
-            "tags": [
-              "investment",
-              "energy",
-              "infrastructure",
-              "geopolitics"
-            ]
-          },
-          {
-            "bold": "摩根士丹利预警2026年AI重大突破即将到来",
-            "detail": "投行摩根士丹利在最新报告中警告，2026年上半年将出现变革性的AI突破，主要由美国顶级AI实验室前所未有的算力积累推动。报告特别引用了马斯克的观点，认为将10倍算力应用于大语言模型将带来质的飞跃。然而，大多数企业和机构对此重大变化缺乏充分准备。",
-            "tags": [
-              "breakthrough",
-              "compute",
-              "prediction",
-              "enterprise"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "⚖️ AI治理与监管进展",
-        "items": [
-          {
-            "bold": "加州州长签署AI负责任使用行政令",
-            "detail": "加州州长加文·纽瑟姆签署行政令，要求与州政府合作的AI公司必须符合更严格的安全标准。该命令旨在探索更强的AI采购标准，确保企业在政府合同中展示负责任的AI实践。这一举措标志着地方政府在AI治理方面采取更积极主动的监管立场，为其他州树立了先例。",
-            "tags": [
-              "regulation",
-              "governance",
-              "safety",
-              "california"
-            ]
-          },
-          {
-            "bold": "学术出版界发布AI时代研究标准白皮书",
-            "detail": "IGI Global发布免费白皮书《当机器写作：AI时代维护研究和出版标准》，专门探讨人工智能对学术研究和出版领域带来的挑战。该白皮书为学术界在AI工具广泛应用背景下，如何保持研究诚信和出版质量提供指导原则，反映了学术共同体对AI影响的深度思考。",
-            "tags": [
-              "academic",
-              "publishing",
-              "standards",
-              "research"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🚀 AI发展趋势与应用",
-        "items": [
-          {
-            "bold": "AI从个人工具向团队协作伙伴转变",
-            "detail": "2026年被定义为AI从实验阶段进入实际应用的关键年份，AI正从回答问题的工具演进为与人类协作的伙伴。在医疗领域，AI帮助缩小护理差距；在软件开发中，AI不仅学习编程模式还能主动协助开发流程。这种转变标志着AI从个人生产力工具向工作流程编排和跨部门协调的重大跃升。",
-            "tags": [
-              "collaboration",
-              "transformation",
-              "productivity",
-              "workflows"
-            ]
-          },
-          {
-            "bold": "数据与AI领导者调研显示投资信心强劲",
-            "detail": "MIT斯隆管理评论发布的2026年AI与数据领导力基准调研显示，几乎所有大型组织的受访者都对AI角色持积极态度，将数据和AI投资视为首要优先事项，并计划增加相关支出。超过20%的受访者表示AI已促使组织更加重视数据管理，显示出企业对AI技术的持续乐观态度。",
-            "tags": [
-              "survey",
-              "investment",
-              "leadership",
-              "data"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔧 技术发展与就业影响",
-        "items": [
-          {
-            "bold": "求职者与科技雇主担忧AI就业冲击",
-            "detail": "最新调研显示，求职者和科技企业雇主都对AI技术对就业市场的影响表达了担忧。随着AI能力的快速提升，传统工作岗位面临重新定义的压力，而新兴AI相关职位的技能要求也在不断演变。这种双向担忧反映了劳动力市场正在经历的深刻变革，需要教育和培训体系做出相应调整。",
-            "tags": [
-              "employment",
-              "job-market",
-              "skills",
-              "workforce"
             ]
           }
         ]
