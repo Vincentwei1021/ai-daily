@@ -14,6 +14,80 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-02",
+    "weekday": "周六",
+    "timeRange": "05-01 08:30 ~ 05-02 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🛡️ 军用AI与国防安全",
+        "items": [
+          {
+            "bold": "五角大楼携手七大科技巨头部署机密AI",
+            "detail": "美国国防部宣布与七家顶级科技公司达成协议，将人工智能技术部署到军方最敏感的机密网络中。这项合作旨在加速美国军事AI转型，涵盖战场态势感知、目标识别与打击、武器维护组织等关键领域。国防部表示，这些AI能力将显著缩短从发现到打击目标的时间，提升军事决策效率。值得注意的是，Anthropic因在AI军用限制条款上与五角大楼存在分歧，被列为供应链风险企业而被排除在外。",
+            "tags": [
+              "Pentagon",
+              "Military AI",
+              "Defense",
+              "Classified Systems"
+            ]
+          },
+          {
+            "bold": "AI黑客威胁促使网络安全政策大调整",
+            "detail": "面对AI驱动的网络攻击日益增长的威胁，美国网络安全官员正考虑大幅缩短政府IT系统关键漏洞的修复期限。传统的2-3周修复时间将压缩至3天内完成，这一史无前例的政策调整反映出对AI工具被恶意利用的深度担忧。官员们特别关注Anthropic的Mythos等AI工具可能被黑客利用来自动化发现和攻击系统漏洞的风险。",
+            "tags": [
+              "Cybersecurity",
+              "AI Hacking",
+              "Vulnerability",
+              "Government IT"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🤝 产业合作与战略联盟",
+        "items": [
+          {
+            "bold": "科技巨头重组架构应对AI增长需求",
+            "detail": "大型科技公司正在进行重大结构调整以满足人工智能快速发展的需求。Meta等科技巨头正在重新配置资源和组织架构，以更好地支持AI技术的研发和部署。这种战略性重组反映出AI已成为科技行业的核心驱动力，各公司都在加大投入以保持竞争优势。重组涉及人员配置、研发重心转移以及基础设施优化等多个层面。",
+            "tags": [
+              "Big Tech",
+              "Restructuring",
+              "AI Growth",
+              "Strategic Planning"
+            ]
+          },
+          {
+            "bold": "军工AI合作强调人工监督机制",
+            "detail": "在新签署的军用AI协议中，五角大楼特别强调了人工监督在AI驱动任务中的重要性。合作协议明确规定，所有AI系统在执行关键军事任务时都必须保持人类最终决策权。这一要求体现了军方在享受AI技术优势的同时，对确保系统可控性和道德责任的重视。协议涵盖数据分析、战场决策支持和网络安全等多个应用领域。",
+            "tags": [
+              "Human Oversight",
+              "Military AI",
+              "Ethics",
+              "Decision Making"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "📚 教育与普及",
+        "items": [
+          {
+            "bold": "高校推出AI基础知识培训计划",
+            "detail": "南卡罗来纳大学等教育机构开始为教职员工提供系统性的AI基础培训课程。培训内容涵盖人工智能的基本能力与局限性、提示词编写技巧以及AI使用伦理等核心议题。这一举措反映出教育界对AI素养提升的迫切需求，旨在帮助教育工作者更好地理解和应用AI技术，同时确保其负责任地使用这些工具。",
+            "tags": [
+              "AI Education",
+              "Training",
+              "University",
+              "Ethics"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-01",
     "weekday": "周五",
     "timeRange": "04-30 08:30 ~ 05-01 08:30 (UTC+8)",
@@ -3116,115 +3190,6 @@ export const reports: DailyReport[] = [
               "efficiency",
               "cross-cultural",
               "microsoft"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-02",
-    "weekday": "周四",
-    "timeRange": "04-01 08:30 ~ 04-02 08:30 (UTC+8)",
-    "tweetCount": 38,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🧠 AI 发展趋势与预测",
-        "items": [
-          {
-            "bold": "2026年AI将从实验转向规模化部署",
-            "detail": "IBM发布2026年AI趋势报告，指出行业正从ChatGPT初期的能力探索阶段转向企业级规模化应用。报告强调，去年我们还在讨论ChatGPT无法正确计算strawberry中r的个数，而如今DeepSeek-R1等中国前沿实验室的推理模型已经震撼全球，开源推理智能体也迎来爆发式增长。",
-            "tags": [
-              "AI Trends",
-              "Enterprise",
-              "Deployment",
-              "IBM"
-            ]
-          },
-          {
-            "bold": "微软预测全球AI系统将更加灵活高效",
-            "detail": "微软发布2026年AI七大趋势预测，重点关注全球化AI系统的灵活性提升。报告认为，新一代AI系统将在效率和适应性方面实现重大突破，能够更好地服务于不同地区和行业的特定需求，推动AI技术在全球范围内的深度普及和应用。",
-            "tags": [
-              "Microsoft",
-              "Global AI",
-              "Efficiency",
-              "Trends"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🚀 模型发布与技术突破",
-        "items": [
-          {
-            "bold": "Grok AI推出视频生成功能",
-            "detail": "xAI在4月发布了Grok AI的视频生成能力，标志着该公司在多模态AI领域的重要进展。这一功能的推出进一步加剧了AI视频生成领域的竞争，与OpenAI的Sora、Google的Veo等产品形成直接对抗。Grok的视频生成能力预计将为用户提供更多创意表达工具。",
-            "tags": [
-              "xAI",
-              "Grok",
-              "Video Generation",
-              "Multimodal"
-            ]
-          },
-          {
-            "bold": "AI辅助科学发现成新趋势",
-            "detail": "最新报告显示，AI在科学研究领域的应用正成为2026年的重要趋势之一。AI系统开始在药物发现、材料科学、天体物理学等领域发挥关键作用，通过强大的数据处理和模式识别能力，加速科学发现的进程，为人类知识边界的拓展提供强大助力。",
-            "tags": [
-              "Scientific Discovery",
-              "Research",
-              "AI Applications",
-              "Innovation"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💼 企业动态与投资",
-        "items": [
-          {
-            "bold": "Pony.ai召开股东特别大会",
-            "detail": "自动驾驶领军企业Pony.ai宣布将于4月2日上午11点召开股东特别大会，该公司在NASDAQ和港交所双重上市。作为实现大规模量产和商业化自动驾驶技术的全球领导者，此次股东大会预计将讨论公司未来发展战略和重要决策事项。",
-            "tags": [
-              "Pony.ai",
-              "Autonomous Driving",
-              "Shareholders Meeting",
-              "NASDAQ"
-            ]
-          },
-          {
-            "bold": "Nothing科技计划推出AI眼镜",
-            "detail": "Nothing科技公司宣布计划推出AI智能眼镜产品，这是该公司设备扩展战略的重要组成部分。这一举措表明消费电子厂商正积极布局AI硬件市场，试图在苹果、谷歌等巨头之外开辟新的增长点。AI眼镜有望成为下一代智能终端的重要形态。",
-            "tags": [
-              "Nothing",
-              "AI Glasses",
-              "Consumer Electronics",
-              "Hardware"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "📊 行业洞察与分析",
-        "items": [
-          {
-            "bold": "GAI Insights发布每日AI新闻分析",
-            "detail": "GAI Insights继续其每日AI新闻播报，4月2日的第547期节目重点关注Zapier如何提升AI流畅度标准。该节目为AI从业者和投资者提供及时的行业动态分析，帮助理解AI技术发展对各行业的影响和机遇。",
-            "tags": [
-              "GAI Insights",
-              "Daily News",
-              "Zapier",
-              "AI Fluency"
-            ]
-          },
-          {
-            "bold": "企业AI部署成为关键议题",
-            "detail": "多家分析机构指出，2026年企业级AI部署将成为行业发展的核心焦点。从概念验证转向生产环境的AI应用正在加速，企业开始更加注重AI系统的可靠性、安全性和可扩展性，这将推动AI技术栈的进一步成熟和标准化。",
-            "tags": [
-              "Enterprise AI",
-              "Deployment",
-              "Production",
-              "Scalability"
             ]
           }
         ]
