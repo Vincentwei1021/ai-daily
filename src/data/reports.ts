@@ -14,6 +14,110 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-03",
+    "weekday": "周日",
+    "timeRange": "05-02 08:30 ~ 05-03 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🛡️ AI 与国家安全",
+        "items": [
+          {
+            "bold": "美国防部签署7家科技公司机密AI协议",
+            "detail": "五角大楼宣布与七家主要科技公司达成协议，将在机密系统中部署人工智能技术。这一重大举措标志着AI在国家安全领域的应用进入新阶段，预计将显著提升军事情报分析和决策能力。协议内容涉及机密级别的AI系统集成和数据处理。",
+            "tags": [
+              "defense",
+              "classified",
+              "pentagon",
+              "security"
+            ]
+          },
+          {
+            "bold": "非洲防务力量AI工具包发布",
+            "detail": "非洲战略研究中心发布《非洲防务力量人工智能工具包》，为国防部门AI战略制定和技术采用提供指导框架。该工具包专门针对非洲地区防务需求，涵盖AI在军事领域的策略部署、技术集成和能力建设等关键方面。",
+            "tags": [
+              "africa",
+              "defense",
+              "strategy",
+              "toolkit"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🤖 自动化与就业冲击",
+        "items": [
+          {
+            "bold": "物理AI加速推进引发行业自动化风险",
+            "detail": "Planera劳动力分析公司最新报告显示，随着物理AI技术快速普及，制造业、农业和零售业面临高度自动化风险。研究发现多个职业岗位存在显著的替代威胁，劳动密集型行业正经历深刻的结构性变革，企业和政策制定者需要提前应对就业转型挑战。",
+            "tags": [
+              "automation",
+              "employment",
+              "manufacturing",
+              "retail"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💻 开发工具与平台创新",
+        "items": [
+          {
+            "bold": "Google AI Studio推出Antigravity编程代理",
+            "detail": "谷歌在AI Studio中发布升级版编程体验，新增Antigravity编程代理功能。该工具能够将提示词直接转换为生产就绪的应用程序，支持构建多人协作体验、数据库集成和真实世界服务连接。AI代理对整个项目具有更深层理解，实现更快迭代和精确代码编辑。",
+            "tags": [
+              "google",
+              "coding",
+              "agent",
+              "development"
+            ]
+          },
+          {
+            "bold": "AI模型上下文窗口大幅扩展",
+            "detail": "最新AI模型在上下文处理能力方面取得重大突破，能够一次性处理海量信息。大型上下文窗口使模型可以审阅完整文档、总结研究报告、组织复杂信息并协助处理复杂工作流程，将人工智能从任务执行工具转变为真正的数字协作伙伴。",
+            "tags": [
+              "context",
+              "models",
+              "collaboration",
+              "workflow"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏥 AI 行业应用案例",
+        "items": [
+          {
+            "bold": "VideaHealth完成全美牙科诊所AI部署",
+            "detail": "VideaHealth与Aspen Dental成功完成创纪录的AI技术在美国牙科诊所的全面推广。这一里程碑式部署展示了AI在医疗保健领域的实际应用价值，为牙科诊断和治疗流程带来智能化升级，预计将提高诊断准确性和效率。",
+            "tags": [
+              "healthcare",
+              "dental",
+              "deployment",
+              "medical"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "⚖️ AI 治理与监管",
+        "items": [
+          {
+            "bold": "加拿大青年呼吁AI聊天机器人减少成瘾性",
+            "detail": "麦吉尔大学发布报告显示，17-23岁的加拿大青年强烈要求政府命令AI公司采取措施，降低聊天机器人的成瘾性特征。该报告基于全国范围内的青年圆桌讨论，反映了年轻用户对AI技术负责任发展的期待和担忧，为AI监管政策提供了重要参考。",
+            "tags": [
+              "regulation",
+              "addiction",
+              "youth",
+              "canada"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-02",
     "weekday": "周六",
     "timeRange": "05-01 08:30 ~ 05-02 08:30 (UTC+8)",
@@ -3081,115 +3185,6 @@ export const reports: DailyReport[] = [
               "automation",
               "breakthrough",
               "threat-detection"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-03",
-    "weekday": "周五",
-    "timeRange": "04-02 08:30 ~ 04-03 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🧠 大模型与基础设施",
-        "items": [
-          {
-            "bold": "谷歌 Gemma 4 采用 Apache 2.0 许可证",
-            "detail": "谷歌正式发布 Gemma 4 开源 AI 模型系列，采用 Apache 2.0 许可证，彻底消除了企业部署开源 AI 的法律障碍。这款 310 亿参数的推理模型在开源领域表现出色，结束了过去 18 个月企业在开源 AI 部署上面临的二选一困局。此举标志着开源 AI 生态系统迎来重大突破，将大幅降低企业 AI 应用的门槛和成本。",
-            "tags": [
-              "open-source",
-              "enterprise-ai",
-              "legal-compliance",
-              "reasoning-model"
-            ]
-          },
-          {
-            "bold": "推理模型成为新范式",
-            "detail": "继 DeepSeek-R1 等中国前沿实验室的推理模型引起全球轰动后，推理能力已成为顶级 AI 系统解决复杂问题的新标准。相比一年前 ChatGPT 还无法正确计算单词中字母数量，如今的 AI 系统在逻辑推理和问题解决方面实现了质的飞跃，这一转变正在重新定义 AI 能力的边界。",
-            "tags": [
-              "reasoning-ai",
-              "deepseek",
-              "problem-solving",
-              "ai-capabilities"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🚀 AI 研究突破",
-        "items": [
-          {
-            "bold": "AI 科学发现迎来繁荣期",
-            "detail": "OpenAI 紧随谷歌 DeepMind 脚步，成立专门团队专注 AI 科学研究，标志着 AI 在科学发现领域的应用进入新阶段。这一趋势表明主要 AI 公司正将注意力转向更具挑战性的科学问题，预示着 AI 将在药物发现、材料科学和基础研究等领域发挥更重要作用，有望加速人类对自然世界的理解。",
-            "tags": [
-              "ai-science",
-              "research",
-              "drug-discovery",
-              "openai"
-            ]
-          },
-          {
-            "bold": "xAI Grok 获得视频生成能力",
-            "detail": "xAI 在 4 月份为其 Grok 模型新增了视频生成功能，进一步丰富了多模态 AI 的能力边界。这一突破使 Grok 能够根据文本描述生成高质量视频内容，标志着文本到视频生成技术在商业化应用上取得重要进展，为内容创作和媒体制作行业带来新的可能性。",
-            "tags": [
-              "video-generation",
-              "multimodal-ai",
-              "xai",
-              "grok"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "⚔️ AI 应用与商业",
-        "items": [
-          {
-            "bold": "OpenAI 与军工企业签署合作协议",
-            "detail": "OpenAI 改变此前立场，与国防科技初创公司 Anduril 签署合作协议，协助其击落战场无人机。这标志着 AI 公司与国家安全部门关系更加密切的趋势，同时也引发了关于 AI 军事应用伦理边界的广泛讨论。此举显示主要 AI 公司正在重新审视其技术在国防领域的应用政策。",
-            "tags": [
-              "military-ai",
-              "defense-tech",
-              "ethics",
-              "anduril"
-            ]
-          },
-          {
-            "bold": "Anthropic 与五角大楼产生分歧",
-            "detail": "Anthropic 与五角大楼在 AI 军事应用范围上出现争议，五角大楼希望将 AI 应用扩展到目标选择和无人机打击等动态作战用途，超出去年对自主武器的限制。作为优先考虑安全防护措施的公司，Anthropic 不太可能放弃其自我设定的红线，这一立场使其在同行中显得独特。",
-            "tags": [
-              "anthropic",
-              "pentagon",
-              "ai-safety",
-              "autonomous-weapons"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔮 行业趋势展望",
-        "items": [
-          {
-            "bold": "AI 从试验转向规模部署",
-            "detail": "2026 年最重要的趋势是 AI 从试验阶段向大规模商业部署的转变。企业不再满足于小规模的 AI 概念验证，而是寻求能够在全组织范围内产生实际业务价值的 AI 解决方案。这一转变要求 AI 系统具备更高的可靠性、可解释性和集成能力，推动整个行业向更加成熟和务实的方向发展。",
-            "tags": [
-              "enterprise-deployment",
-              "ai-maturity",
-              "business-value",
-              "scalability"
-            ]
-          },
-          {
-            "bold": "全球化 AI 系统提升效率",
-            "detail": "灵活的全球化 AI 系统正在成为提高运营效率的关键驱动力。这些系统能够跨地域、跨文化环境无缝工作，为跨国企业提供统一的 AI 解决方案。微软预测这类系统将彻底改变研发流程，使全球团队能够更高效地协作和创新，重塑国际商业合作模式。",
-            "tags": [
-              "global-ai",
-              "efficiency",
-              "cross-cultural",
-              "microsoft"
             ]
           }
         ]
