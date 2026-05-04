@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-04",
+    "weekday": "周一",
+    "timeRange": "05-03 08:30 ~ 05-04 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🏛️ AI 政策与监管动态",
+        "items": [
+          {
+            "bold": "美国防部将 Anthropic 列入供应链风险",
+            "detail": "五角大楼正式将 Anthropic 列为\"供应链风险\"企业，原因是该公司拒绝向军方提供 Claude 模型的无限制使用权，包括自主武器和国内监控等用途。此举标志着\"负责任 AI\"理念在政府采购中的实际成本，企业 AI 供应商策略面临重新评估。",
+            "tags": [
+              "government-ai",
+              "claude",
+              "pentagon",
+              "responsible-ai"
+            ]
+          },
+          {
+            "bold": "联合国 AI 科学委员会启动全球治理工作",
+            "detail": "联合国独立国际 AI 科学委员会即将举行首次面对面峰会，这是全球首个此类机构。委员会强调将人类置于 AI 决策中心，不仅关注数学算法层面，更注重确保人类在 AI 系统中的核心地位。该举措将推动全球 AI 治理框架建立。",
+            "tags": [
+              "un-ai",
+              "global-governance",
+              "human-centered",
+              "policy"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🚀 AI 基础设施与硬件",
+        "items": [
+          {
+            "bold": "英伟达物理 AI 战略推动合作伙伴股价上涨",
+            "detail": "英伟达在物理 AI 领域的战略布局引发合作伙伴公司股价集体上涨。随着 AI 从数字世界扩展到物理世界，机器人、自动驾驶和智能制造等领域需求激增，英伟达的芯片和平台成为关键基础设施，带动整个生态链价值提升。",
+            "tags": [
+              "nvidia",
+              "physical-ai",
+              "hardware",
+              "robotics"
+            ]
+          },
+          {
+            "bold": "大型科技公司 AI 投资与裁员并行",
+            "detail": "科技巨头在向 AI 领域投入数十亿美元的同时，数千名员工面临裁员。这种看似矛盾的现象反映出行业转型期的阵痛：传统业务收缩，AI 相关岗位需求激增，企业正在重新配置人力资源以适应 AI 时代的业务需求。",
+            "tags": [
+              "big-tech",
+              "layoffs",
+              "ai-investment",
+              "workforce"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🤝 AI 国际合作与应用",
+        "items": [
+          {
+            "bold": "菲律宾与以色列启动关键矿物与 AI 合作",
+            "detail": "菲律宾投资委员会宣布，两国将在 Pax Silica 倡议框架下开展关键矿物和人工智能领域合作。贸易副部长访问特拉维夫，与以色列外交部总司长会面，后者负责该国关键矿物国家战略。此合作将促进两国在 AI 发展和矿物资源方面的互补优势。",
+            "tags": [
+              "philippines",
+              "israel",
+              "critical-minerals",
+              "cooperation"
+            ]
+          },
+          {
+            "bold": "加拿大警方试点 AI 芬太尼追踪平台",
+            "detail": "Redwood AI 与 Aidos Innovations 启动为期两年的合作，在温哥华和维多利亚试点 AI 追踪平台，用于检测和预测包括芬太尼在内的有毒阿片类药物。该项目涉及加拿大皇家骑警、维多利亚警察局和边境服务局，将提供仪表板、情报报告和决策支持工具。",
+            "tags": [
+              "canada",
+              "fentanyl",
+              "law-enforcement",
+              "drug-detection"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔬 AI 研究与创新",
+        "items": [
+          {
+            "bold": "洛斯阿拉莫斯实验室推进 AI 任务项目",
+            "detail": "洛斯阿拉莫斯国家实验室在 AI 技术实验室举办的冬季黑客松吸引了近30名 ArtIMis 项目团队成员参与。该项目是实验室\"AI for Mission\"计划的重要组成部分，旨在通过协作推进实验室的 AI 能力建设，与私人企业保持同步发展。",
+            "tags": [
+              "los-alamos",
+              "artemis",
+              "hackathon",
+              "national-lab"
+            ]
+          },
+          {
+            "bold": "AI 多行业应用驱动爆炸性增长",
+            "detail": "AI 革命正在加速，多行业采用推动市场出现爆炸性增长机会。从金融服务到制造业，从医疗保健到零售，各行各业都在积极部署 AI 解决方案。这种广泛应用不仅提升了生产效率，也创造了新的商业模式和投资机会。",
+            "tags": [
+              "multi-industry",
+              "ai-adoption",
+              "growth-opportunity",
+              "market-expansion"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-03",
     "weekday": "周日",
     "timeRange": "05-02 08:30 ~ 05-03 08:30 (UTC+8)",
@@ -3086,105 +3195,6 @@ export const reports: DailyReport[] = [
               "digital-divide",
               "microsoft",
               "global-gap"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-04",
-    "weekday": "周六",
-    "timeRange": "04-03 08:30 ~ 04-04 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🤖 机器人与物理AI突破",
-        "items": [
-          {
-            "bold": "仿人机器人军事化应用提速",
-            "detail": "据CGTN报道，仿人机器人在未来战争中的应用前景备受关注。随着AI技术的快速发展，这些机器人正从科幻概念转向现实部署，预计将在未来军事行动中发挥重要作用。这一趋势反映了AI在国防领域的深度融合，同时也引发了关于AI武器化的伦理讨论。",
-            "tags": [
-              "humanoid-robots",
-              "military-ai",
-              "defense-tech",
-              "ethics"
-            ]
-          },
-          {
-            "bold": "辛辛那提大学打造AI机器人创新中心",
-            "detail": "辛辛那提大学1819创新中心即将举办首届AI与机器人峰会，定于5月14日召开。该中心正在部署先进的机器人臂系统，配备环境感知传感器，展示了学术界在推动AI机器人技术产业化方面的积极努力。峰会将汇聚创始人、企业领袖和创新者，探讨AI机器人如何重塑商业未来。",
-            "tags": [
-              "robotics-summit",
-              "innovation-hub",
-              "academic-research",
-              "sensors"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💰 大型投资与产业布局",
-        "items": [
-          {
-            "bold": "微软百亿美元押注日本AI市场",
-            "detail": "微软宣布将在日本投资100亿美元发展AI业务，这是该公司在亚洲地区最大规模的AI投资之一。投资重点将放在扩建云计算基础设施、新建数据中心以及网络安全合作伙伴关系上。微软还计划到2029年培训100万名AI工程师，以应对其Copilot产品与OpenAI ChatGPT和谷歌Gemini的激烈竞争。",
-            "tags": [
-              "microsoft",
-              "investment",
-              "japan",
-              "cloud-infrastructure"
-            ]
-          },
-          {
-            "bold": "数据中心成为AI时代争夺焦点",
-            "detail": "韩国首都圈对数据中心态度分化明显，部分地区将其视为不受欢迎的基础设施，而非首都地区则积极争取数据中心项目。这种对比反映了AI时代对数据中心需求的急剧增长，以及不同地区对于AI基础设施建设的不同态度。专业人才和配套设施的分布不均也成为影响数据中心选址的关键因素。",
-            "tags": [
-              "data-centers",
-              "infrastructure",
-              "regional-policy",
-              "ai-era"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 AI研究与应用创新",
-        "items": [
-          {
-            "bold": "加拿大国防研发中心AI项目全面推进",
-            "detail": "加拿大国防研究发展中心（DRDC）自2000年以来持续探索AI在国防领域的应用，目前已在文档编辑、健康科学、船舶跟踪、网络防御和威胁检测等多个领域取得实质性进展。该机构展示了AI技术如何从理论研究转向实际应用，为国防安全提供全方位的技术支撑。",
-            "tags": [
-              "defense-research",
-              "canada",
-              "cybersecurity",
-              "threat-detection"
-            ]
-          },
-          {
-            "bold": "ET AI黑客马拉松进入最终冲刺阶段",
-            "detail": "印度经济时报AI黑客马拉松2026已进入原型提交前的最终构建阶段，参赛团队正在紧锣密鼓地完善各自的AI解决方案。这一赛事汇聚了众多AI开发者和创新者，预计将产生一批具有商业价值的AI应用原型，展现了印度在AI创新生态建设方面的活跃表现。",
-            "tags": [
-              "hackathon",
-              "india",
-              "prototype",
-              "innovation"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🛡️ 网络安全与自动化突破",
-        "items": [
-          {
-            "bold": "2026年4月AI网络安全重大突破",
-            "detail": "据Coaio报道，2026年4月在AI、网络安全和自动化领域出现了多项重大技术突破。这些进展涵盖了智能威胁检测、自动化响应系统和预测性安全分析等关键技术，标志着AI在网络安全防护中的应用达到了新的高度，为企业和政府机构提供更强大的数字安全保障。",
-            "tags": [
-              "cybersecurity",
-              "automation",
-              "breakthrough",
-              "threat-detection"
             ]
           }
         ]
