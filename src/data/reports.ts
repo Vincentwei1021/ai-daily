@@ -14,6 +14,110 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-05",
+    "weekday": "周二",
+    "timeRange": "05-04 08:30 ~ 05-05 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🏛️ AI军事化与政策博弈",
+        "items": [
+          {
+            "bold": "美国防部签约七家AI巨头",
+            "detail": "五角大楼宣布与谷歌、微软、OpenAI、英伟达等七家AI公司达成合作协议，将其AI系统部署到机密军事网络中。这标志着AI技术正式进入国防领域，引发了关于AI军事应用的广泛讨论。协议覆盖了从数据分析到决策支持的多个军事应用场景，预示着未来战争形态的深刻变化。",
+            "tags": [
+              "military-ai",
+              "pentagon",
+              "defense-tech",
+              "ai-deployment"
+            ]
+          },
+          {
+            "bold": "Anthropic拒绝军用遭制裁",
+            "detail": "AI公司Anthropic因拒绝向五角大楼提供无限制军用AI模型访问权而被列为\"国家安全供应链风险\"。然而，这一原则性立场反而赢得了市场认可，公司估值在10周内翻倍。这一事件凸显了AI公司在商业利益与社会责任之间的微妙平衡，也反映出市场对负责任AI发展的支持。",
+            "tags": [
+              "anthropic",
+              "ethics",
+              "valuation",
+              "military-ban"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "📈 AI经济驱动力显现",
+        "items": [
+          {
+            "bold": "台湾GDP暴涨13.69%",
+            "detail": "受AI应用需求激增推动，台湾第一季度GDP同比增长13.69%，远超预期。AI芯片和相关硬件出口的强劲表现不仅带动了出口增长，更促进了投资和消费的全面复苏。这一亮眼数据表明，AI产业链正成为全球经济增长的核心引擎，台湾作为半导体重镇受益显著。",
+            "tags": [
+              "taiwan-economy",
+              "gdp-growth",
+              "ai-demand",
+              "semiconductors"
+            ]
+          },
+          {
+            "bold": "数据中心重塑就业版图",
+            "detail": "自ChatGPT发布以来，美国数据中心核心岗位需求暴增175%，AI热潮正将就业机会从传统科技中心扩散到更广泛的地区。这种地理分布的变化不仅缓解了科技人才的地域集中问题，也为中小城市带来了新的发展机遇。AI基础设施的扩张正在重新定义美国的经济地理格局。",
+            "tags": [
+              "data-center-jobs",
+              "labor-market",
+              "geographic-spread",
+              "hiring-growth"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔬 AI技术前沿突破",
+        "items": [
+          {
+            "bold": "Pattern引领可解释AI",
+            "detail": "Pattern Computer将在FiRe 2026会议上主办高级AI日，重点展示其在可解释AI（XAI）领域的突破性进展。该公司的模式发现引擎能够在高维数据中识别复杂模式，为商业和医疗领域的关键问题提供解决方案。可解释AI技术的发展对于提高AI系统的透明度和可信度具有重要意义。",
+            "tags": [
+              "explainable-ai",
+              "pattern-discovery",
+              "xai",
+              "conference"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏢 企业动态与财报",
+        "items": [
+          {
+            "bold": "BigBear.ai发布季度财报",
+            "detail": "专业防务技术公司BigBear.ai将于5月5日发布2026年第一季度财务报告。作为NYSE上市公司（股票代码BBAI），该公司专注于开发和部署任务就绪的AI解决方案，在高度复杂的分布式任务环境中为客户提供人工智能和预测分析能力。财报将展现防务AI领域的最新发展趋势。",
+            "tags": [
+              "earnings-report",
+              "defense-ai",
+              "bigbear",
+              "public-company"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🗳️ 政策制定与公众态度",
+        "items": [
+          {
+            "bold": "两党罕见AI共识",
+            "detail": "最新民调显示，AI议题成为美国民主党和共和党少有的共识领域，多数选民认为AI风险大于收益。有趣的是，三分之一的选民认为两党都不擅长处理AI问题，这反映出政策制定者在这一快速发展的技术领域面临的挑战。公众对AI的谨慎态度可能影响未来的监管政策走向。",
+            "tags": [
+              "bipartisan-consensus",
+              "public-opinion",
+              "ai-risks",
+              "political-challenge"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-04",
     "weekday": "周一",
     "timeRange": "05-03 08:30 ~ 05-04 08:30 (UTC+8)",
@@ -3101,100 +3205,6 @@ export const reports: DailyReport[] = [
               "Job Displacement",
               "Economic Impact",
               "Labor Market"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-05",
-    "weekday": "周日",
-    "timeRange": "04-04 08:30 ~ 04-05 08:30 (UTC+8)",
-    "tweetCount": 38,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🏥 AI 医疗应用突破",
-        "items": [
-          {
-            "bold": "日本启动AI癌症筛查试点",
-            "detail": "面对医生短缺的严峻挑战，日本厚生劳动省宣布将开始试点使用人工智能分析X光片进行癌症筛查。该项目旨在减轻医生工作负担的同时保持诊断准确性。值得注意的是，日本肺癌筛查的双重检查制度已实施超过30年，AI技术的引入有望进一步提升筛查效率和精度，为解决医疗资源紧张问题提供新思路。",
-            "tags": [
-              "healthcare",
-              "AI",
-              "medical-imaging",
-              "cancer-screening"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🤖 具身AI与机器人技术",
-        "items": [
-          {
-            "bold": "中国具身AI成增长新引擎",
-            "detail": "2026年政府工作报告明确提出建立机制促进未来产业投资，其中具身AI被列为重点发展领域。图灵奖得主、中科院院士姚期智表示，过去五年中国在具身AI领域，特别是人形机器人方面取得了快速进展，已达到世界先进水平。人形机器人作为当前具身AI最先进的形式，正成为推动中国产业升级和经济增长的重要驱动力。",
-            "tags": [
-              "embodied-AI",
-              "humanoid-robots",
-              "china",
-              "industry-growth"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "📚 教育与社会应用",
-        "items": [
-          {
-            "bold": "92%大学生使用AI完成作业",
-            "detail": "高等教育政策研究所最新调查显示，几乎所有本科生（92%）现在都在使用人工智能完成作业，主要用于写作和编辑。这一现象促使教育界重新思考教学方法和AI政策制定。专家建议与学生进行开放对话，制定明确的AI使用政策，并在这一话题上保持主动性，以适应AI时代的学术写作教学新要求。",
-            "tags": [
-              "education",
-              "academic-writing",
-              "student-behavior",
-              "AI-policy"
-            ]
-          },
-          {
-            "bold": "青少年AI角色扮演引关注",
-            "detail": "《纽约时报》报道显示，青少年群体广泛使用AI聊天机器人进行角色扮演活动，这一趋势引发了关于AI成瘾和心理健康的担忧。随着AI聊天机器人变得更加智能和个性化，青少年与虚拟角色的互动日益频繁，专家呼吁家长和教育工作者关注这一现象可能带来的社会和心理影响。",
-            "tags": [
-              "teenagers",
-              "AI-chatbots",
-              "roleplay",
-              "mental-health"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🎬 AI创意产业应用",
-        "items": [
-          {
-            "bold": "AI重塑印度电影工业",
-            "detail": "在班加罗尔的制作基地，电影制作者正在使用人工智能工具创作基于印度教神话的内容，这是印度电影市场的热门题材。作为世界上最多产的电影工业，印度宝莱坞正在积极拥抱AI技术，从内容创作到后期制作全面革新传统电影制作流程，预示着AI将深刻改变全球创意产业格局。",
-            "tags": [
-              "film-industry",
-              "india",
-              "content-creation",
-              "mythology"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "⚖️ AI治理与政策",
-        "items": [
-          {
-            "bold": "全球AI普及差距扩大",
-            "detail": "微软最新报告显示，虽然AI技术在全球范围内采用率持续上升，但不同地区和行业之间的应用差距正在扩大。发达国家和大型企业在AI技术应用方面领先优势明显，而发展中国家和中小企业面临技术、资金和人才等多重障碍。这一数字鸿沟现象引发业界对AI公平性和包容性发展的深入思考。",
-            "tags": [
-              "AI-adoption",
-              "digital-divide",
-              "microsoft",
-              "global-gap"
             ]
           }
         ]
