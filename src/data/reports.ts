@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-06",
+    "weekday": "周三",
+    "timeRange": "05-05 08:30 ~ 05-06 08:30 (UTC+8)",
+    "tweetCount": 38,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🏛️ 政策监管与合规",
+        "items": [
+          {
+            "bold": "白宫拟建立AI模型预审制度",
+            "detail": "特朗普政府正在制定联邦AI模型安全审查流程，要求强大的人工智能模型在发布前必须通过政府安全评估。这一举措与该政府一贯的反监管立场形成鲜明对比，凸显了AI安全在国家层面的重要性。业界专家指出，这项政策将对AI开发周期和创新速度产生深远影响。",
+            "tags": [
+              "policy",
+              "safety",
+              "regulation",
+              "government"
+            ]
+          },
+          {
+            "bold": "科技巨头同意与政府共享AI模型",
+            "detail": "谷歌、微软和xAI已与特朗普政府达成协议，将共享其人工智能程序的早期版本，以便政府评估其能力和安全性。这项合作标志着科技企业与政府在AI治理方面的重要转折点，体现了行业对透明度和监管合作的新态度。",
+            "tags": [
+              "cooperation",
+              "transparency",
+              "tech-giants",
+              "compliance"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🎨 AI创意工具与应用",
+        "items": [
+          {
+            "bold": "2026年最佳AI图像生成器盘点",
+            "detail": "AI图像生成技术已彻底改变了设计和图像编辑流程，为从新手到专家的所有用户带来前所未有的便利和创意空间。这些平台已成为创意工作者的首选工具，在项目范围和高级功能可用性方面都有显著提升，大幅减轻了工作负担。",
+            "tags": [
+              "image-generation",
+              "creativity",
+              "design-tools",
+              "visual-ai"
+            ]
+          },
+          {
+            "bold": "视频广告中的智能代理技术崛起",
+            "detail": "IAB最新报告显示，AI创新正推动社交视频13%的增长率，创作者经济变得更加个性化。智能代理技术的采用率因公司规模而异，小型广告商对这项技术表现出更强的接受度。AI已从实验阶段转向运营阶段，深刻改变着广告策划、购买、创作和效果测量的方式。",
+            "tags": [
+              "video-advertising",
+              "agentic-ai",
+              "social-media",
+              "creator-economy"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔬 AI前沿应用领域",
+        "items": [
+          {
+            "bold": "AI加速核聚变商业化进程",
+            "detail": "在SCSP AI+博览会上，聚变工业协会将举办专题会议探讨AI与核聚变能源的关联。人工智能正在加速商业化核聚变部署，这场会议将深入分析AI技术如何突破核聚变领域的技术瓶颈，推动清洁能源革命的到来。",
+            "tags": [
+              "fusion-energy",
+              "clean-tech",
+              "scientific-ai",
+              "energy-innovation"
+            ]
+          },
+          {
+            "bold": "谷歌员工就军用AI项目要求工会认可",
+            "detail": "谷歌员工继续就公司技术被以色列军方使用一事表达关切。2024年，28名员工因抗议价值12亿美元的Nimbus项目而被解雇，该项目与亚马逊合作为以色列政府和军方提供AI和云服务。工人们现在要求工会认可，以获得更强的集体谈判力量。",
+            "tags": [
+              "labor-rights",
+              "military-ai",
+              "ethics",
+              "tech-workers"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 企业AI转型趋势",
+        "items": [
+          {
+            "bold": "小企业AI工具实操培训兴起",
+            "detail": "专为小型团队设计的AI实用培训正在兴起，重点关注如何通过AI工具节省时间、减少重复工作并支持更好的决策制定。这些培训强调AI不必复杂或昂贵，为没有技术背景的企业主提供了切实可行的AI应用指导。",
+            "tags": [
+              "small-business",
+              "practical-ai",
+              "training",
+              "productivity"
+            ]
+          },
+          {
+            "bold": "营销技术迎来AI驱动重大重构",
+            "detail": "2026年营销技术行业正经历AI驱动的重大变革，SaaS模式从功能导向转向结果导向。行业赢家将不再是拥有最多工具的公司，而是那些构建了能让AI创造最大价值的技术栈的企业。这标志着营销技术生态系统的根本性重新布线。",
+            "tags": [
+              "martech",
+              "saas",
+              "industry-transformation",
+              "value-creation"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-05",
     "weekday": "周二",
     "timeRange": "05-04 08:30 ~ 05-05 08:30 (UTC+8)",
@@ -3106,105 +3215,6 @@ export const reports: DailyReport[] = [
               "algorithm-optimization",
               "model-efficiency",
               "reasoning-capability"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-06",
-    "weekday": "周一",
-    "timeRange": "04-05 08:30 ~ 04-06 08:30 (UTC+8)",
-    "tweetCount": 38,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🏭 物理AI与制造业革命",
-        "items": [
-          {
-            "bold": "HII与GrayMatter签署物理AI合作备忘录",
-            "detail": "美国最大造船企业HII与物理AI制造领军公司GrayMatter Robotics于4月6日在加州卡森总部举行备忘录签署仪式，现场展示物理AI技术在制造业的实际应用。此次合作标志着传统重工业向智能化制造转型的重要节点，物理AI技术有望大幅提升制造业生产效率。",
-            "tags": [
-              "Physical AI",
-              "Manufacturing",
-              "Robotics",
-              "Industrial"
-            ]
-          },
-          {
-            "bold": "韩国呼吁减少自主AI监管束缚",
-            "detail": "《韩国中央日报》发表观点文章称，监管不应阻碍自主AI发展。文章指出，在韩国具有传统优势的制造业领域，采用物理AI技术为显著提升生产力和效率提供了重要机遇。这一观点反映了亚洲制造强国对AI技术应用的积极态度。",
-            "tags": [
-              "South Korea",
-              "AI Regulation",
-              "Autonomous AI",
-              "Policy"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💰 AI投资与产业变革",
-        "items": [
-          {
-            "bold": "硅谷掀起AI融资狂潮创纪录",
-            "detail": "《纽约时报》报道显示，AI公司正在打破融资纪录，资本市场对人工智能技术的投资热情持续高涨。投资者将AI视为下一次工业革命的核心驱动力，各类AI初创公司和成熟企业均获得大额资金支持，推动整个硅谷技术生态的快速演进。",
-            "tags": [
-              "Investment",
-              "Silicon Valley",
-              "Funding",
-              "Industrial Revolution"
-            ]
-          },
-          {
-            "bold": "AI需求推动半导体收入激增",
-            "detail": "高盛分析报告指出，AI应用需求将推动半导体行业收入大幅增长。随着数据中心、边缘计算和各类AI应用场景的快速扩张，对高性能芯片的需求呈现爆发式增长态势，半导体产业链上下游企业有望迎来新一轮增长周期。",
-            "tags": [
-              "Semiconductors",
-              "Goldman Sachs",
-              "Revenue Growth",
-              "Demand"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🌐 基础设施与光通信热潮",
-        "items": [
-          {
-            "bold": "光通信股票因AI基础设施需求激增",
-            "detail": "韩国《朝鲜日报》报道称，随着AI基础设施建设需求不断增长，光通信相关股票出现强劲上涨态势。AI数据中心和高性能计算集群对高速、大容量数据传输的需求，直接带动了光纤通信、光模块等相关产业的快速发展，相关上市公司股价表现亮眼。",
-            "tags": [
-              "Optical Communication",
-              "AI Infrastructure",
-              "Stock Market",
-              "Data Centers"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🎓 AI教育与就业影响",
-        "items": [
-          {
-            "bold": "AI成为2026年大学录取新门槛",
-            "detail": "《经济时报》分析指出，AI技能正成为大学招生中不可忽视的新筛选标准。随着人工智能在各行各业的深度应用，高等教育机构开始将AI相关能力作为评估学生未来适应性的重要指标，这一趋势将重塑传统的教育评估体系。",
-            "tags": [
-              "Education",
-              "University Admission",
-              "AI Skills",
-              "Future Workforce"
-            ]
-          },
-          {
-            "bold": "经济学家重新审视AI就业威胁",
-            "detail": "此前对AI就业影响持谨慎态度的经济学家们开始改变立场，越来越多专家认为AI对传统工作岗位的冲击可能比预期更为深远。这一观点转变反映了AI技术发展速度超出预期，社会各界对AI时代就业结构调整的关注度持续升温。",
-            "tags": [
-              "Employment",
-              "Job Displacement",
-              "Economic Impact",
-              "Labor Market"
             ]
           }
         ]
