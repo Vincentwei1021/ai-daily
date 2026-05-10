@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-10",
+    "weekday": "周日",
+    "timeRange": "05-09 08:30 ~ 05-10 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🧠 大模型与基础设施",
+        "items": [
+          {
+            "bold": "Z.ai 发布 GLM-5.1 开源模型",
+            "detail": "Z.ai 在 MIT 许可下发布了 GLM-5.1 开源模型，这是一个专为长时间自主工程任务设计的 AI 系统。该模型能够在单个任务上保持对齐长达 8 小时，标志着 AI 系统在自主性和技术能力方面达到新的水平。这一发布为开源社区提供了强大的长期推理能力工具。",
+            "tags": [
+              "open-source",
+              "autonomous-ai",
+              "long-horizon",
+              "engineering"
+            ]
+          },
+          {
+            "bold": "戴尔推出企业 AI 基础设施评估项目",
+            "detail": "戴尔公司启动了全面的企业 AI 基础设施准备计划，回应研究显示 73% 的公司缺乏 AI 就绪基础设施的现状。该项目包括硬件评估、扩展建议和实施路线图。戴尔首席顾问强调了企业 AI 雄心与基础设施现实之间的关键差距，为企业数字化转型提供了重要支撑。",
+            "tags": [
+              "enterprise",
+              "infrastructure",
+              "deployment",
+              "assessment"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏛️ 政策监管动态",
+        "items": [
+          {
+            "bold": "白宫考虑对新 AI 模型进行政府审查",
+            "detail": "美国白宫正在考虑对新的 AI 模型实施政府审查机制，主要关注网络攻击风险。这一举措反映了政府对 AI 系统日益增强的自主性和技术能力的担忧。政策制定者认为，随着 AI 系统达到新的自主水平，谨慎的部署策略变得必要，当前阶段保持好奇心比紧迫性更为合适。",
+            "tags": [
+              "regulation",
+              "government",
+              "cybersecurity",
+              "policy"
+            ]
+          },
+          {
+            "bold": "全球 AI 使用激增但数字鸿沟扩大",
+            "detail": "微软最新报告显示，全球 17.8% 的工作年龄人口正在使用生成式 AI，但发达国家与发展中国家的差距持续扩大。2026 年第一季度，发达国家 27.5% 的 15-64 岁人群使用生成式 AI 工具，而发展中国家仅为 15.4%，差距较 2025 年下半年扩大了 1.5 个百分点。",
+            "tags": [
+              "global-adoption",
+              "digital-divide",
+              "generative-ai",
+              "statistics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 商业应用与市场",
+        "items": [
+          {
+            "bold": "台湾股市因 AI 热潮创历史新高",
+            "detail": "台湾股市昨日创下单日涨幅超过 1700 点的历史纪录，首次收盘突破 40000 点大关。台积电、联发科等大型半导体股票领涨，投资者对人工智能热潮的乐观情绪推动了这一涨势。台湾在最新 AI 扩散报告中跻身前 20 名，显示出该地区在全球 AI 产业链中的重要地位。",
+            "tags": [
+              "stock-market",
+              "semiconductor",
+              "taiwan",
+              "ai-boom"
+            ]
+          },
+          {
+            "bold": "Coinbase 因 AI 变革裁员 14%",
+            "detail": "美国最大的加密货币交易所 Coinbase 宣布裁员 14%，称此举是为了应对加密货币市场波动，并为人工智能时代进行优化。公司表示，AI 技术的快速发展正在改变工作性质和业务模式，需要调整人员结构以适应新的技术环境和市场需求。",
+            "tags": [
+              "layoffs",
+              "cryptocurrency",
+              "workforce",
+              "optimization"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🛠️ 开发工具与平台",
+        "items": [
+          {
+            "bold": "MoneySkills 推出混合加密交易机器人",
+            "detail": "MoneySkills 公司发布了突破性的免费 AI 交易机器人，将强大的 AI 计算能力与金融专家团队的实时策略优化相结合。这款混合加密货币交易机器人代表了 AI 与人类专业知识的完美融合，为 2026 年的金融科技创新树立了新标杆，展示了 AI 代理在金融领域的变革潜力。",
+            "tags": [
+              "trading-bot",
+              "cryptocurrency",
+              "hybrid-ai",
+              "fintech"
+            ]
+          },
+          {
+            "bold": "USC 研究突破 AI 内存瓶颈",
+            "detail": "南加州大学维特比工程学院的研究人员通过算法和编码理论解决了 AI 的内存瓶颈问题，实现了 10 倍速度提升和 10 倍能耗降低。OpenAI 硬件负责人 Richard Ho 参与了相关讨论，为学生提供了宝贵的行业见解。这一突破为 AI 系统的效率优化开辟了新路径。",
+            "tags": [
+              "memory-optimization",
+              "algorithms",
+              "performance",
+              "research"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-09",
     "weekday": "周六",
     "timeRange": "05-08 08:30 ~ 05-09 08:30 (UTC+8)",
@@ -3061,150 +3170,6 @@ export const reports: DailyReport[] = [
               "skills-transformation",
               "automation",
               "workforce"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-10",
-    "weekday": "周五",
-    "timeRange": "04-09 08:30 ~ 04-10 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🧠 大模型突破与技术革新",
-        "items": [
-          {
-            "bold": "Anthropic 发布 Claude Mythos 5",
-            "detail": "Anthropic 正式发布了其最新旗舰模型 Claude Mythos 5，这是一个拥有10万亿参数的超大规模语言模型。该模型在多项基准测试中展现出前所未有的能力，特别是在复杂推理和代码生成方面表现突出。业界普遍认为这标志着AI能力的又一次跃升，可能重新定义人工智能在各行业的应用边界。",
-            "tags": [
-              "Claude",
-              "LLM",
-              "Anthropic",
-              "10T-parameters"
-            ]
-          },
-          {
-            "bold": "Google TurboQuant 压缩技术问世",
-            "detail": "Google 发布了革命性的 TurboQuant 模型压缩技术，能够在几乎不损失性能的前提下将大型语言模型压缩至原来的1/10大小。这一突破性技术将大幅降低AI模型的部署成本和运行门槛，使得更多中小企业能够负担得起高性能AI服务，有望推动AI技术的大规模普及。",
-            "tags": [
-              "Google",
-              "model-compression",
-              "TurboQuant",
-              "efficiency"
-            ]
-          },
-          {
-            "bold": "OpenAI GPT-5.4 超越人类基准",
-            "detail": "OpenAI 的 GPT-5.4 在多项认知测试中首次全面超越人类平均水平，在逻辑推理、创意写作和问题解决等领域都展现出卓越表现。这一里程碑事件引发了业界对通用人工智能（AGI）时间线的重新评估，同时也加剧了关于AI安全和监管的讨论。",
-            "tags": [
-              "OpenAI",
-              "GPT-5.4",
-              "human-level",
-              "AGI"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💰 投资与商业动态",
-        "items": [
-          {
-            "bold": "CoreWeave 与 Meta 签署210亿美元协议",
-            "detail": "AI云计算服务商 CoreWeave 与 Meta 达成了价值210亿美元的多年合作协议，将通过2032年为 Meta 提供AI计算能力。该协议覆盖多个数据中心，部分采用英伟达最新的 Rubin 系统芯片。这笔交易凸显了科技巨头对AI基础设施的巨大需求，也反映出云计算在AI竞赛中的战略重要性。",
-            "tags": [
-              "CoreWeave",
-              "Meta",
-              "cloud-computing",
-              "21B-deal"
-            ]
-          },
-          {
-            "bold": "AI 风险投资创历史新高",
-            "detail": "据统计，2026年第一季度AI相关风险投资达到2672亿美元，创下历史新纪录。其中大部分资金流向了基础模型开发、AI芯片制造和企业AI应用解决方案。投资热潮反映出资本市场对AI技术商业化前景的强烈信心，同时也推动了整个行业的快速发展和技术迭代。",
-            "tags": [
-              "venture-capital",
-              "267B",
-              "Q1-2026",
-              "investment"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔧 开发工具与平台更新",
-        "items": [
-          {
-            "bold": "vLLM 0.19.0 集成 Hugging Face",
-            "detail": "开源推理引擎 vLLM 发布了0.19.0版本，新增了与 Hugging Face 生态系统的深度集成功能。这一更新简化了模型部署流程，开发者现在可以更轻松地将 Hugging Face 上的预训练模型部署到生产环境中。该版本还包含了多项性能优化，显著提升了推理速度和资源利用率。",
-            "tags": [
-              "vLLM",
-              "Hugging-Face",
-              "inference-engine",
-              "v0.19.0"
-            ]
-          },
-          {
-            "bold": "xAI Grok 4.20 多智能体系统",
-            "detail": "马斯克的 xAI 公司发布了 Grok 4.20，这是首个商业化的多智能体协作系统。该系统允许多个AI智能体同时处理复杂任务，通过协调合作提高问题解决效率。这一创新架构为企业级AI应用开辟了新的可能性，特别适用于需要多维度分析和决策的商业场景。",
-            "tags": [
-              "xAI",
-              "Grok-4.20",
-              "multi-agent",
-              "collaboration"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "⚖️ 政策法规与安全",
-        "items": [
-          {
-            "bold": "美国各州推出AI监管新规",
-            "detail": "美国多个州政府同步推出了针对人工智能的监管法规，涵盖数据隐私、算法透明度和AI系统安全等多个方面。新规要求AI公司必须披露模型训练数据来源，建立算法审计机制，并为AI决策承担相应责任。这标志着美国AI监管进入了更加严格和规范的新阶段。",
-            "tags": [
-              "regulation",
-              "US-states",
-              "AI-policy",
-              "compliance"
-            ]
-          },
-          {
-            "bold": "Anthropic 遭遇重大网络安全事件",
-            "detail": "AI安全领域发生了一起重大事件，Anthropic 公司报告其系统遭遇了针对性网络攻击。虽然公司声称核心模型和用户数据未受影响，但这一事件引发了业界对AI基础设施安全防护的深度反思。专家呼吁建立更严格的AI系统安全标准和应急响应机制。",
-            "tags": [
-              "Anthropic",
-              "cybersecurity",
-              "breach",
-              "AI-safety"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🎯 应用场景与行业影响",
-        "items": [
-          {
-            "bold": "AI重塑就业市场格局",
-            "detail": "波士顿咨询集团最新研究显示，AI技术更多的是在重塑工作内容而非完全替代工作岗位。报告指出，约70%的工作将因AI技术而发生实质性变化，但完全消失的岗位比例相对较低。这一发现缓解了社会对AI大规模失业的担忧，同时强调了技能升级和再培训的重要性。",
-            "tags": [
-              "job-market",
-              "BCG-report",
-              "workforce",
-              "reskilling"
-            ]
-          },
-          {
-            "bold": "AI语音代理诉讼案激增",
-            "detail": "法律界注意到涉及AI语音代理和AI驱动呼叫监控服务的诉讼案件显著增加。主要争议集中在隐私保护、同意机制和算法偏见等方面。法律专家建议企业在部署此类AI系统时应建立更完善的合规框架，以降低潜在的法律风险和声誉损失。",
-            "tags": [
-              "voice-agents",
-              "litigation",
-              "privacy",
-              "legal-risk"
             ]
           }
         ]
