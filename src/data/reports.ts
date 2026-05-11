@@ -14,6 +14,97 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-11",
+    "weekday": "周一",
+    "timeRange": "05-10 08:30 ~ 05-11 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🏢 企业AI应用与争议",
+        "items": [
+          {
+            "bold": "Meta启动员工行为追踪计划",
+            "detail": "Meta宣布将全面追踪美国员工的电脑操作行为，包括打字内容、鼠标移动轨迹和屏幕浏览记录，以收集数据训练AI模型学习人类实际操作模式。此举影响数万名员工，引发内部强烈不满。该计划旨在让AI系统更好地理解和模仿人类工作流程，但员工隐私保护问题成为焦点。",
+            "tags": [
+              "Meta",
+              "employee-monitoring",
+              "AI-training",
+              "privacy"
+            ]
+          },
+          {
+            "bold": "科技巨头与政府AI安全合作",
+            "detail": "微软、谷歌和马斯克旗下xAI宣布与美国政府建立合作机制，将在新AI模型公开发布前向政府提供早期访问权限，以便进行国家安全风险评估。AI标准与创新中心将负责评估工作，重点关注先进AI系统的能力边界和潜在威胁。这标志着政府对AI技术监管的进一步加强。",
+            "tags": [
+              "Microsoft",
+              "Google",
+              "xAI",
+              "government-cooperation",
+              "AI-safety"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🎓 AI教育与学术研究",
+        "items": [
+          {
+            "bold": "NASA启动强化学习系列讲座",
+            "detail": "NASA天体物理学部门举办AI/ML科技兴趣小组系列讲座第七模块，聚焦强化学习基础理论。讲座由IAS/Flatiron研究院的Carol Cuesta-Lazaro博士主讲，采用虚拟会议形式，为航天领域AI应用研究提供理论支撑。该系列讲座旨在推动AI技术在宇宙起源研究中的深度应用。",
+            "tags": [
+              "NASA",
+              "reinforcement-learning",
+              "astrophysics",
+              "education"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🌆 行业活动与趋势观察",
+        "items": [
+          {
+            "bold": "纽约AI周盛大开幕",
+            "detail": "由Pulse NYC主办的2026年纽约AI周春季版正式启动，为期一周的全城科技嘉年华汇聚业界精英。活动包含社区主导的研讨会、互动工作坊、专题演讲和独家网络交流机会，全方位展示人工智能如何重塑商业模式、社会结构和日常生活。预计将吸引数百位AI领域专家参与。",
+            "tags": [
+              "AI-Week",
+              "New-York",
+              "networking",
+              "industry-event"
+            ]
+          },
+          {
+            "bold": "制造业AI就业前景论坛",
+            "detail": "德克萨斯州福尼经济发展公司举办主题为「机器人、AI与就业」的专题研讨会，深入分析自动化和AI技术对制造业劳动力市场的真实影响。会议将探讨岗位演变趋势、技能需求变化以及如何在新经济环境中获得竞争优势，为制造业从业者提供实用的职业发展指导。",
+            "tags": [
+              "manufacturing",
+              "job-market",
+              "automation",
+              "workforce"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 投资与商业动态",
+        "items": [
+          {
+            "bold": "Dot Ai发布季度财报",
+            "detail": "物联网与AI驱动的SaaS公司Dot Ai宣布将于美东时间下午4:30发布2026年第一季度财务业绩。作为专注于工业技术资产智能化的纳斯达克上市企业，公司管理层将通过投资者电话会议详细解读业绩表现和未来战略规划，市场高度关注其在工业AI领域的发展势头。",
+            "tags": [
+              "Dot-Ai",
+              "earnings",
+              "IoT",
+              "SaaS",
+              "industrial-AI"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-10",
     "weekday": "周日",
     "timeRange": "05-09 08:30 ~ 05-10 08:30 (UTC+8)",
@@ -3071,105 +3162,6 @@ export const reports: DailyReport[] = [
               "AutoML",
               "Real-time Processing",
               "Edge AI"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-11",
-    "weekday": "周六",
-    "timeRange": "04-10 08:30 ~ 04-11 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🏆 基准测试与性能突破",
-        "items": [
-          {
-            "bold": "MLPerf Inference v6.0 重磅发布",
-            "detail": "ML Commons 宣布发布 MLPerf Inference v6.0 基准测试结果，这是今年首个重大基准版本。本轮测试引入五个全新模型，并为低延迟场景更新了一个模型。该版本展现了 AI 社区的强劲发展势头，参与度创历史新高。MLPerf 作为业界标准基准，其最新版本将为 AI 硬件和软件优化提供重要参考指标。",
-            "tags": [
-              "MLPerf",
-              "benchmark",
-              "performance",
-              "inference"
-            ]
-          },
-          {
-            "bold": "Intel 加入马斯克芯片项目",
-            "detail": "Intel 宣布加入 Elon Musk 旗下的 Terafab 项目，为特斯拉、SpaceX 和 xAI 开发专用芯片。Intel 将参与芯片厂的技术重构阶段，这一环节通常用于提升芯片性能和可靠性。此举标志着 Intel 复兴计划的重要转折，消息公布后 Intel 股价大幅上涨。",
-            "tags": [
-              "Intel",
-              "Tesla",
-              "semiconductors",
-              "Terafab"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💼 企业峰会与行业应用",
-        "items": [
-          {
-            "bold": "知识工作峰会探讨 AI 转型",
-            "detail": "《经济时报》在班加罗尔举办 2026 知识工作未来峰会，聚焦 AI 驱动的企业变革。峰会汇集行业领袖，深入探讨人工智能如何重塑知识密集型工作模式。同时，ET AI 黑客松 2026 进入最终冲刺阶段，参赛团队正紧锣密鼓地完善原型产品，为即将到来的提交截止日期做最后准备。",
-            "tags": [
-              "enterprise",
-              "transformation",
-              "hackathon",
-              "knowledge-work"
-            ]
-          },
-          {
-            "bold": "数字病理学 AI 大会召开",
-            "detail": "Kitware 公司将参展 5 月 7-8 日在俄亥俄州哥伦布市举行的数字病理学与 AI 大会。此次会议汇集病理学、人工智能和生物医学研究领域专家，共同探讨数字技术如何变革疾病研究和诊断方法。随着 AI 和全切片成像技术的发展，数字病理学正迎来前所未有的创新机遇。",
-            "tags": [
-              "digital-pathology",
-              "healthcare",
-              "biomedical",
-              "imaging"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🌏 全球 AI 竞争格局",
-        "items": [
-          {
-            "bold": "AI 竞赛的真正战场",
-            "detail": "《马尼拉时报》专栏指出，全球 AI 竞赛不仅仅是中美两国的较量。虽然美国和中国在基础模型和先进半导体设计方面引领创新前沿，但真正决定 AI 经济影响力的是技术应用者。文章强调，AI 技术的经济价值将由那些能够有效应用和部署这些技术的国家和企业来实现，而非仅仅是技术的原创者。",
-            "tags": [
-              "global-competition",
-              "AI-race",
-              "economic-impact",
-              "technology-adoption"
-            ]
-          },
-          {
-            "bold": "AI 主导美国 CEO 财报会议",
-            "detail": "IoT Analytics 发布的 Q1 2026 分析显示，人工智能仍是约 5000 家美国上市公司 CEO 财报会议中讨论最多的话题。这一趋势反映了 AI 技术在企业战略中的核心地位，以及管理层对 AI 投资和应用前景的高度关注。分析还显示，伊朗相关话题在企业讨论中的提及率大幅上升。",
-            "tags": [
-              "earnings-calls",
-              "CEO-priorities",
-              "corporate-strategy",
-              "market-trends"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔧 就业市场与技能转型",
-        "items": [
-          {
-            "bold": "AI 重塑工作而非替代",
-            "detail": "最新研究报告显示，人工智能不会引发大规模失业潮，而是将通过自动化特定任务来逐步重塑各行各业，同时创造对新技能的需求。报告指出，AI 技术的影响将是渐进式的，重点在于改变工作方式而非完全替代人力。然而，哪些具体行业和工人将受到最大影响，以及 AI 采用加速后的确切影响程度，仍有待观察。",
-            "tags": [
-              "job-market",
-              "skills-transformation",
-              "automation",
-              "workforce"
             ]
           }
         ]
