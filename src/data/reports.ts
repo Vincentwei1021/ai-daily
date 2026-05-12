@@ -14,6 +14,140 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-12",
+    "weekday": "周二",
+    "timeRange": "05-11 08:30 ~ 05-12 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "💰 资本市场与大模型融资",
+        "items": [
+          {
+            "bold": "OpenAI完成史上最大轮融资",
+            "detail": "OpenAI以8520亿美元估值完成1220亿美元融资，创下AI行业融资纪录。亚马逊、英伟达、软银和微软领投，a16z、D.E. Shaw Ventures等知名机构跟投。这轮融资将OpenAI推向万亿美元估值俱乐部门槛，标志着AI基础设施投资进入新高度。资本的大举押注反映出市场对通用人工智能商业化前景的强烈信心。",
+            "tags": [
+              "OpenAI",
+              "funding",
+              "valuation",
+              "AGI"
+            ]
+          },
+          {
+            "bold": "谷歌微软联手豪掷6500亿美元",
+            "detail": "科技巨头谷歌和微软宣布联合投资6500亿美元用于AI基础设施建设，这一史无前例的投资规模凸显了两家公司在AI军备竞赛中的决心。投资将主要用于数据中心扩建、AI芯片采购和算力基础设施升级，预计将显著提升全球AI计算能力。此举也被视为对OpenAI等AI独角兽崛起的战略回应。",
+            "tags": [
+              "Google",
+              "Microsoft",
+              "investment",
+              "infrastructure"
+            ]
+          },
+          {
+            "bold": "Anthropic多轮融资持续加码",
+            "detail": "OpenAI的竞争对手Anthropic在5月份完成了多轮融资，进一步巩固其在AI安全和对话模型领域的地位。虽然具体金额未披露，但业内预计总额超过数十亿美元。Anthropic一直以AI安全和可解释性研究著称，此轮融资将助力其在Claude模型的进一步迭代和商业化部署方面取得突破。",
+            "tags": [
+              "Anthropic",
+              "AI safety",
+              "Claude",
+              "funding"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏭 AI工厂与技术主权",
+        "items": [
+          {
+            "bold": "欧盟推进AI工厂技术主权计划",
+            "detail": "欧盟支持的AI工厂建设项目正面临技术主权挑战，目前高度依赖美国硬件供应商。OpenNebula Systems等欧洲公司正在推动建立本土AI基础设施供应链，以减少对美国芯片和硬件的依赖。该倡议旨在确保欧洲在AI竞争中的战略自主性，避免在关键技术领域受制于人，体现了地缘政治对AI发展的深远影响。",
+            "tags": [
+              "EU",
+              "tech sovereignty",
+              "AI factories",
+              "hardware"
+            ]
+          },
+          {
+            "bold": "AI基础设施专业化趋势显现",
+            "detail": "MIT斯隆管理评论指出，2026年AI发展呈现五大趋势，其中AI工厂基础设施建设成为重点。企业开始从AI泡沫中回归理性，更加注重专业化和定制化的AI解决方案。小型应用聚焦模型和智能体AI的发展支持了这一趋势，标志着AI应用从通用转向垂直领域深耕的战略转型。",
+            "tags": [
+              "MIT",
+              "AI trends",
+              "specialization",
+              "infrastructure"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🤖 AI应用与产业变革",
+        "items": [
+          {
+            "bold": "Meta收购机器人公司进军物理AI",
+            "detail": "Meta战略收购一家机器人初创公司，加速其人形AI机器人的研发进程。这一收购将数字智能与现实世界应用相结合，预计将推动AI驱动的日常任务机器人发展。Meta此举标志着其从元宇宙概念向具体AI应用的战略转型，有望在智能家居和服务机器人市场开辟新的增长点。",
+            "tags": [
+              "Meta",
+              "robotics",
+              "physical AI",
+              "acquisition"
+            ]
+          },
+          {
+            "bold": "AI重塑劳动力市场技能需求",
+            "detail": "联合国日内瓦办事处报告显示，AI正在改变工作性质和技能需求结构。虽然AI在某些场景下有益于工作者，但在导致自主性丧失的领域仍存在挑战。社会情感智能等基础技能变得极其重要，因为这些能力无法被AI替代且在商业中备受重视。企业需要重新考虑AI对员工的影响，平衡效率提升与人文关怀。",
+            "tags": [
+              "labor market",
+              "skills",
+              "social intelligence",
+              "UN"
+            ]
+          },
+          {
+            "bold": "明尼苏达州重拳打击AI深度伪造",
+            "detail": "明尼苏达州出台严厉法规，对制作虚假AI裸体图像的应用开发者最高处以50万美元罚款。这一立法举措凸显了AI技术伦理部署和可及性问题的紧迫性。随着生成式AI技术日益普及，如何在技术创新与社会责任之间找到平衡成为监管部门面临的重大挑战。",
+            "tags": [
+              "Minnesota",
+              "AI regulation",
+              "deepfakes",
+              "ethics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "⚔️ 国防AI与自主系统",
+        "items": [
+          {
+            "bold": "Saronic获17.5亿美元国防AI订单",
+            "detail": "海军自主系统公司Saronic在美国国防部复制者计划框架下，以92.5亿美元估值完成17.5亿美元融资，较去年估值翻倍。该公司专注于自主海军舰艇研发，标志着军用AI和无人系统进入快速发展阶段。国防AI投资的激增反映出各国对自主武器系统战略价值的重新认识。",
+            "tags": [
+              "defense AI",
+              "Saronic",
+              "autonomous vessels",
+              "DoD"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏥 医疗AI与垂直应用",
+        "items": [
+          {
+            "bold": "Qualified Health医疗AI获1.25亿融资",
+            "detail": "专注于医疗健康领域的生成式AI公司Qualified Health完成1.25亿美元融资，将用于推进AI在医疗诊断、治疗方案制定和患者护理等方面的应用。医疗AI正成为投资热点，随着监管环境逐步明朗，AI在提高医疗效率和改善患者体验方面的价值得到广泛认可。",
+            "tags": [
+              "healthcare AI",
+              "Qualified Health",
+              "medical diagnosis",
+              "funding"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-11",
     "weekday": "周一",
     "timeRange": "05-10 08:30 ~ 05-11 08:30 (UTC+8)",
@@ -3038,130 +3172,6 @@ export const reports: DailyReport[] = [
               "open-source",
               "dataset",
               "training"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-12",
-    "weekday": "周日",
-    "timeRange": "04-11 08:30 ~ 04-12 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🧠 大模型与基础设施",
-        "items": [
-          {
-            "bold": "DeepSeek V4 引发中美芯片博弈",
-            "detail": "据台北时报报道，DeepSeek 的新一代 V4 模型成为中国 AI 野心的试金石。报告指出该公司可能通过第三国拆解并走私数千块 Nvidia 顶级 Blackwell 芯片来训练模型，绕过美国制裁。同时阿里巴巴宣布在华南建设新的 AI 数据中心，配备 1 万块自研芯片，由中国电信运营。这一事件凸显了全球 AI 基础设施竞争的激烈程度。",
-            "tags": [
-              "DeepSeek",
-              "Nvidia",
-              "China AI",
-              "Blackwell"
-            ]
-          },
-          {
-            "bold": "万亿美元机器人市场调查启动",
-            "detail": "Weiss Ratings 发布的最新研究报告显示，机器人产业正面临万亿美元级别的市场机遇。报告重点关注 Nvidia AI 扩张、自动驾驶卡车技术突破以及机器人基础设施的快速扩张。这份由 Michael Robinson 撰写的报告揭示了人工智能基础设施、自动驾驶系统和机器人集成在更广泛技术领域的新兴发展趋势。",
-            "tags": [
-              "Robotics",
-              "Nvidia",
-              "Autonomous Vehicles",
-              "Infrastructure"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 AI 研究突破",
-        "items": [
-          {
-            "bold": "推理模型成为 2026 年最大趋势",
-            "detail": "IBM Think 研究指出，推理能力将成为 2026 年 AI 发展的核心趋势。一年前 ChatGPT 还无法准确计算\"strawberry\"中字母\"r\"的数量，如今来自中国前沿实验室的推理模型如 DeepSeek-R1 已经震撼全球。开源推理代理的兴起标志着 AI 从实验性探索向实用性部署的重大转变，这将重新定义人工智能的应用边界。",
-            "tags": [
-              "Reasoning Models",
-              "DeepSeek-R1",
-              "OpenSource",
-              "IBM"
-            ]
-          },
-          {
-            "bold": "专门化模型超越通用 AI",
-            "detail": "Stellium Consulting 的 2026 年 AI 趋势报告显示，领域专用模型正在超越通用人工智能系统。企业越来越倾向于部署针对特定行业和任务优化的 AI 模型，这些专门化系统在效率和准确性方面表现出色。这一趋势反映了 AI 技术从\"大而全\"向\"精而专\"的战略性转向。",
-            "tags": [
-              "Domain-Specific AI",
-              "Enterprise AI",
-              "Specialized Models",
-              "Efficiency"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🛠️ 开发工具与平台",
-        "items": [
-          {
-            "bold": "AI 搜索重塑在线信息获取",
-            "detail": "德国之声报道显示，AI 搜索技术正在根本性地改变我们在线获取信息的方式。新一代智能搜索系统不仅能理解用户意图，还能提供更加精准和个性化的结果。这种变革性技术正在重新定义信息检索的标准，为用户提供更加高效和智能的搜索体验，预计将在 2026 年实现大规模商业化应用。",
-            "tags": [
-              "AI Search",
-              "Information Retrieval",
-              "User Experience",
-              "Technology"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💼 企业级 AI 应用",
-        "items": [
-          {
-            "bold": "代理式 AI 在企业环境中崛起",
-            "detail": "企业级 AI 代理正成为 2026 年的重要趋势，能够处理复杂的业务流程和工作流程。这些智能代理系统不再局限于简单的任务自动化，而是能够理解业务上下文，做出智能决策，并与现有企业系统无缝集成。Microsoft 和其他科技巨头正在大力投资这一领域，预计将为企业数字化转型带来革命性变化。",
-            "tags": [
-              "Agentic AI",
-              "Enterprise",
-              "Business Process",
-              "Microsoft"
-            ]
-          },
-          {
-            "bold": "安全部署成为企业 AI 核心",
-            "detail": "MIT Sloan Review 的研究强调，2026 年企业 AI 部署将更加关注安全性和可靠性。随着 AI 系统在关键业务流程中的广泛应用，企业需要建立完善的治理框架和风险管控机制。这包括数据隐私保护、算法透明度、以及 AI 系统的可审计性，确保技术创新与企业责任的平衡发展。",
-            "tags": [
-              "AI Security",
-              "Enterprise Deployment",
-              "Risk Management",
-              "Governance"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "📈 产业趋势与预测",
-        "items": [
-          {
-            "bold": "2026 年六大 AI 突破性进展",
-            "detail": "InfoWorld 预测 2026 年最重要的 AI 进展将不是构建更大的模型，而是让 AI 系统变得更智能、更高效。这包括推理能力的提升、多模态融合、边缘计算优化、以及人机协作界面的革新。这些突破将推动 AI 技术从实验室走向实际应用，为各行各业带来实质性的生产力提升。",
-            "tags": [
-              "AI Breakthroughs",
-              "Efficiency",
-              "Smart Systems",
-              "Innovation"
-            ]
-          },
-          {
-            "bold": "数据科学五大发展方向",
-            "detail": "MIT Sloan Review 识别出 2026 年数据科学和 AI 的五个关键发展方向。这些趋势包括自动化机器学习的普及、实时数据处理能力的增强、AI 解释性技术的成熟、边缘智能的广泛部署，以及数据治理标准的完善。这些发展将为企业提供更强大的数据驱动决策能力。",
-            "tags": [
-              "Data Science",
-              "AutoML",
-              "Real-time Processing",
-              "Edge AI"
             ]
           }
         ]
