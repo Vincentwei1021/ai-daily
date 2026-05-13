@@ -14,6 +14,105 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-13",
+    "weekday": "周三",
+    "timeRange": "05-12 08:30 ~ 05-13 08:30 (UTC+8)",
+    "tweetCount": 38,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🏛️ AI 治理与政策监管",
+        "items": [
+          {
+            "bold": "美国商务部加强AI模型预部署审查",
+            "detail": "Google DeepMind、微软和马斯克的xAI已同意让商务部AI标准与创新中心对新模型进行发布前审查。该机构将进行预部署评估和针对性研究，以评估前沿AI能力和国家安全影响。自2024年与OpenAI和Anthropic合作以来，已完成40次模型审查。这标志着AI监管从自愿合规向制度化审查的重要转变。",
+            "tags": [
+              "AI governance",
+              "regulation",
+              "national security",
+              "pre-deployment"
+            ]
+          },
+          {
+            "bold": "法律AI基准测试面临透明度挑战",
+            "detail": "尽管法律实践中AI应用热情高涨，但广泛部署系统的性能和风险信息仍然有限。最新研究发现'幻觉'等持续性问题，即模型生成不准确或虚假的法律信息。专家强调需要精心设计的制度框架来确保法律AI的透明度、可靠性和问责制，以应对不同的资源约束。",
+            "tags": [
+              "legal AI",
+              "benchmarking",
+              "hallucination",
+              "transparency"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🎓 AI 教育与人才培养",
+        "items": [
+          {
+            "bold": "英伟达CEO鼓励毕业生拥抱AI时代",
+            "detail": "英伟达CEO黄仁勋在卡内基梅隆大学毕业典礼上告诉毕业生要'奔向'AI，将这项技术定义为科学和发现的新时代。他的演讲回应了许多学生对AI可能缩减早期职业机会的担忧。这一表态反映了英伟达在AI经济中的战略定位：当更多开发者、研究人员和初创企业积极构建AI基础设施时，公司将从中受益。",
+            "tags": [
+              "Nvidia",
+              "career advice",
+              "AI adoption",
+              "graduation"
+            ]
+          },
+          {
+            "bold": "第二届AI与教育国际会议召开",
+            "detail": "西交利物浦大学举办2026年第二届AI与教育国际会议，主题为'AI赋能的综合教育：新学习时代的个性化与游戏化'。会议采用混合形式进行，汇聚教育技术专家探讨AI如何变革教育模式。重点关注个性化学习路径设计和游戏化教学方法，为未来教育发展提供前瞻性思考。",
+            "tags": [
+              "AI education",
+              "personalization",
+              "gamification",
+              "conference"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "📱 AI 产品与平台动态",
+        "items": [
+          {
+            "bold": "谷歌Android AI功能抢先苹果Siri",
+            "detail": "谷歌在Android平台推出新的AI功能，在苹果Siri升级之前抢占市场先机。这些新功能进一步强化了Android生态系统的AI集成能力，提升用户体验的智能化水平。此举凸显了科技巨头在移动AI助手领域的激烈竞争，各家都在争夺下一代智能交互的主导权。",
+            "tags": [
+              "Android",
+              "Google",
+              "mobile AI",
+              "Siri competition"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔧 AI 基础设施演进",
+        "items": [
+          {
+            "bold": "'AI已死'：智能成为基础设施",
+            "detail": "2026年将见证'AI已死'现象——这并非创新终结，而是技术成熟的标志。人工智能将不再是头条热点，而是转变为驱动一切的隐藏层，从客户交互到后端运营。正如互联网从未来概念悄然转变为现代生活的骨干，AI将逐渐融入基础设施，成为不可见但无处不在的技术支撑。",
+            "tags": [
+              "AI infrastructure",
+              "technology maturity",
+              "invisible AI",
+              "backend operations"
+            ]
+          },
+          {
+            "bold": "CREATE-X春季创业展示汇聚AI初创",
+            "detail": "CREATE-X春季创业启动展示活动将展示26家新创企业，其中多家专注于AI技术应用。活动为投资者和行业领袖提供了解最新学生创业项目的机会，特别是在AI和新兴技术领域的创新应用。这反映了学术界与产业界在AI创业生态建设方面的积极合作。",
+            "tags": [
+              "startup showcase",
+              "student entrepreneurs",
+              "AI startups",
+              "CREATE-X"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-12",
     "weekday": "周二",
     "timeRange": "05-11 08:30 ~ 05-12 08:30 (UTC+8)",
@@ -3063,115 +3162,6 @@ export const reports: DailyReport[] = [
               "semiconductor",
               "Google",
               "supply-chain"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-13",
-    "weekday": "周一",
-    "timeRange": "04-12 08:30 ~ 04-13 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🚀 AI突破性进展与预测",
-        "items": [
-          {
-            "bold": "摩根士丹利警告2026年AI重大突破即将到来",
-            "detail": "投资银行摩根士丹利在最新报告中警告，2026年上半年将出现变革性的人工智能突破，这主要由美国顶级AI实验室前所未有的算力积累推动。报告特别引用了埃隆·马斯克的观点，认为将10倍算力应用于大语言模型训练将带来质的飞跃。分析师强调，'智能'正成为新的通用货币，由算力和能源铸造而成。",
-            "tags": [
-              "breakthrough",
-              "compute",
-              "investment",
-              "prediction"
-            ]
-          },
-          {
-            "bold": "递归自我改进循环或将于2027年初出现",
-            "detail": "xAI联合创始人Jimmy Ba表示，AI自主升级自身能力的递归自我改进循环可能在2027年上半年出现。OpenAI CEO萨姆·奥特曼进一步设想，完全由1-5人构建的新公司将能够击败大型现有企业。这些预测表明AI发展速度正超出大多数人的预期，智能爆炸的到来比预期更快。",
-            "tags": [
-              "self-improvement",
-              "AGI",
-              "startups",
-              "competition"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🌍 全球AI基础设施建设",
-        "items": [
-          {
-            "bold": "摩洛哥启动非洲首个主权AI平台",
-            "detail": "摩洛哥正式启动了Nexus AI工厂，这是非洲大陆第一个主权人工智能平台，获得12亿美元投资支持。该设施位于卡萨布兰卡，标志着发展中国家在AI领域的重要里程碑。这一举措体现了非洲地区对AI主权和技术独立的重视，为其他发展中国家提供了可借鉴的模式。",
-            "tags": [
-              "Africa",
-              "sovereign-AI",
-              "infrastructure",
-              "investment"
-            ]
-          },
-          {
-            "bold": "微软100亿美元投资日本AI与网络安全",
-            "detail": "微软宣布向日本投资100亿美元，重点发展AI增长和网络安全领域。这一大规模投资显示了科技巨头对亚太市场AI发展的重视，也反映出网络安全在AI时代的重要性日益凸显。投资将有助于加强日本在全球AI竞争中的地位，同时推动区域技术创新生态的发展。",
-            "tags": [
-              "Microsoft",
-              "Japan",
-              "investment",
-              "cybersecurity"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🛠️ AI模型与工具创新",
-        "items": [
-          {
-            "bold": "Google发布Gemma 4模型支持离线运行",
-            "detail": "谷歌发布了Gemma 4模型，该模型可以在任何设备上离线运行且完全免费使用。这一突破性进展大大降低了AI应用的门槛，使得开发者和用户无需依赖云端服务即可享受先进的AI能力。离线运行特性不仅提升了隐私保护水平，还为边缘计算和资源受限环境下的AI应用开辟了新的可能性。",
-            "tags": [
-              "Google",
-              "offline-AI",
-              "edge-computing",
-              "free-model"
-            ]
-          },
-          {
-            "bold": "Anthropic推出革命性Conway项目",
-            "detail": "Anthropic发布了名为Conway的神秘项目，被业界认为可能永远改变AI的未来。虽然具体细节尚未完全公开，但该项目被描述为具有突破性意义的AI技术进展。这一发布进一步加剧了AI领域的竞争，各大公司都在争相推出下一代变革性技术，Conway可能成为AI发展史上的重要节点。",
-            "tags": [
-              "Anthropic",
-              "Conway",
-              "breakthrough",
-              "future-AI"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🤖 智能体AI革命浪潮",
-        "items": [
-          {
-            "bold": "2026年智能体AI七大突破重塑科技格局",
-            "detail": "2026年4月见证了智能体AI领域的七项重大突破，正在重塑整个科技行业格局。从自主系统能力的提升到开源模型的民主化，再到神经形态计算的硬件革新，这些突破代表了结构性的不可逆转变。AI已不再是实验性技术或未来概念，而是成为全球企业和数字基础设施不可或缺的基础层。",
-            "tags": [
-              "agentic-AI",
-              "autonomous-systems",
-              "tech-transformation",
-              "infrastructure"
-            ]
-          },
-          {
-            "bold": "MolmoWeb开放网络智能体训练数据集",
-            "detail": "研究团队发布了MolmoWeb模型及其配套的综合性网络智能体训练数据集MolmoWebMix。该项目完全开源，提供了检查、复现和微调MolmoWeb所需的全部资源。这一开放举措将加速网络智能体技术的发展和普及，为开发者提供了宝贵的训练资源和技术基础。",
-            "tags": [
-              "web-agents",
-              "open-source",
-              "dataset",
-              "training"
             ]
           }
         ]
