@@ -14,6 +14,121 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-14",
+    "weekday": "周四",
+    "timeRange": "05-13 08:30 ~ 05-14 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🏭 AI基础设施与能源挑战",
+        "items": [
+          {
+            "bold": "AI能源供应成发展瓶颈",
+            "detail": "随着AI技术持续进步，行业正面临新的挑战：能源供应。专家指出，虽然AI在智能化方面取得稳步进展，但能源消耗正快速成为制约AI发展的主要障碍。这一问题直接影响着大型AI模型的训练和部署，迫使行业重新思考可持续发展策略。",
+            "tags": [
+              "energy",
+              "infrastructure",
+              "sustainability"
+            ]
+          },
+          {
+            "bold": "基础设施建设催生新就业",
+            "detail": "英伟达CEO黄仁勋在卡内基梅隆大学毕业典礼上表示，AI基础设施的快速扩张正在创造传统软件工程之外的大量机会。技术熟练的蓝领工作被认为是未来最有前景的职业之一，这标志着AI发展对劳动力市场结构的深刻影响。",
+            "tags": [
+              "jobs",
+              "nvidia",
+              "infrastructure"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🤖 物理AI与实体应用",
+        "items": [
+          {
+            "bold": "AI从屏幕走向物理世界",
+            "detail": "英伟达2026年GTC大会标志着一个重要转折点：AI正从内容生成转向实际行动执行。这一转变推动了自动驾驶汽车、智能工厂和机器人技术的发展，为物理AI生态系统创造了直接商机。WisdomTree推出的物理AI、人形机器人和无人机基金反映了市场对这一趋势的看好。",
+            "tags": [
+              "physical-ai",
+              "robotics",
+              "autonomous-vehicles"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "📊 企业AI转化困境",
+        "items": [
+          {
+            "bold": "中东企业AI投资难见成效",
+            "detail": "迪拜Kudo Advisory咨询公司报告显示，中东地区企业在将AI投资转化为实际运营成果方面面临重大挑战。许多组织仍停留在AI实验阶段，难以实现可扩展的商业影响。这一现象反映出全球企业在AI应用落地方面的普遍困境。",
+            "tags": [
+              "enterprise",
+              "middle-east",
+              "roi"
+            ]
+          },
+          {
+            "bold": "加拿大央行：AI未大规模替代工人",
+            "detail": "加拿大银行最新报告指出，尽管AI技术发展迅速，但目前并未大规模替代工人。这一观察结果为当前关于AI对就业市场影响的讨论提供了重要数据支撑，暗示AI与人类劳动力的关系比预期更为复杂。",
+            "tags": [
+              "employment",
+              "canada",
+              "labor-market"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "⚖️ 监管与公众态度",
+        "items": [
+          {
+            "bold": "美国民众呼吁强化AI监管",
+            "detail": "宾夕法尼亚大学安纳伯格公共政策中心的全国代表性调查显示，美国民众对AI影响普遍持悲观态度，强烈呼吁政府加强对AI技术的监管。随着数据中心建设辩论的加剧，公众对AI监管的需求日益迫切。",
+            "tags": [
+              "regulation",
+              "public-opinion",
+              "survey"
+            ]
+          },
+          {
+            "bold": "中美AI竞争影响监管合作",
+            "detail": "专家分析指出，在习近平与特朗普的会谈中，AI领域的激烈竞争可能会掩盖建立防护机制的努力。中美两国在AI技术发展上的战略竞争正在影响国际AI治理框架的建立，使得全球AI监管协调面临新挑战。",
+            "tags": [
+              "us-china",
+              "competition",
+              "geopolitics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🎓 AI教育与研究趋势",
+        "items": [
+          {
+            "bold": "MIT发布2026年AI发展趋势",
+            "detail": "MIT技术评论重点关注了将在2026年塑造科技发展的关键AI趋势。其中包括自然语言处理技术的显著改进和伦理AI开发的重要性。研究人员强调，负责任的AI使用对于避免潜在风险至关重要，这些洞察为企业和政策制定者提供了重要指导。",
+            "tags": [
+              "mit",
+              "nlp",
+              "ai-ethics"
+            ]
+          },
+          {
+            "bold": "教育系统向AI混合模式转型",
+            "detail": "乔治亚理工学院举办的研讨会探讨了从AI工具向教学系统的新混合模式转变。这一转型代表着教育技术的重要进步，将重新定义AI在教育领域的角色，从简单的辅助工具发展为综合性的教学平台。",
+            "tags": [
+              "education",
+              "pedagogy",
+              "hybrid-systems"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-13",
     "weekday": "周三",
     "timeRange": "05-12 08:30 ~ 05-13 08:30 (UTC+8)",
@@ -3063,105 +3178,6 @@ export const reports: DailyReport[] = [
               "AI Trends",
               "Data Science",
               "Future Predictions"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-14",
-    "weekday": "周二",
-    "timeRange": "04-13 08:30 ~ 04-14 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🏢 AI 治理与监管",
-        "items": [
-          {
-            "bold": "KPMG发布全球AI董事会治理准则",
-            "detail": "毕马威国际与欧洲工商管理学院公司治理中心合作，正式发布《董事会AI治理原则》报告。该准则旨在帮助企业董事会应对AI技术对战略、运营和董事会本身带来的深远影响，为组织层面的AI负责任治理提供指导框架。这标志着全球AI治理体系建设迈出重要一步。",
-            "tags": [
-              "governance",
-              "corporate",
-              "board",
-              "regulation"
-            ]
-          },
-          {
-            "bold": "AI监管2026全球展望发布",
-            "detail": "最新研究显示，2026年AI监管重点聚焦在透明度、自动化决策、影响评估和个人权利保护等领域。隐私团队在AI合规中扮演关键角色，因为许多AI监管义务与隐私概念高度相似。全球AI法规正从制定阶段转向实际执行阶段，合规要求日益严格。",
-            "tags": [
-              "regulation",
-              "privacy",
-              "compliance",
-              "global"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🤖 AI 应用与产品创新",
-        "items": [
-          {
-            "bold": "Meta开发扎克伯格AI分身",
-            "detail": "据《金融时报》报道，Meta正在开发CEO马克·扎克伯格的AI版本，用于与员工互动。该项目基于Meta的AI Studio技术，能够创建可实时对话的逼真3D AI角色。这一创新将AI人格化应用推向新高度，可能重新定义企业领导层与员工的沟通模式。",
-            "tags": [
-              "Meta",
-              "CEO",
-              "AI-character",
-              "workplace"
-            ]
-          },
-          {
-            "bold": "现代汽车集团押注AI机器人战略",
-            "detail": "现代汽车集团董事长郑义宣在接受采访时表示，集团愿景是通过先进AI驱动的协作机器人连接人类，实现超越移动出行的发展。机器人技术和物理AI将成为集团未来战略的核心。面对中美贸易紧张和地缘政治不确定性，现代选择在AI驱动的机器人领域重点投资。",
-            "tags": [
-              "Hyundai",
-              "robotics",
-              "physical-AI",
-              "strategy"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔒 AI 安全与风险",
-        "items": [
-          {
-            "bold": "AI网络攻击实现零人工干预",
-            "detail": "Anthropic首次报告了AI技术在几乎无需人工操作的情况下收集敏感信息的网络攻击案例。随着Anthropic和OpenAI准备发布更强大的AI系统，网络安全专家警告AI正在根本性地改变网络安全格局。今年2月，Anthropic利用其AI技术发现了超过500个零日漏洞。",
-            "tags": [
-              "cybersecurity",
-              "zero-day",
-              "Anthropic",
-              "threats"
-            ]
-          },
-          {
-            "bold": "斯坦福报告：AI威胁选举与人际关系",
-            "detail": "斯坦福大学人工智能研究院最新报告发现，AI存在不安全使用实践，公众对其影响普遍焦虑，中国在AI领域正在追赶美国。报告特别指出AI技术可能对选举公正性和人际关系造成负面影响，引发社会各界对AI伦理和安全使用的深度思考。",
-            "tags": [
-              "Stanford",
-              "elections",
-              "social-impact",
-              "ethics"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💰 AI 产业与市场",
-        "items": [
-          {
-            "bold": "南亚科技看好AI带动DRAM需求",
-            "detail": "南亚科技表示，AI热潮持续推动芯片需求，DRAM价格上涨趋势预计延续，全球芯片短缺问题至少持续到明年。公司认为谷歌新推出的TruboQuant AI模型不会减少DRAM芯片使用，反而可能增加需求，因为该技术有望提高大语言模型推理效率。",
-            "tags": [
-              "DRAM",
-              "semiconductor",
-              "Google",
-              "supply-chain"
             ]
           }
         ]
