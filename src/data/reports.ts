@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-16",
+    "weekday": "周六",
+    "timeRange": "05-15 08:30 ~ 05-16 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🚀 大模型与基础设施突破",
+        "items": [
+          {
+            "bold": "GPT-5.5 和 Claude Mythos 模型发布",
+            "detail": "五月份成为 AI 创新的分水岭月份，多个前沿实验室以光速推进大模型技术。GPT-5.5 和 Claude Mythos 等新一代模型发布，专家认为这些进展将重塑人们与数字工具的交互方式。模型在效率和用户体验方面实现显著提升，标志着 AI 革命进入新阶段。",
+            "tags": [
+              "GPT-5.5",
+              "Claude",
+              "large-models",
+              "breakthrough"
+            ]
+          },
+          {
+            "bold": "ChatGPT 推出自助广告平台",
+            "detail": "OpenAI 在 ChatGPT 内部上线自助式广告平台，为企业和消费者提供全新的商业化路径。这一举措反映了 AI 公司在寻求可持续盈利模式方面的积极探索，同时也为用户提供更加个性化的服务体验。业内认为此举将改变 AI 产品的商业生态格局。",
+            "tags": [
+              "OpenAI",
+              "ChatGPT",
+              "advertising",
+              "monetization"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💰 芯片与硬件基础设施",
+        "items": [
+          {
+            "bold": "应用材料公司营收预测大幅上调",
+            "detail": "美国最大的半导体设备供应商应用材料公司发布超预期财务预测，第三财季营收预计达89.5亿美元，远超分析师估计。AI 计算和内存芯片需求激增成为主要推动力，反映出整个半导体产业链对 AI 基础设施投资的强劲需求。",
+            "tags": [
+              "Applied-Materials",
+              "semiconductor",
+              "AI-chips",
+              "revenue"
+            ]
+          },
+          {
+            "bold": "英伟达寻求芯片销售新突破",
+            "detail": "英伟达继续在 AI 芯片领域寻求销售突破，面对日益增长的 AI 训练和推理需求。公司正在加大研发投入，以应对激烈的市场竞争和技术挑战。业界普遍看好英伟达在 AI 基础设施建设中的核心地位。",
+            "tags": [
+              "Nvidia",
+              "chip-sales",
+              "AI-hardware",
+              "breakthrough"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔒 AI 安全与监管动态",
+        "items": [
+          {
+            "bold": "谷歌工程师窃取 AI 机密被定罪",
+            "detail": "一名前谷歌软件工程师因盗取贸易机密被联邦法院定罪，涉案数据超过500个机密文件，包括 TPU 芯片和大规模机器学习模型的关键技术细节。检方指控该工程师秘密为中国科技公司工作，此案凸显了 AI 技术安全和知识产权保护的重要性。",
+            "tags": [
+              "Google",
+              "trade-secrets",
+              "security",
+              "conviction"
+            ]
+          },
+          {
+            "bold": "政府加强 AI 监管介入",
+            "detail": "各国政府正更加积极地参与 AI 行业监管，对前沿 AI 模型的安全评估和合规要求日趋严格。监管机构表示，随着 AI 技术快速发展，需要建立更完善的治理框架来平衡创新与风险控制，确保 AI 技术的负责任发展。",
+            "tags": [
+              "regulation",
+              "government",
+              "AI-safety",
+              "compliance"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏢 企业应用与投资趋势",
+        "items": [
+          {
+            "bold": "AI ETF 迎来投资利好",
+            "detail": "美国企业财报季为人工智能 ETF 带来积极信号，专家普遍看好 AI 相关投资标的的长期前景。随着企业加速数字化转型和 AI 系统集成，相关投资产品表现强劲，投资者对 AI 基础设施和应用公司保持高度关注。",
+            "tags": [
+              "AI-ETF",
+              "investment",
+              "earnings",
+              "market-outlook"
+            ]
+          },
+          {
+            "bold": "企业 AI 转型成本攀升",
+            "detail": "基础设施成本急剧上升，企业在 AI 系统集成过程中面临更大的资金压力。尽管如此，企业仍在快速调整业务流程以适应 AI 技术，寻求在效率提升和成本控制之间找到平衡点。业内预计这一趋势将持续推动 AI 产业的结构性变化。",
+            "tags": [
+              "enterprise-AI",
+              "infrastructure-costs",
+              "transformation",
+              "business-process"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-15",
     "weekday": "周五",
     "timeRange": "05-14 08:30 ~ 05-15 08:30 (UTC+8)",
@@ -3114,95 +3223,6 @@ export const reports: DailyReport[] = [
               "data-investment",
               "leadership",
               "strategy"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-16",
-    "weekday": "周四",
-    "timeRange": "04-15 08:30 ~ 04-16 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🔧 芯片基础设施与算力升级",
-        "items": [
-          {
-            "bold": "Meta扩大与博通芯片合作",
-            "detail": "Meta宣布扩展与博通的定制AI芯片合作协议，将生产多代定制人工智能处理器。这一战略合作旨在构建支撑Meta旗下应用AI功能所需的计算能力。作为协议的一部分，博通CEO陈福阳将离开Meta董事会。这一举措反映了大型科技公司对定制芯片解决方案日益增长的需求，以应对AI工作负载的特殊要求。",
-            "tags": [
-              "Meta",
-              "Broadcom",
-              "Custom-Chips",
-              "AI-Infrastructure"
-            ]
-          },
-          {
-            "bold": "ASML上调2026年销售预期",
-            "detail": "荷兰光刻机制造商ASML控股公司上调全年销售预期，得益于全球人工智能支出激增推动半导体生产需求。AI应用的快速发展带动了对先进芯片制造设备的强劲需求，ASML作为极紫外光刻技术的领导者，在这一轮AI驱动的半导体增长中占据关键位置。公司预计AI相关芯片制造将持续推动业务增长。",
-            "tags": [
-              "ASML",
-              "Semiconductor",
-              "Sales-Forecast",
-              "AI-Demand"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🤖 机器人与物理AI突破",
-        "items": [
-          {
-            "bold": "NVIDIA推进物理AI机器人研究",
-            "detail": "在国家机器人周期间，NVIDIA展示了最新的物理AI研究成果。通过NVIDIA的仿真平台、合成数据生成和AI驱动的机器人学习工具，开发者现在拥有构建能够在复杂环境中感知、推理和行动的机器的技术基础。这些进展标志着机器人技术从简单的自动化向真正智能化的重要转变，为下一代AI机器人奠定了坚实基础。",
-            "tags": [
-              "NVIDIA",
-              "Physical-AI",
-              "Robotics",
-              "Simulation"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💼 商业模式与投资动态",
-        "items": [
-          {
-            "bold": "Allbirds获5000万美元AI转型资金",
-            "detail": "这家曾经的华尔街宠儿、由前新西兰足球运动员蒂姆·布朗创立的可持续鞋履品牌Allbirds，与一家未具名机构投资者签署协议，获得5000万美元融资用于业务向AI基础设施转型。这一戏剧性的商业转向显示了传统消费品牌如何寻求在AI时代的新定位，同时也反映了投资者对AI基础设施领域的持续看好。",
-            "tags": [
-              "Allbirds",
-              "Investment",
-              "Business-Transformation",
-              "AI-Infrastructure"
-            ]
-          },
-          {
-            "bold": "花旗银行举办2026 AI峰会",
-            "detail": "花旗集团举办年度AI峰会，聚焦投资管理领域AI应用的深度发展。会议探讨了AI在投资管理行业从提升运营效率向更复杂投资应用的转变趋势。与会专家分享了机器人行业增长的洞察，以及新兴政策和监管环境对AI发展的影响，为金融行业AI应用指明了发展方向。",
-            "tags": [
-              "Citi",
-              "AI-Summit",
-              "Investment-Management",
-              "Financial-AI"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🛒 AI驱动的消费体验革新",
-        "items": [
-          {
-            "bold": "AI购物助手改变时尚定价模式",
-            "detail": "随着AI购物代理的兴起，时尚零售业正迎来定价新时代。动态定价已经在改变服装的最终成本，而购物机器人和个性化价格提醒的便利性可能导致冲动购买行为。商业内幕报告显示，动态定价正在时尚零售领域加速普及。AI购物代理的使用改变了动态定价的工作方式，消费者需要更加谨慎地应对这一变化。",
-            "tags": [
-              "AI-Shopping",
-              "Dynamic-Pricing",
-              "Fashion-Retail",
-              "Consumer-Behavior"
             ]
           }
         ]
