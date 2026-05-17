@@ -14,6 +14,130 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-17",
+    "weekday": "周日",
+    "timeRange": "05-16 08:30 ~ 05-17 08:30 (UTC+8)",
+    "tweetCount": 42,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🏛️ 政府监管与安全",
+        "items": [
+          {
+            "bold": "美国政府加强前沿AI模型安全评估",
+            "detail": "微软、谷歌和xAI与美国政府达成重要协议，允许政府在前沿AI模型公开发布前进行安全评估。这标志着AI安全监管进入新阶段，政府开始主动介入大模型的发布流程，确保国家安全不受威胁。该举措反映出监管机构对AI技术快速发展可能带来风险的高度关注。",
+            "tags": [
+              "AI Safety",
+              "Government",
+              "Regulation",
+              "Security"
+            ]
+          },
+          {
+            "bold": "欧盟推迟高风险AI规则实施",
+            "detail": "欧盟宣布将高风险AI应用相关规则的实施时间推迟超过一年，这一决定可能对全球AI监管格局产生重大影响。延期反映出制定完善AI监管框架的复杂性，以及在促进技术创新与确保安全之间寻找平衡点的挑战。业界普遍认为这为AI企业提供了更多发展空间。",
+            "tags": [
+              "EU Regulation",
+              "Policy",
+              "AI Ethics",
+              "Compliance"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🚀 模型技术突破",
+        "items": [
+          {
+            "bold": "Sakana AI推出参数优化架构",
+            "detail": "Sakana AI发布技术论文，详细介绍了一种显著减少Transformer模型参数占用而不牺牲知识性能的架构优化方案。这些\"稀疏化\"模型专为边缘设备和实时语音系统部署而设计，重点解决低延迟性能瓶颈问题，为AI技术在移动端和嵌入式设备的普及奠定基础。",
+            "tags": [
+              "Model Architecture",
+              "Edge Computing",
+              "Optimization",
+              "Transformer"
+            ]
+          },
+          {
+            "bold": "多模态基础模型成为新焦点",
+            "detail": "2026年，真正的多模态基础模型正成为下一个重大突破点。这些模型能够原生地消费和产生多样化数据，同时具备看、说、听、写的能力，为全新的AI应用场景打开大门。相比之前的生成式AI，多模态模型将实现更自然的人机交互和更复杂的任务处理能力。",
+            "tags": [
+              "Multimodal",
+              "Foundation Models",
+              "AI Capabilities",
+              "Human-AI Interaction"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 企业应用与商业化",
+        "items": [
+          {
+            "bold": "OpenAI成立40亿美元部署公司",
+            "detail": "OpenAI于5月11日推出OpenAI部署公司，这家新成立的企业专注于帮助企业部署AI解决方案，投资规模达40亿美元。这一举措标志着OpenAI从技术研发向商业应用的战略转型，旨在加速AI技术在各行各业的落地实施，为企业数字化转型提供全方位支持。",
+            "tags": [
+              "OpenAI",
+              "Enterprise AI",
+              "Business Deployment",
+              "Investment"
+            ]
+          },
+          {
+            "bold": "AI从个人工具转向团队协作",
+            "detail": "企业AI平台Writer的首席战略官Kevin Chung指出，2026年AI发展的三大趋势之一是从个人使用转向团队和工作流程编排。AI系统开始协调整个工作流程，连接跨部门数据，推动项目从构思到完成的全过程。这种转变将重新定义团队协作模式和企业运营效率。",
+            "tags": [
+              "Team Collaboration",
+              "Workflow",
+              "Enterprise",
+              "AI Integration"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏥 垂直应用与专业化",
+        "items": [
+          {
+            "bold": "AI医疗应用迎来关键节点",
+            "detail": "斯坦福AI专家预测，2026年将见证AI在医疗领域的重大进展，特别是在缩小医疗服务差距方面。随着可用解决方案的增加，患者了解AI辅助决策基础的需求变得至关重要。同时，将出现更多赋予患者自主医疗决策权的解决方案，如癌症治疗等关键领域的应用。",
+            "tags": [
+              "Healthcare AI",
+              "Medical Applications",
+              "Patient Care",
+              "Clinical Decision"
+            ]
+          },
+          {
+            "bold": "专业化AI代理成为发展重点",
+            "detail": "相比AI万能解决方案，2026年将看到更多专注特定用途的AI应用。代理式AI技术的发展支持了这一趋势，代理系统天然适合定制化和专业化应用。同时，小型应用专用模型的发展也在推动这一变化，相对于GPT-5或Gemini等大型通用模型，专业化模型在成本和效果上更具优势。",
+            "tags": [
+              "AI Agents",
+              "Specialized AI",
+              "Application-focused",
+              "Customization"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🤖 新兴技术与基础设施",
+        "items": [
+          {
+            "bold": "人形机器人训练数据革命",
+            "detail": "正如文字成为大语言模型的训练数据，人类动作视频现在正被大规模收集用于训练人形机器人。从大型\"训练中心\"到工人重复完成任务的场景，这些数据将为机器人学习人类行为模式提供基础。这种数据收集方式预示着机器人技术将迎来类似LLM的突破性进展。",
+            "tags": [
+              "Humanoid Robots",
+              "Training Data",
+              "Machine Learning",
+              "Robotics"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-16",
     "weekday": "周六",
     "timeRange": "05-15 08:30 ~ 05-16 08:30 (UTC+8)",
@@ -3114,115 +3238,6 @@ export const reports: DailyReport[] = [
               "hardware",
               "supply-chain",
               "gdp-growth"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-17",
-    "weekday": "周五",
-    "timeRange": "04-16 08:30 ~ 04-17 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🧠 大模型与基础设施",
-        "items": [
-          {
-            "bold": "英伟达Q4营收创新高达681亿美元",
-            "detail": "英伟达公布2026财年第四季度营收681亿美元，创历史新高。数据中心AI芯片需求激增推动业绩飙升，医疗、自动驾驶、金融等行业大规模采用AI应用。这一增长反映了全球对AI基础设施的依赖程度不断提升，同时也凸显了中美在半导体领域的激烈竞争态势。",
-            "tags": [
-              "NVIDIA",
-              "AI-chips",
-              "datacenter",
-              "revenue"
-            ]
-          },
-          {
-            "bold": "AI从工具升级为合作伙伴",
-            "detail": "2026年标志着AI发展新阶段，从简单的问答工具转变为真正的协作伙伴。微软报告显示，AI正在各行各业超越传统辅助角色，开始与人类专家深度协作，放大人类专业能力。这种转变在医疗、创作、问题解决等领域尤为明显，预示着AI将重塑工作方式和创新模式。",
-            "tags": [
-              "collaboration",
-              "AI-partner",
-              "Microsoft",
-              "transformation"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "⚖️ AI治理与法规",
-        "items": [
-          {
-            "bold": "加州要求xAI停止生成非同意深度伪造内容",
-            "detail": "加州总检察长Rob Bonta正式要求马斯克旗下xAI公司立即停止其Grok AI模型生成非同意深度伪造内容。官方指出该工具被多次用于制作公众人物和普通民众的性暗示或误导性合成图像。这一法律升级行动继英国监管机构类似警告后展开，突显了AI内容生成的监管紧迫性。",
-            "tags": [
-              "xAI",
-              "deepfake",
-              "regulation",
-              "California"
-            ]
-          },
-          {
-            "bold": "联合国推出全球AI责任认证课程",
-            "detail": "联合国大学、微软和LinkedIn联合推出\"全球背景下的负责任AI\"专业认证课程。该三门课程项目旨在建设负责任地评估、采用和应用AI的技能与能力。此举标志着国际组织开始系统性地培养全球AI治理人才，为AI时代的可持续发展奠定基础。",
-            "tags": [
-              "UN",
-              "responsible-AI",
-              "certification",
-              "global-governance"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 AI研究突破",
-        "items": [
-          {
-            "bold": "AI首次端到端运行天气预报流程",
-            "detail": "斯坦福AI指数报告显示，AI系统首次实现了完整的端到端天气预报流程，能够直接处理实时气象观测数据并输出最终天气预报结果。这一突破展示了AI从研究辅助工具向实际科学发现引擎的转变，AI相关自然科学、物理学和生命科学论文发表量同比增长26-28%。",
-            "tags": [
-              "weather-forecasting",
-              "Stanford",
-              "scientific-discovery",
-              "end-to-end"
-            ]
-          },
-          {
-            "bold": "AI驱动科学研究进入新阶段",
-            "detail": "AI正在推动更多科学研究工作，从帮助撰写论文和数据校验的辅助工具，发展为真正参与科学发现过程的核心引擎。各领域AI应用不再局限于数据处理，而是开始独立进行假设验证、实验设计和结果分析，标志着AI科学家时代的来临。",
-            "tags": [
-              "AI-scientist",
-              "research",
-              "discovery",
-              "automation"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💼 企业AI应用",
-        "items": [
-          {
-            "bold": "银行业面临AI治理挑战",
-            "detail": "金融行业在AI大规模部署中遭遇治理难题，如何在创新与合规间取得平衡成为关键议题。银行机构需要建立完善的AI风险管理框架，确保算法透明性、公平性和可解释性。这些挑战反映了传统行业在AI转型过程中的普遍困境。",
-            "tags": [
-              "banking",
-              "AI-governance",
-              "compliance",
-              "risk-management"
-            ]
-          },
-          {
-            "bold": "企业数据AI投资优先级提升",
-            "detail": "2026年AI与数据领导力调研显示，几乎所有受访企业高管对AI角色持积极态度，将数据和AI投资视为首要优先事项，并计划增加相关支出。超过20%的企业表示AI应用带来了对数据质量和管理的更高关注，推动了整体数据战略升级。",
-            "tags": [
-              "enterprise-AI",
-              "data-investment",
-              "leadership",
-              "strategy"
             ]
           }
         ]
