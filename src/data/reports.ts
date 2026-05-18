@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-18",
+    "weekday": "周一",
+    "timeRange": "05-17 08:30 ~ 05-18 08:30 (UTC+8)",
+    "tweetCount": 42,
+    "userCount": 13,
+    "topics": [
+      {
+        "title": "🤖 大模型与机器人技术突破",
+        "items": [
+          {
+            "bold": "Genesis AI发布Gene 26.5机器人系统",
+            "detail": "Genesis AI最新推出的Gene 26.5机器人系统展现了令人瞩目的精细操作能力，能够完成烹饪早餐等复杂的现实世界任务。这标志着多功能机器人正在从实验室走向商业应用，预计今年内就可能实现商业化部署。该系统的发布表明AI机器人技术已经达到了实用化的关键节点。",
+            "tags": [
+              "robotics",
+              "automation",
+              "commercial-ai",
+              "breakthrough"
+            ]
+          },
+          {
+            "bold": "OpenAI发布GPT-5.5 Instant模型",
+            "detail": "OpenAI推出了新的GPT-5.5 Instant模型，现已成为ChatGPT的默认模型。同时还发布了新的GPT语音模型系列，进一步增强了对话AI的交互体验。这些更新显示OpenAI正在收紧产品策略，专注于核心能力的提升而非盲目扩张功能范围。",
+            "tags": [
+              "openai",
+              "gpt",
+              "language-model",
+              "voice-ai"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🧠 AI研究与创新应用",
+        "items": [
+          {
+            "bold": "Claude AI获得梦境模拟能力",
+            "detail": "Anthropic的Claude AI系统实现了前所未有的\"梦境\"功能，能够在非活跃状态下进行类似人类梦境的信息处理和整合。这一突破性进展为AI的自主学习和创造性思维开辟了新的可能性，标志着人工智能在模拟人类认知过程方面取得了重要进展。",
+            "tags": [
+              "anthropic",
+              "claude",
+              "consciousness",
+              "innovation"
+            ]
+          },
+          {
+            "bold": "Mayo诊所AI癌症检测技术获突破",
+            "detail": "美国Mayo诊所在AI辅助癌症检测领域取得重大进展，新技术能够显著提高早期癌症诊断的准确性和效率。该系统结合了先进的机器学习算法和医学影像分析，为精准医疗和疾病预防提供了强有力的工具支持。",
+            "tags": [
+              "healthcare",
+              "cancer-detection",
+              "medical-ai",
+              "mayo-clinic"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 企业AI与商业应用",
+        "items": [
+          {
+            "bold": "Bain预测代理AI自动化市场达1000亿美元",
+            "detail": "全球知名咨询公司Bain发布报告称，代理AI自动化SaaS市场规模预计将达到1000亿美元。这一预测反映了企业级AI自动化需求的爆发式增长，以及AI技术在提高业务效率和降低运营成本方面的巨大潜力。",
+            "tags": [
+              "enterprise-ai",
+              "automation",
+              "saas",
+              "market-forecast"
+            ]
+          },
+          {
+            "bold": "RingCentral AI接待员整合多平台服务",
+            "detail": "RingCentral为其AI接待员系统新增了Shopify、Calendly和WhatsApp等平台集成功能，进一步扩展了企业客户服务的自动化能力。这一升级体现了AI助手从单一功能向全栈业务流程自动化的演进趋势。",
+            "tags": [
+              "ringcentral",
+              "ai-assistant",
+              "integration",
+              "customer-service"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🌍 AI治理与政策发展",
+        "items": [
+          {
+            "bold": "Google AI治理政策引发行业关注",
+            "detail": "Google最新的AI治理政策调整引起了业界广泛关注，这些变化可能会对整个AI行业的发展方向产生深远影响。随着AI技术的快速发展，如何平衡创新与监管、确保AI系统的安全性和可控性，正成为全球科技公司和政策制定者面临的核心挑战。",
+            "tags": [
+              "google",
+              "ai-governance",
+              "policy",
+              "regulation"
+            ]
+          },
+          {
+            "bold": "NASA启动AI/ML科学技术系列讲座",
+            "detail": "NASA启动了人工智能与机器学习科学技术兴趣小组(AI/ML STIG)系列讲座，第七模块聚焦强化学习应用。此举表明航天领域正在积极拥抱AI技术，探索其在太空探索和科学研究中的应用潜力。",
+            "tags": [
+              "nasa",
+              "machine-learning",
+              "space-tech",
+              "education"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-17",
     "weekday": "周日",
     "timeRange": "05-16 08:30 ~ 05-17 08:30 (UTC+8)",
@@ -3120,124 +3229,6 @@ export const reports: DailyReport[] = [
               "AI-theory",
               "mathematical-framework",
               "research-breakthrough"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-18",
-    "weekday": "周六",
-    "timeRange": "04-17 08:30 ~ 04-18 08:30 (UTC+8)",
-    "tweetCount": 42,
-    "userCount": 13,
-    "topics": [
-      {
-        "title": "🤖 大模型与基础设施",
-        "items": [
-          {
-            "bold": "Anthropic Mythos模型引发政府关注",
-            "detail": "Anthropic于4月7日发布的Mythos模型因其在网络安全方面的超强能力而备受争议。该模型在发现和利用计算机漏洞方面超越了人类专家，导致白宫办公厅主任与Anthropic CEO紧急会面。公司表示该模型能力过于强大，目前仅向特定客户开放使用。",
-            "tags": [
-              "anthropic",
-              "security",
-              "government",
-              "ai-safety"
-            ]
-          },
-          {
-            "bold": "AI可靠性显著提升",
-            "detail": "《华尔街日报》报道指出，AI模型的可靠性达到历史新高，主要体现在三个方面的改进。数据处理能力增强，幻觉现象大幅减少，模型效率显著提升。这些改进使得AI技术在实际应用中更加稳定和值得信赖。",
-            "tags": [
-              "reliability",
-              "hallucination",
-              "model-improvement"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏭 AI应用与商业",
-        "items": [
-          {
-            "bold": "NVIDIA发布物理AI数据工厂蓝图",
-            "detail": "NVIDIA推出开放参考架构NVIDIA Physical AI Data Factory Blueprint，专为机器人、视觉AI代理和自动驾驶车辆等物理AI应用场景设计。该系统能够从有限的训练数据中创建多样化数据集，包括罕见案例和长尾场景，实现数据生成、增强和评估的自动化整合。",
-            "tags": [
-              "nvidia",
-              "robotics",
-              "autonomous-vehicles",
-              "data-factory"
-            ]
-          },
-          {
-            "bold": "AGIBOT宣布2026年为部署元年",
-            "detail": "在APC 2026大会上，AGIBOT宣布2026年为实体AI的部署元年，推出XYZ框架来定义具身智能产业的发展轨迹。公司凭借覆盖大脑和身体的全栈技术系统，以及业界领先的批量生产能力，正在复杂现实场景中系统性扩大部署规模。",
-            "tags": [
-              "agibot",
-              "embodied-ai",
-              "deployment",
-              "xyz-framework"
-            ]
-          },
-          {
-            "bold": "中国电力成为全球AI数字石油",
-            "detail": "《科技日报》报道显示，中国的电力供应正在成为推动全球AI发展的数字石油。随着AI计算需求的爆炸式增长，稳定可靠的电力基础设施成为AI产业竞争的关键要素，中国在这一领域的优势愈发明显。",
-            "tags": [
-              "china",
-              "power-infrastructure",
-              "digital-oil",
-              "ai-computing"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🛡️ AI安全与监管",
-        "items": [
-          {
-            "bold": "AI黑客将重塑网络安全格局",
-            "detail": "《经济学人》分析指出，AI驱动的黑客技术正在彻底改变网络安全领域。Project Glasswing项目由包括苹果、谷歌在内的12家创始成员公司参与，旨在应对AI在网络攻击方面的潜在威胁。这标志着科技行业对AI安全风险的集体关注达到新高度。",
-            "tags": [
-              "cybersecurity",
-              "project-glasswing",
-              "ai-hacking",
-              "security-threat"
-            ]
-          },
-          {
-            "bold": "美国觉醒AI危险力量",
-            "detail": "《经济学人》社论警告称，少数几位科技巨头正掌握着世界上最强大的新技术。Dario、Demis、Elon、Mark和Sam这五位行业领袖对AI模型拥有近乎神一般的控制权。特朗普政府在这些模型获得惊人能力时选择了观望，相信企业间的自由竞争能够推动技术发展。",
-            "tags": [
-              "ai-governance",
-              "tech-leaders",
-              "regulation",
-              "competition"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 技术研究与开源",
-        "items": [
-          {
-            "bold": "LM Arena排行榜Claude领先",
-            "detail": "在最新的LM Arena排行榜中，Claude模型表现领先。同时出现了多项技术突破，包括用于AI代理的MemPalace分层记忆系统，以及Anthropic推出的托管代理服务。Meta发布Muse Spark模型，谷歌开源Gemma 4，显示出AI生态系统的快速发展。",
-            "tags": [
-              "claude",
-              "lm-arena",
-              "mempalace",
-              "open-source"
-            ]
-          },
-          {
-            "bold": "台湾对AI硬件韧性至关重要",
-            "detail": "《台北时报》报道称，台湾在AI硬件供应链韧性方面发挥关键作用。IMF将台湾今年实际GDP增长预期从1月份的2.1%上调至5.2%，尽管存在美伊冲突引发的全球经济干扰担忧，台湾在AI硬件制造方面的重要性日益凸显。",
-            "tags": [
-              "taiwan",
-              "hardware",
-              "supply-chain",
-              "gdp-growth"
             ]
           }
         ]
