@@ -14,6 +14,105 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-21",
+    "weekday": "周四",
+    "timeRange": "05-20 08:30 ~ 05-21 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🚀 大模型与基础设施突破",
+        "items": [
+          {
+            "bold": "谷歌AI技术重大突破",
+            "detail": "谷歌发布了包括TurboQuant在内的多项AI突破性技术，这些创新正在重塑整个科技行业格局。新技术展现了下一代设备中先进的端侧智能能力，消费电子产品正在快速整合人工智能到手机和PC中。这标志着AI从实验阶段向实际应用的重要转变，为用户带来更智能的设备体验。",
+            "tags": [
+              "Google",
+              "breakthrough",
+              "consumer-electronics",
+              "on-device-AI"
+            ]
+          },
+          {
+            "bold": "OpenAI筹备公开上市",
+            "detail": "据报告显示，OpenAI正准备秘密申请公开上市，这一动向标志着AI巨头们正在进入新的发展阶段。随着大量资金涌入AI公司建设更强大的技术，主要AI企业正逐步接近成为公开交易公司。这一趋势引发了投资者对AI行业商业化进程和投资回报的广泛关注。",
+            "tags": [
+              "OpenAI",
+              "IPO",
+              "investment",
+              "AI-giants"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🤝 AI赋能与协作革新",
+        "items": [
+          {
+            "bold": "AI从工具升级为合作伙伴",
+            "detail": "微软预测2026年AI正进入新阶段，从简单的问答工具演进为真正的协作伙伴。AI不再局限于回答问题，而是与人类协作并放大专业知识。这种转变在医疗、创作和问题解决等领域表现尤为明显，AI正在帮助缩小医疗服务差距，展现出从辅助工具向智能伙伴的重要转型。",
+            "tags": [
+              "Microsoft",
+              "AI-collaboration",
+              "healthcare",
+              "partnership"
+            ]
+          },
+          {
+            "bold": "无障碍AI技术推进",
+            "detail": "AI在提升可访问性和赋能多元化社区方面展现巨大潜力。从招聘系统到工作场所工具，AI正在重塑数字体验，为残障人士和不同群体创造更包容的技术环境。这一发展趋势强调了负责任实施AI技术的重要性，确保技术进步能够惠及所有用户群体。",
+            "tags": [
+              "accessibility",
+              "inclusive-tech",
+              "diversity",
+              "responsible-AI"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏛️ 政策法规与治理",
+        "items": [
+          {
+            "bold": "AI法律纠纷迎来关键年",
+            "detail": "2026年被视为AI法律框架的关键年份，多起重要案件将进入审判阶段。其中包括一起青少年自杀案件的家属将对OpenAI提起诉讼，预计将在11月开庭。同时，特朗普总统12月发布的行政令进一步复杂化了法律环境，预计将出现各个方向的大量诉讼案件。",
+            "tags": [
+              "legal-cases",
+              "OpenAI",
+              "regulation",
+              "Trump-policy"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🎓 学术研究与产业应用",
+        "items": [
+          {
+            "bold": "AI工作未来国际会议",
+            "detail": "沃顿商学院举办的AI与工作未来会议进入第二天议程，汇聚全球专家探讨AI对劳动力市场的深远影响。会议包括并行会议讨论、沃顿/盖茨创新马拉松经验分享等环节，为学术界和产业界搭建了重要的交流平台，推动AI技术在职场应用的深度研究。",
+            "tags": [
+              "Wharton",
+              "future-of-work",
+              "academic-conference",
+              "workforce"
+            ]
+          },
+          {
+            "bold": "下一代AI机器学习大会",
+            "detail": "第二届下一代AI与机器学习国际会议将于11月在波士顿举行，目前正在征集论文摘要。这一盛会汇集全球创新思想家，聚焦数据革命、技术突破和未来智能发展。会议将展示最新的AI研究成果和技术应用，为推动AI领域的创新发展提供重要平台。",
+            "tags": [
+              "Boston-conference",
+              "machine-learning",
+              "research",
+              "innovation"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-20",
     "weekday": "周三",
     "timeRange": "05-19 08:30 ~ 05-20 08:30 (UTC+8)",
@@ -3115,115 +3214,6 @@ export const reports: DailyReport[] = [
               "generative-ai",
               "digital-transformation",
               "research"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-21",
-    "weekday": "周二",
-    "timeRange": "04-20 08:30 ~ 04-21 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🤖 AI智能体与开发工具",
-        "items": [
-          {
-            "bold": "OpenAI发布新一代Agents SDK",
-            "detail": "OpenAI正式推出下一代智能体开发工具包，核心亮点是引入了\"模型原生框架\"和\"原生沙盒执行环境\"。新SDK允许AI模型直接操作文件、执行代码并跟踪长期任务，大幅提升开发者构建和管理自主AI智能体的效率。该更新标志着AI智能体开发进入新阶段，为企业级应用奠定了更坚实的技术基础。",
-            "tags": [
-              "OpenAI",
-              "SDK",
-              "Agents",
-              "Developer-Tools"
-            ]
-          },
-          {
-            "bold": "身份安全迎来AI时代变革",
-            "detail": "Okta政府身份峰会聚焦AI时代的身份安全管理，强调身份不再仅是控制点，而是任务韧性的新前沿。随着AI劳动力规模化部署，如何管理AI员工、确保云到边缘的身份安全成为关键议题。此次峰会展示了身份安全如何为AI时代量身定制，为政府和企业提供了全新的安全管理框架。",
-            "tags": [
-              "Identity-Security",
-              "AI-Workforce",
-              "Government",
-              "Cloud-Security"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏭 工业AI与基础设施",
-        "items": [
-          {
-            "bold": "NVIDIA展示工业AI制造解决方案",
-            "detail": "在德国汉诺威工业博览会2026上，NVIDIA重点展示了面向制造业的最新工业AI技术。公司推出的物理AI解决方案旨在革命性地改造传统制造流程，通过智能化系统提升生产效率和质量控制。这一举措体现了AI技术从概念验证向实际工业应用的重要转变。",
-            "tags": [
-              "NVIDIA",
-              "Industrial-AI",
-              "Manufacturing",
-              "Physical-AI"
-            ]
-          },
-          {
-            "bold": "台积电AI芯片需求激增",
-            "detail": "台积电将2026年营收增长预期上调至超过30%，远超此前预估的25%，主要得益于AI相关芯片需求的\"极其强劲\"增长。CEO魏哲家在回应马斯克Terafab项目时强调，建设晶圆厂需要2-3年，产能爬升还需1-2年时间。这反映了AI基础设施建设的巨大市场需求和供应链挑战。",
-            "tags": [
-              "TSMC",
-              "AI-Chips",
-              "Revenue-Growth",
-              "Infrastructure"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💼 AI驱动的就业变化",
-        "items": [
-          {
-            "bold": "科技巨头AI转型引发裁员潮",
-            "detail": "2026年科技行业裁员人数已超过7.3万人，Meta、Oracle等巨头纷纷因AI驱动的业务重组而削减员工。业内人士表示，这主要是适应性调整，公司正在重塑技能结构和工作方式，为未来发展做准备。此轮裁员反映了AI技术对传统岗位的冲击和企业组织架构的深度变革。",
-            "tags": [
-              "Tech-Layoffs",
-              "AI-Transformation",
-              "Workforce",
-              "Meta"
-            ]
-          },
-          {
-            "bold": "爱奇艺预测AI将主导内容创作",
-            "detail": "中国流媒体巨头爱奇艺预计，未来五年内AI将创造大部分节目内容。公司高管称这是\"十年一遇\"的机遇，必须顺势而为。这一预测与好莱坞正在经历的AI辩论和大规模裁员相呼应，凸显了AI技术对创意产业的深远影响和行业重塑的紧迫性。",
-            "tags": [
-              "Content-Creation",
-              "AI-Generated",
-              "Streaming",
-              "Entertainment"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🌍 AI监管与政策动向",
-        "items": [
-          {
-            "bold": "西门子警告欧盟AI监管过度",
-            "detail": "德国工业巨头西门子警告欧盟，过度的AI监管红带可能导致欧洲在AI竞赛中落后。公司认为额外的监管可能带来不必要的官僚主义，加深技术依赖性。西门子呼吁欧盟更好地支持AI技术的部署应用，在监管和创新之间找到平衡点，避免因过度监管而错失AI发展机遇。",
-            "tags": [
-              "EU-Regulation",
-              "Siemens",
-              "AI-Policy",
-              "Innovation"
-            ]
-          },
-          {
-            "bold": "亚洲监管机构加强AI安全",
-            "detail": "面对AI技术快速发展带来的安全挑战，亚洲各国监管机构正在加强相关安全措施。监管重点集中在AI系统的可靠性、数据保护和算法透明度等方面。这一趋势反映了亚洲地区对AI技术风险管控的重视，以及在促进创新与确保安全之间寻求适当平衡的努力。",
-            "tags": [
-              "Asia-Regulation",
-              "AI-Security",
-              "Risk-Management",
-              "Policy"
             ]
           }
         ]
