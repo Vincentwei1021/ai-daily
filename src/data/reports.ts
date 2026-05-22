@@ -14,6 +14,120 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-22",
+    "weekday": "周五",
+    "timeRange": "05-21 08:30 ~ 05-22 08:30 (UTC+8)",
+    "tweetCount": 38,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🧠 大模型与基础设施",
+        "items": [
+          {
+            "bold": "英伟达2000亿美元AI机遇浮现",
+            "detail": "英伟达在AI芯片需求激增的推动下，市值有望突破新高，分析师预测其AI相关业务在2026年将带来超过2000亿美元的市场机遇。随着AI模型规模持续扩大，对高性能计算芯片的需求呈现爆发式增长，英伟达在数据中心GPU市场的主导地位进一步巩固。",
+            "tags": [
+              "Nvidia",
+              "AI chips",
+              "market opportunity",
+              "datacenter"
+            ]
+          },
+          {
+            "bold": "三星市值突破万亿美元大关",
+            "detail": "三星电子凭借AI芯片需求的强劲增长，市值首次突破1万亿美元，成为亚洲第一家达到这一里程碑的科技公司。这一成就凸显了半导体行业在人工智能革命中的核心地位，同时也反映了市场对存储和处理芯片持续增长需求的乐观预期。",
+            "tags": [
+              "Samsung",
+              "trillion valuation",
+              "semiconductor",
+              "AI demand"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔬 AI研究突破",
+        "items": [
+          {
+            "bold": "AI成为科研过程核心参与者",
+            "detail": "微软研究院预测，2026年AI将不再仅仅停留在论文摘要和数据分析层面，而是深度参与物理、化学、生物等领域的发现过程。AI系统将能够生成科学假设，直接控制实验设备，与科研人员协作进行突破性研究，这将显著加速气候建模、分子动力学等关键领域的进展。",
+            "tags": [
+              "Microsoft Research",
+              "scientific discovery",
+              "hypothesis generation",
+              "research acceleration"
+            ]
+          },
+          {
+            "bold": "AI智能体技术走出实验室",
+            "detail": "IBM预测2026年将是AI智能体技术从实验室走向现实应用的关键一年。随着Linux基金会成立智能体AI基金会，以及Anthropic的MCP协议贡献，开源治理的社区标准将释放更多创新潜力，推动AI智能体在各行业的规模化部署。",
+            "tags": [
+              "IBM",
+              "AI agents",
+              "Linux Foundation",
+              "open governance"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "📱 产品与应用动态",
+        "items": [
+          {
+            "bold": "AI应用从通用转向垂直领域",
+            "detail": "霍普金斯大学彭博中心分析指出，2026年AI技术将加速从通用聊天机器人向特定应用场景转移。虽然早期ChatBot展现了巨大潜力，但从\"可能有用\"到\"真正产生影响\"之间仍存在显著差距。随着技术成熟度提升，行业将更专注于开发针对特定领域的AI解决方案。",
+            "tags": [
+              "vertical applications",
+              "specialized AI",
+              "practical impact",
+              "domain specific"
+            ]
+          },
+          {
+            "bold": "教育领域AI变革加速",
+            "detail": "学校商业专业人士圆桌会议显示，AI正快速改变教育机构的运营、沟通和决策方式。教育领导者正积极探索AI工具如何提高运营效率、支持决策制定、简化流程，并帮助解决学校面临的重大挑战，预示着教育数字化转型的新阶段。",
+            "tags": [
+              "education AI",
+              "school operations",
+              "decision support",
+              "efficiency"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "⚖️ 监管与政策动向",
+        "items": [
+          {
+            "bold": "AI立法更新聚焦票务与用户保护",
+            "detail": "最新AI立法动态显示，SB 1241法案禁止在票务销售中使用AI机器人，而SB 1521法案要求对特定AI聊天机器人进行年龄验证和用户保护。这些法案已在参议院获得43-0和众议院90-0的压倒性支持，现进入协调阶段，标志着AI监管框架的逐步完善。",
+            "tags": [
+              "AI legislation",
+              "ticket bots",
+              "age verification",
+              "user protection"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "📊 市场与投资趋势",
+        "items": [
+          {
+            "bold": "AI泡沫破裂风险引发关注",
+            "detail": "MIT斯隆管理评论警告，AI投资泡沫可能即将破裂。分析师认为，一个重要供应商的糟糕季度表现、中国AI模型的价格竞争（如DeepSeek在2025年1月造成的市场冲击），或大型企业客户削减AI支出，都可能成为泡沫破裂的导火索。业界希望这种调整是渐进的。",
+            "tags": [
+              "AI bubble",
+              "market correction",
+              "investment risk",
+              "DeepSeek impact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-21",
     "weekday": "周四",
     "timeRange": "05-20 08:30 ~ 05-21 08:30 (UTC+8)",
@@ -3105,115 +3219,6 @@ export const reports: DailyReport[] = [
               "academic conference",
               "responsibility",
               "university"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-22",
-    "weekday": "周三",
-    "timeRange": "04-21 08:30 ~ 04-22 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🚀 企业AI与基础设施建设",
-        "items": [
-          {
-            "bold": "Factory AI估值飙升至15亿美元",
-            "detail": "专注企业级代码生成的AI初创公司Factory AI在最新一轮融资中估值达到15亿美元，成为2026年最受瞩目的AI独角兽之一。该公司的企业编程解决方案正在重塑软件开发流程，通过智能代码生成显著提升开发效率。这一里程碑式融资反映了市场对AI辅助编程工具的巨大需求和信心。",
-            "tags": [
-              "enterprise-ai",
-              "coding",
-              "startup",
-              "funding"
-            ]
-          },
-          {
-            "bold": "Pega Cloud借力Blueprint AI实现强劲增长",
-            "detail": "企业软件巨头Pega在2026年第一季度财报中披露，其云服务年合同价值同比增长29%，总体年合同价值增长12%。这一亮眼表现主要归功于其Blueprint AI技术的成功部署，该技术为企业客户提供了更智能的业务流程自动化解决方案，推动了云服务的快速采用。",
-            "tags": [
-              "cloud-services",
-              "enterprise-software",
-              "automation",
-              "growth"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🤝 战略合作与生态构建",
-        "items": [
-          {
-            "bold": "Avid携手Google Cloud革新媒体制作",
-            "detail": "专业媒体制作工具提供商Avid与Google Cloud宣布建立多年战略合作伙伴关系，将Gemini模型和Vertex AI深度集成到Avid的创作工具中。这一合作旨在将视频编辑从传统的手动操作转变为智能AI辅助体验，大幅缩短制作时间，为媒体娱乐行业带来颠覆性变革。",
-            "tags": [
-              "media-production",
-              "video-editing",
-              "gemini",
-              "partnership"
-            ]
-          },
-          {
-            "bold": "PwC与Google Cloud共建AI卓越中心",
-            "detail": "全球咨询巨头普华永道宣布与Google Cloud合作建立AI卓越中心，旨在帮助企业客户建立强大的数据基础并负责任地规模化部署AI技术。该合作将整合PwC的咨询经验与Google Cloud的技术能力，为企业提供从战略规划到技术实施的全方位AI解决方案。",
-            "tags": [
-              "consulting",
-              "enterprise-ai",
-              "data-foundation",
-              "responsible-ai"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 前沿技术与研究突破",
-        "items": [
-          {
-            "bold": "OpenAI强化Codex对抗Anthropic",
-            "detail": "消息人士透露，OpenAI正在大幅升级其代码生成模型Codex，以应对来自Anthropic等竞争对手的挑战。新版Codex在代码理解、生成质量和执行效率方面都有显著提升，预计将在激烈的AI编程助手市场中重新确立领先地位。这场技术军备竞赛推动了整个行业的快速发展。",
-            "tags": [
-              "code-generation",
-              "openai",
-              "anthropic",
-              "competition"
-            ]
-          },
-          {
-            "bold": "GPT-Rosalind专攻生命科学研究",
-            "detail": "专门针对生命科学领域的AI模型GPT-Rosalind正式发布，该模型在生物医学文献分析、药物发现和基因组学研究方面表现出色。通过深度学习生物学知识，GPT-Rosalind能够协助研究人员加速科学发现过程，为生命科学研究带来新的可能性。",
-            "tags": [
-              "life-sciences",
-              "biomedical-ai",
-              "drug-discovery",
-              "research"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🌐 行业应用与数字化转型",
-        "items": [
-          {
-            "bold": "SpaceX质疑太空AI数据中心商业可行性",
-            "detail": "据最新监管文件显示，SpaceX向投资者表示，太空AI数据中心的商业可行性尚未得到验证，存在较大不确定性。尽管太空计算概念备受关注，但高昂的部署成本、技术挑战和商业模式的不明确性让这一前沿应用面临现实考验。这一表态为过热的太空AI概念泼了一盆冷水。",
-            "tags": [
-              "space-computing",
-              "data-centers",
-              "commercial-viability",
-              "spacex"
-            ]
-          },
-          {
-            "bold": "高等教育领域加速采用生成式AI",
-            "detail": "一项关于高等教育领导者管理生成式AI技术采用的研究显示，全球各大学正在积极探索AI在教学、研究和管理中的应用。研究采用解释性现象学分析方法，深入了解教育机构在AI转型过程中面临的挑战与机遇，为教育数字化提供重要参考。",
-            "tags": [
-              "higher-education",
-              "generative-ai",
-              "digital-transformation",
-              "research"
             ]
           }
         ]
