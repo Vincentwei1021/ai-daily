@@ -14,6 +14,90 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-23",
+    "weekday": "周六",
+    "timeRange": "05-22 08:30 ~ 05-23 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🔒 AI 安全与合规动态",
+        "items": [
+          {
+            "bold": "多家AI巨头遭遇网络安全事件",
+            "detail": "OpenAI、Mistral AI等多家人工智能公司近期遭遇安全漏洞。OpenAI有两台员工设备被入侵，内部源代码库凭据被窃取，公司已轮换iOS、macOS和Windows代码签名证书。Mistral AI一台开发设备被攻破，黑客组织TeamPCP要求2.5万美元门罗币赎金，声称已获取5GB源代码。此次事件还波及欧盟委员会官网和数据承包商Mercor，凸显AI行业面临的网络安全挑战。",
+            "tags": [
+              "cybersecurity",
+              "OpenAI",
+              "Mistral",
+              "breach"
+            ]
+          },
+          {
+            "bold": "AI伦理研究会议聚焦生成式AI",
+            "detail": "圣母大学人工智能与智能体伦理发展项目宣布将于5月21-23日举办首届年度会议，主题为\"生成式AI的美德\"。会议旨在探讨如何在生成式AI系统中培养和实现道德品质，汇聚学者、技术专家和伦理学家，共同讨论AI技术发展中的伦理考量和最佳实践，为负责任的AI发展提供学术支撑。",
+            "tags": [
+              "AI-ethics",
+              "conference",
+              "generative-AI",
+              "research"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 AI商业应用与平台",
+        "items": [
+          {
+            "bold": "AI/R推出AI支出监控平台",
+            "detail": "专注于代理AI的科技公司AI/R正式发布AI/R Watch平台，为企业提供人工智能支出的全面可视化管理。该平台能够在统一环境中监控AI相关消费和投资，帮助企业制定更明智的预算决策、提升运营效率并支持AI项目规模化。随着企业AI投入快速增长，这类专业的支出管理工具将成为企业AI治理的重要组成部分。",
+            "tags": [
+              "AI-spending",
+              "enterprise",
+              "monitoring",
+              "platform"
+            ]
+          },
+          {
+            "bold": "媒体行业拥抱AI转型浪潮",
+            "detail": "中国日报报道指出，媒体行业正被敦促积极拥抱人工智能技术。技术革命为媒体提供了加速智能化转型的机遇，从内容创作到分发传播，AI正在重塑传统媒体生态。业内专家认为，媒体机构需要主动适应AI带来的变革，通过技术创新提升内容质量和传播效果，在数字化转型中占据先机。",
+            "tags": [
+              "media",
+              "transformation",
+              "journalism",
+              "China"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🚀 AI技术趋势与展望",
+        "items": [
+          {
+            "bold": "微软发布2026年AI七大趋势",
+            "detail": "微软官方发布2026年AI发展七大趋势预测，强调AI正进入以现实世界影响为特征的新阶段。经过数年实验探索后，2026年被视为AI从工具演进为合作伙伴的关键年份，将改变人们的工作、创作和问题解决方式。报告指出，跨行业AI应用正从简单的问答系统发展为能够与人类深度协作、放大人类专业技能的智能助手，这一转变在医疗等关键领域尤为明显。",
+            "tags": [
+              "Microsoft",
+              "trends",
+              "collaboration",
+              "healthcare"
+            ]
+          },
+          {
+            "bold": "全球AI训练营活动密集举办",
+            "detail": "5月23日当天，全球多地同步举办AI相关培训活动。Google开发者社区在印度、巴拿马等地组织\"Build with AI\"活动，而AgentCamp全球AI训练营在美国佛罗里达、意大利卡塔尼亚、尼日利亚约拉等城市举行。这些免费社区活动旨在让参与者学习AI专家经验、与同行建立联系，并探索最新的AI技术、工具和趋势，体现了全球AI教育普及的热潮。",
+            "tags": [
+              "bootcamp",
+              "community",
+              "education",
+              "global"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-22",
     "weekday": "周五",
     "timeRange": "05-21 08:30 ~ 05-22 08:30 (UTC+8)",
@@ -3120,105 +3204,6 @@ export const reports: DailyReport[] = [
               "google-cloud",
               "real-time-processing",
               "eu-oversight"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-23",
-    "weekday": "周四",
-    "timeRange": "04-22 08:30 ~ 04-23 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🤖 AI 研究重大突破",
-        "items": [
-          {
-            "bold": "Sony AI 机器人击败职业乒乓球选手",
-            "detail": "Sony AI 今日宣布其项目 Ace 取得重大突破，成为首个能够击败精英和职业级人类乒乓球选手的自主机器人系统。相关研究《用自主机器人击败精英乒乓球选手》已登上《自然》杂志封面，标志着机器人首次在专业竞技领域达到人类专家水平。这一成就展示了 AI 在实时决策、精确控制和复杂运动技能方面的显著进步。",
-            "tags": [
-              "robotics",
-              "AI breakthrough",
-              "Sony",
-              "Nature"
-            ]
-          },
-          {
-            "bold": "AI 驱动网络攻击日趋复杂化",
-            "detail": "据韩国朝鲜日报报道，AI 驱动的黑客攻击变得更加复杂和大规模。墨西哥政府机构遭受了长达六周的网络攻击，黑客利用 Anthropic 的 Claude 和 OpenAI 的 ChatGPT 等 AI 模型来寻找系统漏洞。这表明 AI 技术在网络安全领域的双刃剑效应日益显现，同时推动了如 Mythos、GPT-5.4-Cyber 等安全防护模型的发展。",
-            "tags": [
-              "cybersecurity",
-              "AI attacks",
-              "Claude",
-              "ChatGPT"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏗️ 基础设施与芯片技术",
-        "items": [
-          {
-            "bold": "Alchip 展示 2nm AI 芯片生态",
-            "detail": "在 TSMC 2026 技术研讨会上，Alchip Technologies 展示了其在先进 AI ASIC 技术方面的最新进展。公司重点介绍了 3nm 设计的量产能力和支持下一代 AI 处理器的完整 2nm 生态系统。此外，Alchip 还展示了其成熟的 3DIC 设计平台和先进封装技术，为高性能 AI 和 HPC 应用提供完整的芯片解决方案。",
-            "tags": [
-              "semiconductor",
-              "2nm",
-              "ASIC",
-              "TSMC"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💼 投资与商业动态",
-        "items": [
-          {
-            "bold": "AI 技术虚拟投资者大会召开",
-            "detail": "4月23日举办的 AI 与技术虚拟投资者大会汇集了来自量子密码学、媒体代理 AI、AI 广告技术、海洋机器人、医学成像、AI 数据中心基础设施和 AI 驱动医疗保健等领域的上市公司高管。每家公司获得30分钟的现场演示时间和实时问答环节，为投资者提供了解 AI 行业多元化发展的平台。",
-            "tags": [
-              "investor conference",
-              "quantum",
-              "healthcare AI",
-              "virtual event"
-            ]
-          },
-          {
-            "bold": "白宫与 Anthropic CEO 会面讨论 AI 技术",
-            "detail": "据报道，白宫幕僚长与 Anthropic CEO 举行会议，讨论对其新 AI 技术的担忧。这次会面反映了政府对 AI 技术发展的密切关注，特别是在安全性和监管方面的考虑。随着 AI 技术的快速发展，政府与科技公司之间的对话变得越来越重要，以确保技术创新与社会安全的平衡。",
-            "tags": [
-              "government",
-              "Anthropic",
-              "AI policy",
-              "White House"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🎓 学术与会议活动",
-        "items": [
-          {
-            "bold": "ESA 举办 AI 概要活动信息会",
-            "detail": "欧洲航天局（ESA）的通用支持技术计划和 ESA 能力中心于4月23日共同举办了 AI 概要活动信息会。该活动旨在介绍人工智能在地球观测和太空工程技术方面的应用，展示了航天领域对 AI 技术日益增长的需求和应用潜力。",
-            "tags": [
-              "ESA",
-              "space technology",
-              "earth observation",
-              "AI applications"
-            ]
-          },
-          {
-            "bold": "AI 技术价值与责任会议举行",
-            "detail": "冈萨加大学信息学与应用技术研究所举办了为期全天的 AI 技术价值与责任会议。会议聚焦于 AI 技术发展中的伦理考量和社会责任问题，为学生、教师和业界专家提供了深入讨论 AI 技术影响的平台。这反映了学术界对 AI 伦理和负责任发展的重视。",
-            "tags": [
-              "AI ethics",
-              "academic conference",
-              "responsibility",
-              "university"
             ]
           }
         ]
