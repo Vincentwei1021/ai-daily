@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-24",
+    "weekday": "周日",
+    "timeRange": "05-23 08:30 ~ 05-24 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🧠 大模型与基础设施",
+        "items": [
+          {
+            "bold": "Nvidia CUDA 面临激烈竞争",
+            "detail": "根据本周技术新闻报道，Nvidia 的 CUDA 平台正面临来自竞争对手的强力挑战。多家芯片公司正在推出替代性计算框架，试图打破 Nvidia 在 AI 计算领域的垄断地位。这一变化可能重塑整个 AI 基础设施格局，为开发者提供更多选择的同时，也将推动技术创新和成本优化。分析师认为，竞争加剧将最终惠及整个 AI 生态系统。",
+            "tags": [
+              "nvidia",
+              "cuda",
+              "competition",
+              "infrastructure"
+            ]
+          },
+          {
+            "bold": "AMD 季度财报表现强劲",
+            "detail": "AMD 公布的最新季度财报显示，公司在 AI 芯片领域取得显著进展，营收超出市场预期。得益于数据中心 AI 处理器需求激增，AMD 在与 Nvidia 的竞争中逐渐缩小差距。公司管理层表示，将继续加大对 AI 芯片研发的投入，特别是在推理优化和能效提升方面。这一强劲表现反映了 AI 市场的快速增长和多元化需求。",
+            "tags": [
+              "amd",
+              "earnings",
+              "datacenter",
+              "ai-chips"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 商业动态与战略",
+        "items": [
+          {
+            "bold": "高盛 CEO 力挺 AI 创造就业",
+            "detail": "高盛首席执行官在《纽约时报》发表观点文章，强调 AI 将成为就业创造者而非威胁。他援引历史数据指出，从 20 世纪初的电气化到 90 年代的数字革命，美国在面对技术颠覆时总能创造新的就业机会。高盛经济学家预测，AI 技术将催生全新的职业类别，特别是在人机协作、AI 系统维护和创意产业等领域。这一观点为当前 AI 就业焦虑提供了积极的历史视角。",
+            "tags": [
+              "goldman-sachs",
+              "jobs",
+              "employment",
+              "economy"
+            ]
+          },
+          {
+            "bold": "Gartner 预测 AI 搜索预算大增",
+            "detail": "市场研究机构 Gartner 最新报告显示，企业在 AI 搜索技术上的投资将在 2026 年实现显著增长。随着生成式 AI 搜索工具的成熟，越来越多企业开始将其整合到核心业务流程中。报告指出，AI 搜索不仅能提升信息检索效率，还能为决策提供更深层的洞察。预计相关预算增长将主要集中在企业搜索、客户服务和知识管理等应用场景。",
+            "tags": [
+              "gartner",
+              "search-budget",
+              "enterprise",
+              "investment"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔬 AI 研究与伦理",
+        "items": [
+          {
+            "bold": "联合国举办 AI 安全伦理会议",
+            "detail": "联合国裁军研究所（UNIDIR）宣布将举办 2026 年全球 AI 安全与伦理会议，汇集外交官、政策制定者、学术界、民间社会、工业界和研究实验室的代表。会议将重点探讨人工智能对国际和平与安全的影响，建立在去年成功会议的基础上。此次会议旨在促进多方利益相关者之间的对话，为 AI 治理建立国际共识，确保 AI 技术发展服务于人类福祉。",
+            "tags": [
+              "unidir",
+              "ai-ethics",
+              "security",
+              "governance"
+            ]
+          },
+          {
+            "bold": "推理模型成为问题解决新范式",
+            "detail": "根据 MIT 技术评论的年度展望，推理模型已快速成为顶级问题解决的新范式。继 OpenAI 效仿 Google DeepMind 设立专门科研团队后，AI 科学应用迎来繁荣期。同时，AI 公司与国家安全部门的合作日趋密切，OpenAI 改变立场与防务科技初创公司 Anduril 签署协议，协助击落战场无人机。这一转变标志着 AI 技术从民用向军民融合的重要演进。",
+            "tags": [
+              "reasoning-models",
+              "openai",
+              "science",
+              "defense"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🚀 产品发布与创新",
+        "items": [
+          {
+            "bold": "亚马逊推出网页版 Alexa+",
+            "detail": "亚马逊正式发布 Alexa+ 网页版服务，将其智能助手功能扩展到浏览器端。这一举措旨在与 ChatGPT 等基于网页的 AI 助手直接竞争，为用户提供更便捷的访问方式。新版本集成了增强的自然语言处理能力和更丰富的多媒体交互功能，支持复杂查询和任务执行。业界分析认为，此举将进一步加剧 AI 助手市场的竞争，推动整个行业向更开放的平台化方向发展。",
+            "tags": [
+              "amazon",
+              "alexa",
+              "web-platform",
+              "competition"
+            ]
+          },
+          {
+            "bold": "联想发布 AI 发展路线图",
+            "detail": "联想公司本周公布了其全面的 AI 发展战略路线图，涵盖个人计算、企业解决方案和边缘计算等多个领域。公司计划在 AI PC、智能制造和混合云服务方面加大投入，特别强调本地化 AI 处理能力的重要性。联想表示将与主要芯片厂商建立更紧密的合作关系，确保在 AI 硬件和软件集成方面保持领先地位，为用户提供端到端的智能解决方案。",
+            "tags": [
+              "lenovo",
+              "ai-roadmap",
+              "enterprise",
+              "edge-computing"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-23",
     "weekday": "周六",
     "timeRange": "05-22 08:30 ~ 05-23 08:30 (UTC+8)",
@@ -3095,115 +3204,6 @@ export const reports: DailyReport[] = [
               "Survey",
               "Learning",
               "AI Impact"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-24",
-    "weekday": "周五",
-    "timeRange": "04-23 08:30 ~ 04-24 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🧠 大模型与基础设施突破",
-        "items": [
-          {
-            "bold": "Google TurboQuant压缩算法震撼登场",
-            "detail": "Google发布革命性的TurboQuant压缩算法，承诺在保持前沿性能的同时将内存需求削减至原来的六分之一。这一突破性技术将显著降低大模型部署成本，为AI民主化铺平道路。业界普遍认为这将改变当前大模型训练和推理的经济模型，使更多中小企业能够负担得起先进AI服务。",
-            "tags": [
-              "compression",
-              "memory-optimization",
-              "google",
-              "efficiency"
-            ]
-          },
-          {
-            "bold": "真正多模态基础模型崭露头角",
-            "detail": "2026年AI界最重要的趋势之一是真正多模态基础模型的出现，这些模型原生支持同时处理和生成多种数据类型。不同于早期的拼接式多模态方案，新一代模型能够同时看、说、听、写，实现了前所未有的跨模态理解能力。这为AI助手、创意工具和科研应用开辟了全新可能。",
-            "tags": [
-              "multimodal",
-              "foundation-models",
-              "generative-ai",
-              "breakthrough"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏥 AI医疗应用全面提速",
-        "items": [
-          {
-            "bold": "医疗AI从概念走向大规模执行",
-            "detail": "2026年被业界称为医疗AI从潜力讨论转向执行落地的关键一年。最新数据显示，AI医疗影像分析工具准确率已达98%，在某些领域超越人类放射科医生。日内瓦大学开发的AI诊断工具正在多家医院试点，显示出显著的诊断速度和准确性提升。医疗AI不再是未来概念，而是当下现实。",
-            "tags": [
-              "healthcare-ai",
-              "medical-imaging",
-              "diagnosis",
-              "execution"
-            ]
-          },
-          {
-            "bold": "AI代理重塑医疗服务连续性",
-            "detail": "智能医疗代理系统正在扩展医疗服务覆盖面，提供24小时连续护理支持。这些AI系统不仅能够监测患者状态，还能在关键时刻做出医疗决策建议。Touro大学的最新研究显示，AI在医疗领域不是产品而是加速器，将对医疗保健的各个方面产生重大影响，这正是当今医疗体系迫切需要的变革。",
-            "tags": [
-              "ai-agents",
-              "healthcare",
-              "continuity-of-care",
-              "medical-decisions"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏛️ 政策监管与治理框架",
-        "items": [
-          {
-            "bold": "欧盟AI法案成为全球监管标杆",
-            "detail": "欧盟AI法案作为最先进的测试案例，引入了通用人工智能(GPAI)类别，实质上涵盖了业界所称的基础模型。法案要求GPAI提供商维护技术文档、向下游开发者提供信息、遵守欧盟版权法并发布训练数据摘要。超过特定计算阈值的模型被视为具有系统性风险，需满足额外义务。",
-            "tags": [
-              "eu-ai-act",
-              "regulation",
-              "gpai",
-              "compliance"
-            ]
-          },
-          {
-            "bold": "四大AI巨头垄断格局引发关注",
-            "detail": "OpenAI、Anthropic、xAI和Google四家公司的资本和能力集中度引发了关于竞争、治理和AI利益分配的深度讨论。SpaceX对xAI的里程碑式收购进一步加剧了市场集中趋势。分析师指出，能源基础设施压力、网络安全升级和劳动力置换问题都需要政策层面的回应，但相关规模化政策尚未出台。",
-            "tags": [
-              "market-concentration",
-              "competition",
-              "governance",
-              "policy"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 科研与产业应用创新",
-        "items": [
-          {
-            "bold": "AI驱动材料发现新时代开启",
-            "detail": "从青铜时代到今天的硅时代，新材料的发现塑造了人类历史进程。普林斯顿大学AI实验室正在探索机器学习如何革命性地改变材料发现过程。关键在于构建能够更好理解物理世界的AI模型，这将为科学研究和工业应用带来前所未有的加速效应。",
-            "tags": [
-              "materials-discovery",
-              "scientific-research",
-              "machine-learning",
-              "princeton"
-            ]
-          },
-          {
-            "bold": "Google AI代理技术受欧盟密切关注",
-            "detail": "Google Cloud首席执行官Thomas Kurian在演讲中强调AI代理已成为支持企业、超级计算机、代理数据云和自主安全应用的蓝图和基础。实时数据处理能力对于实时分析、广告投放和个性化定向服务至关重要，使个性化体验能够分分秒秒地真正个性化。欧盟监管机构正密切关注这一发展。",
-            "tags": [
-              "ai-agents",
-              "google-cloud",
-              "real-time-processing",
-              "eu-oversight"
             ]
           }
         ]
