@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-25",
+    "weekday": "周一",
+    "timeRange": "05-24 08:30 ~ 05-25 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🧠 大模型与基础设施",
+        "items": [
+          {
+            "bold": "DeepSeek-R1 推理模型引发全球关注",
+            "detail": "中国前沿实验室推出的开源推理智能体DeepSeek-R1在全球范围内掀起波澜，展现出强大的推理能力。这一突破标志着AI推理技术从实验阶段向实用化转变的重要节点，开源生态的活跃程度达到前所未有的高度。相比一年前ChatGPT连草莓中有几个r都数不清的窘境，如今的推理模型已能处理复杂的逻辑问题。",
+            "tags": [
+              "reasoning",
+              "open-source",
+              "breakthrough",
+              "deepseek"
+            ]
+          },
+          {
+            "bold": "苹果向开发者开放核心AI技术",
+            "detail": "苹果宣布将向开发者开放其底层人工智能技术，这一决策被视为科技巨头在AI生态竞争中的重要战略转变。通过开放核心AI能力，苹果试图构建更加丰富的开发者生态，让第三方应用能够更深度地集成苹果的AI功能。此举预计将催生新一波基于苹果平台的AI应用创新浪潮。",
+            "tags": [
+              "apple",
+              "developer",
+              "platform",
+              "ecosystem"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏢 企业级AI部署",
+        "items": [
+          {
+            "bold": "安全企业AI部署成为2026年核心趋势",
+            "detail": "随着AI技术日趋成熟，企业级安全部署已成为行业关注焦点。从实验性探索转向规模化生产应用，企业对AI系统的安全性、可控性和合规性提出更高要求。灵活的全球AI系统架构正在兴起，能够适应不同地区的监管要求和业务需求，为跨国企业提供统一而安全的AI解决方案。",
+            "tags": [
+              "enterprise",
+              "security",
+              "deployment",
+              "compliance"
+            ]
+          },
+          {
+            "bold": "智能代理AI使用量大幅增长",
+            "detail": "企业级智能代理AI的采用率在2026年呈现爆发式增长，这些AI系统能够自主执行复杂的业务流程和决策任务。与传统的单点AI工具不同，新一代代理AI具备更强的自主性和适应性，能够处理跨部门、多环节的复杂工作流。这一趋势正在重塑企业的运营模式和组织架构。",
+            "tags": [
+              "agentic-ai",
+              "automation",
+              "workflow",
+              "productivity"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "📊 AI趋势与预测",
+        "items": [
+          {
+            "bold": "IBM发布2026年AI技术趋势预测",
+            "detail": "IBM在最新发布的趋势报告中指出，2026年最重要的变化是AI从实验阶段向规模化应用的转变。报告强调了推理模型的快速发展和开源生态的蓬勃兴起，认为这将推动AI技术的民主化进程。同时，企业对AI驱动的效率提升需求日益迫切，促使技术供应商加快产品化和商业化步伐。",
+            "tags": [
+              "IBM",
+              "trends",
+              "prediction",
+              "enterprise"
+            ]
+          },
+          {
+            "bold": "微软总结AI发展七大趋势",
+            "detail": "微软发布了2026年AI发展的七大关键趋势，涵盖技术突破、应用场景和商业模式等多个维度。报告特别关注了AI在复杂工作流程处理方面的能力提升，以及多模态AI系统的成熟应用。这些趋势预示着AI技术正在从单纯的工具向智能化平台和生态系统演进。",
+            "tags": [
+              "microsoft",
+              "trends",
+              "multimodal",
+              "platform"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "⚖️ AI政策与监管",
+        "items": [
+          {
+            "bold": "多州推进AI隐私法案立法进程",
+            "detail": "美国多个州在AI隐私和数据保护立法方面取得重要进展。路易斯安那州通过消费者数据隐私法案，伊利诺伊州有五项相关法案通过议会审议，加利福尼亚州九项法案跨越议会，特拉华州众议院通过法案大幅修订该州消费者数据隐私法。这些立法活动反映了各州对AI时代数据保护和隐私权利保障的重视程度不断提升。",
+            "tags": [
+              "privacy",
+              "legislation",
+              "regulation",
+              "data-protection"
+            ]
+          },
+          {
+            "bold": "医疗AI使用披露要求即将生效",
+            "detail": "路易斯安那州即将通过一项法案，要求医疗保健专业人士向患者披露人工智能翻译工具的使用情况。此举旨在提高医疗AI应用的透明度，保障患者的知情权。随着AI在医疗领域应用的普及，相关的伦理规范和披露要求正在成为监管关注的重点领域。",
+            "tags": [
+              "healthcare",
+              "transparency",
+              "disclosure",
+              "medical-ai"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-24",
     "weekday": "周日",
     "timeRange": "05-23 08:30 ~ 05-24 08:30 (UTC+8)",
@@ -3105,105 +3214,6 @@ export const reports: DailyReport[] = [
               "growth",
               "regulations",
               "investment"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-25",
-    "weekday": "周六",
-    "timeRange": "04-24 08:30 ~ 04-25 08:30 (UTC+8)",
-    "tweetCount": 38,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "💰 投资并购与资本动态",
-        "items": [
-          {
-            "bold": "谷歌向Anthropic投资400亿美元",
-            "detail": "科技巨头谷歌宣布将向AI安全公司Anthropic投资高达400亿美元，这标志着AI领域最大规模的投资交易之一。此举显示了谷歌在AI竞赛中加大筹码的决心，同时也反映了对Anthropic在AI安全和对齐技术方面能力的高度认可。这笔投资将进一步巩固谷歌在生成式AI领域的竞争地位。",
-            "tags": [
-              "Investment",
-              "Google",
-              "Anthropic",
-              "AI Safety"
-            ]
-          },
-          {
-            "bold": "15亿美元编程初创公司获投",
-            "detail": "AI编程工具领域再现大额融资，一家专注于代码生成和开发效率提升的初创公司获得15亿美元投资。这一轮融资凸显了投资者对AI辅助编程工具商业价值的强烈信心，预示着软件开发行业正在经历由AI驱动的深度变革。",
-            "tags": [
-              "Funding",
-              "Coding",
-              "Startup",
-              "Development"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🌍 地缘政治与AI治理",
-        "items": [
-          {
-            "bold": "美国启动全球外交行动防范中国AI模型滥用",
-            "detail": "美国政府指示全球外交官员就中国企业滥用美国AI模型问题发出警告，重点关注DeepSeek等中国AI公司的知识产权争议。白宫科技政策办公室发布备忘录，旨在促进美国开发者之间的信息共享，并加强对未授权使用的检测能力。这标志着AI技术竞争正式进入地缘政治层面。",
-            "tags": [
-              "US Policy",
-              "China",
-              "IP Protection",
-              "Diplomacy"
-            ]
-          },
-          {
-            "bold": "中美AI技术差距持续存在",
-            "detail": "中国AI公司DeepSeek发布期待已久的新旗舰模型V4，虽然成本较低但未能显著缩小与美国的技术差距。分析师指出，尽管中国在AI领域投入巨大，但在核心算法和基础技术方面仍落后于美国同行，凸显了AI技术发展的复杂性和挑战性。",
-            "tags": [
-              "DeepSeek",
-              "AI Competition",
-              "Technology Gap",
-              "Innovation"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🧠 AI技术突破与应用",
-        "items": [
-          {
-            "bold": "自主AI推动效率竞赛",
-            "detail": "Agentic AI技术正在引发新一轮效率革命，但同时面临内存短缺的技术挑战。SK海力士等内存制造商正加速12层HBM4内存芯片的量产，以满足AI服务器对高性能内存的巨大需求。这种技术演进反映了AI系统对硬件基础设施要求的不断提升。",
-            "tags": [
-              "Agentic AI",
-              "Memory",
-              "SK Hynix",
-              "HBM4"
-            ]
-          },
-          {
-            "bold": "2026年突破性视频生成AI模型",
-            "detail": "视频到视频AI转换技术取得重大突破，Pollo AI等平台推出创新的视频转换功能，允许用户轻松将现有视频转换为不同创意风格。这项技术的成熟为内容创作者提供了前所未有的创作工具，预示着视频内容生产将迎来AI驱动的变革浪潮。",
-            "tags": [
-              "Video AI",
-              "Pollo AI",
-              "Content Creation",
-              "Video Generation"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "📚 AI教育与社会影响",
-        "items": [
-          {
-            "bold": "AI在教育中的双重角色引发争议",
-            "detail": "昆尼匹亚克大学最新调查显示，47%的受访者认为大学生更可能使用AI来避免学习，而非促进学习。这一调查结果反映了公众对AI在教育领域应用的复杂态度，既认可其辅助价值，又担心其可能带来的负面影响，凸显了AI教育应用需要更加审慎的政策指导。",
-            "tags": [
-              "Education",
-              "Survey",
-              "Learning",
-              "AI Impact"
             ]
           }
         ]
