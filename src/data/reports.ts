@@ -14,6 +14,104 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-26",
+    "weekday": "周二",
+    "timeRange": "05-25 08:30 ~ 05-26 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🚀 AI 企业级落地加速",
+        "items": [
+          {
+            "bold": "AI 从实验转向大规模执行",
+            "detail": "2026年被业界视为AI从实验阶段迈向大规模执行的关键节点。企业开始制定全面的AI战略，设定明确的价值目标，配备高层赞助和集成治理模型。投资方向也随之转变，公司不再仅仅购买工具，而是构建内部AI能力，制定数据战略，并将AI项目与可衡量的业务成果对齐。这一趋势标志着表面化采用的衰落。",
+            "tags": [
+              "enterprise-ai",
+              "strategy",
+              "business-transformation"
+            ]
+          },
+          {
+            "bold": "AI智能体成为工作伙伴",
+            "detail": "微软安全副总裁预测，AI智能体将在2026年大量涌现，在日常工作中发挥更大作用，更像是队友而非工具。随着组织依赖这些智能体协助任务和决策制定，建立对它们的信任变得至关重要。每个智能体都应具备与人类相似的安全保护，确保智能体不会变成携带未检查风险的'双重间谍'。",
+            "tags": [
+              "ai-agents",
+              "workplace",
+              "security",
+              "trust"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "⚡ 量子计算突破边界",
+        "items": [
+          {
+            "bold": "量子计算进入实用阶段",
+            "detail": "IBM战略增长与量子合作伙伴关系总监表示，量子计算已经超越理论阶段，正在使用业界最先进的量子计算机处理真实用例。虽然这些还不是生产规模的问题，但它们是量子技术持续成熟过程中价值增长的信号。在药物开发、材料发现以及金融和物流优化方面的研究正在取得令人难以置信的进展。",
+            "tags": [
+              "quantum-computing",
+              "drug-discovery",
+              "materials-science",
+              "optimization"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏗️ AI基础设施建设",
+        "items": [
+          {
+            "bold": "COMPUTEX 2026聚焦AI电源方案",
+            "detail": "FSP集团在COMPUTEX 2026展会上携手合作伙伴，展示从数据中心到终端设备的全面AI电源解决方案。随着AI应用快速从云计算扩展到边缘计算、智能制造、网络设备和AI PC，稳定高效的电源供应已成为关键基础。这反映了行业对AI硬件基础设施需求的快速增长。",
+            "tags": [
+              "power-solutions",
+              "data-center",
+              "edge-computing",
+              "ai-pc"
+            ]
+          },
+          {
+            "bold": "AI应用从通用转向专用",
+            "detail": "约翰斯·霍普金斯大学专家预测，2026年将看到AI技术应用的更多转变。早期AI特别是聊天机器人领域以通用模型为特征，虽然人们可以尝试并认为'这对我的工作很有帮助'，但从'可能有帮助'到'真正产生重大影响'之间存在显著差距。随着技术成熟，对专门应用的兴趣正在增加。",
+            "tags": [
+              "specialized-ai",
+              "applications",
+              "chatbots",
+              "productivity"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🛡️ AI安全与信任建设",
+        "items": [
+          {
+            "bold": "AI诈骗防范成为焦点",
+            "detail": "弗吉尼亚州波瓦坦县举办AI诈骗防范讲座，州主任肖恩·史密斯指出，随着人工智能和技术持续发展，判断什么可以信任变得越来越困难。诈骗者正在利用AI对抗我们，窃取金钱和信息。这凸显了在AI快速发展的同时，公众教育和安全防范的重要性。",
+            "tags": [
+              "ai-security",
+              "scams",
+              "public-education",
+              "cybersecurity"
+            ]
+          },
+          {
+            "bold": "变革适应能力成关键",
+            "detail": "哈佛商学院研究强调，2026年许多组织将寻求从人工智能中获得更多价值。由于组织变革速度远慢于AI技术发展速度，预测企业AI采用比预测技术变化要容易一些。领导者在规划技术扩展时需要考虑构建'变革适应能力'和平衡各种权衡因素。",
+            "tags": [
+              "change-management",
+              "organizational-ai",
+              "leadership",
+              "adoption"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-25",
     "weekday": "周一",
     "timeRange": "05-24 08:30 ~ 05-25 08:30 (UTC+8)",
@@ -3115,105 +3213,6 @@ export const reports: DailyReport[] = [
               "ski-resort",
               "safety-AI",
               "video-surveillance"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-26",
-    "weekday": "周日",
-    "timeRange": "04-25 08:30 ~ 04-26 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🧠 大模型与基础设施",
-        "items": [
-          {
-            "bold": "OpenAI发布新一代自进化模型",
-            "detail": "OpenAI发布了其迄今为止最强的研究型AI模型，该模型在自我改进方面表现出色。这标志着通用人工智能不再是理论概念，而是正在成为现实。新模型能够独立进行研究工作，并持续优化自身性能，这种自我迭代能力预示着AI发展将进入加速阶段。",
-            "tags": [
-              "OpenAI",
-              "AGI",
-              "self-improvement",
-              "research"
-            ]
-          },
-          {
-            "bold": "IBM预测2026年AI技术变革趋势",
-            "detail": "IBM发布2026年AI技术预测报告，指出从AI实验向实际应用的重大转变正在发生。报告强调，相比一年前ChatGPT还无法正确计算单词中字母数量的局限性，如今DeepSeek-R1等推理模型和开源推理智能体已经彻底改变了行业格局，推理能力成为新的竞争焦点。",
-            "tags": [
-              "IBM",
-              "predictions",
-              "reasoning",
-              "DeepSeek"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 AI研究突破",
-        "items": [
-          {
-            "bold": "AI黑盒问题引发可解释性研究热潮",
-            "detail": "《纽约时报》深度报道指出，我们对AI工作机制的理解仍然有限，这已成为重大问题。随着AI在关键领域应用增加，可解释性研究成为新兴热门领域。研究人员正努力打开AI大脑的黑盒，让其决策过程变得透明可理解，这对建立公众对AI系统的信任至关重要。",
-            "tags": [
-              "interpretability",
-              "black-box",
-              "trust",
-              "research"
-            ]
-          },
-          {
-            "bold": "MIT发布2026年AI十大关键技术",
-            "detail": "MIT技术评论发布2026年AI领域十大重要趋势和技术清单。报告聚焦当前最具影响力的AI发展方向，涵盖从基础研究到实际应用的各个层面。这份权威报告为行业提供了重要的技术发展路线图，帮助企业和研究机构把握未来发展机遇。",
-            "tags": [
-              "MIT",
-              "trends",
-              "technology",
-              "roadmap"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🚀 产品与应用动态",
-        "items": [
-          {
-            "bold": "微软展望2026年AI发展七大趋势",
-            "detail": "微软官方发布2026年AI发展趋势预测，详细阐述了七个关键发展方向。报告涵盖了从技术突破到商业应用的全方位分析，为行业发展提供了重要指引。微软作为AI领域的重要参与者，其预测反映了对未来AI技术演进和市场需求的深度洞察。",
-            "tags": [
-              "Microsoft",
-              "trends",
-              "predictions",
-              "business"
-            ]
-          },
-          {
-            "bold": "智能体AI革命重塑科技生态",
-            "detail": "4月份智能体AI领域迎来七大突破性进展，正在重新定义整个科技行业格局。从自主决策到复杂任务执行，智能体技术展现出前所未有的能力水平。这些突破不仅提升了AI系统的实用性，更为各行各业的智能化转型提供了强有力的技术支撑。",
-            "tags": [
-              "agentic-AI",
-              "breakthroughs",
-              "automation",
-              "industry"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "📊 行业发展与基础设施",
-        "items": [
-          {
-            "bold": "AI基础设施建设迎来增长期",
-            "detail": "最新行业报告显示，AI基础设施正经历快速增长阶段，相关监管政策也在同步完善。随着AI应用场景不断扩大，对计算资源、数据中心和网络基础设施的需求急剧增长。政府和企业正加大投资力度，构建更加完善的AI生态系统，为产业长期发展奠定坚实基础。",
-            "tags": [
-              "infrastructure",
-              "growth",
-              "regulations",
-              "investment"
             ]
           }
         ]
