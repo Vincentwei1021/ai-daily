@@ -14,6 +14,105 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-27",
+    "weekday": "周三",
+    "timeRange": "05-26 08:30 ~ 05-27 08:30 (UTC+8)",
+    "tweetCount": 42,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🤖 AI智能体与工作流编排",
+        "items": [
+          {
+            "bold": "AI智能体从工具进化为队友",
+            "detail": "微软安全副总裁Vasu Jakkal指出，2026年AI智能体将在日常工作中扮演更重要角色，从单纯的工具转变为真正的团队伙伴。这些智能体将参与任务执行和决策制定，但构建对它们的信任变得至关重要。每个智能体都应具备与人类同等的安全防护措施，确保它们不会成为携带未检查风险的'双面间谍'。",
+            "tags": [
+              "AI-agents",
+              "security",
+              "workplace",
+              "trust"
+            ]
+          },
+          {
+            "bold": "从个体生产力转向团队协作",
+            "detail": "企业AI平台Writer的首席战略官Kevin Chung认为，AI正从个人使用转向团队和工作流编排。这意味着协调整个工作流程、连接跨部门数据，并推动项目从创意到完成的全过程。随着推理能力的提升，AI系统将不再仅仅遵循指令，而是能够预测和主动响应需求。",
+            "tags": [
+              "workflow",
+              "collaboration",
+              "enterprise-AI",
+              "orchestration"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏢 企业AI应用与采用趋势",
+        "items": [
+          {
+            "bold": "AI应用从通用转向专业化",
+            "detail": "约翰斯·霍普金斯大学预测，2026年将看到AI技术更多转向实际应用。早期以通用聊天机器人为特征的AI时代正在转向专门化应用。虽然人们能看到AI的潜在帮助，但'可能有用'与'实际产生有意义影响'之间仍存在显著差距。随着技术成熟，对专业化AI解决方案的兴趣正在增长。",
+            "tags": [
+              "enterprise",
+              "specialization",
+              "applications",
+              "maturity"
+            ]
+          },
+          {
+            "bold": "HR领域AI应用加速普及",
+            "detail": "SHRM发布的2026年HR领域AI状况报告显示，AI在人力资源管理中的应用正在快速发展。AI生成的测验和场景、候选人-职位匹配以及个性化学习推荐成为主要应用方向。组织需要将AI倡议与企业文化、员工体验策略和人力规划保持一致，避免因知识差距而错失未来成功机会。",
+            "tags": [
+              "HR",
+              "recruitment",
+              "learning",
+              "adoption"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔬 AI研究与技术突破",
+        "items": [
+          {
+            "bold": "模型架构重要性超越规模",
+            "detail": "最新研究显示，'架构比模型更重要'的观点正在得到验证。微软的MDASH系统使用常规模型在网络安全基准测试中击败了Anthropic的Mythos，证明了有效的技能系统往往是轻量级定制或基于实践工程经验构建的。这一发现挑战了'更大即更好'的传统观念。",
+            "tags": [
+              "model-architecture",
+              "benchmarks",
+              "cybersecurity",
+              "efficiency"
+            ]
+          },
+          {
+            "bold": "Stanford AI Index揭示能力与治理差距",
+            "detail": "斯坦福HAI发布的2026年AI指数报告揭示了AI能力与管理准备之间日益扩大的差距。虽然AI持续快速融入全球经济，技术能力不断提升，投资加速，采用范围扩大，但我们在管理这些技术方面的准备程度仍然不足，这种差距可能带来潜在风险。",
+            "tags": [
+              "Stanford-HAI",
+              "governance",
+              "capabilities",
+              "risk-assessment"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🚀 产业动态与战略收购",
+        "items": [
+          {
+            "bold": "Meta进军人形机器人领域",
+            "detail": "Meta已收购初创公司Assured Robot Intelligence (ARI)，标志着其正式进入竞争激烈的人形机器人领域。这项于5月1日完成的收购将ARI团队引入Meta超级智能实验室，专注于开发机器人控制和自学习的基础AI模型。Meta的目标是为人形硬件提供底层AI平台，类似于谷歌Android的模式。",
+            "tags": [
+              "Meta",
+              "robotics",
+              "acquisition",
+              "humanoid"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-26",
     "weekday": "周二",
     "timeRange": "05-25 08:30 ~ 05-26 08:30 (UTC+8)",
@@ -3104,115 +3203,6 @@ export const reports: DailyReport[] = [
               "video-generation",
               "business-sustainability",
               "compute-costs"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-27",
-    "weekday": "周一",
-    "timeRange": "04-26 08:30 ~ 04-27 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🧠 大模型与基础设施",
-        "items": [
-          {
-            "bold": "DeepSeek V4 大幅降低推理成本",
-            "detail": "Google Cloud Next 大会透露，DeepSeek V4 模型现已开放预览版，推理成本仅为 R1 的一小部分。这一突破性进展标志着大模型商业化应用的重要里程碑，有望显著降低企业部署AI解决方案的门槛。成本优势将加速AI技术在更多行业的普及应用。",
-            "tags": [
-              "DeepSeek",
-              "inference",
-              "cost-reduction",
-              "Google Cloud"
-            ]
-          },
-          {
-            "bold": "边缘AI成为新增长引擎",
-            "detail": "研华科技将边缘AI视为关键增长驱动力，着重发展实时应用场景。边缘计算与AI结合能够减少延迟、提升隐私保护，特别适用于工业自动化、智慧城市等领域。这一趋势反映了AI计算正从云端向终端设备迁移的重要变化。",
-            "tags": [
-              "edge-AI",
-              "real-time",
-              "Advantech",
-              "industrial"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💼 产业动态与投资",
-        "items": [
-          {
-            "bold": "AI热潮再次推动股市创新高",
-            "detail": "人工智能相关股票强劲上涨，带动标普500指数再创历史新高。尽管其他行业板块出现下跌，但AI概念股的卓越表现足以支撑整体市场。投资者对AI技术商业化前景保持乐观，但也有分析师担忧股价是否已脱离基本面支撑。",
-            "tags": [
-              "stock-market",
-              "S&P500",
-              "AI-stocks",
-              "investment"
-            ]
-          },
-          {
-            "bold": "谷歌在台27亿美元投资获批",
-            "detail": "台湾经济部批准谷歌两项总计270.8亿新台币的投资案，资金主要用于数据处理、电子信息供应服务及半导体库存采购业务。这是谷歌在台湾的第二次大规模连续投资，凸显了台湾在全球AI产业链中的重要地位。",
-            "tags": [
-              "Google",
-              "Taiwan",
-              "investment",
-              "semiconductor"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏛️ 政策与监管",
-        "items": [
-          {
-            "bold": "美国州级AI立法进展更新",
-            "detail": "最新统计显示，2026年美国州级AI法案提案持续增加，主要针对私营部门AI开发者和部署者。立法重点集中在AI系统的透明度、责任归属和风险管控等方面，但不涉及政府AI应用、教育和选举干预等领域。各州监管框架逐渐成形。",
-            "tags": [
-              "legislation",
-              "US-states",
-              "AI-regulation",
-              "private-sector"
-            ]
-          },
-          {
-            "bold": "美方警告中国AI技术窃取",
-            "detail": "美国官方发出警告，指控中国涉嫌窃取AI相关技术。这一指控反映了中美在AI技术竞争中的紧张关系，预计将影响两国在人工智能领域的合作与交流。技术安全已成为国际AI竞争的重要维度。",
-            "tags": [
-              "China",
-              "US",
-              "AI-theft",
-              "geopolitics"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 AI研究与应用",
-        "items": [
-          {
-            "bold": "NASA举办AI科学理解讲座",
-            "detail": "NASA组织AI/ML科技讲座系列活动，探讨人工智能在科学研究中的理解意义。讲座聚焦AI如何改变天体物理学等科学领域的研究方法，以及机器学习在宇宙观测数据分析中的应用前景。科学界对AI辅助研究的关注度持续上升。",
-            "tags": [
-              "NASA",
-              "scientific-AI",
-              "astrophysics",
-              "research"
-            ]
-          },
-          {
-            "bold": "日本雪场试点AI安全监控",
-            "detail": "白马五龙雪场在阿尔卑斯1号双人缆车区域开展基于图像的AI测试，旨在提升运营安全性。测试将利用安装在该区域的安全摄像头捕获的视频画面，通过AI技术实现智能监控。这代表了AI在体育休闲产业安全管理中的创新应用。",
-            "tags": [
-              "Japan",
-              "ski-resort",
-              "safety-AI",
-              "video-surveillance"
             ]
           }
         ]
