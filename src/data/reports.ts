@@ -14,6 +14,160 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-28",
+    "weekday": "周四",
+    "timeRange": "05-27 08:30 ~ 05-28 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🧠 大模型与基础设施",
+        "items": [
+          {
+            "bold": "OpenAI 发布 Erdos 数学证明模型",
+            "detail": "OpenAI 最新推出的 Erdos 模型在数学证明领域取得重大突破，能够自动生成复杂数学定理的严密证明。该模型标志着 AI 在抽象逻辑推理方面的显著进步，为科学研究和教育领域带来革命性工具。业内专家认为这是继 GPT 系列后，OpenAI 在专业领域应用的重要里程碑。",
+            "tags": [
+              "OpenAI",
+              "mathematical-reasoning",
+              "theorem-proving",
+              "breakthrough"
+            ]
+          },
+          {
+            "bold": "谷歌发布第八代 TPU 专用芯片",
+            "detail": "谷歌在 Cloud Next '26 大会上发布了专为智能体时代设计的第八代 TPU 芯片。这两款专用处理器针对智能体工作负载进行了深度优化，显著提升了 AI 推理和训练效率。配合新推出的 Gemini 企业智能体平台，构成了谷歌在企业 AI 基础设施领域的完整解决方案。",
+            "tags": [
+              "Google",
+              "TPU",
+              "enterprise-AI",
+              "infrastructure"
+            ]
+          },
+          {
+            "bold": "Gemma 4 开源模型性能突破",
+            "detail": "谷歌发布的 Gemma 4 被称为同等规模下最强开源模型，在多项基准测试中表现卓越。该模型采用了创新的架构设计和训练方法，为开发者提供了强大的本地部署选项。开源社区对其在保持高性能的同时降低计算资源需求表示高度认可。",
+            "tags": [
+              "Gemma",
+              "open-source",
+              "model-performance",
+              "efficiency"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💰 市场与投资动态",
+        "items": [
+          {
+            "bold": "全球 AI 支出将达 2 万亿美元",
+            "detail": "最新预测显示，2026 年全球人工智能支出将达到惊人的 2 万亿美元规模。这一数字反映了企业对 AI 技术投资的持续加码，涵盖基础设施建设、模型开发和应用部署等各个环节。投资热潮主要集中在智能体平台、专用芯片和企业级 AI 解决方案领域。",
+            "tags": [
+              "market-size",
+              "investment",
+              "enterprise-adoption",
+              "trillion-dollar"
+            ]
+          },
+          {
+            "bold": "Anthropic Q2 营收达 109 亿美元",
+            "detail": "Anthropic 第二季度营收达到 109 亿美元，主要驱动力来自 Claude Code API 的广泛使用和企业平台合同。这一成绩表明，在激烈的 AI 竞争中，成功的关键不仅仅是技术能力，更在于分发渠道和部署效率。Claude 在企业市场的强势表现证实了专业化 API 服务的商业价值。",
+            "tags": [
+              "Anthropic",
+              "revenue-growth",
+              "enterprise-contracts",
+              "API-success"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🤖 AI 智能体革命",
+        "items": [
+          {
+            "bold": "AI 智能体从工具转向队友",
+            "detail": "2026 年 AI 智能体正在经历从简单工具向工作伙伴的根本性转变。微软安全副总裁指出，智能体将在日常工作中扮演更重要角色，参与任务执行和决策制定。这一转变要求建立对智能体的信任机制，包括为每个智能体配备与人类同等的安全保护措施，防止其成为潜在的安全风险。",
+            "tags": [
+              "AI-agents",
+              "workplace-transformation",
+              "security",
+              "trust-building"
+            ]
+          },
+          {
+            "bold": "Gemini 企业智能体平台上线",
+            "detail": "谷歌推出 Gemini 企业智能体平台，帮助企业充分利用智能体 AI 技术。该平台集成了先进的编排能力和安全机制，为企业提供可定制的智能体解决方案。平台支持多种业务场景，从客户服务到数据分析，标志着企业级智能体应用进入成熟阶段。",
+            "tags": [
+              "Gemini",
+              "enterprise-platform",
+              "business-automation",
+              "customization"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔬 技术创新突破",
+        "items": [
+          {
+            "bold": "Claude Mythos 网络安全能力升级",
+            "detail": "Anthropic 的 Claude Mythos 在网络安全领域展现出卓越能力，能够进行高级威胁检测和安全分析。该系统结合了深度学习和符号推理，为企业提供实时的安全防护和风险评估。业界认为这标志着 AI 在网络安全领域应用的重大进步，有望改变传统安全防护模式。",
+            "tags": [
+              "Claude",
+              "cybersecurity",
+              "threat-detection",
+              "enterprise-security"
+            ]
+          },
+          {
+            "bold": "PyTorch 成为智能体开发基石",
+            "detail": "随着智能体系统的兴起，PyTorch 正成为训练、仿真和编排的通用基础平台。其灵活的架构和丰富的生态系统使开发者能够高效构建复杂的智能体应用。专家预测，PyTorch 在智能体开发中的核心地位将进一步加强，推动整个行业的标准化进程。",
+            "tags": [
+              "PyTorch",
+              "agent-development",
+              "framework",
+              "ecosystem"
+            ]
+          },
+          {
+            "bold": "Colab 推出 AI 编程导师模式",
+            "detail": "谷歌为 Colab 引入全新的学习模式，将 Gemini 转化为个人编程导师。该功能能够根据用户的编程水平和学习进度，提供个性化的代码指导和解释。这一创新将大幅降低编程学习门槛，为 AI 时代的开发者教育开辟新路径。",
+            "tags": [
+              "Colab",
+              "coding-education",
+              "personalized-learning",
+              "developer-tools"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🌐 开源生态发展",
+        "items": [
+          {
+            "bold": "开源 AI 生态三大趋势显现",
+            "detail": "IBM 分析师指出，2026 年开源 AI 将呈现三大发展趋势：全球模型多样化，以中国多语言和推理调优版本为主导；互操作性成为竞争优势，各框架和运行时向共享标准靠拢；治理机制日趋完善，安全审计版本和透明数据管道成为标配。这些趋势将重塑开源 AI 的竞争格局。",
+            "tags": [
+              "open-source",
+              "global-diversity",
+              "interoperability",
+              "governance"
+            ]
+          },
+          {
+            "bold": "Deep Research Max 助力数据分析",
+            "detail": "谷歌发布的 Deep Research Max 为高级数据分析提供了强大工具。该系统能够处理复杂的研究任务，自动生成深度分析报告和洞察。结合先进的机器学习算法和知识图谱技术，为研究人员和数据科学家提供了前所未有的分析能力。",
+            "tags": [
+              "data-analysis",
+              "research-tools",
+              "automation",
+              "insights"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-27",
     "weekday": "周三",
     "timeRange": "05-26 08:30 ~ 05-27 08:30 (UTC+8)",
@@ -3079,130 +3233,6 @@ export const reports: DailyReport[] = [
               "AI-Stocks",
               "Market-Volatility",
               "Tech-Earnings"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-28",
-    "weekday": "周二",
-    "timeRange": "04-27 08:30 ~ 04-28 08:30 (UTC+8)",
-    "tweetCount": 42,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🚀 智能体AI革命浪潮",
-        "items": [
-          {
-            "bold": "智能体AI成为主流技术",
-            "detail": "2026年4月见证了智能体AI从实验室走向大规模商业应用的历史性转折。与早期生成式模型不同，新一代智能体系统能够理解高层目标，自主分解任务并跨平台执行复杂工作流。这标志着AI从\"被动响应\"向\"主动执行\"的范式转变，为企业数字化转型开辟全新路径。",
-            "tags": [
-              "agentic-ai",
-              "automation",
-              "enterprise",
-              "workflow"
-            ]
-          },
-          {
-            "bold": "GPT-5.4引领多步骤任务执行",
-            "detail": "4月6日发布的GPT-5.4等新模型展现出前所未有的任务执行能力，能够从启动到完成全程自主处理专业级多步骤任务。这一突破让原本需要人工在每个决策点介入的复杂工作实现完全自动化，大幅提升了知识工作者的生产效率，重新定义了人机协作模式。",
-            "tags": [
-              "gpt-5.4",
-              "task-execution",
-              "productivity",
-              "automation"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏢 企业AI组织重构潮",
-        "items": [
-          {
-            "bold": "企业围绕AI重新设计组织架构",
-            "detail": "下一波AI浪潮的核心不再是简单使用AI工具，而是企业围绕AI能力重新构建组织结构和业务流程。越来越多公司开始将AI从支持工具转变为核心业务驱动力，通过重组团队、重新定义岗位职责来最大化AI的价值创造潜力，这种深层次整合正在重塑现代企业运营模式。",
-            "tags": [
-              "enterprise-transformation",
-              "organizational-change",
-              "business-process",
-              "strategic-ai"
-            ]
-          },
-          {
-            "bold": "微软365 Copilot引入Claude评估层",
-            "detail": "微软在365 Copilot研究员工具中集成Claude模型作为\"批评层\"，专门用于审查OpenAI模型的回答质量。这一创新架构在哈佛和Perplexity的DRACO可靠性基准测试中获得13.8%的性能提升，展示了多模型协同工作的巨大潜力，为提升AI系统准确性开辟新思路。",
-            "tags": [
-              "microsoft-copilot",
-              "claude",
-              "model-collaboration",
-              "reliability"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🧠 AI模型发布密集窗口期",
-        "items": [
-          {
-            "bold": "史上最密集的模型发布窗口",
-            "detail": "2026年4月成为AI行业历史上模型发布最密集的时间窗口，OpenAI、Anthropic和Google DeepMind三大前沿实验室同时推出或确认重大模型更新。这种前所未有的发布节奏反映出激烈的技术竞争态势，各家都在争夺下一代AI技术的制高点，推动整个行业进入新的发展阶段。",
-            "tags": [
-              "model-releases",
-              "openai",
-              "anthropic",
-              "google-deepmind"
-            ]
-          },
-          {
-            "bold": "AI透明度研究获得突破",
-            "detail": "佐治亚理工学院研究团队在AI可解释性方面取得重要进展，通过Transformer架构分析揭示AI系统更多基于数学运算而非人类思维模式。这项研究有助于消除公众对AI的不切实际期望，为构建更可靠的AI应用奠定理论基础，同时推动AI教育和科普工作向更科学的方向发展。",
-            "tags": [
-              "ai-transparency",
-              "transformer",
-              "research",
-              "interpretability"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "⚡ 量子计算与AI融合",
-        "items": [
-          {
-            "bold": "量子AI技术实现重大突破",
-            "detail": "2026年4月见证了量子计算与人工智能深度融合的里程碑式进展。新一代量子增强AI系统在特定计算任务上展现出指数级性能提升，特别是在优化问题和机器学习训练方面。这一突破为解决传统AI在复杂问题上的计算瓶颈提供了全新路径，预示着AI能力的下一个质量跃升即将到来。",
-            "tags": [
-              "quantum-ai",
-              "performance-breakthrough",
-              "optimization",
-              "machine-learning"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🛠️ 开发生态系统演进",
-        "items": [
-          {
-            "bold": "AI开发工具教育普及加速",
-            "detail": "随着AI技术复杂性不断增加，教育机构和开发社区正在加速推进AI普及教育。从基础概念到实际应用，新的教育框架将AI描述为\"基于关联的自动化\"，帮助开发者和普通用户更好理解和使用AI技术。这种教育模式的转变对培养下一代AI人才和促进技术民主化具有重要意义。",
-            "tags": [
-              "ai-education",
-              "developer-tools",
-              "automation",
-              "accessibility"
-            ]
-          },
-          {
-            "bold": "OpenAI关闭Sora视频生成平台",
-            "detail": "OpenAI在推出仅6个月后宣布关闭Sora视频生成工具及其社交媒体平台。尽管该工具曾短暂获得关注，但高昂的计算成本和有限的商业化前景使其成为公司的财务负担。这一决定反映出生成式AI商业化过程中面临的现实挑战，提醒行业需要在技术创新与商业可持续性之间找到平衡。",
-            "tags": [
-              "openai-sora",
-              "video-generation",
-              "business-sustainability",
-              "compute-costs"
             ]
           }
         ]
