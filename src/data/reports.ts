@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-29",
+    "weekday": "周五",
+    "timeRange": "05-28 08:30 ~ 05-29 08:30 (UTC+8)",
+    "tweetCount": 42,
+    "userCount": 11,
+    "topics": [
+      {
+        "title": "🧠 AI智能体与协作工作流",
+        "items": [
+          {
+            "bold": "AI智能体将成为团队协作伙伴",
+            "detail": "微软安全副总裁Vasu Jakkal预测，2026年AI智能体将在日常工作中扮演更重要角色，从工具转变为团队成员。这些智能体需要具备与人类相同的安全保护机制，确保不会成为携带风险的\"双重间谍\"。企业级AI平台Writer的首席战略官Kevin Chung表示，AI正从个人使用转向团队和工作流编排，能够协调整个工作流程，连接跨部门数据。",
+            "tags": [
+              "AI Agents",
+              "Workflow",
+              "Enterprise",
+              "Security"
+            ]
+          },
+          {
+            "bold": "推理能力提升引领AI突破",
+            "detail": "IBM Think报告显示，随着推理能力的改进，AI系统将不再仅仅遵循指令，而是能够进行独立思考和决策。这标志着AI从被动执行转向主动解决问题的重大转变。InfoWorld预测，AI最重要的进展将来自让系统变得更智能、更协作和更可靠，而非简单地构建更大的模型。",
+            "tags": [
+              "Reasoning",
+              "AI Breakthrough",
+              "Decision Making",
+              "Innovation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔧 开源生态与平台发展",
+        "items": [
+          {
+            "bold": "开源基础模型打破巨头垄断",
+            "detail": "InfoWorld分析指出，开源基础模型将在2026年打破AI巨头的垄断地位，加速创新步伐。这将使更多开发者和小型公司能够接触到先进的AI技术，推动整个行业的民主化发展。开源模型的普及预计将显著降低AI应用的准入门槛。",
+            "tags": [
+              "Open Source",
+              "Foundation Models",
+              "Democratization",
+              "Innovation"
+            ]
+          },
+          {
+            "bold": "OpenRouter估值翻倍至13亿美元",
+            "detail": "据TechieNews报道，AI基础设施平台OpenRouter的估值翻倍增长至13亿美元，反映了市场对AI基础设施服务的强劲需求。该平台为开发者提供统一的AI模型访问接口，简化了多模型集成的复杂性，成为AI应用开发的重要基础设施。",
+            "tags": [
+              "Valuation",
+              "Infrastructure",
+              "Platform",
+              "Investment"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 企业AI应用与商业模式",
+        "items": [
+          {
+            "bold": "Cognition获得10亿美元AI开发资金",
+            "detail": "AI开发公司Cognition完成10亿美元融资，用于推进AI技术研发。这笔巨额投资显示了投资者对AI技术商业化前景的强烈信心，预计将加速AI从实验室走向实际应用的进程。该公司专注于开发能够处理复杂多步骤工作流的AI系统。",
+            "tags": [
+              "Funding",
+              "AI Development",
+              "Investment",
+              "Commercialization"
+            ]
+          },
+          {
+            "bold": "Tempus AI医疗业务持续增长",
+            "detail": "精准医疗AI公司Tempus AI发布2026年第一季度财报，营收达3.481亿美元，同比增长36.1%。公司将于5月29日举办首届投资者日活动，展示其在AI驱动精准医疗领域的最新进展。Tempus正引领AI在医疗保健领域的应用，推动患者护理的技术革新。",
+            "tags": [
+              "Healthcare AI",
+              "Revenue Growth",
+              "Precision Medicine",
+              "Earnings"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🚀 技术突破与未来趋势",
+        "items": [
+          {
+            "bold": "AI系统互操作性成关键突破",
+            "detail": "2026年AI领域最重要的突破将集中在智能体互操作性、自我验证和记忆能力方面。这些技术进步将把AI从孤立工具转变为能够处理复杂多步骤工作流的集成系统。Hopkins Bloomberg中心预测，AI应用将从通用模型转向专门化应用，缩小\"可能有用\"与\"实际产生影响\"之间的差距。",
+            "tags": [
+              "Interoperability",
+              "Self-Verification",
+              "Memory",
+              "System Integration"
+            ]
+          },
+          {
+            "bold": "Meta推出订阅服务新模式",
+            "detail": "Meta宣布推出订阅服务，标志着社交媒体巨头在AI时代探索新的商业模式。这一举措反映了科技公司正在寻求多元化收入来源，以支持其大规模AI研发投入。订阅模式可能成为AI公司实现可持续发展的重要途径。",
+            "tags": [
+              "Subscription Model",
+              "Business Strategy",
+              "Revenue Diversification",
+              "Meta"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-28",
     "weekday": "周四",
     "timeRange": "05-27 08:30 ~ 05-28 08:30 (UTC+8)",
@@ -3114,125 +3223,6 @@ export const reports: DailyReport[] = [
               "university",
               "innovation",
               "responsible-ai"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-29",
-    "weekday": "周三",
-    "timeRange": "04-28 08:30 ~ 04-29 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🏛️ AI政策与监管动态",
-        "items": [
-          {
-            "bold": "谷歌与五角大楼签署AI合作协议",
-            "detail": "谷歌宣布与美国国防部达成合作协议，为其机密工作提供人工智能模型支持。这标志着科技巨头与政府在AI军用领域合作的重要进展，也反映了AI技术在国防安全领域的战略重要性日益凸显。",
-            "tags": [
-              "Google",
-              "Pentagon",
-              "AI-Defense",
-              "Government"
-            ]
-          },
-          {
-            "bold": "中国政府阻止Meta收购AI初创公司",
-            "detail": "中国政府禁止Meta收购中国AI初创公司Manus，这是首例价值20亿美元的AI收购禁令。此举旨在留住本土AI人才，加深中美科技脱钩趋势。这一决定凸显了各国对AI核心技术和人才的激烈竞争。",
-            "tags": [
-              "Meta",
-              "China",
-              "AI-Acquisition",
-              "Tech-Decoupling"
-            ]
-          },
-          {
-            "bold": "CFTC考虑用AI加速加密货币审查",
-            "detail": "美国商品期货交易委员会正在探索使用人工智能技术来加速处理日益增长的加密货币相关申请。该委员会成立的创新工作组将重点关注加密资产、AI自主系统和预测市场等三大领域，旨在为创新者提供明确的监管指导。",
-            "tags": [
-              "CFTC",
-              "Crypto",
-              "AI-Regulation",
-              "Innovation"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💼 AI商业应用突破",
-        "items": [
-          {
-            "bold": "Snapchat推出AI聊天机器人广告",
-            "detail": "Snapchat在其聊天功能中引入AI驱动的对话式广告代理，扩展其赞助快照服务。鉴于该平台5亿日活用户在第一季度发送了超过9500亿条消息，其中超过5亿条发送给My AI，这一举措有望大幅提升广告收入和用户参与度。",
-            "tags": [
-              "Snapchat",
-              "AI-Ads",
-              "Chatbot",
-              "Social-Media"
-            ]
-          },
-          {
-            "bold": "企业AI支出预计达6650亿美元",
-            "detail": "ExcelMindCyber研究所指出，2026年全球企业AI支出预计将达到6650亿美元，但AI治理方面存在重大缺口。随着AI投资激增，企业在AI部署的最佳实践和风险管理方面仍面临挑战。",
-            "tags": [
-              "Enterprise-AI",
-              "AI-Spending",
-              "AI-Governance",
-              "Market-Research"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏙️ AI城市治理创新",
-        "items": [
-          {
-            "bold": "彭博与约翰霍普金斯启动市长AI论坛",
-            "detail": "彭博慈善基金会与约翰霍普金斯大学在马德里举办的第12届年度CityLab峰会上宣布启动市长AI论坛。该论坛旨在帮助全球城市领导者在关键公共和私营系统中实施AI部署的最佳实践，推动智慧城市建设。",
-            "tags": [
-              "Bloomberg",
-              "Smart-City",
-              "AI-Governance",
-              "Urban-Innovation"
-            ]
-          },
-          {
-            "bold": "FDA探索AI优化临床试验",
-            "detail": "美国食品药品监督管理局发布信息征集，探索AI在早期临床试验优化中的应用。该试点项目旨在利用人工智能技术提高药物研发效率，加速新药上市进程，为医疗行业带来革命性变化。",
-            "tags": [
-              "FDA",
-              "Clinical-Trials",
-              "AI-Healthcare",
-              "Drug-Development"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "📈 AI投资市场波动",
-        "items": [
-          {
-            "bold": "AI电力股因美国出口激增",
-            "detail": "韩国AI电力设备股票本月表现强劲，受数据中心需求激增和大型科技公司资本支出乐观情绪推动。HD现代电气等公司的超高压变压器等产品需求旺盛，反映了AI基础设施建设的蓬勃发展。",
-            "tags": [
-              "AI-Infrastructure",
-              "Power-Equipment",
-              "Korea-Market",
-              "Data-Centers"
-            ]
-          },
-          {
-            "bold": "纳斯达克因AI增长担忧收低",
-            "detail": "在大型科技公司财报发布前夕，美国纳斯达克和标普500指数因对人工智能增长的担忧而从历史高点回落。投资者对AI投资回报率和市场泡沫风险的担忧情绪升温，科技股面临调整压力。",
-            "tags": [
-              "Nasdaq",
-              "AI-Stocks",
-              "Market-Volatility",
-              "Tech-Earnings"
             ]
           }
         ]
