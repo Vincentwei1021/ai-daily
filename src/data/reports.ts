@@ -14,6 +14,95 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-30",
+    "weekday": "周六",
+    "timeRange": "05-29 08:30 ~ 05-30 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "💰 市场格局与投资动态",
+        "items": [
+          {
+            "bold": "Anthropic 估值飙升至 9650 亿美元",
+            "detail": "Anthropic 完成 650 亿美元 H 轮融资，估值达到 9650 亿美元，正式超越 OpenAI 成为 AI 领域估值最高的公司。此次融资标志着 AI 大模型竞争格局的重大转变，同时推出的 Claude Opus 4.8 版本支持动态工作流，进一步巩固其技术领先地位。投资者对 AI 基础设施的热情持续高涨。",
+            "tags": [
+              "Anthropic",
+              "funding",
+              "valuation",
+              "Claude"
+            ]
+          },
+          {
+            "bold": "科技股推动美股创新高",
+            "detail": "美股三大指数均创下盘中和收盘新高，标普 500 指数上涨 0.4%，纳斯达克上涨 0.6%。戴尔科技股价暴涨 33%，受益于 AI 需求超预期增长和业绩指引上调。科技股强势表现反映了市场对 AI 产业长期发展前景的乐观预期，同时中东地区积极态势也为市场注入信心。",
+            "tags": [
+              "stock-market",
+              "Dell",
+              "AI-demand",
+              "earnings"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🤖 AI 智能体革命",
+        "items": [
+          {
+            "bold": "AI 智能体开始取代传统应用",
+            "detail": "2026 年 5 月最显著的趋势是 AI 智能体正在成为默认交互界面，从传统工具转向自主操作者。AI 现已能够自主编写代码、管理工作流程、替代重复性人工决策。这一转变预示着 SaaS 工具可能被压缩为 AI 层，人类角色将更多转向战略制定而非执行层面，商业运营速度将显著提升。",
+            "tags": [
+              "AI-agents",
+              "workflow-automation",
+              "SaaS-disruption",
+              "autonomous-AI"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🥽 硬件产品创新",
+        "items": [
+          {
+            "bold": "科大讯飞发布 AI 智能眼镜",
+            "detail": "科大讯飞在澳门 BEYOND Expo 2026 展会上正式发布 AI 智能眼镜产品，实现\"看即翻译、听即理解\"的无缝体验。该产品专为国际会议、商务交流和跨境旅行场景设计，用户可以更直观、即时地理解世界。科大讯飞继续推动 AI 技术从研发向实际部署的转化，加速生态协同发展。",
+            "tags": [
+              "iFLYTEK",
+              "smart-glasses",
+              "real-time-translation",
+              "BEYOND-Expo"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏥 垂直领域应用",
+        "items": [
+          {
+            "bold": "NIH 资助 AI 技术改变美国养老",
+            "detail": "美国国立卫生研究院资助的 AI 技术项目正在重塑美国的养老模式，通过智能化手段提升老年人生活质量和医疗护理效率。该项目展示了 AI 在医疗健康领域的巨大潜力，特别是在应对人口老龄化挑战方面。政府层面的支持表明 AI 在社会基础设施中的战略重要性日益凸显。",
+            "tags": [
+              "NIH",
+              "healthcare-AI",
+              "aging",
+              "government-funding"
+            ]
+          },
+          {
+            "bold": "AI 安全监管升级至州级",
+            "detail": "美国各州政府开始制定 AI 安全法规，要求 AI 系统在发布前接受监管审查。这一举措反映了政策制定者对 AI 技术潜在风险的关注，以及建立完善监管框架的紧迫性。州级监管的实施将为 AI 产业发展提供更明确的合规指导，同时确保技术创新与社会安全的平衡。",
+            "tags": [
+              "AI-safety",
+              "regulation",
+              "state-level",
+              "compliance"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-29",
     "weekday": "周五",
     "timeRange": "05-28 08:30 ~ 05-29 08:30 (UTC+8)",
@@ -3120,109 +3209,6 @@ export const reports: DailyReport[] = [
               "future-society",
               "automation",
               "post-work"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-04-30",
-    "weekday": "周四",
-    "timeRange": "04-29 08:30 ~ 04-30 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "💰 科技巨头AI投资热潮",
-        "items": [
-          {
-            "bold": "AI支出创历史新高",
-            "detail": "科技巨头们在AI领域的投资达到前所未有的高度，预计AI相关广告收入将达到560亿美元。谷歌母公司Alphabet凭借云计算业务创纪录表现股价飙升超6%，而Meta等竞争对手则在AI成本压力下表现疲软。这一分化反映了AI投资回报的差异化趋势。",
-            "tags": [
-              "investment",
-              "big-tech",
-              "revenue",
-              "market"
-            ]
-          },
-          {
-            "bold": "谷歌云业务强势增长",
-            "detail": "Alphabet云计算部门实现历史最强季度表现，得益于强劲的AI需求驱动。CEO皮查伊表示，Gemini聊天机器人带来了消费者AI领域的最强季度，公司在全栈AI方法上享受全方位增长。YouTube、云存储和Google One等产品的付费订阅用户达到3.5亿。",
-            "tags": [
-              "google",
-              "cloud",
-              "gemini",
-              "growth"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🎯 AI商业应用突破",
-        "items": [
-          {
-            "bold": "AI重塑在线广告生态",
-            "detail": "体育装备公司DribbleUp的案例显示，完全依靠Facebook AI工具投放广告后，销售增长超过营销支出。这代表AI正在根本性重塑广告行业，企业无需自主分析目标受众，AI算法能自动优化广告投放策略，显著提升投资回报率。",
-            "tags": [
-              "advertising",
-              "facebook",
-              "roi",
-              "automation"
-            ]
-          },
-          {
-            "bold": "预测市场引入AI能力",
-            "detail": "High Roller Technologies宣布加大AI投资，支持其美国预测市场的推出计划。公司新设应用AI主管职位，任命Nicholis Muller担任该角色。此举反映了传统博彩和预测市场行业正积极拥抱AI技术，以提升预测准确性和用户体验。",
-            "tags": [
-              "prediction-markets",
-              "gaming",
-              "ai-integration"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🧬 生物医药AI应用",
-        "items": [
-          {
-            "bold": "BullFrog AI获重大制药合作",
-            "detail": "BullFrog AI宣布与全球前五大制药公司达成重要商业协议，涉及抑郁症靶点发现的bfLEAP技术应用。公司还推出了bfARENAS决策引擎，用于药物组合和临床试验设计。这标志着AI在药物研发领域的商业化应用正在加速。",
-            "tags": [
-              "pharma",
-              "drug-discovery",
-              "clinical-trials",
-              "partnerships"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🎬 AI创意产业革新",
-        "items": [
-          {
-            "bold": "AI重塑印度电影工业",
-            "detail": "班加罗尔AI初创公司NeuralGarage为顶级制片厂提供配音服务，展示了AI生成角色的多语言同步技术。该技术能在几分钟内将英语对话转换为德语，同时保持人物表演、身份和说话风格，仅调整面部动作以实现完美同步，为全球最大电影产业带来革命性变化。",
-            "tags": [
-              "film-industry",
-              "dubbing",
-              "multilingual",
-              "bollywood"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏫 教育机构AI战略",
-        "items": [
-          {
-            "bold": "阿拉巴马大学推进AI创新",
-            "detail": "阿拉巴马大学信息技术办公室宣布全校范围的AI计划，将创新与责任相结合。该计划不限于单一工具或部门，而是协调整个校园的努力，旨在通过为学生、教职员工提供卓越的技术服务和支持，推进大学的研究、教学、学习和运营工作。",
-            "tags": [
-              "education",
-              "university",
-              "innovation",
-              "responsible-ai"
             ]
           }
         ]
