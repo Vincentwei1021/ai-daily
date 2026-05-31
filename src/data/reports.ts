@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-05-31",
+    "weekday": "周日",
+    "timeRange": "05-30 08:30 ~ 05-31 08:30 (UTC+8)",
+    "tweetCount": 42,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🏗️ 大模型与基础设施",
+        "items": [
+          {
+            "bold": "SoftBank豪掷750亿欧元建设法国AI数据中心",
+            "detail": "软银集团与法国Sesterce公司合作，在法国北部Bosquel建设1GW级别的AI数据中心园区，这是法国总统马克龙吸引高科技产业战略的重大胜利。该项目不仅将推动法国在AI领域的领导地位，还将为当地创造大量就业机会，标志着欧洲在AI基础设施建设方面的重要里程碑。",
+            "tags": [
+              "SoftBank",
+              "data-center",
+              "France",
+              "infrastructure"
+            ]
+          },
+          {
+            "bold": "Mistral AI构建欧洲工业级技术栈",
+            "detail": "法国AI独角兽Mistral正在建设自有数据中心，打造完整的欧洲工业级AI技术栈。这一举措体现了欧洲在AI主权和可信度方面的战略考量，旨在减少对美国技术的依赖，为欧洲提供本土化的AI解决方案。该项目将进一步巩固欧洲在全球AI竞争格局中的地位。",
+            "tags": [
+              "Mistral",
+              "Europe",
+              "sovereignty",
+              "tech-stack"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💰 投融资与商业动态",
+        "items": [
+          {
+            "bold": "Anthropic估值飙升至9650亿美元",
+            "detail": "AI安全领域的领军企业Anthropic最新估值达到惊人的9650亿美元，其最新模型Opus 4.8在性能上实现重大突破。公司正在多元化其硅芯片合作伙伴关系，减少对单一供应商的依赖。这一估值反映了市场对AI安全技术的高度认可和未来发展潜力的看好。",
+            "tags": [
+              "Anthropic",
+              "valuation",
+              "Opus-4.8",
+              "AI-safety"
+            ]
+          },
+          {
+            "bold": "Groq获6.5亿美元融资加速AI芯片发展",
+            "detail": "AI芯片初创公司Groq成功完成6.5亿美元新一轮融资，这笔资金将用于加速其AI推理芯片的研发和市场推广。Groq以其超高性能的语言处理单元(LPU)著称，能够为大模型推理提供极高的吞吐量和低延迟性能，在AI芯片市场中独树一帜。",
+            "tags": [
+              "Groq",
+              "funding",
+              "AI-chips",
+              "LPU"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🎓 AI教育与应用落地",
+        "items": [
+          {
+            "bold": "美国首所AI高中呈现意外的人性化特色",
+            "detail": "美国第一所专注于人工智能教育的高中展现出令人意外的人性化教学方式。该校并非单纯追求技术至上，而是将AI教育与传统人文教育相结合，强调培养学生的创造力和批判性思维。这种'AI后置而非AI优先'的教育理念，为AI时代的人才培养提供了新的思路。",
+            "tags": [
+              "AI-education",
+              "high-school",
+              "human-centered",
+              "curriculum"
+            ]
+          },
+          {
+            "bold": "亚洲学校大规模拥抱AI课堂教学",
+            "detail": "亚洲地区的学校正在积极将人工智能技术融入日常教学中，从Google Classroom等热门软件到学生自主使用AI辅助学习，AI已经成为教育生态系统的重要组成部分。教育专家强调需要在AI全面普及之前进行充分的讨论和准备，确保技术服务于教育目标而非主导教育。",
+            "tags": [
+              "Asia",
+              "classroom",
+              "Google-Classroom",
+              "education-tech"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🌍 AI治理与社会影响",
+        "items": [
+          {
+            "bold": "教皇利奥十四世发布AI主题通谕",
+            "detail": "罗马教皇利奥十四世正式发布以人工智能为主题的教皇通谕，这是教廷首次就AI技术发表官方立场。通谕强调了AI发展中的伦理考量和社会责任，呼吁全球在推进AI技术的同时，必须确保其符合人类尊严和社会公正的原则。这标志着宗教机构对AI治理的正式参与。",
+            "tags": [
+              "Pope",
+              "AI-ethics",
+              "Vatican",
+              "governance"
+            ]
+          },
+          {
+            "bold": "政策制定者就AI失业恐慌分歧严重",
+            "detail": "面对AI技术可能导致的大规模失业问题，各国政策制定者出现明显分歧。部分官员主张积极干预和再培训计划，而另一部分则认为市场会自然调节。这种政策不确定性加剧了公众对AI影响就业的担忧，凸显了制定全面AI劳动政策的紧迫性。",
+            "tags": [
+              "job-displacement",
+              "policy",
+              "unemployment",
+              "regulation"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-30",
     "weekday": "周六",
     "timeRange": "05-29 08:30 ~ 05-30 08:30 (UTC+8)",
@@ -3100,115 +3209,6 @@ export const reports: DailyReport[] = [
               "Training",
               "University",
               "Ethics"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-05-01",
-    "weekday": "周五",
-    "timeRange": "04-30 08:30 ~ 05-01 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "💰 科技巨头AI商业化压力",
-        "items": [
-          {
-            "bold": "大科技公司面临AI盈利时钟倒计时",
-            "detail": "华尔街日报报道指出，科技巨头们在AI领域的巨额投资正面临盈利压力，投资者开始质疑何时能看到真正的回报。尽管AI技术突飞猛进，但商业化路径仍充满挑战，各大公司需要在短期内证明其AI战略的经济价值。",
-            "tags": [
-              "big-tech",
-              "profitability",
-              "investment",
-              "AI-commercialization"
-            ]
-          },
-          {
-            "bold": "AI支出推动科技股财报转型",
-            "detail": "科技公司的AI投资正在重塑整个行业的财报表现和市场趋势。从基础设施建设到模型训练，AI相关支出成为财报中的重要组成部分，投资者密切关注这些投资如何转化为实际收益和竞争优势。",
-            "tags": [
-              "earnings",
-              "market-trends",
-              "AI-spending",
-              "tech-stocks"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏭 芯片产业AI浪潮",
-        "items": [
-          {
-            "bold": "联发科AI芯片业务预期翻倍",
-            "detail": "联发科宣布其首个为美国超大规模云服务商开发的AI ASIC项目预计在第四季度贡献20亿美元收入，较此前预期翻倍。公司大幅上调全球AI加速器市场预测，预计明年市场规模将达到700-800亿美元，远超此前估计。",
-            "tags": [
-              "MediaTek",
-              "AI-chips",
-              "ASIC",
-              "hyperscaler"
-            ]
-          },
-          {
-            "bold": "三星芯片利润因AI需求激增48倍",
-            "detail": "三星半导体业务受益于全球AI基础设施建设热潮，芯片部门利润同比增长48倍。AI训练和推理需求的爆发式增长推动了高端存储和处理器芯片的需求，为传统芯片制造商带来了前所未有的机遇。",
-            "tags": [
-              "Samsung",
-              "chip-profit",
-              "AI-demand",
-              "semiconductor"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 AI科研与国防合作",
-        "items": [
-          {
-            "bold": "OpenAI成立科学专门团队",
-            "detail": "MIT技术评论指出，OpenAI正跟随谷歌DeepMind的步伐，设立专门的科学研究团队，专注于AI在科学领域的应用。这标志着AI公司开始更加重视基础科学研究，AI for Science成为2026年的重要发展趋势。",
-            "tags": [
-              "OpenAI",
-              "AI-for-science",
-              "research",
-              "DeepMind"
-            ]
-          },
-          {
-            "bold": "AI军事应用引发政策争议",
-            "detail": "美国国防部长赫格塞思为五角大楼使用AI进行辩护，同时批评Anthropic CEO阿莫代为'意识形态狂热分子'。这场争论凸显了AI公司在军事应用方面的不同立场，以及AI技术在国家安全领域应用的复杂性。",
-            "tags": [
-              "Pentagon",
-              "Anthropic",
-              "military-AI",
-              "defense-policy"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🌐 AI社会影响与应用",
-        "items": [
-          {
-            "bold": "AI重塑软件开发生态",
-            "detail": "最新报告显示，AI正在深刻改变软件开发流程，从代码生成到测试自动化，开发者的工作方式正在经历根本性变革。AI辅助编程工具的普及提高了开发效率，但也带来了新的挑战和技能要求。",
-            "tags": [
-              "software-development",
-              "coding",
-              "developer-tools",
-              "automation"
-            ]
-          },
-          {
-            "bold": "AI时代的精英阶层重构",
-            "detail": "天堂主义运动在5月1日庆祝'天堂主义日'，认为AI和机器人技术正在开启一个从稀缺社会向丰裕社会转变的历史转折点。该运动声称技术进步正在让工作和金钱变得过时，人类生活将以实现自我为中心而非生存需要。",
-            "tags": [
-              "Paradism",
-              "future-society",
-              "automation",
-              "post-work"
             ]
           }
         ]
