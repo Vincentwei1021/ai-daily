@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-06-01",
+    "weekday": "周一",
+    "timeRange": "05-31 08:30 ~ 06-01 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🧠 大模型与基础设施",
+        "items": [
+          {
+            "bold": "AI扩展面临物理边界限制",
+            "detail": "IBM研究院专家彼得·斯塔尔预测，2026年将标志着AI研究重点的重大转移。大型语言模型虽然仍占主导地位，但行业正面临规模扩展的递减回报问题。物理AI和机器人技术将获得更多关注，成为下一阶段AI发展的新动力。这一转变反映了从纯数字智能向物理世界应用的战略重心调整。",
+            "tags": [
+              "LLM",
+              "robotics",
+              "physical-ai",
+              "scaling"
+            ]
+          },
+          {
+            "bold": "企业开始理性配给AI资源",
+            "detail": "随着AI应用在企业中爆炸式增长，巨额的计算成本正促使一些公司开始踩刹车。高管们正在急切寻求AI投资的可量化回报，因为大规模计算需求带来的账单不断攀升。这种成本压力可能会使AI在经济领域的凯旋式推进变得复杂，企业开始更加审慎地评估AI项目的实际价值。",
+            "tags": [
+              "enterprise-ai",
+              "cost-management",
+              "ROI",
+              "computing"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 AI商业与投资趋势",
+        "items": [
+          {
+            "bold": "风投资本转向硬件投资",
+            "detail": "硅谷风险投资公司正在拼命寻找能够在AI变革中生存和繁荣的投资机会。那些以早期投资软件、互联网服务和社交媒体公司闻名的投资者，现在开始大胆进入舒适区之外，投资与人工智能热潮相关的物理技术和材料。他们在AI基础设施领域下注，包括芯片、电力和制造业等硬件赛道。",
+            "tags": [
+              "venture-capital",
+              "hardware",
+              "infrastructure",
+              "investment"
+            ]
+          },
+          {
+            "bold": "AI热潮困扰散户投资者",
+            "detail": "根据彭博商业周刊的专题报道，AI浪潮为散户投资者带来了前所未有的投资困境。技术发展的快速迭代和市场估值的剧烈波动，使得普通投资者难以准确判断AI相关股票的真实价值。投资专家建议散户在这个充满机遇但风险巨大的领域保持谨慎态度。",
+            "tags": [
+              "retail-investors",
+              "market-volatility",
+              "investment-strategy",
+              "AI-stocks"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🚀 AI应用与产业转型",
+        "items": [
+          {
+            "bold": "AI从工具升级为合作伙伴",
+            "detail": "微软专家预测，2026年AI正进入一个以现实世界影响为特征的新阶段。经过几年的试验期，AI正在从简单的问答工具演进为真正的协作伙伴，能够与人类合作并放大专业知识。这种转变在各个行业都清晰可见，特别是在医疗领域，AI正在帮助缩小护理差距。",
+            "tags": [
+              "AI-collaboration",
+              "healthcare",
+              "productivity",
+              "partnership"
+            ]
+          },
+          {
+            "bold": "定制化AI用户界面崛起",
+            "detail": "斯坦福AI专家预测，2026年将出现更多定制化的AI用户界面，超越传统的聊天机器人或网页浏览器形式。虽然一些公司可能会报告AI尚未显示出生产力提升（除了编程和呼叫中心等特定领域），但定制UI将为AI应用带来新的突破口。专家认为从失败项目中吸取教训将是关键。",
+            "tags": [
+              "custom-UI",
+              "productivity",
+              "programming",
+              "user-experience"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "📈 行业分析与未来展望",
+        "items": [
+          {
+            "bold": "AI应用重点转向垂直领域",
+            "detail": "约翰霍普金斯大学专家指出，2026年将见证AI技术应用的重大转变。相比早期以通用聊天机器人为特色的AI发展阶段，现在更多关注特定应用场景。虽然通用模型让人们看到了潜在价值，但从\"可能有用\"到\"真正产生影响\"之间存在显著差距。随着技术成熟，垂直应用将获得更多关注。",
+            "tags": [
+              "vertical-applications",
+              "specialization",
+              "chatbots",
+              "technology-maturity"
+            ]
+          },
+          {
+            "bold": "AI伦理与透明度受重视",
+            "detail": "2026年的AI系统不仅能以前所未有的速度处理信息，还能提供推动创新和效率的可行洞察。各行业正在利用AI进行预测分析、增强客户参与度和优化供应链。与此同时，围绕AI使用的伦理考量正获得关注，利益相关者强调自动化系统中的透明度和问责制的重要性。",
+            "tags": [
+              "AI-ethics",
+              "transparency",
+              "predictive-analytics",
+              "accountability"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-05-31",
     "weekday": "周日",
     "timeRange": "05-30 08:30 ~ 05-31 08:30 (UTC+8)",
@@ -3135,80 +3244,6 @@ export const reports: DailyReport[] = [
               "addiction",
               "youth",
               "canada"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-05-02",
-    "weekday": "周六",
-    "timeRange": "05-01 08:30 ~ 05-02 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🛡️ 军用AI与国防安全",
-        "items": [
-          {
-            "bold": "五角大楼携手七大科技巨头部署机密AI",
-            "detail": "美国国防部宣布与七家顶级科技公司达成协议，将人工智能技术部署到军方最敏感的机密网络中。这项合作旨在加速美国军事AI转型，涵盖战场态势感知、目标识别与打击、武器维护组织等关键领域。国防部表示，这些AI能力将显著缩短从发现到打击目标的时间，提升军事决策效率。值得注意的是，Anthropic因在AI军用限制条款上与五角大楼存在分歧，被列为供应链风险企业而被排除在外。",
-            "tags": [
-              "Pentagon",
-              "Military AI",
-              "Defense",
-              "Classified Systems"
-            ]
-          },
-          {
-            "bold": "AI黑客威胁促使网络安全政策大调整",
-            "detail": "面对AI驱动的网络攻击日益增长的威胁，美国网络安全官员正考虑大幅缩短政府IT系统关键漏洞的修复期限。传统的2-3周修复时间将压缩至3天内完成，这一史无前例的政策调整反映出对AI工具被恶意利用的深度担忧。官员们特别关注Anthropic的Mythos等AI工具可能被黑客利用来自动化发现和攻击系统漏洞的风险。",
-            "tags": [
-              "Cybersecurity",
-              "AI Hacking",
-              "Vulnerability",
-              "Government IT"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🤝 产业合作与战略联盟",
-        "items": [
-          {
-            "bold": "科技巨头重组架构应对AI增长需求",
-            "detail": "大型科技公司正在进行重大结构调整以满足人工智能快速发展的需求。Meta等科技巨头正在重新配置资源和组织架构，以更好地支持AI技术的研发和部署。这种战略性重组反映出AI已成为科技行业的核心驱动力，各公司都在加大投入以保持竞争优势。重组涉及人员配置、研发重心转移以及基础设施优化等多个层面。",
-            "tags": [
-              "Big Tech",
-              "Restructuring",
-              "AI Growth",
-              "Strategic Planning"
-            ]
-          },
-          {
-            "bold": "军工AI合作强调人工监督机制",
-            "detail": "在新签署的军用AI协议中，五角大楼特别强调了人工监督在AI驱动任务中的重要性。合作协议明确规定，所有AI系统在执行关键军事任务时都必须保持人类最终决策权。这一要求体现了军方在享受AI技术优势的同时，对确保系统可控性和道德责任的重视。协议涵盖数据分析、战场决策支持和网络安全等多个应用领域。",
-            "tags": [
-              "Human Oversight",
-              "Military AI",
-              "Ethics",
-              "Decision Making"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "📚 教育与普及",
-        "items": [
-          {
-            "bold": "高校推出AI基础知识培训计划",
-            "detail": "南卡罗来纳大学等教育机构开始为教职员工提供系统性的AI基础培训课程。培训内容涵盖人工智能的基本能力与局限性、提示词编写技巧以及AI使用伦理等核心议题。这一举措反映出教育界对AI素养提升的迫切需求，旨在帮助教育工作者更好地理解和应用AI技术，同时确保其负责任地使用这些工具。",
-            "tags": [
-              "AI Education",
-              "Training",
-              "University",
-              "Ethics"
             ]
           }
         ]
