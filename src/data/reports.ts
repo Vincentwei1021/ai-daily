@@ -14,6 +14,130 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-06-02",
+    "weekday": "周二",
+    "timeRange": "06-01 08:30 ~ 06-02 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🏢 企业动态与资本市场",
+        "items": [
+          {
+            "bold": "Alphabet计划800亿美元股票发售",
+            "detail": "谷歌母公司Alphabet宣布计划进行800亿美元的股票发售，以应对AI支出激增的资金需求。此举反映了科技巨头在人工智能基础设施建设方面的巨大投入，同时也显示出市场对AI技术发展的强烈信心。该公司此前在AI芯片、数据中心和研发方面的投资持续增长。",
+            "tags": [
+              "Alphabet",
+              "stock-sale",
+              "AI-investment",
+              "funding"
+            ]
+          },
+          {
+            "bold": "Anthropic秘密递交IPO申请",
+            "detail": "Claude开发商Anthropic已秘密向监管机构递交首次公开募股申请文件，成为继OpenAI之后又一家寻求上市的重要AI公司。此举标志着AI独角兽企业正式进入资本市场化阶段，预计将为公司带来更多资金用于大模型研发和基础设施扩展。",
+            "tags": [
+              "Anthropic",
+              "IPO",
+              "Claude",
+              "public-offering"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🧠 技术突破与研发进展",
+        "items": [
+          {
+            "bold": "OpenAI多模态推理重大突破",
+            "detail": "OpenAI在多模态AI推理能力方面实现重大技术突破，能够同时处理文本、图像、音频等多种数据类型，并进行复杂的跨模态推理。这一进展被认为是迈向人工通用智能的关键一步，将显著提升AI系统在现实世界应用中的表现和适用性。",
+            "tags": [
+              "OpenAI",
+              "multimodal",
+              "reasoning",
+              "breakthrough"
+            ]
+          },
+          {
+            "bold": "VL-JEPA等新兴AI范式崛起",
+            "detail": "AI工程师们预测2026年将出现多种新的AI架构范式，包括VL-JEPA和递归语言模型等创新技术。这些新范式有望突破传统大语言模型的局限性，在处理复杂任务和实现更高效推理方面带来革命性改进。",
+            "tags": [
+              "VL-JEPA",
+              "recursive-models",
+              "AI-paradigms",
+              "LLM-limitations"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏥 AI医疗与行业应用",
+        "items": [
+          {
+            "bold": "AI诊断技术革命性突破",
+            "detail": "人工智能在医疗诊断领域取得革命性进展，特别是在癌症筛查和早期诊断方面表现出色。新的AI系统能够比传统方法更早、更准确地识别疾病征象，有望显著提高治疗成功率并降低医疗成本。这一技术已开始在多家医院进行临床试验。",
+            "tags": [
+              "healthcare",
+              "diagnostics",
+              "cancer-screening",
+              "medical-AI"
+            ]
+          },
+          {
+            "bold": "生物信息学数据分析新突破",
+            "detail": "AI与生物技术的融合正在推动生命科学领域的重大创新，复杂生物数据的解读能力显著提升。新的AI算法能够处理基因组数据、蛋白质结构等复杂生物信息，为药物发现和个性化医疗提供强大支持。",
+            "tags": [
+              "bioinformatics",
+              "genomics",
+              "drug-discovery",
+              "biotech"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "⚖️ 监管政策与安全发展",
+        "items": [
+          {
+            "bold": "欧盟AI法规全面实施",
+            "detail": "欧盟人工智能监管法案进入全面实施阶段，为全球AI治理树立新标杆。该法案对高风险AI应用进行严格监管，要求企业建立完善的AI安全评估体系。这将深刻影响全球AI产业的发展方向和合规标准。",
+            "tags": [
+              "EU-regulation",
+              "AI-safety",
+              "compliance",
+              "governance"
+            ]
+          },
+          {
+            "bold": "AI安全研究持续推进",
+            "detail": "随着AI技术快速发展，安全性研究成为行业关注焦点。研究机构正在开发更完善的AI对齐技术和安全评估框架，确保AI系统行为符合人类价值观和社会期望。这些努力对于实现可控、可信的AI发展至关重要。",
+            "tags": [
+              "AI-alignment",
+              "safety-research",
+              "trustworthy-AI",
+              "ethics"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🛠️ 开发者生态与工具平台",
+        "items": [
+          {
+            "bold": "微软Build 2026聚焦AI开发",
+            "detail": "微软Build开发者大会在旧金山举行，CEO萨提亚·纳德拉发表主题演讲，重点展示面向AI开发者的新工具和平台服务。会议内容涵盖AI互操作性、开发框架优化等关键技术，预计将推出多项重要的开发者工具更新。",
+            "tags": [
+              "Microsoft-Build",
+              "developer-tools",
+              "AI-platform",
+              "interoperability"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-06-01",
     "weekday": "周一",
     "timeRange": "05-31 08:30 ~ 06-01 08:30 (UTC+8)",
@@ -3140,110 +3264,6 @@ export const reports: DailyReport[] = [
               "ai-adoption",
               "growth-opportunity",
               "market-expansion"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-05-03",
-    "weekday": "周日",
-    "timeRange": "05-02 08:30 ~ 05-03 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🛡️ AI 与国家安全",
-        "items": [
-          {
-            "bold": "美国防部签署7家科技公司机密AI协议",
-            "detail": "五角大楼宣布与七家主要科技公司达成协议，将在机密系统中部署人工智能技术。这一重大举措标志着AI在国家安全领域的应用进入新阶段，预计将显著提升军事情报分析和决策能力。协议内容涉及机密级别的AI系统集成和数据处理。",
-            "tags": [
-              "defense",
-              "classified",
-              "pentagon",
-              "security"
-            ]
-          },
-          {
-            "bold": "非洲防务力量AI工具包发布",
-            "detail": "非洲战略研究中心发布《非洲防务力量人工智能工具包》，为国防部门AI战略制定和技术采用提供指导框架。该工具包专门针对非洲地区防务需求，涵盖AI在军事领域的策略部署、技术集成和能力建设等关键方面。",
-            "tags": [
-              "africa",
-              "defense",
-              "strategy",
-              "toolkit"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🤖 自动化与就业冲击",
-        "items": [
-          {
-            "bold": "物理AI加速推进引发行业自动化风险",
-            "detail": "Planera劳动力分析公司最新报告显示，随着物理AI技术快速普及，制造业、农业和零售业面临高度自动化风险。研究发现多个职业岗位存在显著的替代威胁，劳动密集型行业正经历深刻的结构性变革，企业和政策制定者需要提前应对就业转型挑战。",
-            "tags": [
-              "automation",
-              "employment",
-              "manufacturing",
-              "retail"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💻 开发工具与平台创新",
-        "items": [
-          {
-            "bold": "Google AI Studio推出Antigravity编程代理",
-            "detail": "谷歌在AI Studio中发布升级版编程体验，新增Antigravity编程代理功能。该工具能够将提示词直接转换为生产就绪的应用程序，支持构建多人协作体验、数据库集成和真实世界服务连接。AI代理对整个项目具有更深层理解，实现更快迭代和精确代码编辑。",
-            "tags": [
-              "google",
-              "coding",
-              "agent",
-              "development"
-            ]
-          },
-          {
-            "bold": "AI模型上下文窗口大幅扩展",
-            "detail": "最新AI模型在上下文处理能力方面取得重大突破，能够一次性处理海量信息。大型上下文窗口使模型可以审阅完整文档、总结研究报告、组织复杂信息并协助处理复杂工作流程，将人工智能从任务执行工具转变为真正的数字协作伙伴。",
-            "tags": [
-              "context",
-              "models",
-              "collaboration",
-              "workflow"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏥 AI 行业应用案例",
-        "items": [
-          {
-            "bold": "VideaHealth完成全美牙科诊所AI部署",
-            "detail": "VideaHealth与Aspen Dental成功完成创纪录的AI技术在美国牙科诊所的全面推广。这一里程碑式部署展示了AI在医疗保健领域的实际应用价值，为牙科诊断和治疗流程带来智能化升级，预计将提高诊断准确性和效率。",
-            "tags": [
-              "healthcare",
-              "dental",
-              "deployment",
-              "medical"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "⚖️ AI 治理与监管",
-        "items": [
-          {
-            "bold": "加拿大青年呼吁AI聊天机器人减少成瘾性",
-            "detail": "麦吉尔大学发布报告显示，17-23岁的加拿大青年强烈要求政府命令AI公司采取措施，降低聊天机器人的成瘾性特征。该报告基于全国范围内的青年圆桌讨论，反映了年轻用户对AI技术负责任发展的期待和担忧，为AI监管政策提供了重要参考。",
-            "tags": [
-              "regulation",
-              "addiction",
-              "youth",
-              "canada"
             ]
           }
         ]
