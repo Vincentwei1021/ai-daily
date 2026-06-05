@@ -14,6 +14,105 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-06-05",
+    "weekday": "周五",
+    "timeRange": "06-04 08:30 ~ 06-05 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🔍 搜索引擎与AI集成",
+        "items": [
+          {
+            "bold": "Google推出AI摘要搜索",
+            "detail": "Google正式在搜索结果中集成AI摘要功能，利用Gemini技术为用户提供智能化的搜索体验。这一变革标志着传统搜索引擎向AI驱动的信息检索系统的重大转变，用户将能够获得更加精准和个性化的搜索结果摘要。",
+            "tags": [
+              "Google",
+              "Gemini",
+              "Search",
+              "AI-Summary"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🤝 企业合作与生态建设",
+        "items": [
+          {
+            "bold": "Anthropic扩展合作伙伴网络",
+            "detail": "Anthropic宣布为Claude合作伙伴网络增加服务跟踪和合作伙伴中心功能，同时将Project Glasswing项目扩展至150个组织。此举旨在加强AI安全研究合作，构建更加完善的AI生态系统，促进负责任的AI技术发展。",
+            "tags": [
+              "Anthropic",
+              "Claude",
+              "Partnership",
+              "AI-Safety"
+            ]
+          },
+          {
+            "bold": "Cognizant举办AI论坛",
+            "detail": "全球IT服务巨头Cognizant今日举办AI论坛，聚焦企业AI转型和技术应用。活动涵盖AI在各行业的实际应用案例、技术趋势分析以及未来发展方向，为企业数字化转型提供战略指导和技术支持。",
+            "tags": [
+              "Cognizant",
+              "AI-Forum",
+              "Enterprise",
+              "Digital-Transformation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💾 AI基础设施与云服务",
+        "items": [
+          {
+            "bold": "SuperX美国首个AI推理云中心",
+            "detail": "SuperX AI Technology Limited宣布在美国开设首个AI推理云服务中心，标志着其全球化AI基础设施布局的重要一步。该中心将为企业提供高性能的AI推理计算服务，满足日益增长的AI应用需求。",
+            "tags": [
+              "SuperX",
+              "AI-Inference",
+              "Cloud",
+              "Infrastructure"
+            ]
+          },
+          {
+            "bold": "光学计算突破能耗瓶颈",
+            "detail": "研究人员正致力于开发光学计算技术以降低AI系统的能源消耗。该技术使用光而非电子进行计算处理，有望大幅提升AI运算效率，解决当前AI大模型训练和推理过程中的高能耗问题。",
+            "tags": [
+              "Optical-Computing",
+              "Energy-Efficiency",
+              "AI-Research",
+              "Sustainability"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "📊 AI治理与政策法规",
+        "items": [
+          {
+            "bold": "纽约州AI法案获批",
+            "detail": "纽约州参议院通过AI披露法案S6954，要求合成内容创建系统提供商在生成或修改的合成内容中包含来源数据。同时，FAIR法案S8451也在推进中，旨在提高新闻媒体AI生成内容的透明度要求。",
+            "tags": [
+              "AI-Regulation",
+              "New-York",
+              "Transparency",
+              "Synthetic-Content"
+            ]
+          },
+          {
+            "bold": "台湾AI驱动资本增长",
+            "detail": "在COMPUTEX 2026期间，台湾证券交易所强调AI驱动的资本增长和半导体领导地位。台湾正将自身定位为AI技术制造强国和资本投资的重要目的地，展现出强劲的AI产业发展势头。",
+            "tags": [
+              "Taiwan",
+              "COMPUTEX",
+              "AI-Investment",
+              "Semiconductor"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-06-04",
     "weekday": "周四",
     "timeRange": "06-03 08:30 ~ 06-04 08:30 (UTC+8)",
@@ -3165,115 +3264,6 @@ export const reports: DailyReport[] = [
               "Climate Goals",
               "Sustainability",
               "AI Energy"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-05-06",
-    "weekday": "周三",
-    "timeRange": "05-05 08:30 ~ 05-06 08:30 (UTC+8)",
-    "tweetCount": 38,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🏛️ 政策监管与合规",
-        "items": [
-          {
-            "bold": "白宫拟建立AI模型预审制度",
-            "detail": "特朗普政府正在制定联邦AI模型安全审查流程，要求强大的人工智能模型在发布前必须通过政府安全评估。这一举措与该政府一贯的反监管立场形成鲜明对比，凸显了AI安全在国家层面的重要性。业界专家指出，这项政策将对AI开发周期和创新速度产生深远影响。",
-            "tags": [
-              "policy",
-              "safety",
-              "regulation",
-              "government"
-            ]
-          },
-          {
-            "bold": "科技巨头同意与政府共享AI模型",
-            "detail": "谷歌、微软和xAI已与特朗普政府达成协议，将共享其人工智能程序的早期版本，以便政府评估其能力和安全性。这项合作标志着科技企业与政府在AI治理方面的重要转折点，体现了行业对透明度和监管合作的新态度。",
-            "tags": [
-              "cooperation",
-              "transparency",
-              "tech-giants",
-              "compliance"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🎨 AI创意工具与应用",
-        "items": [
-          {
-            "bold": "2026年最佳AI图像生成器盘点",
-            "detail": "AI图像生成技术已彻底改变了设计和图像编辑流程，为从新手到专家的所有用户带来前所未有的便利和创意空间。这些平台已成为创意工作者的首选工具，在项目范围和高级功能可用性方面都有显著提升，大幅减轻了工作负担。",
-            "tags": [
-              "image-generation",
-              "creativity",
-              "design-tools",
-              "visual-ai"
-            ]
-          },
-          {
-            "bold": "视频广告中的智能代理技术崛起",
-            "detail": "IAB最新报告显示，AI创新正推动社交视频13%的增长率，创作者经济变得更加个性化。智能代理技术的采用率因公司规模而异，小型广告商对这项技术表现出更强的接受度。AI已从实验阶段转向运营阶段，深刻改变着广告策划、购买、创作和效果测量的方式。",
-            "tags": [
-              "video-advertising",
-              "agentic-ai",
-              "social-media",
-              "creator-economy"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🔬 AI前沿应用领域",
-        "items": [
-          {
-            "bold": "AI加速核聚变商业化进程",
-            "detail": "在SCSP AI+博览会上，聚变工业协会将举办专题会议探讨AI与核聚变能源的关联。人工智能正在加速商业化核聚变部署，这场会议将深入分析AI技术如何突破核聚变领域的技术瓶颈，推动清洁能源革命的到来。",
-            "tags": [
-              "fusion-energy",
-              "clean-tech",
-              "scientific-ai",
-              "energy-innovation"
-            ]
-          },
-          {
-            "bold": "谷歌员工就军用AI项目要求工会认可",
-            "detail": "谷歌员工继续就公司技术被以色列军方使用一事表达关切。2024年，28名员工因抗议价值12亿美元的Nimbus项目而被解雇，该项目与亚马逊合作为以色列政府和军方提供AI和云服务。工人们现在要求工会认可，以获得更强的集体谈判力量。",
-            "tags": [
-              "labor-rights",
-              "military-ai",
-              "ethics",
-              "tech-workers"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💼 企业AI转型趋势",
-        "items": [
-          {
-            "bold": "小企业AI工具实操培训兴起",
-            "detail": "专为小型团队设计的AI实用培训正在兴起，重点关注如何通过AI工具节省时间、减少重复工作并支持更好的决策制定。这些培训强调AI不必复杂或昂贵，为没有技术背景的企业主提供了切实可行的AI应用指导。",
-            "tags": [
-              "small-business",
-              "practical-ai",
-              "training",
-              "productivity"
-            ]
-          },
-          {
-            "bold": "营销技术迎来AI驱动重大重构",
-            "detail": "2026年营销技术行业正经历AI驱动的重大变革，SaaS模式从功能导向转向结果导向。行业赢家将不再是拥有最多工具的公司，而是那些构建了能让AI创造最大价值的技术栈的企业。这标志着营销技术生态系统的根本性重新布线。",
-            "tags": [
-              "martech",
-              "saas",
-              "industry-transformation",
-              "value-creation"
             ]
           }
         ]
