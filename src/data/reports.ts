@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-06-06",
+    "weekday": "周六",
+    "timeRange": "06-05 08:30 ~ 06-06 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🤖 智能代理与设备革命",
+        "items": [
+          {
+            "bold": "AI代理将取代智能手机",
+            "detail": "高通CEO克里斯蒂亚诺·阿蒙在台北电脑展上预测，具备推理、规划和自主执行任务能力的代理式AI将成为人们数字生活的新中心，从根本上重塑个人设备并推动重大计算升级周期。这一转变将改变人们在手机、电脑等设备上与技术交互的方式。",
+            "tags": [
+              "AI Agents",
+              "Qualcomm",
+              "Computing",
+              "Mobile"
+            ]
+          },
+          {
+            "bold": "机器人技术成韩国新兴产业",
+            "detail": "英伟达CEO在最新表态中指出，机器人技术将成为韩国下一个重要产业部门。随着AI技术的快速发展，机器人产业正迎来前所未有的发展机遇，有望在制造业、服务业等多个领域实现突破性应用。",
+            "tags": [
+              "Robotics",
+              "NVIDIA",
+              "South Korea",
+              "Industry"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏢 企业AI战略布局",
+        "items": [
+          {
+            "bold": "联想挑战AI领域巨头",
+            "detail": "中国科技巨头联想正通过2026年世界杯展示其AI技术实力，力图摆脱单纯PC制造商的角色定位。公司董事长杨元庆在拉斯维加斯球形场馆的预览活动中，与FIFA主席因凡蒂诺共同展示了联想的AI解决方案，彰显其在AI领域的雄心壮志。",
+            "tags": [
+              "Lenovo",
+              "World Cup",
+              "AI Solutions",
+              "Competition"
+            ]
+          },
+          {
+            "bold": "苹果WWDC 2026重大更新",
+            "detail": "苹果即将在WWDC 2026上发布Siri的重大改版和Apple Intelligence的关键更新。这次更新备受期待，预计将为苹果的AI生态系统带来显著提升，进一步增强用户体验和设备智能化水平。",
+            "tags": [
+              "Apple",
+              "WWDC",
+              "Siri",
+              "Apple Intelligence"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "⚠️ AI安全与监管动态",
+        "items": [
+          {
+            "bold": "Anthropic呼吁行业协调",
+            "detail": "AI公司Anthropic发出重要警告，呼吁整个行业加强协调合作，在AI发展过程中实施适当的暂停机制。该公司透露，截至2026年5月，其编码系统中超过80%的代码是由自家聊天机器人Claude编写的，预计到2027年Claude将能够完成原本需要人类数周才能完成的任务。",
+            "tags": [
+              "Anthropic",
+              "AI Safety",
+              "Claude",
+              "Industry Coordination"
+            ]
+          },
+          {
+            "bold": "白宫加速军用AI开发",
+            "detail": "美国白宫宣布将加速开发用于战争作战的人工智能技术。这一决策标志着AI技术在军事领域的应用将进入新阶段，同时也引发了关于AI军事化应用的伦理和安全讨论。",
+            "tags": [
+              "Military AI",
+              "White House",
+              "Defense",
+              "Policy"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔬 AI研究与应用前沿",
+        "items": [
+          {
+            "bold": "2026年AI发展趋势展望",
+            "detail": "业界专家分析指出，2026年AI将从实验阶段转向可扩展的商业影响阶段。加拿大未来学家和前联邦政策顾问等专家认为，在经历了2025年的快速发展后，AI技术将在2026年实现更加务实和可持续的商业化应用。",
+            "tags": [
+              "AI Trends",
+              "Business Impact",
+              "Future",
+              "Scalability"
+            ]
+          },
+          {
+            "bold": "全球机器人AI大会筹备",
+            "detail": "2026年全球机器人与AI大会将于11月19-21日在日本大阪举行。这一盛会将汇聚AI科学家、机器学习专家、机器人工程师和数据科学家，共同探讨智能系统、自主技术和新兴技术实际应用的最新突破。",
+            "tags": [
+              "Conference",
+              "Robotics",
+              "Osaka",
+              "Research"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-06-05",
     "weekday": "周五",
     "timeRange": "06-04 08:30 ~ 06-05 08:30 (UTC+8)",
@@ -3175,95 +3284,6 @@ export const reports: DailyReport[] = [
               "Cognitive Computing",
               "Stanford Research",
               "Technology Evolution"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-05-07",
-    "weekday": "周四",
-    "timeRange": "05-06 08:30 ~ 05-07 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🏛️ 政府与国防AI部署",
-        "items": [
-          {
-            "bold": "五角大楼5亿美元押注Scale AI",
-            "detail": "美国国防部向Meta支持的Scale AI授予5亿美元合同，用于分析大量数据并支持军事决策。此举是继与英伟达、微软、Reflection AI和亚马逊签署协议后，五角大楼进一步推动先进AI在机密军事网络中应用的重要举措。这标志着AI技术在国防领域的商业化应用正在加速，同时也反映了美国政府对AI基础设施建设的重视程度。",
-            "tags": [
-              "Pentagon",
-              "Scale AI",
-              "Defense",
-              "Contract"
-            ]
-          },
-          {
-            "bold": "美方指控中方AI模型提取企图",
-            "detail": "美国政府通过外交渠道警告中国AI公司试图提取美国AI模型，具体点名了DeepSeek、Moonshot AI和MiniMax等公司。中国当局对此指控予以否认，称其毫无根据。这一事件进一步凸显了中美在AI技术领域的激烈竞争态势，知识产权保护和技术安全成为两国博弈的新焦点。",
-            "tags": [
-              "US-China",
-              "AI Security",
-              "DeepSeek",
-              "Moonshot AI"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🤖 智能体AI商业化提速",
-        "items": [
-          {
-            "bold": "AI/R推出The Algorithm运营模式",
-            "detail": "专注于智能体AI的技术公司AI/R发布了名为The Algorithm的新运营模式，深化其在商业智能体AI应用中的角色。该公司将战略重心聚焦于智能体AI工程这一核心能力，整合软件开发、多智能体创建与编排，以及在业务运营中的直接应用。这一举措标志着智能体AI从概念走向实际商业应用的重要里程碑。",
-            "tags": [
-              "Agentic AI",
-              "Business Operations",
-              "AI Engineering",
-              "The Algorithm"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏫 教育与研究机构AI布局",
-        "items": [
-          {
-            "bold": "NSF在AI+博览会发声",
-            "detail": "美国国家科学基金会代理主任Brian Stone在AI+博览会上发表主题演讲，题为《引领未来250年的研究创新》。演讲强调NSF通过基础研究、国家基础设施和人才发展推进人工智能的愿景，以及其在支持美国国防方面的作用。此次博览会汇聚了2万名政府官员、学术专家和行业领袖，展示了网络安全、机器人技术、能源等领域的突破。",
-            "tags": [
-              "NSF",
-              "AI Expo",
-              "Research Innovation",
-              "National Defense"
-            ]
-          },
-          {
-            "bold": "高等教育AI网络防御新思路",
-            "detail": "全美高校商业官员协会举办AI洞察系列活动，探讨如何在不增加人力的情况下扩大网络防御规模。面对日益严峻的网络威胁和有限的人员资源，高等教育机构正在研究利用AI重新设计安全操作流程，通过AI支持的工作流减少警报疲劳，加速事件响应，提升整体防御能力。",
-            "tags": [
-              "Higher Education",
-              "Cybersecurity",
-              "AI Defense",
-              "NACUBO"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🌱 AI与可持续发展挑战",
-        "items": [
-          {
-            "bold": "微软气候目标面临AI压力",
-            "detail": "微软的气候目标正在面临来自AI发展的压力挑战。随着AI训练和推理需求的激增，数据中心能耗大幅增长，这对微软此前制定的碳中和承诺构成了现实考验。这一现象不仅影响微软，也代表了整个科技行业在AI快速发展与环境责任之间寻求平衡的普遍困境。如何在推进AI创新的同时实现可持续发展目标，成为行业亟待解决的重要议题。",
-            "tags": [
-              "Microsoft",
-              "Climate Goals",
-              "Sustainability",
-              "AI Energy"
             ]
           }
         ]
