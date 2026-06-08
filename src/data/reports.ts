@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-06-08",
+    "weekday": "周一",
+    "timeRange": "06-07 08:30 ~ 06-08 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🛡️ AI与国家安全",
+        "items": [
+          {
+            "bold": "军用AI和平安全对话启动",
+            "detail": "联合国裁军事务办公室在韩国支持下启动军用AI、和平与安全(MAPS)对话项目。该项目通过专家网络研讨会和现场工作坊，旨在支持政府间就军事领域人工智能及其影响展开讨论，为制定AI外交工具包提供指导。这标志着国际社会开始正式就AI军事化问题建立对话机制。",
+            "tags": [
+              "national-security",
+              "military-ai",
+              "diplomacy",
+              "UN"
+            ]
+          },
+          {
+            "bold": "内部风险管理AI应用指南发布",
+            "detail": "情报与国家安全联盟(INSA)发布AI在内部风险管理中的应用建议报告。该报告详细阐述了如何在政府和企业环境中安全部署AI技术来识别和缓解内部威胁。随着AI技术在敏感领域的广泛应用，建立完善的风险管理框架变得至关重要。",
+            "tags": [
+              "insider-risk",
+              "government",
+              "security-compliance",
+              "INSA"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏥 AI医疗与基础设施",
+        "items": [
+          {
+            "bold": "VMware私有AI平台赋能医疗创新",
+            "detail": "VMware在VCF 9平台上推出私有AI解决方案，专门针对医疗保健行业需求。该方案简化了AI部署流程，确保数据安全性，并支持大规模合规创新。通过私有云架构，医疗机构可以在满足严格监管要求的同时，充分发挥AI技术在诊断、治疗和研究中的潜力。",
+            "tags": [
+              "healthcare-ai",
+              "private-cloud",
+              "VMware",
+              "compliance"
+            ]
+          },
+          {
+            "bold": "混合AI助力联邦机构任务",
+            "detail": "政府技术解决方案提供商Carahsoft推广混合AI架构，帮助联邦机构在云端、本地和边缘环境中提供安全、实时的智能服务。这种架构设计允许政府部门根据不同任务需求，灵活部署AI资源，既保证了数据安全，又提高了响应效率。",
+            "tags": [
+              "hybrid-ai",
+              "federal-government",
+              "edge-computing",
+              "Carahsoft"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🎓 AI教育与产业发展",
+        "items": [
+          {
+            "bold": "马里维尔大学AI专业获国家排名",
+            "detail": "马里维尔大学的人工智能与数据科学项目获得全国顶级排名认可。该校致力于培养下一代AI和数据科学领域的领导者，课程设置紧跟行业发展趋势。高等教育机构在AI人才培养方面的投入持续增加，反映了市场对专业AI人才的迫切需求。",
+            "tags": [
+              "ai-education",
+              "university-ranking",
+              "data-science",
+              "talent-development"
+            ]
+          },
+          {
+            "bold": "世界智能博览会天津举行",
+            "detail": "2026年世界智能博览会在天津国家会展中心开幕，天津大学国际学生参与其中。展会聚焦AI、机器人技术和全球创新的未来发展方向。作为亚洲地区重要的AI技术展示平台，该博览会汇集了来自全球的最新技术成果和产业趋势。",
+            "tags": [
+              "world-expo",
+              "robotics",
+              "global-innovation",
+              "Tianjin"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 AI商业应用前瞻",
+        "items": [
+          {
+            "bold": "AI Con USA 2026聚焦实用策略",
+            "detail": "AI Con USA 2026会议将于6月10日举行，重点讨论AI技术的实际应用策略。会议将深入分析当前AI热潮与泡沫论争，为企业高管提供AI部署的实用路线图。演讲者强调，AI既不是万能药也不是威胁，关键在于理性应用和战略规划。",
+            "tags": [
+              "ai-conference",
+              "business-strategy",
+              "c-level",
+              "practical-ai"
+            ]
+          },
+          {
+            "bold": "GMO互联网赞助日本AI学会年会",
+            "detail": "GMO互联网集团作为赞助商参与日本人工智能学会年会，展现其在AI领域的投入和承诺。作为日本知名互联网基础设施服务商，GMO的参与体现了传统互联网企业向AI转型的行业趋势，以及学术界与产业界合作的深化。",
+            "tags": [
+              "GMO-internet",
+              "academic-conference",
+              "Japan-AI",
+              "industry-collaboration"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-06-07",
     "weekday": "周日",
     "timeRange": "06-06 08:30 ~ 06-07 08:30 (UTC+8)",
@@ -3210,105 +3319,6 @@ export const reports: DailyReport[] = [
               "algorithms",
               "performance",
               "research"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-05-09",
-    "weekday": "周六",
-    "timeRange": "05-08 08:30 ~ 05-09 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🏭 AI 产业投资与合作",
-        "items": [
-          {
-            "bold": "Anthropic 与 Akamai 签署 18 亿美元云服务协议",
-            "detail": "AI 领域巨额投资持续涌入，Anthropic 与云服务提供商 Akamai 达成重磅合作。这一协议标志着 AI 公司对云计算基础设施需求的急剧增长，也反映出企业级 AI 服务市场的蓬勃发展。随着大模型训练和推理需求不断攀升，云服务已成为 AI 公司的核心竞争要素。",
-            "tags": [
-              "Anthropic",
-              "Cloud Computing",
-              "Enterprise AI",
-              "Investment"
-            ]
-          },
-          {
-            "bold": "美印 AI 合作深化，私人投资超 3000 亿美元",
-            "detail": "2026 年第一季度，私营部门在 AI 技术开发方面的投资已超过 3000 亿美元，其中超过一半流向美国公司。印度企业在 SelectUSA 投资峰会上宣布 11 亿美元投资计划，显示出全球 AI 产业链的紧密合作。美印两国正致力于确保 AI 发展的开放性与安全性，避免对敌对国家的技术依赖。",
-            "tags": [
-              "US-India Partnership",
-              "AI Investment",
-              "Global Cooperation",
-              "Security"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🎯 AI 产品创新突破",
-        "items": [
-          {
-            "bold": "后智能手机时代来临，无屏 AI 设备引领潮流",
-            "detail": "OpenAI 与苹果前设计总监 Jony Ive 合作开发的无屏幕 AI 设备备受瞩目，预示着 2026 年可能成为后智能手机时代的起点。该设备专注于增强音频功能，通过语音交互重新定义人机关系。这一创新理念挑战了传统屏幕交互模式，为 AI 硬件发展开辟了全新路径。",
-            "tags": [
-              "Post-Smartphone",
-              "Voice Interface",
-              "Hardware Innovation",
-              "OpenAI"
-            ]
-          },
-          {
-            "bold": "亚马逊推出 Bee AI 可穿戴设备",
-            "detail": "亚马逊通过收购 AI 可穿戴设备专业公司，正式进军可穿戴 AI 市场。新推出的 Bee AI 设备具备对话录制功能，体现了大科技公司在 AI 硬件领域的全面布局。在 CES 2026 上，智能耳机等 AI 产品如雨后春笋般涌现，标志着 AI 与消费电子产品的深度融合。",
-            "tags": [
-              "Amazon",
-              "Wearable AI",
-              "Voice Recording",
-              "CES 2026"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏆 行业认可与标准化",
-        "items": [
-          {
-            "bold": "ET 2026 最具创新 AI 产品奖设立新类别",
-            "detail": "《经济时报》2026 年最具创新 AI 产品奖新增 AI 特殊产品/创新类别，专门表彰突破性 AI 解决方案。该奖项旨在庆祝那些超越传统产品增强功能、真正重新定义技术未来的创新成果。这一举措反映出 AI 创新已从单纯的功能改进转向根本性的技术革命。",
-            "tags": [
-              "Innovation Awards",
-              "Industry Recognition",
-              "AI Products",
-              "Technology Transformation"
-            ]
-          },
-          {
-            "bold": "NSF 参与 AI+ 博览会推动产学研合作",
-            "detail": "美国国家科学基金会积极参与 AI+ 博览会，旨在加强美国及盟友在关键技术领域的竞争力。博览会汇聚政府、学术界和产业界，为 AI 未来发展搭建合作桥梁。NSF 的参与体现了政府对 AI 研究投资和人才培养的重视，特别是在 STEM 教育和技术创新方面的战略部署。",
-            "tags": [
-              "NSF",
-              "AI Expo",
-              "Government Support",
-              "Academia-Industry Partnership"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "📚 AI 教育与人才培养",
-        "items": [
-          {
-            "bold": "专业 AI 培训项目启动，应对人才缺口",
-            "detail": "面向智能专业人士的人工智能培训项目正式启动，为期 6 周的周末课程于 5 月 9 日开班。该项目强调利用 AI 加速增长并塑造未来，鼓励专业人士将经验转化为创新催化剂。随着 AI 技术快速发展，企业对具备 AI 技能的人才需求激增，专业培训成为缓解人才短缺的重要途径。",
-            "tags": [
-              "AI Training",
-              "Professional Development",
-              "Skill Gap",
-              "Workforce Development"
             ]
           }
         ]
