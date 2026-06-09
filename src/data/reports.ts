@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-06-09",
+    "weekday": "周二",
+    "timeRange": "06-08 08:30 ~ 06-09 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🧠 大模型与基础设施",
+        "items": [
+          {
+            "bold": "苹果携手谷歌重塑Siri AI",
+            "detail": "苹果在WWDC 2026上正式发布基于谷歌Gemini技术的全新Siri AI系统。这一合作标志着苹果从自主研发转向战略合作的重大转变，通过集成谷歌先进的AI能力，苹果得以专注于产品体验优化。新版Siri将具备更强的个性化智能和推理能力，为用户提供更自然的交互体验。",
+            "tags": [
+              "Apple",
+              "Google",
+              "Siri",
+              "WWDC"
+            ]
+          },
+          {
+            "bold": "AI基础设施进入工厂化时代",
+            "detail": "2026年AI基础设施正朝着\"工厂化\"模式发展，为全面AI应用提供标准化支持。这种集约化基础设施能够支持从个人生产力到企业级应用的全场景部署，降低AI技术门槛的同时提升整体效率。专家预测这将成为AI大规模商业化的关键推动力。",
+            "tags": [
+              "Infrastructure",
+              "Enterprise",
+              "Scaling",
+              "AI-Factory"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🤖 智能体与应用创新",
+        "items": [
+          {
+            "bold": "智能体AI引领工作流革命",
+            "detail": "2026年智能体AI正从个人助手演进为团队协作的核心引擎。新一代智能体不仅能执行指令，更具备主动推理和决策能力，能够协调整个工作流程，连接跨部门数据，推动项目从构想到完成。这种转变标志着AI从工具属性向合作伙伴角色的根本性转变。",
+            "tags": [
+              "Agentic-AI",
+              "Workflow",
+              "Collaboration",
+              "Reasoning"
+            ]
+          },
+          {
+            "bold": "专用模型取代万能AI策略",
+            "detail": "行业正在从\"AI包打天下\"的策略转向更加专业化和定制化的应用模式。小型专用模型因其成本效益和精准性优势，正在特定垂直领域展现出更强的实用价值。这一趋势反映了AI技术从广度扩张向深度优化的战略调整。",
+            "tags": [
+              "Specialized-AI",
+              "Small-Models",
+              "Vertical",
+              "Customization"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "📈 商业应用与趋势",
+        "items": [
+          {
+            "bold": "企业AI治理成战略重点",
+            "detail": "随着AI应用加速普及，风险管控成为企业关注焦点。组织正在建立基础性AI原则来重塑企业DNA，从数据卫生到安全使用指南，构建全面的AI治理框架。这种转变体现了行业从盲目追求技术创新向负责任部署的成熟转变。",
+            "tags": [
+              "AI-Governance",
+              "Risk-Management",
+              "Enterprise",
+              "Ethics"
+            ]
+          },
+          {
+            "bold": "生成式AI转向组织级资源",
+            "detail": "生成式AI的应用重心正从个人生产力工具转向组织级战略资源。企业开始将AI视为核心业务能力，通过系统性部署提升整体竞争力。这一转变要求企业重新思考人才培养、流程优化和组织变革策略，以适应AI驱动的新商业模式。",
+            "tags": [
+              "Generative-AI",
+              "Organizational",
+              "Strategy",
+              "Transformation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔮 行业展望与预测",
+        "items": [
+          {
+            "bold": "AI泡沫回调影响经济预期",
+            "detail": "分析师预警2026年可能出现AI投资泡沫的回调，这将对整体经济产生连锁影响。尽管技术发展依然强劲，但市场对AI商业化速度的过高预期可能导致估值修正。行业专家建议企业应保持理性投资策略，专注于实际应用价值而非概念炒作。",
+            "tags": [
+              "AI-Bubble",
+              "Market-Correction",
+              "Economics",
+              "Investment"
+            ]
+          },
+          {
+            "bold": "区域AI合作生态兴起",
+            "detail": "以大克利夫兰地区为代表，区域性AI合作生态正在全球范围内兴起。商业、学术和政府领导者通过协同合作，共同应对AI带来的机遇与挑战。这种区域化策略有助于平衡AI发展的速度与安全性，为中小企业提供更好的AI采用支持。",
+            "tags": [
+              "Regional-Collaboration",
+              "AI-Summit",
+              "Ecosystem",
+              "SME"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-06-08",
     "weekday": "周一",
     "timeRange": "06-07 08:30 ~ 06-08 08:30 (UTC+8)",
@@ -3210,115 +3319,6 @@ export const reports: DailyReport[] = [
               "IoT",
               "SaaS",
               "industrial-AI"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-05-10",
-    "weekday": "周日",
-    "timeRange": "05-09 08:30 ~ 05-10 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🧠 大模型与基础设施",
-        "items": [
-          {
-            "bold": "Z.ai 发布 GLM-5.1 开源模型",
-            "detail": "Z.ai 在 MIT 许可下发布了 GLM-5.1 开源模型，这是一个专为长时间自主工程任务设计的 AI 系统。该模型能够在单个任务上保持对齐长达 8 小时，标志着 AI 系统在自主性和技术能力方面达到新的水平。这一发布为开源社区提供了强大的长期推理能力工具。",
-            "tags": [
-              "open-source",
-              "autonomous-ai",
-              "long-horizon",
-              "engineering"
-            ]
-          },
-          {
-            "bold": "戴尔推出企业 AI 基础设施评估项目",
-            "detail": "戴尔公司启动了全面的企业 AI 基础设施准备计划，回应研究显示 73% 的公司缺乏 AI 就绪基础设施的现状。该项目包括硬件评估、扩展建议和实施路线图。戴尔首席顾问强调了企业 AI 雄心与基础设施现实之间的关键差距，为企业数字化转型提供了重要支撑。",
-            "tags": [
-              "enterprise",
-              "infrastructure",
-              "deployment",
-              "assessment"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏛️ 政策监管动态",
-        "items": [
-          {
-            "bold": "白宫考虑对新 AI 模型进行政府审查",
-            "detail": "美国白宫正在考虑对新的 AI 模型实施政府审查机制，主要关注网络攻击风险。这一举措反映了政府对 AI 系统日益增强的自主性和技术能力的担忧。政策制定者认为，随着 AI 系统达到新的自主水平，谨慎的部署策略变得必要，当前阶段保持好奇心比紧迫性更为合适。",
-            "tags": [
-              "regulation",
-              "government",
-              "cybersecurity",
-              "policy"
-            ]
-          },
-          {
-            "bold": "全球 AI 使用激增但数字鸿沟扩大",
-            "detail": "微软最新报告显示，全球 17.8% 的工作年龄人口正在使用生成式 AI，但发达国家与发展中国家的差距持续扩大。2026 年第一季度，发达国家 27.5% 的 15-64 岁人群使用生成式 AI 工具，而发展中国家仅为 15.4%，差距较 2025 年下半年扩大了 1.5 个百分点。",
-            "tags": [
-              "global-adoption",
-              "digital-divide",
-              "generative-ai",
-              "statistics"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💼 商业应用与市场",
-        "items": [
-          {
-            "bold": "台湾股市因 AI 热潮创历史新高",
-            "detail": "台湾股市昨日创下单日涨幅超过 1700 点的历史纪录，首次收盘突破 40000 点大关。台积电、联发科等大型半导体股票领涨，投资者对人工智能热潮的乐观情绪推动了这一涨势。台湾在最新 AI 扩散报告中跻身前 20 名，显示出该地区在全球 AI 产业链中的重要地位。",
-            "tags": [
-              "stock-market",
-              "semiconductor",
-              "taiwan",
-              "ai-boom"
-            ]
-          },
-          {
-            "bold": "Coinbase 因 AI 变革裁员 14%",
-            "detail": "美国最大的加密货币交易所 Coinbase 宣布裁员 14%，称此举是为了应对加密货币市场波动，并为人工智能时代进行优化。公司表示，AI 技术的快速发展正在改变工作性质和业务模式，需要调整人员结构以适应新的技术环境和市场需求。",
-            "tags": [
-              "layoffs",
-              "cryptocurrency",
-              "workforce",
-              "optimization"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🛠️ 开发工具与平台",
-        "items": [
-          {
-            "bold": "MoneySkills 推出混合加密交易机器人",
-            "detail": "MoneySkills 公司发布了突破性的免费 AI 交易机器人，将强大的 AI 计算能力与金融专家团队的实时策略优化相结合。这款混合加密货币交易机器人代表了 AI 与人类专业知识的完美融合，为 2026 年的金融科技创新树立了新标杆，展示了 AI 代理在金融领域的变革潜力。",
-            "tags": [
-              "trading-bot",
-              "cryptocurrency",
-              "hybrid-ai",
-              "fintech"
-            ]
-          },
-          {
-            "bold": "USC 研究突破 AI 内存瓶颈",
-            "detail": "南加州大学维特比工程学院的研究人员通过算法和编码理论解决了 AI 的内存瓶颈问题，实现了 10 倍速度提升和 10 倍能耗降低。OpenAI 硬件负责人 Richard Ho 参与了相关讨论，为学生提供了宝贵的行业见解。这一突破为 AI 系统的效率优化开辟了新路径。",
-            "tags": [
-              "memory-optimization",
-              "algorithms",
-              "performance",
-              "research"
             ]
           }
         ]
