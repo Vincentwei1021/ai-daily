@@ -14,6 +14,105 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-06-10",
+    "weekday": "周三",
+    "timeRange": "06-09 08:30 ~ 06-10 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "🤖 AI 智能体与工作流革命",
+        "items": [
+          {
+            "bold": "AI 从工具升级为工作伙伴",
+            "detail": "2026年标志着AI发展的新阶段，从个人生产力助手转向团队协作伙伴。AI系统开始具备工作流编排能力，能够跨部门连接数据，推动项目从概念走向完成。这一转变正在重新定义人机协作模式，AI不再只是回答问题，而是主动参与决策制定和问题解决过程。",
+            "tags": [
+              "agentic-ai",
+              "workflow",
+              "collaboration",
+              "productivity"
+            ]
+          },
+          {
+            "bold": "智能体AI引领定制化浪潮",
+            "detail": "随着智能体技术的成熟，AI应用正从通用型向专业化转变。企业开始部署针对特定业务场景的小型专用模型，而非依赖昂贵的大型通用模型。这种趋势支持更精准的AI定制化服务，提高了效率并降低了成本，预示着AI应用将更加务实和聚焦。",
+            "tags": [
+              "specialized-ai",
+              "custom-models",
+              "business-focus",
+              "efficiency"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏥 AI 医疗与垂直应用突破",
+        "items": [
+          {
+            "bold": "AI 助力医疗服务缺口填补",
+            "detail": "在医疗健康领域，AI技术正在解决关键的服务供给不足问题。通过智能诊断辅助、治疗方案优化和患者管理自动化，AI系统能够扩大医疗服务覆盖面，提高诊疗效率。这种应用模式展示了AI在解决社会实际问题方面的巨大潜力。",
+            "tags": [
+              "healthcare",
+              "medical-ai",
+              "diagnosis",
+              "patient-care"
+            ]
+          },
+          {
+            "bold": "实时推理能力大幅提升",
+            "detail": "AI系统的推理能力正经历质的飞跃，从简单的指令执行转向复杂的实时问题解决。新一代AI模型能够进行多步骤逻辑推理，在动态环境中做出自主决策，这为创意生成、自动化决策制定等高级应用奠定了技术基础。",
+            "tags": [
+              "reasoning",
+              "real-time",
+              "decision-making",
+              "problem-solving"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🛡️ AI 安全与企业防护",
+        "items": [
+          {
+            "bold": "OpenAI 推出锁定模式防护",
+            "detail": "面对日益严重的提示注入攻击威胁，OpenAI发布了全新的锁定模式功能，专门保护敏感数据免受恶意提示的侵害。这一安全措施反映了AI系统在企业环境中面临的新型安全挑战，以及行业对构建可信AI基础设施的迫切需求。",
+            "tags": [
+              "security",
+              "prompt-injection",
+              "data-protection",
+              "enterprise"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "💼 AI 工程与开发生态",
+        "items": [
+          {
+            "bold": "AI 重塑软件工程测量标准",
+            "detail": "传统的软件开发指标如冲刺速度、代码审查活动等已无法全面反映AI时代的工程效率。AI编程助手、自动代码生成和智能审查工具的广泛应用，正在改变软件开发的根本流程，工程团队需要建立新的绩效评估体系来适应这一变化。",
+            "tags": [
+              "software-engineering",
+              "ai-coding",
+              "metrics",
+              "development"
+            ]
+          },
+          {
+            "bold": "AI 泡沫理性回调预期",
+            "detail": "业界专家预测2026年将见证AI投资泡沫的理性调整，这可能对整体经济产生影响。与此同时，针对AI全面采用者的'工厂化'基础设施正在快速发展，为大规模AI部署提供标准化解决方案，推动行业从炒作走向实用。",
+            "tags": [
+              "ai-bubble",
+              "infrastructure",
+              "market-correction",
+              "adoption"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-06-09",
     "weekday": "周二",
     "timeRange": "06-08 08:30 ~ 06-09 08:30 (UTC+8)",
@@ -3228,97 +3327,6 @@ export const reports: DailyReport[] = [
               "Qualified Health",
               "medical diagnosis",
               "funding"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-05-11",
-    "weekday": "周一",
-    "timeRange": "05-10 08:30 ~ 05-11 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "🏢 企业AI应用与争议",
-        "items": [
-          {
-            "bold": "Meta启动员工行为追踪计划",
-            "detail": "Meta宣布将全面追踪美国员工的电脑操作行为，包括打字内容、鼠标移动轨迹和屏幕浏览记录，以收集数据训练AI模型学习人类实际操作模式。此举影响数万名员工，引发内部强烈不满。该计划旨在让AI系统更好地理解和模仿人类工作流程，但员工隐私保护问题成为焦点。",
-            "tags": [
-              "Meta",
-              "employee-monitoring",
-              "AI-training",
-              "privacy"
-            ]
-          },
-          {
-            "bold": "科技巨头与政府AI安全合作",
-            "detail": "微软、谷歌和马斯克旗下xAI宣布与美国政府建立合作机制，将在新AI模型公开发布前向政府提供早期访问权限，以便进行国家安全风险评估。AI标准与创新中心将负责评估工作，重点关注先进AI系统的能力边界和潜在威胁。这标志着政府对AI技术监管的进一步加强。",
-            "tags": [
-              "Microsoft",
-              "Google",
-              "xAI",
-              "government-cooperation",
-              "AI-safety"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🎓 AI教育与学术研究",
-        "items": [
-          {
-            "bold": "NASA启动强化学习系列讲座",
-            "detail": "NASA天体物理学部门举办AI/ML科技兴趣小组系列讲座第七模块，聚焦强化学习基础理论。讲座由IAS/Flatiron研究院的Carol Cuesta-Lazaro博士主讲，采用虚拟会议形式，为航天领域AI应用研究提供理论支撑。该系列讲座旨在推动AI技术在宇宙起源研究中的深度应用。",
-            "tags": [
-              "NASA",
-              "reinforcement-learning",
-              "astrophysics",
-              "education"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🌆 行业活动与趋势观察",
-        "items": [
-          {
-            "bold": "纽约AI周盛大开幕",
-            "detail": "由Pulse NYC主办的2026年纽约AI周春季版正式启动，为期一周的全城科技嘉年华汇聚业界精英。活动包含社区主导的研讨会、互动工作坊、专题演讲和独家网络交流机会，全方位展示人工智能如何重塑商业模式、社会结构和日常生活。预计将吸引数百位AI领域专家参与。",
-            "tags": [
-              "AI-Week",
-              "New-York",
-              "networking",
-              "industry-event"
-            ]
-          },
-          {
-            "bold": "制造业AI就业前景论坛",
-            "detail": "德克萨斯州福尼经济发展公司举办主题为「机器人、AI与就业」的专题研讨会，深入分析自动化和AI技术对制造业劳动力市场的真实影响。会议将探讨岗位演变趋势、技能需求变化以及如何在新经济环境中获得竞争优势，为制造业从业者提供实用的职业发展指导。",
-            "tags": [
-              "manufacturing",
-              "job-market",
-              "automation",
-              "workforce"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "💼 投资与商业动态",
-        "items": [
-          {
-            "bold": "Dot Ai发布季度财报",
-            "detail": "物联网与AI驱动的SaaS公司Dot Ai宣布将于美东时间下午4:30发布2026年第一季度财务业绩。作为专注于工业技术资产智能化的纳斯达克上市企业，公司管理层将通过投资者电话会议详细解读业绩表现和未来战略规划，市场高度关注其在工业AI领域的发展势头。",
-            "tags": [
-              "Dot-Ai",
-              "earnings",
-              "IoT",
-              "SaaS",
-              "industrial-AI"
             ]
           }
         ]
