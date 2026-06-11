@@ -14,6 +14,115 @@ export interface DailyReport {
 
 export const reports: DailyReport[] = [
   {
+    "date": "2026-06-11",
+    "weekday": "周四",
+    "timeRange": "06-10 08:30 ~ 06-11 08:30 (UTC+8)",
+    "tweetCount": 37,
+    "userCount": 12,
+    "topics": [
+      {
+        "title": "📊 AI 行业趋势与前瞻",
+        "items": [
+          {
+            "bold": "2026 年七大 AI 趋势揭晓",
+            "detail": "微软发布 2026 年 AI 发展趋势报告，指出智能体 AI 将成为企业价值创造的核心驱动力。报告强调，从输入到结果的 AI 时代运营模式正在重塑企业架构，闭环结果加速成为关键竞争优势。斯坦福新兴技术评估中心同步发布人工智能技术路线图，为行业发展提供权威指引。",
+            "tags": [
+              "Microsoft",
+              "trends",
+              "enterprise-ai",
+              "agentic-ai"
+            ]
+          },
+          {
+            "bold": "AI 能力边界再次突破",
+            "detail": "2026 年 AI 技术实现 15 项去年不可能完成的新能力，涵盖从创意生成到复杂推理的多个维度。Geoffrey Hinton 在最新访谈中探讨了 AI 是否隐藏其真实能力的问题，引发业界对 AI 潜力评估的深度思考。这些突破性进展预示着 AI 应用场景将迎来爆发式增长。",
+            "tags": [
+              "breakthrough",
+              "capabilities",
+              "Geoffrey-Hinton",
+              "AGI"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "⚖️ 政策法规与合规",
+        "items": [
+          {
+            "bold": "欧盟网络弹性法案正式生效",
+            "detail": "欧盟实施第 2024/2847 号条例，修订网络弹性法案并加强合规评估机构通知要求。该法案对 AI 系统的安全标准提出更严格要求，企业需重新审视产品合规策略。同时，英国竞争与市场管理局就技术转让协议指导意见征求公众意见，为 AI 技术商业化提供监管框架。",
+            "tags": [
+              "EU-regulation",
+              "cybersecurity",
+              "compliance",
+              "CMA"
+            ]
+          },
+          {
+            "bold": "AI 检测技术监管升级",
+            "detail": "随着生成式 AI 技术快速发展，AI 检测工具的准确性和可靠性成为监管重点。新一代检测系统采用更复杂的算法模型，能够识别更加精细的 AI 生成内容特征。这一技术进步为内容真实性验证和知识产权保护提供了更强有力的技术支撑。",
+            "tags": [
+              "AI-detection",
+              "content-verification",
+              "regulation",
+              "intellectual-property"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🏢 企业应用与商业化",
+        "items": [
+          {
+            "bold": "星巴克撤回计算机视觉工具",
+            "detail": "星巴克在部署 9 个月后决定从 1.1 万家门店撤回 NomadGo 计算机视觉工具，这一决策凸显了 AI 零售应用的实施挑战。尽管技术本身具备先进功能，但用户接受度、成本效益和运营复杂性等因素影响了商业化进程。该案例为其他零售商 AI 部署提供了宝贵经验。",
+            "tags": [
+              "Starbucks",
+              "computer-vision",
+              "retail-ai",
+              "deployment-challenges"
+            ]
+          },
+          {
+            "bold": "意法半导体数据中心业务激增",
+            "detail": "意法半导体将 2026 年数据中心业务指导目标上调至 10 亿美元，尽管净利润同比下降 89%。AI 芯片需求的强劲增长推动了数据中心基础设施投资热潮，半导体行业正在重新配置产能以满足 AI 计算需求。这一趋势反映了 AI 基础设施建设的巨大市场潜力。",
+            "tags": [
+              "STMicroelectronics",
+              "data-center",
+              "AI-chips",
+              "infrastructure"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "🔒 隐私安全与治理",
+        "items": [
+          {
+            "bold": "CNIL 对 IQVIA 开出重罚",
+            "detail": "法国数据保护委员会 CNIL 对医疗数据公司 IQVIA 处以 500 万欧元罚款，原因是其假名化处理仍被视为持有密钥的 GDPR 违规行为。此案强调了在 AI 训练数据处理中，传统假名化技术可能无法满足严格的隐私保护要求，企业需要采用更先进的隐私保护技术。",
+            "tags": [
+              "CNIL",
+              "GDPR",
+              "pseudonymization",
+              "medical-data"
+            ]
+          },
+          {
+            "bold": "密码时代向 Passkeys 转型",
+            "detail": "Passkeys 技术作为传统密码的替代方案正获得广泛关注，其基于生物识别和加密技术的认证方式被认为更安全可靠。在 AI 应用日益普及的背景下，更强的身份认证机制成为保护用户数据和 AI 系统安全的关键环节。这一技术转型将重塑数字身份管理格局。",
+            "tags": [
+              "Passkeys",
+              "authentication",
+              "biometric",
+              "digital-identity"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-06-10",
     "weekday": "周三",
     "timeRange": "06-09 08:30 ~ 06-10 08:30 (UTC+8)",
@@ -3193,140 +3302,6 @@ export const reports: DailyReport[] = [
               "student entrepreneurs",
               "AI startups",
               "CREATE-X"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "date": "2026-05-12",
-    "weekday": "周二",
-    "timeRange": "05-11 08:30 ~ 05-12 08:30 (UTC+8)",
-    "tweetCount": 37,
-    "userCount": 12,
-    "topics": [
-      {
-        "title": "💰 资本市场与大模型融资",
-        "items": [
-          {
-            "bold": "OpenAI完成史上最大轮融资",
-            "detail": "OpenAI以8520亿美元估值完成1220亿美元融资，创下AI行业融资纪录。亚马逊、英伟达、软银和微软领投，a16z、D.E. Shaw Ventures等知名机构跟投。这轮融资将OpenAI推向万亿美元估值俱乐部门槛，标志着AI基础设施投资进入新高度。资本的大举押注反映出市场对通用人工智能商业化前景的强烈信心。",
-            "tags": [
-              "OpenAI",
-              "funding",
-              "valuation",
-              "AGI"
-            ]
-          },
-          {
-            "bold": "谷歌微软联手豪掷6500亿美元",
-            "detail": "科技巨头谷歌和微软宣布联合投资6500亿美元用于AI基础设施建设，这一史无前例的投资规模凸显了两家公司在AI军备竞赛中的决心。投资将主要用于数据中心扩建、AI芯片采购和算力基础设施升级，预计将显著提升全球AI计算能力。此举也被视为对OpenAI等AI独角兽崛起的战略回应。",
-            "tags": [
-              "Google",
-              "Microsoft",
-              "investment",
-              "infrastructure"
-            ]
-          },
-          {
-            "bold": "Anthropic多轮融资持续加码",
-            "detail": "OpenAI的竞争对手Anthropic在5月份完成了多轮融资，进一步巩固其在AI安全和对话模型领域的地位。虽然具体金额未披露，但业内预计总额超过数十亿美元。Anthropic一直以AI安全和可解释性研究著称，此轮融资将助力其在Claude模型的进一步迭代和商业化部署方面取得突破。",
-            "tags": [
-              "Anthropic",
-              "AI safety",
-              "Claude",
-              "funding"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏭 AI工厂与技术主权",
-        "items": [
-          {
-            "bold": "欧盟推进AI工厂技术主权计划",
-            "detail": "欧盟支持的AI工厂建设项目正面临技术主权挑战，目前高度依赖美国硬件供应商。OpenNebula Systems等欧洲公司正在推动建立本土AI基础设施供应链，以减少对美国芯片和硬件的依赖。该倡议旨在确保欧洲在AI竞争中的战略自主性，避免在关键技术领域受制于人，体现了地缘政治对AI发展的深远影响。",
-            "tags": [
-              "EU",
-              "tech sovereignty",
-              "AI factories",
-              "hardware"
-            ]
-          },
-          {
-            "bold": "AI基础设施专业化趋势显现",
-            "detail": "MIT斯隆管理评论指出，2026年AI发展呈现五大趋势，其中AI工厂基础设施建设成为重点。企业开始从AI泡沫中回归理性，更加注重专业化和定制化的AI解决方案。小型应用聚焦模型和智能体AI的发展支持了这一趋势，标志着AI应用从通用转向垂直领域深耕的战略转型。",
-            "tags": [
-              "MIT",
-              "AI trends",
-              "specialization",
-              "infrastructure"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🤖 AI应用与产业变革",
-        "items": [
-          {
-            "bold": "Meta收购机器人公司进军物理AI",
-            "detail": "Meta战略收购一家机器人初创公司，加速其人形AI机器人的研发进程。这一收购将数字智能与现实世界应用相结合，预计将推动AI驱动的日常任务机器人发展。Meta此举标志着其从元宇宙概念向具体AI应用的战略转型，有望在智能家居和服务机器人市场开辟新的增长点。",
-            "tags": [
-              "Meta",
-              "robotics",
-              "physical AI",
-              "acquisition"
-            ]
-          },
-          {
-            "bold": "AI重塑劳动力市场技能需求",
-            "detail": "联合国日内瓦办事处报告显示，AI正在改变工作性质和技能需求结构。虽然AI在某些场景下有益于工作者，但在导致自主性丧失的领域仍存在挑战。社会情感智能等基础技能变得极其重要，因为这些能力无法被AI替代且在商业中备受重视。企业需要重新考虑AI对员工的影响，平衡效率提升与人文关怀。",
-            "tags": [
-              "labor market",
-              "skills",
-              "social intelligence",
-              "UN"
-            ]
-          },
-          {
-            "bold": "明尼苏达州重拳打击AI深度伪造",
-            "detail": "明尼苏达州出台严厉法规，对制作虚假AI裸体图像的应用开发者最高处以50万美元罚款。这一立法举措凸显了AI技术伦理部署和可及性问题的紧迫性。随着生成式AI技术日益普及，如何在技术创新与社会责任之间找到平衡成为监管部门面临的重大挑战。",
-            "tags": [
-              "Minnesota",
-              "AI regulation",
-              "deepfakes",
-              "ethics"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "⚔️ 国防AI与自主系统",
-        "items": [
-          {
-            "bold": "Saronic获17.5亿美元国防AI订单",
-            "detail": "海军自主系统公司Saronic在美国国防部复制者计划框架下，以92.5亿美元估值完成17.5亿美元融资，较去年估值翻倍。该公司专注于自主海军舰艇研发，标志着军用AI和无人系统进入快速发展阶段。国防AI投资的激增反映出各国对自主武器系统战略价值的重新认识。",
-            "tags": [
-              "defense AI",
-              "Saronic",
-              "autonomous vessels",
-              "DoD"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "🏥 医疗AI与垂直应用",
-        "items": [
-          {
-            "bold": "Qualified Health医疗AI获1.25亿融资",
-            "detail": "专注于医疗健康领域的生成式AI公司Qualified Health完成1.25亿美元融资，将用于推进AI在医疗诊断、治疗方案制定和患者护理等方面的应用。医疗AI正成为投资热点，随着监管环境逐步明朗，AI在提高医疗效率和改善患者体验方面的价值得到广泛认可。",
-            "tags": [
-              "healthcare AI",
-              "Qualified Health",
-              "medical diagnosis",
-              "funding"
             ]
           }
         ]
